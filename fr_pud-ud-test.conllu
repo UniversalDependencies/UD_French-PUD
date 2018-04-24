@@ -4383,12 +4383,12 @@
 20	croisements	_	NOUN	NN	Gender=Masc|Number=Plur	15	conj	_	_
 21	étranges	_	ADJ	JJ	Gender=Masc|Number=Plur	20	amod	_	_
 22	entre	_	ADP	IN	_	28	case	_	_
-23	les	_	DET	DT	Gender=Fem|Number=Plur	28	det	_	orig_deprel=det
-24	nouvelles	_	ADJ	JJ	Gender=Fem|Number=Plur	28	amod	_	orig_deprel=amod
-25	et	_	CCONJ	CC	_	28	conj	_	_
+23	les	_	DET	DT	Gender=Fem|Number=Plur	24	det	_	_
+24	nouvelles	_	ADJ	JJ	Gender=Fem|Number=Plur	20	nmod	_	_
+25	et	_	CCONJ	CC	_	28	cc	_	_
 26	les	_	DET	DT	Gender=Fem|Number=Plur	28	det	_	_
 27	anciennes	_	ADJ	JJ	Gender=Fem|Number=Plur	28	amod	_	_
-28	idées	_	NOUN	NN	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+28	idées	_	NOUN	NN	Gender=Fem|Number=Plur	24	conj	_	SpaceAfter=No
 29	.	_	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01059
