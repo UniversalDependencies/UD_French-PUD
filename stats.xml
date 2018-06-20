@@ -59,12 +59,12 @@
     <dep name="acl:relcl">226</dep>
     <dep name="advcl">219</dep>
     <dep name="advmod">1002</dep>
-    <dep name="amod">1393</dep>
+    <dep name="amod">1392</dep>
     <dep name="appos">275</dep>
     <dep name="aux">569</dep>
     <dep name="aux:pass">227</dep>
     <dep name="case">3428</dep>
-    <dep name="cc">544</dep>
+    <dep name="cc">545</dep>
     <dep name="ccomp">305</dep>
     <dep name="compound">78</dep>
     <dep name="conj">653</dep>
