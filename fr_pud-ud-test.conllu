@@ -4818,7 +4818,7 @@
 14	formés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	12	ccomp	_	SpaceAfter=No
 15	,	_	PUNCT	,	_	5	punct	_	_
 16	pensait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
-17	Platon	_	PROPN	NNP	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+17	Platon	_	PROPN	NNP	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
 18	.	_	PUNCT	.	_	16	punct	_	_
 
 # sent_id = n01064096
