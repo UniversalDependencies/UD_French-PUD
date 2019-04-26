@@ -2514,7 +2514,7 @@
 1	Si	_	ADP	IN	_	4	mark	_	_
 2	Donald	_	PROPN	NNP	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	Trump	_	PROPN	NNP	Gender=Masc|Number=Sing	2	flat:name	_	_
-4	devient	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	advcl	_	_
+4	devient	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	advcl	_	_
 5	président	_	NOUN	NN	Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
 6	,	_	PUNCT	,	_	5	punct	_	_
 7	le	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
@@ -2579,7 +2579,7 @@
 1	Malgré	_	ADP	IN	_	4	case	_	_
 2	la	_	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 3	photo	_	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
-4	rendue	_	AUX	VBN	Gender=Fem|Number=Sing|VerbForm=Part	14	advcl	_	_
+4	rendue	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	14	advcl	_	_
 5	publique	_	ADJ	JJ	Gender=Fem|Number=Sing	4	xcomp	_	_
 6	ce	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 7	matin	_	NOUN	NN	Gender=Masc|Number=Sing	4	obl:tmod	_	SpaceAfter=No
@@ -2987,7 +2987,7 @@
 30	son	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	31	nmod:poss	_	_
 31	tempérament	_	NOUN	NN	Gender=Masc|Number=Sing	20	conj	_	_
 32	le	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	33	obj	_	_
-33	rendent	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	17	ccomp	_	_
+33	rendent	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	17	ccomp	_	_
 34	inapte	_	ADJ	JJ	Gender=Masc|Number=Sing	33	xcomp	_	_
 35	pour	_	ADP	IN	_	37	case	_	_
 36	ce	_	DET	DT	Gender=Masc|Number=Sing	37	det	_	_
@@ -4577,12 +4577,12 @@
 12	Première	_	ADJ	JJ	Gender=Fem|Number=Sing	13	amod	_	_
 13	dame	_	NOUN	NN	Gender=Fem|Number=Sing	8	nmod	_	_
 14	se	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	15	obj	_	_
-15	faisait	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	20	advcl	_	_
+15	faisait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	20	advcl	_	_
 16	plus	_	ADV	RBR	_	17	advmod	_	_
 17	virulente	_	ADJ	JJ	Gender=Fem|Number=Sing	15	xcomp	_	SpaceAfter=No
 18	,	_	PUNCT	,	_	15	punct	_	_
 19	Karel	_	PROPN	NNP	Gender=Fem|Number=Sing	20	nsubj	_	_
-20	devint	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+20	devint	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 21	plus	_	ADV	RBR	_	22	advmod	_	_
 22	compatissante	_	ADJ	JJ	Gender=Fem|Number=Sing	20	xcomp	_	SpaceAfter=No
 23	.	_	PUNCT	.	_	20	punct	_	_
@@ -4868,7 +4868,7 @@
 11	de	_	ADP	IN	_	12	case	_	_
 12	professeurs	_	NOUN	NN	Gender=Masc|Number=Plur	10	nmod	_	_
 13	qui	_	PRON	WP	Gender=Masc|Number=Sing	14	nsubj	_	_
-14	appelle	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	acl:relcl	_	_
+14	appelle	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	acl:relcl	_	_
 15	cela	_	PRON	PDEM	_	14	obj	_	_
 16	«	_	PUNCT	``	_	19	punct	_	_
 17	pas	_	ADV	RB	Polarity=Neg	18	advmod	_	_
@@ -5356,7 +5356,7 @@
 21	n'	_	ADV	RB	Polarity=Neg	24	advmod	_	SpaceAfter=No
 22	ai	_	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	24	aux	_	_
 23	jamais	_	ADV	RB	Polarity=Neg	24	advmod	_	_
-24	connu	_	AUX	VBN	Gender=Masc|Number=Sing	11	parataxis	_	_
+24	connu	_	VERB	VBN	Gender=Masc|Number=Sing	11	parataxis	_	_
 25	plus	_	ADV	RBR	_	26	advmod	_	_
 26	Africain	_	ADJ	JJ	Gender=Masc|Number=Sing	24	obj	_	_
 27	que	_	ADP	IN	_	28	case	_	_
@@ -5574,7 +5574,7 @@
 8	effet	_	NOUN	NN	Gender=Masc|Number=Sing	6	obj	_	_
 9	immédiat	_	ADJ	JJ	Gender=Masc|Number=Sing	8	amod	_	_
 10	de	_	ADP	IN	_	11	case	_	_
-11	rendre	_	AUX	VB	_	8	acl	_	_
+11	rendre	_	VERB	VB	_	8	acl	_	_
 12	ce	_	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
 13	monde	_	NOUN	NN	Gender=Masc|Number=Sing	11	obj	_	_
 14	plus	_	ADV	RBR	_	15	advmod	_	_
@@ -5583,9 +5583,9 @@
 17	incertain	_	ADJ	JJ	Gender=Masc|Number=Sing	11	conj	_	_
 18	qu'	_	SCONJ	IN	_	22	mark	_	SpaceAfter=No
 19	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
-20	ne	_	ADV	RB	Polarity=Neg	21	advmod	_	_
+20	ne	_	ADV	RB	Polarity=Neg	22	advmod	_	_
 21	l'	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	22	expl	_	SpaceAfter=No
-22	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	advcl	_	_
+22	est	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	advcl	_	_
 23	déjà	_	ADV	RB	_	22	advmod	_	SpaceAfter=No
 24	.	_	PUNCT	.	_	6	punct	_	_
 
@@ -5711,8 +5711,8 @@
 14	un	_	DET	DT	Gender=Masc|Number=Sing	15	det	_	_
 15	foulard	_	NOUN	NN	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
 16	,	_	PUNCT	,	_	18	punct	_	_
-17	elle	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
-18	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	_
+17	elle	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	18	nsubj	_	_
+18	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	_
 19	l'	_	DET	DT	Gender=Masc|Number=Sing	20	det	_	SpaceAfter=No
 20	air	_	NOUN	NN	Gender=Masc|Number=Sing	18	obj	_	_
 21	tellement	_	ADV	RB	_	22	advmod	_	_
@@ -5839,7 +5839,7 @@
 5	laisser	_	VERB	VB	_	3	xcomp	_	_
 6	Donald	_	PROPN	NNP	Gender=Masc|Number=Sing	5	obj	_	_
 7	Trump	_	PROPN	NNP	Gender=Masc|Number=Sing	6	flat:name	_	_
-8	devenir	_	AUX	VB	_	5	xcomp	_	_
+8	devenir	_	VERB	VB	_	5	xcomp	_	_
 9	président	_	NOUN	NN	Gender=Masc|Number=Sing	8	xcomp	_	SpaceAfter=No
 10	,	_	PUNCT	,	_	11	punct	_	_
 11	quelqu'un	_	NOUN	NN	Gender=Masc|Number=Sing	6	appos	_	_
@@ -6470,9 +6470,9 @@
 21	sur	_	ADP	IN	_	23	case	_	_
 22	des	_	DET	DT	Gender=Fem|Number=Plur	23	det	_	_
 23	photos	_	NOUN	NN	Gender=Fem|Number=Plur	19	obl	_	_
-24	qui	_	PRON	WP	Gender=Fem|Number=Plur	26	nsubj:pass	_	_
-25	semblaient	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	26	aux:pass	_	_
-26	prises	_	VERB	VBN	Gender=Fem|Number=Plur	23	acl:relcl	_	_
+24	qui	_	PRON	WP	Gender=Fem|Number=Plur	25	nsubj:pass	_	_
+25	semblaient	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	23	acl:relcl	_	_
+26	prises	_	VERB	VBN	Gender=Fem|Number=Plur	25	xcomp	_	_
 27	dans	_	ADP	IN	_	29	case	_	_
 28	les	_	DET	DT	Gender=Fem|Number=Plur	29	det	_	_
 29	années	_	NOUN	NN	Gender=Fem|Number=Plur	26	obl	_	_
@@ -7060,9 +7060,9 @@
 19	ennemi	_	NOUN	NN	Gender=Masc|Number=Sing	17	obj	_	_
 20	(	_	PUNCT	(	_	21	punct	_	SpaceAfter=No
 21	ce	_	PRON	PDEM	_	12	appos	_	_
-22	qu’	_	PRON	WP	_	27	obj	_	OrigForm=qu'|SpaceAfter=No
-23	on	_	PRON	PRP	Number=Sing|Person=3	27	nsubj	_	_
-24	appelle	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	acl:relcl	_	_
+22	qu’	_	PRON	WP	_	24	obj	_	OrigForm=qu'|SpaceAfter=No
+23	on	_	PRON	PRP	Number=Sing|Person=3	24	nsubj	_	_
+24	appelle	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	acl:relcl	_	_
 25	«	_	PUNCT	``	_	27	punct	_	_
 26	la	_	DET	DT	Gender=Fem|Number=Sing	27	det	_	_
 27	défense	_	NOUN	NN	Gender=Fem|Number=Sing	24	xcomp	_	_
@@ -7090,7 +7090,7 @@
 13	ma	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	14	nmod:poss	_	_
 14	liste	_	NOUN	NN	Gender=Fem|Number=Sing	16	nsubj	_	_
 15	était	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	16	aux	_	_
-16	devenue	_	AUX	VBN	Gender=Fem|Number=Sing	0	root	_	_
+16	devenue	_	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
 17	exagérément	_	ADV	RB	_	18	advmod	_	_
 18	longue	_	ADJ	JJ	Gender=Fem|Number=Sing	16	xcomp	_	_
 19	et	_	CCONJ	CC	_	20	cc	_	_
@@ -7862,7 +7862,7 @@
 18	que	_	SCONJ	IN	_	17	fixed	_	_
 19	les	_	DET	DT	Gender=Masc|Number=Plur	20	det	_	_
 20	consommateurs	_	NOUN	NN	Gender=Masc|Number=Plur	21	nsubj	_	_
-21	restaient	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	16	advcl	_	_
+21	restaient	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	16	advcl	_	_
 22	confiants	_	ADJ	JJ	Gender=Masc|Number=Plur	21	xcomp	_	_
 23	;	_	PUNCT	:	_	31	punct	_	_
 24	les	_	DET	DT	Gender=Fem|Number=Plur	25	det	_	_
@@ -9066,7 +9066,7 @@
 1	A	_	ADP	IN	_	4	case	_	_
 2	la	_	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
 3	Haute	_	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	Proper=True
-4	Cour	_	NOUN	NN	Gender=Fem|Number=Sing	20	obl	_	Proper=True
+4	Cour	_	NOUN	NN	Gender=Fem|Number=Sing	18	obl	_	Proper=True
 5	de	_	ADP	IN	_	6	case	_	Proper=True
 6	justice	_	NOUN	NN	Gender=Fem|Number=Sing	4	nmod	_	Proper=True
 7	de	_	ADP	IN	_	8	case	_	_
@@ -9076,13 +9076,13 @@
 11	deux	_	NUM	CD	_	12	nummod	_	_
 12	ans	_	NOUN	NN	Gender=Masc|Number=Plur	13	obl:tmod	_	_
 13	plus	_	ADV	RBR	_	14	advmod	_	_
-14	tard	_	ADV	RB	_	20	advmod	_	SpaceAfter=No
+14	tard	_	ADV	RB	_	18	advmod	_	SpaceAfter=No
 15	,	_	PUNCT	,	_	14	punct	_	_
-16	Jutting	_	PROPN	NNP	Gender=Masc|Number=Sing	20	nsubj:pass	_	_
-17	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	aux:pass	_	_
-18	apparu	_	AUX	VBN	Gender=Masc|Number=Sing	20	cop	_	_
+16	Jutting	_	PROPN	NNP	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+17	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	aux:pass	_	_
+18	apparu	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 19	très	_	ADV	RB	_	20	advmod	_	_
-20	calme	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+20	calme	_	ADJ	JJ	Gender=Masc|Number=Sing	18	xcomp	_	SpaceAfter=No
 21	.	_	PUNCT	.	_	20	punct	_	_
 
 # newdoc id = n01128
@@ -9201,7 +9201,7 @@
 1	Le	_	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	vote	_	NOUN	NN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux	_	_
-4	devenu	_	AUX	VBN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	devenu	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	,	_	PUNCT	,	_	8	punct	_	_
 6	dans	_	ADP	IN	_	8	case	_	_
 7	le	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
@@ -11561,7 +11561,7 @@
 2	833	_	NUM	CD	_	5	obl	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	2	punct	_	_
 4	elle	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
-5	devint	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	devint	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	l'	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	SpaceAfter=No
 7	état	_	NOUN	NN	Gender=Masc|Number=Sing	5	xcomp	_	_
 8	de	_	ADP	IN	_	9	case	_	_
@@ -11974,7 +11974,7 @@
 28	islam	_	NOUN	NN	Gender=Masc|Number=Sing	25	obl	_	_
 29	et	_	CCONJ	CC	_	31	cc	_	_
 30	sont	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	31	aux	_	_
-31	restés	_	AUX	VBN	Gender=Masc|Number=Plur	25	conj	_	_
+31	restés	_	VERB	VBN	Gender=Masc|Number=Plur	25	conj	_	_
 32	partisans	_	NOUN	NN	Gender=Masc|Number=Plur	31	xcomp	_	_
 33	de	_	ADP	IN	_	35	case	_	_
 34	la	_	DET	DT	Gender=Fem|Number=Sing	35	det	_	_
@@ -12328,7 +12328,7 @@
 11	,	_	PUNCT	,	_	7	punct	_	_
 12	les	_	DET	DT	Gender=Masc|Number=Plur	13	det	_	_
 13	Romains	_	NOUN	NN	Gender=Masc|Number=Plur	14	nsubj	_	_
-14	baptisèrent	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
+14	baptisèrent	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 15	la	_	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
 16	Méditerranée	_	PROPN	NNP	Gender=Fem|Number=Sing	14	obj	_	_
 17	Mare	_	X	FW	_	14	xcomp	_	Proper=True
@@ -12586,7 +12586,7 @@
 31	de	de	ADP	INDT	_	33	case	_	_
 32	les	le	DET	_	Gender=Fem|Number=Plur	33	det	_	_
 33	troupes	_	NOUN	NN	Gender=Fem|Number=Plur	30	nmod	_	_
-34	restent	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	conj	_	_
+34	restent	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	conj	_	_
 35	sujettes	_	ADJ	JJ	Gender=Fem|Number=Plur	34	xcomp	_	_
 36	à	_	ADP	IN	_	37	case	_	_
 37	débat	_	NOUN	NN	Gender=Masc|Number=Sing	35	nmod	_	_
@@ -12613,7 +12613,7 @@
 13	danoise	_	ADJ	JJ	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
 14	,	_	PUNCT	,	_	16	punct	_	_
 15	qui	_	PRON	WP	Gender=Fem|Number=Sing	16	nsubj	_	_
-16	pensait	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	11	acl:relcl	_	_
+16	pensait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	11	acl:relcl	_	_
 17	le	_	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
 18	Danevirke	_	NOUN	NN	Gender=Masc|Number=Sing	16	obj	_	Proper=True
 19	imprenable	_	ADJ	JJ	Gender=Masc|Number=Sing	16	xcomp	_	SpaceAfter=No
@@ -13174,7 +13174,7 @@
 4	les	le	DET	_	Gender=Masc|Number=Plur	5	det	_	_
 5	volcans	_	NOUN	NN	Gender=Masc|Number=Plur	2	nmod	_	_
 6	s'	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	7	obj	_	SpaceAfter=No
-7	appelle	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+7	appelle	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 8	la	_	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
 9	volcanologie	_	NOUN	NN	Gender=Fem|Number=Sing	7	xcomp	_	SpaceAfter=No
 10	,	_	PUNCT	,	_	13	punct	_	_
@@ -13279,7 +13279,7 @@
 1	Elle	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	4	nsubj:pass	_	_
 2	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux	_	_
 3	été	_	AUX	VBN	Gender=Masc|Number=Sing	4	aux:pass	_	_
-4	déclarée	_	AUX	VBN	Gender=Fem|Number=Sing	0	root	_	_
+4	déclarée	_	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
 5	réserve	_	NOUN	NN	Gender=Fem|Number=Sing	4	xcomp	_	_
 6	naturelle	_	ADJ	JJ	Gender=Fem|Number=Sing	5	amod	_	_
 7	en	_	ADP	IN	_	8	case	_	_
@@ -13802,7 +13802,7 @@
 2	année	_	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	1987	_	NUM	CD	_	2	appos	_	_
 4	fut	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	aux:pass	_	_
-5	proclamée	_	AUX	VBN	Gender=Fem|Number=Sing	0	root	_	_
+5	proclamée	_	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
 6	«	_	PUNCT	``	_	7	punct	_	_
 7	Année	_	NOUN	NN	Gender=Fem|Number=Sing	5	xcomp	_	Proper=True
 8-9	du	_	_	_	_	_	_	_	Proper=True
@@ -14220,7 +14220,7 @@
 44	les	le	DET	_	Gender=Fem|Number=Plur	45	det	_	_
 45	Caraïbes	_	PROPN	NNP	Gender=Fem|Number=Plur	42	nmod	_	SpaceAfter=No
 46	,	_	PUNCT	,	_	40	punct	_	_
-47	devint	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	20	conj	_	_
+47	devint	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	20	conj	_	_
 48	courante	_	ADJ	JJ	Gender=Fem|Number=Sing	47	xcomp	_	_
 49	dans	_	ADP	IN	_	51	case	_	_
 50	plusieurs	_	ADJ	JJ	Gender=Fem|Number=Plur	51	amod	_	_
@@ -15323,7 +15323,7 @@
 26	la	_	DET	DT	Gender=Fem|Number=Sing	27	det	_	_
 27	poésie	_	NOUN	NN	Gender=Fem|Number=Sing	29	nsubj	_	_
 28	le	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	29	obj	_	_
-29	rendrait	_	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	18	conj	_	_
+29	rendrait	_	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	18	conj	_	_
 30	immortel	_	ADJ	JJ	Gender=Masc|Number=Sing	29	xcomp	_	SpaceAfter=No
 31	.	_	PUNCT	.	_	3	punct	_	_
 
@@ -15706,7 +15706,7 @@
 16	dix	_	NUM	CD	_	17	nummod	_	_
 17	mégalithes	_	NOUN	NN	Gender=Masc|Number=Plur	14	nmod	_	_
 18	(	_	PUNCT	(	_	19	punct	_	SpaceAfter=No
-19	appelée	_	AUX	VBN	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
+19	appelée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
 20	«	_	PUNCT	``	_	21	punct	_	_
 21	massebot	_	NOUN	NN	Number=Sing	19	xcomp	_	_
 22	»	_	PUNCT	''	_	21	punct	_	SpaceAfter=No
@@ -16169,7 +16169,7 @@
 2	1519	_	NUM	CD	_	5	obl	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	2	punct	_	_
 4	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
-5	devint	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	devint	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	souverain	_	NOUN	NN	Gender=Masc|Number=Sing	5	xcomp	_	_
 7	de	_	ADP	IN	_	9	case	_	_
 8	l'	_	DET	DT	Gender=Masc|Number=Sing	9	det	_	SpaceAfter=No
@@ -16600,10 +16600,10 @@
 8	également	_	ADV	RB	_	7	advmod	_	_
 9	Florence	_	PROPN	NNP	Gender=Fem|Number=Sing	7	obj	_	_
 10	Garrard	_	PROPN	NNP	Gender=Fem|Number=Sing	9	flat:name	_	SpaceAfter=No
-11	,	_	PUNCT	,	_	15	punct	_	_
+11	,	_	PUNCT	,	_	9	punct	_	_
 12	dont	_	ADP	INP	Gender=Fem|Number=Sing	15	iobj	_	_
-13	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
-14	tomba	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	acl:relcl	_	_
+13	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	tomba	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	acl:relcl	_	_
 15	amoureux	_	ADJ	JJ	Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No
 16	,	_	PUNCT	,	_	18	punct	_	_
 17	qui	_	PRON	WP	Gender=Fem|Number=Sing	18	nsubj	_	_
@@ -17293,7 +17293,7 @@
 2	II	_	NUM	CD	_	1	nummod	_	Proper=True
 3	s’	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	5	obj	_	OrigForm=s'|SpaceAfter=No
 4	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux	_	_
-5	montrée	_	AUX	VBN	Gender=Fem|Number=Sing	0	root	_	_
+5	montrée	_	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
 6	très	_	ADV	RB	_	7	advmod	_	_
 7	satisfaite	_	ADJ	JJ	Gender=Fem|Number=Sing	5	xcomp	_	SpaceAfter=No
 8	.	_	PUNCT	.	_	5	punct	_	_
@@ -19467,7 +19467,7 @@
 10	la	_	DET	DT	Gender=Fem|Number=Sing	11	det	_	_
 11	victoire	_	NOUN	NN	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
 12	,	_	PUNCT	,	_	13	punct	_	_
-13	laissant	_	AUX	VBG	VerbForm=Part	9	advcl	_	_
+13	laissant	_	VERB	VBG	VerbForm=Part	9	advcl	_	_
 14	les	_	DET	DT	Gender=Masc|Number=Plur	15	det	_	_
 15	citoyens	_	NOUN	NN	Gender=Masc|Number=Plur	13	obj	_	_
 16	indonésiens	_	ADJ	JJ	Gender=Masc|Number=Plur	15	amod	_	_
@@ -20404,7 +20404,7 @@
 21	,	_	PUNCT	,	_	24	punct	_	_
 22	où	_	ADV	WRB	_	24	advmod	_	_
 23	LaBeouf	_	PROPN	NNP	Gender=Masc|Number=Sing	24	nsubj	_	_
-24	apparaît	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	acl:relcl	_	_
+24	apparaît	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	acl:relcl	_	_
 25	nu	_	ADJ	JJ	Gender=Masc|Number=Sing	24	xcomp	_	SpaceAfter=No
 26	.	_	PUNCT	.	_	11	punct	_	_
 
@@ -20417,8 +20417,8 @@
 4	Post	_	NOUN	NN	Number=Sing	5	compound	_	Proper=True
 5	Dispatch	_	NOUN	NN	Number=Sing	8	nsubj	_	Proper=True
 6	l'	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	obj	_	SpaceAfter=No
-7	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	aux	_	_
-8	appelé	_	AUX	VBN	Gender=Masc|Number=Sing	0	root	_	_
+7	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux	_	_
+8	appelé	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 9	l'	_	DET	DT	Gender=Fem|Number=Sing	10	det	_	SpaceAfter=No
 10	une	_	NOUN	NN	Gender=Fem|Number=Sing	8	xcomp	_	_
 11-12	des	_	_	_	_	_	_	_	_
@@ -21027,7 +21027,7 @@
 5	Blunt	_	PROPN	NNP	Gender=Fem|Number=Sing	4	flat:name	_	_
 6	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux	_	_
 7	été	_	AUX	VBN	Gender=Masc|Number=Sing	8	aux:pass	_	_
-8	nommée	_	AUX	VBN	Gender=Fem|Number=Sing	0	root	_	_
+8	nommée	_	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
 9	égérie	_	NOUN	NN	Gender=Fem|Number=Sing	8	xcomp	_	_
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	INDT	_	13	case	_	_
@@ -21359,7 +21359,7 @@
 9	Piaf	_	PROPN	NNP	Gender=Fem|Number=Sing	8	flat:name	_	_
 10	et	_	CCONJ	CC	_	11	cc	_	_
 11	Mômone	_	PROPN	NNP	Gender=Fem|Number=Sing	8	conj	_	_
-12	laissaient	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	0	root	_	_
+12	laissaient	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	0	root	_	_
 13	souvent	_	ADV	RB	_	12	advmod	_	_
 14	Marcelle	_	PROPN	NNP	Gender=Fem|Number=Sing	12	obj	_	_
 15	seul	_	ADJ	JJ	Gender=Fem|Number=Sing	12	xcomp	_	_
@@ -21711,7 +21711,7 @@
 28	Joan	_	PROPN	NNP	Gender=Fem|Number=Sing	31	nsubj	_	_
 29	Beaufort	_	PROPN	NNP	Gender=Fem|Number=Sing	28	flat:name	_	_
 30	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	31	aux	_	_
-31	devenue	_	AUX	VBN	Gender=Fem|Number=Sing	17	conj	_	_
+31	devenue	_	VERB	VBN	Gender=Fem|Number=Sing	17	conj	_	_
 32	la	_	DET	DT	Gender=Fem|Number=Sing	33	det	_	_
 33	grand-mère	_	NOUN	NN	Gender=Fem|Number=Sing	31	xcomp	_	_
 34	de	_	ADP	IN	_	36	case	_	_
@@ -21949,7 +21949,7 @@
 11	11	_	NUM	CD	_	12	nummod	_	_
 12	avril	_	NOUN	NNP	Gender=Masc|Number=Sing	6	obl:tmod	_	SpaceAfter=No
 13	,	_	PUNCT	,	_	14	punct	_	_
-14	devenant	_	AUX	VBG	VerbForm=Part	3	advcl	_	_
+14	devenant	_	VERB	VBG	VerbForm=Part	3	advcl	_	_
 15	ainsi	_	ADV	RB	_	14	advmod	_	_
 16	le	_	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
 17	premier	_	ADJ	JJ	Gender=Masc|Number=Sing	18	amod	_	_
@@ -22226,7 +22226,7 @@
 5	frère	_	NOUN	NN	Gender=Masc|Number=Sing	3	obj	_	_
 6	qui	_	PRON	WP	Gender=Masc|Number=Sing	8	nsubj	_	_
 7	s’	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	obj	_	OrigForm=s'|SpaceAfter=No
-8	appelle	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	acl:relcl	_	_
+8	appelle	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	acl:relcl	_	_
 9	Oscar	_	PROPN	NNP	Gender=Masc|Number=Sing	8	xcomp	_	_
 10	Wright	_	PROPN	NNP	Gender=Masc|Number=Sing	9	flat:name	_	_
 11	;	_	PUNCT	:	_	16	punct	_	_
@@ -22398,7 +22398,7 @@
 2	qu'	_	SCONJ	IN	_	1	fixed	_	SpaceAfter=No
 3	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 4	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux	_	_
-5	devenu	_	AUX	VBN	Gender=Masc|Number=Sing	28	advcl	_	_
+5	devenu	_	VERB	VBN	Gender=Masc|Number=Sing	28	advcl	_	_
 6	évident	_	ADJ	JJ	Gender=Masc|Number=Sing	5	xcomp	_	_
 7	que	_	SCONJ	IN	_	11	mark	_	_
 8	l'	_	DET	DT	Gender=Masc|Number=Sing	9	det	_	SpaceAfter=No
@@ -23698,7 +23698,7 @@
 25	énergie	_	NOUN	NN	Gender=Fem|Number=Sing	28	nsubj	_	_
 26	éolienne	_	ADJ	JJ	Gender=Fem|Number=Sing	25	amod	_	_
 27	pourrait	_	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	28	aux	_	_
-28	devenir	_	AUX	VB	_	21	ccomp	_	_
+28	devenir	_	VERB	VB	_	21	ccomp	_	_
 29	la	_	DET	DT	Gender=Fem|Number=Sing	31	det	_	_
 30	meilleure	_	ADJ	JJR	Gender=Fem|Number=Sing	31	amod	_	_
 31	source	_	NOUN	NN	Gender=Fem|Number=Sing	28	xcomp	_	_
@@ -25270,7 +25270,7 @@
 # text_en = Amazon has become the fourth American company with the largest market capitalisation, surpassing ExxonMobil.
 1	Amazon	_	PROPN	NNP	Number=Sing	3	nsubj	_	_
 2	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux	_	_
-3	devenu	_	AUX	VBN	Gender=Masc|Number=Sing	0	root	_	_
+3	devenu	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 4	la	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 5	quatrième	_	ADJ	JJ	Gender=Fem|Number=Sing	6	amod	_	_
 6	compagnie	_	NOUN	NN	Gender=Fem|Number=Sing	3	xcomp	_	_
@@ -25690,7 +25690,7 @@
 # text_en = He stands alone in front of the audience and, ultimately, he has to bring out the best of himself in order to make the audience laugh.
 1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	se	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	obj	_	_
-3	retrouve	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	retrouve	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	tout	_	ADV	RB	_	5	advmod	_	_
 5	seul	_	ADJ	JJ	Gender=Masc|Number=Sing	3	xcomp	_	_
 6	face	_	NOUN	NN	Gender=Fem|Number=Sing	9	case	_	_
@@ -26736,7 +26736,7 @@
 17	pain	_	NOUN	NN	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 18	,	_	PUNCT	,	_	20	punct	_	_
 19	qui	_	PRON	WP	Gender=Masc|Number=Sing	20	nsubj	_	_
-20	restait	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	14	acl:relcl	_	_
+20	restait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	14	acl:relcl	_	_
 21	élevé	_	ADJ	JJ	Gender=Masc|Number=Sing	20	xcomp	_	SpaceAfter=No
 22	,	_	PUNCT	,	_	20	punct	_	_
 23	et	_	CCONJ	CC	_	25	cc	_	_
@@ -27171,7 +27171,7 @@
 14	les	le	DET	_	Gender=Fem|Number=Plur	15	det	_	_
 15	affaires	_	NOUN	NN	Gender=Fem|Number=Plur	12	nmod	_	_
 16	publiques	_	ADJ	JJ	Gender=Fem|Number=Plur	15	amod	_	_
-17	devint	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
+17	devint	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
 18	quasiment	_	ADV	RB	_	19	advmod	_	_
 19	impossible	_	ADJ	JJ	Gender=Fem|Number=Sing	17	xcomp	_	SpaceAfter=No
 20	.	_	PUNCT	.	_	4	punct	_	_
@@ -27526,7 +27526,7 @@
 2	,	_	PUNCT	,	_	1	punct	_	_
 3	Pyrrhus	_	PROPN	NNP	Gender=Masc|Number=Sing	5	nsubj	_	_
 4	se	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	obj	_	_
-5	voit	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+5	voit	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 6	contraint	_	ADJ	JJ	Gender=Masc|Number=Sing	5	xcomp	_	_
 7	de	_	ADP	IN	_	8	case	_	_
 8	partir	_	VERB	VB	_	6	xcomp	_	_
@@ -27602,7 +27602,7 @@
 23	modifiant	_	VERB	VBG	_	16	advcl	_	_
 24	ce	_	PRON	PDEM	_	23	parataxis	_	_
 25	qui	_	PRON	WP	Gender=Masc|Number=Sing	24	nsubj	_	_
-26	deviendra	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	24	acl:relcl	_	_
+26	deviendra	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	24	acl:relcl	_	_
 27	l'	_	DET	DT	Gender=Masc|Number=Sing	28	det	_	SpaceAfter=No
 28	alphabet	_	NOUN	NN	Gender=Masc|Number=Sing	26	xcomp	_	_
 29	grec	_	ADJ	JJ	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
@@ -27786,7 +27786,7 @@
 # text_en = This affair can be seen as the starting point for his career as a radical revolutionary.
 1	Cette	_	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	affaire	_	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
-3	constitue	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	constitue	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	le	_	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
 5	point	_	NOUN	NN	Gender=Masc|Number=Sing	3	obj	_	_
 6	de	_	ADP	IN	_	7	case	_	_
@@ -28648,7 +28648,7 @@
 21	et	_	CCONJ	CC	_	24	cc	_	_
 22	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
 23	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	aux	_	_
-24	resté	_	AUX	VBN	Gender=Masc|Number=Sing	12	conj	_	_
+24	resté	_	VERB	VBN	Gender=Masc|Number=Sing	12	conj	_	_
 25	un	_	DET	DT	Gender=Masc|Number=Sing	26	det	_	_
 26	membre	_	NOUN	NN	Gender=Masc|Number=Sing	24	xcomp	_	_
 27	de	_	ADP	IN	_	29	case	_	_
@@ -29662,9 +29662,9 @@
 24	retirer	_	VERB	VB	_	22	acl	_	_
 25	ses	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	26	nmod:poss	_	_
 26	troupes	_	NOUN	NN	Gender=Fem|Number=Plur	24	obj	_	_
-27	ou	_	CCONJ	CC	_	31	cc	_	_
-28	de	_	ADP	IN	_	31	mark	_	_
-29	devenir	_	AUX	VB	_	24	conj	_	_
+27	ou	_	CCONJ	CC	_	29	cc	_	_
+28	de	_	ADP	IN	_	29	mark	_	_
+29	devenir	_	VERB	VB	_	24	conj	_	_
 30	un	_	DET	DT	Gender=Masc|Number=Sing	31	det	_	_
 31	ennemi	_	NOUN	NN	Gender=Masc|Number=Sing	29	xcomp	_	_
 32	public	_	ADJ	JJ	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
@@ -29719,7 +29719,7 @@
 17	le	_	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
 18	proconsul	_	NOUN	NN	Gender=Masc|Number=Sing	20	nsubj	_	_
 19	se	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	20	obj	_	_
-20	déclarait	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	12	acl:relcl	_	_
+20	déclarait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	12	acl:relcl	_	_
 21	ami	_	NOUN	NN	Gender=Masc|Number=Sing	20	xcomp	_	_
 22	de	_	ADP	IN	_	24	case	_	_
 23	la	_	DET	DT	Gender=Fem|Number=Sing	24	det	_	Proper=True
