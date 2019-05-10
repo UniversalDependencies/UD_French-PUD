@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_French-PUD:
-commit c8fd9c91176c74b3015be3c56657cab51a453f56
-Merge: 329b15e 2d73d0e
+commit e9c3c61e2468ebe4536f0a1a409bfc72f0a7ab3f
+Merge: bc34840 17cab91
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 24734 of 24734 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.41635763063973.
@@ -15,11 +15,11 @@ Split: Found at least 10000 test words.
 Lemmas: '_' is the most frequent lemma.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 15517 out of 24734 total words have one or more features.
+Features: 15516 out of 24734 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 8133 bugs.
+Udapi: found 7365 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 24734 words.
 Genres: found 2 out of 17 known.
 validate.py --lang fr --max-err=10 UD_French-PUD/fr_pud-ud-test.conllu
