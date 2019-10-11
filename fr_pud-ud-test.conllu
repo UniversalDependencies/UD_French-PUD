@@ -1290,7 +1290,7 @@
 5	Chine	_	PROPN	NNP	Gender=Fem|Number=Sing	24	obl	_	_
 6	en	_	ADP	IN	_	7	case	_	_
 7	voie	_	NOUN	NN	Gender=Fem|Number=Sing	5	nmod	_	_
-8	de	_	ADP	IN	_	13	mark	_	_
+8	de	_	ADP	IN	_	9	mark	_	_
 9	devenir	_	VERB	VB	_	7	acl	_	_
 10	le	_	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
 11	plus	_	ADV	RBR	_	12	advmod	_	_
@@ -1569,7 +1569,7 @@
 12	2015	_	NUM	CD	_	7	obl	_	_
 13	à	_	ADP	IN	_	15	case	_	_
 14	221	_	NUM	CD	_	15	nummod	_	_
-15	milliards	_	NUM	CD	_	10	nmod	_	_
+15	milliards	_	NUM	CD	_	7	obl	_	_
 16	de	_	ADP	IN	_	17	case	_	_
 17	dollars	_	NOUN	NN	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
 18	.	_	PUNCT	.	_	7	punct	_	_
@@ -3768,7 +3768,7 @@
 4	un	_	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
 5	élément	_	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 6	essentiel	_	ADJ	JJ	Gender=Masc|Number=Sing	5	amod	_	_
-7	dont	_	ADP	INP	Gender=Masc|Number=Sing	11	obl	_	_
+7	dont	_	ADP	INP	Gender=Masc|Number=Sing	10	obl	_	_
 8	le	_	DET	DT	Gender=Masc|Number=Sing	9	det	_	_
 9	corps	_	NOUN	NN	Gender=Masc|Number=Sing	10	nsubj	_	_
 10	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	acl:relcl	_	_
@@ -4382,7 +4382,7 @@
 19	les	_	DET	DT	Gender=Masc|Number=Plur	20	det	_	_
 20	croisements	_	NOUN	NN	Gender=Masc|Number=Plur	15	conj	_	_
 21	étranges	_	ADJ	JJ	Gender=Masc|Number=Plur	20	amod	_	_
-22	entre	_	ADP	IN	_	28	case	_	_
+22	entre	_	ADP	IN	_	24	case	_	_
 23	les	_	DET	DT	Gender=Fem|Number=Plur	24	det	_	_
 24	nouvelles	_	ADJ	JJ	Gender=Fem|Number=Plur	20	nmod	_	_
 25	et	_	CCONJ	CC	_	28	cc	_	_
@@ -5580,7 +5580,7 @@
 14	plus	_	ADV	RBR	_	15	advmod	_	_
 15	inquiétant	_	ADJ	JJ	Gender=Masc|Number=Sing	11	xcomp	_	_
 16	et	_	CCONJ	CC	_	17	cc	_	_
-17	incertain	_	ADJ	JJ	Gender=Masc|Number=Sing	11	conj	_	_
+17	incertain	_	ADJ	JJ	Gender=Masc|Number=Sing	15	conj	_	_
 18	qu'	_	SCONJ	IN	_	22	mark	_	SpaceAfter=No
 19	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
 20	ne	_	ADV	RB	Polarity=Neg	22	advmod	_	_
@@ -5712,7 +5712,7 @@
 15	foulard	_	NOUN	NN	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
 16	,	_	PUNCT	,	_	18	punct	_	_
 17	elle	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	18	nsubj	_	_
-18	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	_
+18	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	parataxis	_	_
 19	l'	_	DET	DT	Gender=Masc|Number=Sing	20	det	_	SpaceAfter=No
 20	air	_	NOUN	NN	Gender=Masc|Number=Sing	18	obj	_	_
 21	tellement	_	ADV	RB	_	22	advmod	_	_
@@ -11796,7 +11796,7 @@
 11	nom	_	NOUN	NN	Gender=Masc|Number=Sing	8	obl	_	_
 12	de	_	ADP	IN	_	13	case	_	_
 13	Ciscaucasie	_	PROPN	NNP	Gender=Fem|Number=Sing	11	nmod	_	_
-14	et	_	CCONJ	CC	_	17	cc	_	_
+14	et	_	CCONJ	CC	_	16	cc	_	_
 15	la	_	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
 16	partie	_	NOUN	NN	Gender=Fem|Number=Sing	8	conj	_	orig_deprel=nsubj:pass
 17	sud	_	NOUN	NN	Gender=Fem|Number=Sing	16	compound	_	_
@@ -12315,7 +12315,7 @@
 # sent_id = w01020020
 # text = Par la suite, quand Auguste fonda l'Empire romain, les Romains baptisèrent la Méditerranée Mare Nostrum (« Notre Mer »).
 # text_en = Later, when Augustus founded the Roman Empire, the Romans referred to the Mediterranean as Mare Nostrum ("Our Sea").
-1	Par	_	ADP	IN	_	17	advmod	_	_
+1	Par	_	ADP	IN	_	14	advmod	_	_
 2	la	_	DET	DT	Gender=Fem|Number=Sing	1	fixed	_	_
 3	suite	_	NOUN	NN	Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	1	punct	_	_
@@ -12331,7 +12331,7 @@
 14	baptisèrent	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 15	la	_	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
 16	Méditerranée	_	PROPN	NNP	Gender=Fem|Number=Sing	14	obj	_	_
-17	Mare	_	X	FW	_	14	xcomp	_	Proper=True
+17	Mare	_	X	FW	Foreign=Yes	14	xcomp	_	Proper=True
 18	Nostrum	_	X	FW	Foreign=Yes	17	flat	_	Proper=True
 19	(	_	PUNCT	(	_	22	punct	_	SpaceAfter=No
 20	«	_	PUNCT	``	_	22	punct	_	_
@@ -20491,7 +20491,7 @@
 19	sur	_	ADP	IN	_	21	case	_	_
 20	les	_	DET	DT	Gender=Masc|Number=Plur	21	det	_	_
 21	36	_	NUM	CD	_	14	obl	_	_
-22	et	_	CCONJ	CC	_	27	cc	_	_
+22	et	_	CCONJ	CC	_	25	cc	_	_
 23	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
 24	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	25	aux	_	_
 25	devenu	_	VERB	VBN	Gender=Masc|Number=Sing	6	conj	_	_
