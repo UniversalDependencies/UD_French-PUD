@@ -92,7 +92,7 @@
 6	sa	_	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
 7	rhétorique	_	NOUN	NN	Gender=Fem|Number=Sing	4	nmod	_	_
 8	précédente	_	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
-9	concernant	_	VERB	VBG	VerbForm=Part	7	ccomp	_	_
+9	concernant	_	VERB	VBG	VerbForm=Part	7	acl	_	_
 10	la	_	DET	DT	Gender=Fem|Number=Sing	11	det	_	_
 11	réduction	_	NOUN	NN	Gender=Fem|Number=Sing	9	obj	_	_
 12	de	_	ADP	IN	_	14	case	_	_
@@ -124,7 +124,7 @@
 37	d'	_	ADP	IN	_	38	case	_	SpaceAfter=No
 38	immigrants	_	NOUN	NN	Gender=Masc|Number=Plur	34	nmod	_	_
 39	légaux	_	ADJ	JJ	Gender=Masc|Number=Plur	38	amod	_	_
-40	fondé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	34	ccomp	_	_
+40	fondé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	34	acl	_	_
 41	sur	_	ADP	IN	_	44	case	_	_
 42	un	_	DET	DT	Gender=Masc|Number=Sing	44	det	_	_
 43	«	_	PUNCT	``	_	44	punct	_	_
@@ -168,7 +168,7 @@
 27	à	_	ADP	IN	_	29	case	_	_
 28	la	_	DET	DT	Gender=Fem|Number=Sing	29	det	_	_
 29	foule	_	NOUN	NN	Gender=Fem|Number=Sing	25	obl	_	_
-30	rassemblée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	29	ccomp	_	_
+30	rassemblée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	29	acl	_	_
 31	sur	_	ADP	IN	_	33	case	_	_
 32	un	_	DET	DT	Gender=Masc|Number=Sing	33	det	_	_
 33	terrain	_	NOUN	NN	Gender=Masc|Number=Sing	30	obl	_	_
@@ -235,7 +235,7 @@
 5	,	_	PUNCT	,	_	7	punct	_	_
 6	le	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 7	maximum	_	NOUN	NN	Gender=Masc|Number=Sing	2	appos	_	_
-8	autorisé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	7	ccomp	_	SpaceAfter=No
+8	autorisé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	SpaceAfter=No
 9	.	_	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01003010
@@ -349,7 +349,7 @@
 9	tant	_	ADV	RB	_	8	fixed	_	_
 10	qu'	_	SCONJ	IN	_	8	fixed	_	SpaceAfter=No
 11	unité	_	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	_
-12	séparée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	11	ccomp	_	SpaceAfter=No
+12	séparée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	11	acl	_	SpaceAfter=No
 13	,	_	PUNCT	,	_	15	punct	_	_
 14	par	_	ADP	IN	_	15	case	_	_
 15	exemple	_	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
@@ -653,7 +653,7 @@
 6	à	_	ADP	IN	_	8	case	_	_
 7	un	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
 8	moment	_	NOUN	NN	Gender=Masc|Number=Sing	13	obl	_	_
-9	donné	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	8	ccomp	_	SpaceAfter=No
+9	donné	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	SpaceAfter=No
 10	,	_	PUNCT	,	_	8	punct	_	_
 11	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 12	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	aux	_	_
@@ -710,7 +710,7 @@
 18	un	_	DET	DT	Gender=Masc|Number=Sing	19	det	_	_
 19	matelas	_	NOUN	NN	Gender=Masc|Number=Sing	14	obl	_	_
 20	pneumatique	_	ADJ	JJ	Gender=Masc|Number=Sing	19	amod	_	_
-21	situé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	19	ccomp	_	_
+21	situé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	_
 22	dans	_	ADP	IN	_	24	case	_	_
 23	sa	_	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
 24	salle	_	NOUN	NN	Gender=Fem|Number=Sing	21	obl	_	_
@@ -851,7 +851,7 @@
 8	Marine	_	NOUN	NN	Gender=Fem|Number=Sing	5	nmod	_	Proper=True
 9	Royale	_	ADJ	JJ	Gender=Fem|Number=Sing	8	amod	_	Proper=True
 10	britannique	_	ADJ	JJ	Gender=Fem|Number=Sing	8	amod	_	Proper=True
-11	destinées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	5	ccomp	_	_
+11	destinées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	5	acl	_	_
 12	à	_	ADP	IN	_	13	case	_	_
 13	protéger	_	VERB	VB	_	11	xcomp	_	_
 14	l'	_	DET	DT	Gender=Fem|Number=Sing	15	det	_	SpaceAfter=No
@@ -941,7 +941,7 @@
 34	plus	_	ADV	RBR	_	36	case	_	_
 35	de	_	ADP	IN	_	34	fixed	_	_
 36	bébés	_	NOUN	NN	Gender=Masc|Number=Plur	33	nmod	_	_
-37	nommés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	36	ccomp	_	_
+37	nommés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	36	acl	_	_
 38	Keira	_	PROPN	NNP	Gender=Fem|Number=Sing	37	appos	_	_
 39	que	_	ADP	IN	_	40	case	_	_
 40	Kiera	_	PROPN	NNP	Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
@@ -1355,7 +1355,7 @@
 25	dans	_	ADP	IN	_	27	case	_	_
 26	son	_	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
 27	message	_	NOUN	NN	Gender=Masc|Number=Sing	20	nmod	_	_
-28	justifiant	_	VERB	VBG	VerbForm=Part	27	ccomp	_	_
+28	justifiant	_	VERB	VBG	VerbForm=Part	27	acl	_	_
 29	la	_	DET	DT	Gender=Fem|Number=Sing	30	det	_	_
 30	fermeture	_	NOUN	NN	Gender=Fem|Number=Sing	28	obj	_	_
 31	de	_	ADP	IN	_	33	case	_	_
@@ -1760,7 +1760,7 @@
 11	graines	_	NOUN	NN	Gender=Fem|Number=Plur	14	nsubj	_	_
 12	de	_	ADP	IN	_	13	case	_	_
 13	roquettes	_	NOUN	NN	Gender=Fem|Number=Plur	11	nmod	_	_
-14	peuvent	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	8	ccomp	_	_
+14	peuvent	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	8	acl	_	_
 15	être	_	AUX	VB	_	16	aux:pass	_	_
 16	envoyées	_	VERB	VBN	Gender=Fem|Number=Plur	14	xcomp	_	_
 17	et	_	CCONJ	CC	_	18	cc	_	_
@@ -1808,7 +1808,7 @@
 12	les	le	DET	_	Gender=Masc|Number=Plur	13	det	_	_
 13	écoliers	_	NOUN	NN	Gender=Masc|Number=Plur	9	conj	_	_
 14	ayant	_	AUX	VBG	_	15	aux	_	_
-15	prit	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	13	ccomp	_	_
+15	prit	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_
 16	part	_	NOUN	NN	Gender=Fem|Number=Sing	15	obj	_	_
 17	à	_	ADP	IN	_	19	case	_	_
 18	l'	_	DET	DT	Gender=Fem|Number=Sing	19	det	_	SpaceAfter=No
@@ -1964,7 +1964,7 @@
 4	le	le	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	débat	_	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 6	,	_	PUNCT	,	_	7	punct	_	_
-7	étant	_	VERB	VBG	VerbForm=Part	2	ccomp	_	_
+7	étant	_	VERB	VBG	VerbForm=Part	2	acl	_	_
 8	cette	_	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
 9	année	_	NOUN	NN	Gender=Fem|Number=Sing	7	obl:mod	_	_
 10-11	du	_	_	_	_	_	_	_	_
@@ -2099,7 +2099,7 @@
 # text = Guitariste passionné, il a participé à un concert la même année.
 # text_en = A keen guitarist, he played a concert there the same year.
 1	Guitariste	_	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	_
-2	passionné	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	1	ccomp	_	SpaceAfter=No
+2	passionné	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	4	punct	_	_
 4	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	1	appos	_	_
 5	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux	_	_
@@ -2285,7 +2285,7 @@
 19	important	_	ADJ	JJ	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
 20	…	_	PUNCT	…	_	19	punct	_	OrigForm=...
 21	se	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	22	obj	_	_
-22	présentant	_	VERB	VBG	VerbForm=Part	18	ccomp	_	_
+22	présentant	_	VERB	VBG	VerbForm=Part	18	acl	_	_
 23	comme	_	ADP	IN	_	25	case	_	_
 24	les	_	DET	DT	Gender=Fem|Number=Plur	25	det	_	_
 25	autorités	_	NOUN	NN	Gender=Fem|Number=Plur	22	obl	_	_
@@ -2606,7 +2606,7 @@
 27	le	le	DET	_	Gender=Masc|Number=Sing	29	det	_	_
 28	soi-disant	_	ADJ	JJ	Gender=Masc|Number=Sing	29	amod	_	_
 29	sans-abri	_	NOUN	NN	Gender=Masc|Number=Sing	20	nmod	_	_
-30	accusé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	29	ccomp	_	_
+30	accusé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	29	acl	_	_
 31	d'	_	ADP	IN	_	34	case	_	SpaceAfter=No
 32	avoir	_	AUX	VB	_	34	aux	_	_
 33	mortellement	_	ADV	RB	_	34	advmod	_	_
@@ -2733,7 +2733,7 @@
 # text_en = The association that represents real estate agents in Ontario says more needs to be done to protect consumers and punish agents found to have engaged in unethical behaviour.
 1	L'	_	DET	DT	Gender=Fem|Number=Sing	2	det	_	SpaceAfter=No
 2	association	_	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
-3	représentant	_	VERB	VBG	VerbForm=Part	2	ccomp	_	_
+3	représentant	_	VERB	VBG	VerbForm=Part	2	acl	_	_
 4	les	_	DET	DT	Gender=Masc|Number=Plur	5	det	_	_
 5	agents	_	NOUN	NN	Gender=Masc|Number=Plur	3	obj	_	_
 6	immobiliers	_	ADJ	JJ	Gender=Masc|Number=Plur	5	amod	_	_
@@ -2756,7 +2756,7 @@
 23	les	_	DET	DT	Gender=Masc|Number=Plur	24	det	_	_
 24	agents	_	NOUN	NN	Gender=Masc|Number=Plur	22	obj	_	_
 25	ayant	_	AUX	VBG	_	26	aux	_	_
-26	fait	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	24	ccomp	_	_
+26	fait	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	24	acl	_	_
 27	preuve	_	NOUN	NN	Gender=Fem|Number=Sing	26	obj	_	_
 28	d'	_	ADP	IN	_	30	case	_	SpaceAfter=No
 29	un	_	DET	DT	Gender=Masc|Number=Sing	30	det	_	_
@@ -3485,7 +3485,7 @@
 28	des	_	DET	DT	Gender=Fem|Number=Plur	29	det	_	_
 29	compagnies	_	NOUN	NN	Gender=Fem|Number=Plur	26	conj	_	_
 30	ayant	_	AUX	VBG	_	31	aux	_	_
-31	apporté	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	26	ccomp	_	_
+31	apporté	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	26	acl	_	_
 32	des	_	DET	DT	Gender=Fem|Number=Plur	33	det	_	_
 33	contributions	_	NOUN	NN	Gender=Fem|Number=Plur	31	obj	_	_
 34	financières	_	ADJ	JJ	Gender=Fem|Number=Plur	33	amod	_	_
@@ -3644,7 +3644,7 @@
 7	de	_	ADP	IN	_	9	case	_	_
 8	nouveaux	_	ADJ	JJ	Gender=Masc|Number=Plur	9	amod	_	_
 9	appartements	_	NOUN	NN	Gender=Masc|Number=Plur	6	nmod	_	_
-10	arrivant	_	VERB	VBG	VerbForm=Part	9	ccomp	_	_
+10	arrivant	_	VERB	VBG	VerbForm=Part	9	acl	_	_
 11	sur	_	ADP	IN	_	13	case	_	_
 12	le	_	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
 13	marché	_	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
@@ -3956,7 +3956,7 @@
 9	les	_	DET	DT	Gender=Masc|Number=Plur	10	det	_	_
 10	bébés	_	NOUN	NN	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
 11	,	_	PUNCT	,	_	12	punct	_	_
-12	survenant	_	VERB	VBG	VerbForm=Part	4	ccomp	_	_
+12	survenant	_	VERB	VBG	VerbForm=Part	4	acl	_	_
 13	une	_	DET	DT	Gender=Fem|Number=Sing	14	det	_	_
 14	fois	_	NOUN	NN	Gender=Fem|Number=Sing	12	obl	_	_
 15	toutes	_	DET	PDT	Gender=Fem|Number=Plur	18	det:predet	_	_
@@ -4471,7 +4471,7 @@
 23	les	_	DET	DT	Gender=Masc|Number=Plur	24	det	_	_
 24	développements	_	NOUN	NN	Gender=Masc|Number=Plur	32	nsubj	_	_
 25	institutionnels	_	ADJ	JJ	Gender=Masc|Number=Plur	24	amod	_	_
-26	initiés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	24	ccomp	_	_
+26	initiés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	24	acl	_	_
 27	pendant	_	ADP	IN	_	30	case	_	_
 28	ces	_	DET	DT	Gender=Fem|Number=Plur	30	det	_	_
 29	deux	_	NUM	CD	_	30	nummod	_	_
@@ -4815,7 +4815,7 @@
 11	des	_	DET	DT	Gender=Masc|Number=Plur	12	det	_	_
 12	gardiens	_	NOUN	NN	Gender=Masc|Number=Plur	7	obl	_	_
 13	soigneusement	_	ADV	RB	_	14	advmod	_	_
-14	formés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	12	ccomp	_	SpaceAfter=No
+14	formés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	12	acl	_	SpaceAfter=No
 15	,	_	PUNCT	,	_	5	punct	_	_
 16	pensait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
 17	Platon	_	PROPN	NNP	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
@@ -4929,7 +4929,7 @@
 7	publié	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 8	une	_	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
 9	version	_	NOUN	NN	Gender=Fem|Number=Sing	7	obj	_	_
-10	dactylographiée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	9	ccomp	_	_
+10	dactylographiée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	9	acl	_	_
 11	de	_	ADP	IN	_	13	case	_	_
 12	«	_	PUNCT	``	_	13	punct	_	_
 13	Zettel's	_	X	FW	_	9	nmod	_	Proper=True
@@ -5010,7 +5010,7 @@
 10	,	_	PUNCT	,	_	13	punct	_	_
 11	pas	_	ADV	RB	Polarity=Neg	13	advmod	_	_
 12	toujours	_	ADV	RB	_	13	advmod	_	_
-13	basée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	9	ccomp	_	_
+13	basée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	9	acl	_	_
 14	sur	_	ADP	IN	_	16	case	_	_
 15	des	_	DET	DT	Gender=Masc|Number=Plur	16	det	_	_
 16	faits	_	NOUN	NN	Gender=Masc|Number=Plur	13	obl	_	_
@@ -5532,7 +5532,7 @@
 14	dessous	_	ADV	RB	_	13	fixed	_	_
 15	3	_	NUM	CD	_	16	nummod	_	_
 16	tasses	_	NOUN	NN	Gender=Fem|Number=Plur	6	obl	_	_
-17	renversées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	16	ccomp	_	SpaceAfter=No
+17	renversées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	16	acl	_	SpaceAfter=No
 18	.	_	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01075044
@@ -6608,7 +6608,7 @@
 # text_en = The RSPB’s stance has also brought it into conflict with many leading conservationists, from the author of the petition, Mark Avery, to the TV presenter Chris Packham.
 1	La	_	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	position	_	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
-3	adoptée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	2	ccomp	_	_
+3	adoptée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
 4	par	_	ADP	IN	_	6	case	_	_
 5	la	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 6	RSPB	_	PROPN	NNP	Gender=Fem|Number=Sing	3	obl	_	_
@@ -6793,7 +6793,7 @@
 24	quotas	_	NOUN	NN	Gender=Masc|Number=Plur	17	obl	_	_
 25	de	_	ADP	IN	_	26	case	_	_
 26	pêche	_	NOUN	NN	Gender=Fem|Number=Sing	24	nmod	_	_
-27	proposés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	24	ccomp	_	SpaceAfter=No
+27	proposés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	24	acl	_	SpaceAfter=No
 28	.	_	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01093024
@@ -6985,7 +6985,7 @@
 13	pénurie	_	NOUN	NN	Gender=Fem|Number=Sing	11	obj	_	_
 14	de	_	ADP	IN	_	15	case	_	_
 15	main-d’œuvre	_	NOUN	NN	Gender=Fem|Number=Sing	13	nmod	_	_
-16	qualifiée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	15	ccomp	_	_
+16	qualifiée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	15	acl	_	_
 17	et	_	CCONJ	CC	_	18	cc	_	_
 18	dotée	_	VERB	VBN	Gender=Fem|Number=Sing	16	conj	_	_
 19	de	_	ADP	IN	_	20	case	_	_
@@ -8117,7 +8117,7 @@
 19	revenus	_	NOUN	NN	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
 20	)	_	PUNCT	)	_	12	punct	_	SpaceAfter=No
 21	,	_	PUNCT	,	_	22	punct	_	_
-22	proposé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	7	ccomp	_	_
+22	proposé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
 23	par	_	ADP	IN	_	24	case	_	_
 24	Aviva	_	PROPN	NNP	Number=Sing	22	obl	_	SpaceAfter=No
 25	,	_	PUNCT	,	_	22	punct	_	_
@@ -8166,7 +8166,7 @@
 19	l’	_	DET	DT	Gender=Masc|Number=Sing	20	det	_	OrigForm=l'|SpaceAfter=No
 20	étranger	_	NOUN	NN	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
 21	,	_	PUNCT	,	_	22	punct	_	_
-22	provoquée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	11	ccomp	_	_
+22	provoquée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	11	acl	_	_
 23	par	_	ADP	IN	_	25	case	_	_
 24	la	_	DET	DT	Gender=Fem|Number=Sing	25	det	_	_
 25	baisse	_	NOUN	NN	Gender=Fem|Number=Sing	22	obl	_	_
@@ -9114,7 +9114,7 @@
 22	nombre	_	NOUN	NN	Gender=Masc|Number=Sing	19	conj	_	_
 23	de	_	ADP	IN	_	24	case	_	_
 24	règles	_	NOUN	NN	Gender=Fem|Number=Plur	22	nmod	_	_
-25	suivies	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	24	ccomp	_	SpaceAfter=No
+25	suivies	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	24	acl	_	SpaceAfter=No
 26	.	_	PUNCT	.	_	13	punct	_	_
 
 # sent_id = n01128021
@@ -9261,7 +9261,7 @@
 20	si	_	ADP	IN	_	25	mark	_	_
 21	les	_	DET	DT	Gender=Masc|Number=Plur	22	det	_	_
 22	électeurs	_	NOUN	NN	Gender=Masc|Number=Plur	25	nsubj	_	_
-23	inscrits	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	22	ccomp	_	_
+23	inscrits	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	22	acl	_	_
 24	ne	_	ADV	RB	Polarity=Neg	25	advmod	_	_
 25	figurent	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	17	advcl	_	_
 26	pas	_	ADV	RB	Polarity=Neg	25	advmod	_	_
@@ -9483,7 +9483,7 @@
 7	que	_	SCONJ	IN	_	23	mark	_	_
 8	les	_	DET	DT	Gender=Masc|Number=Plur	9	det	_	_
 9	délais	_	NOUN	NN	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
-10	diffusés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	9	ccomp	_	_
+10	diffusés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	_
 11	par	_	ADP	IN	_	13	case	_	_
 12	les	_	DET	DT	Gender=Masc|Number=Plur	13	det	_	_
 13	médias	_	NOUN	NN	Gender=Masc|Number=Plur	10	obl	_	_
@@ -9568,7 +9568,7 @@
 9	montagne	_	NOUN	NN	Gender=Fem|Number=Sing	7	obj	_	_
 10	de	_	ADP	IN	_	11	case	_	_
 11	dettes	_	NOUN	NN	Gender=Fem|Number=Plur	9	nmod	_	_
-12	accumulées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	11	ccomp	_	_
+12	accumulées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	11	acl	_	_
 13	par	_	ADP	IN	_	15	case	_	_
 14	les	_	DET	DT	Gender=Masc|Number=Plur	15	det	_	_
 15	gouvernements	_	NOUN	NN	Gender=Masc|Number=Plur	12	obl	_	_
@@ -9835,7 +9835,7 @@
 13	hommes	_	NOUN	NN	Gender=Masc|Number=Plur	10	nmod	_	_
 14	très	_	ADV	RB	_	15	advmod	_	_
 15	haut	_	ADV	RB	_	16	advmod	_	_
-16	placés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	10	ccomp	_	_
+16	placés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	10	acl	_	_
 17	de	_	ADP	IN	_	18	case	_	_
 18	Negan	_	PROPN	NNP	Gender=Masc|Number=Sing	16	obl	_	_
 19	(	_	PUNCT	(	_	20	punct	_	SpaceAfter=No
@@ -10127,7 +10127,7 @@
 20	illustrent	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 21	une	_	DET	DT	Gender=Fem|Number=Sing	22	det	_	_
 22	tendance	_	NOUN	NN	Gender=Fem|Number=Sing	20	obj	_	_
-23	généralisée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	22	ccomp	_	_
+23	généralisée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	22	acl	_	_
 24	chez	_	ADP	IN	_	26	case	_	_
 25	les	_	DET	DT	Gender=Fem|Number=Plur	26	det	_	_
 26	entreprises	_	NOUN	NN	Gender=Fem|Number=Plur	22	nmod	_	_
@@ -10351,7 +10351,7 @@
 18	assis	_	VERB	VBN	Gender=Masc|Number=Sing	11	conj	_	_
 19	le	_	DET	DT	Gender=Masc|Number=Sing	20	det	_	_
 20	dos	_	NOUN	NN	Gender=Masc|Number=Sing	18	obl	_	_
-21	tourné	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	20	ccomp	_	SpaceAfter=No
+21	tourné	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	20	acl	_	SpaceAfter=No
 22	,	_	PUNCT	,	_	6	punct	_	_
 23	dit	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 24	-il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	23	nsubj	_	SpaceAfter=No
@@ -10647,7 +10647,7 @@
 # sent_id = n01149002
 # text = Enterré à une profondeur de 100 mètres (328 pieds), le métro de Pyongyang est l’un des systèmes de transport le plus profond du monde.
 # text_en = Buried 100 meters (328 feet) underground, the Pyongyang Metro is one of the deepest commuter systems in the world.
-1	Enterré	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	14	ccomp	_	_
+1	Enterré	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	14	acl	_	_
 2	à	_	ADP	IN	_	4	case	_	_
 3	une	_	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
 4	profondeur	_	NOUN	NN	Gender=Fem|Number=Sing	1	obl	_	_
@@ -10774,7 +10774,7 @@
 # sent_id = n01150042
 # text = Conçu par Juan Carlos Salas, ce bâtiment primé bénéficie d’un aspect sculptural et chaque détail est porteur de sens.
 # text_en = Designed by Juan Carlos Salas, the award-winning building has a sculptural appearance and every detail carries meaning.
-1	Conçu	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	8	ccomp	_	_
+1	Conçu	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
 2	par	_	ADP	IN	_	3	case	_	_
 3	Juan	_	PROPN	NNP	Gender=Masc|Number=Sing	1	obl	_	_
 4	Carlos	_	PROPN	NNP	Gender=Masc|Number=Sing	3	flat:name	_	_
@@ -10842,7 +10842,7 @@
 9	de	_	ADP	IN	_	10	case	_	_
 10	marchands	_	NOUN	NN	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
 11	,	_	PUNCT	,	_	12	punct	_	_
-12	dirigée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	8	ccomp	_	_
+12	dirigée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	_
 13	par	_	ADP	IN	_	15	case	_	_
 14	la	_	DET	DT	Gender=Fem|Number=Sing	15	det	_	_
 15	bourgeoisie	_	NOUN	NN	Gender=Fem|Number=Sing	12	obl	_	_
@@ -10859,7 +10859,7 @@
 25	à	à	ADP	INDT	_	27	case	_	_
 26	les	le	DET	_	Gender=Fem|Number=Plur	27	det	_	_
 27	personnes	_	NOUN	NN	Gender=Fem|Number=Plur	22	obl	_	_
-28	traversant	_	VERB	VBG	VerbForm=Part	27	ccomp	_	_
+28	traversant	_	VERB	VBG	VerbForm=Part	27	acl	_	_
 29	le	_	DET	DT	Gender=Masc|Number=Sing	30	det	_	_
 30	quartier	_	NOUN	NN	Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
 31	.	_	PUNCT	.	_	3	punct	_	_
@@ -11084,7 +11084,7 @@
 13	peupler	_	VERB	VB	_	11	xcomp	_	_
 14	les	_	DET	DT	Gender=Masc|Number=Plur	15	det	_	_
 15	territoires	_	NOUN	NN	Gender=Masc|Number=Plur	13	obj	_	_
-16	conquis	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	15	ccomp	_	_
+16	conquis	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	15	acl	_	_
 17	dans	_	ADP	IN	_	19	case	_	_
 18	les	_	DET	DT	Gender=Masc|Number=Plur	19	det	_	_
 19	Balkans	_	NOUN	NN	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
@@ -11464,7 +11464,7 @@
 10	plusieurs	_	ADJ	JJ	Gender=Masc|Number=Plur	11	amod	_	_
 11	mois	_	NOUN	NN	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
 12	,	_	PUNCT	,	_	13	punct	_	_
-13	annonçant	_	VERB	VBG	VerbForm=Part	5	ccomp	_	_
+13	annonçant	_	VERB	VBG	VerbForm=Part	5	acl	_	_
 14	la	_	DET	DT	Gender=Fem|Number=Sing	15	det	_	_
 15	saison	_	NOUN	NN	Gender=Fem|Number=Sing	13	obj	_	_
 16	pluvieuse	_	ADJ	JJ	Gender=Fem|Number=Sing	15	amod	_	_
@@ -11708,7 +11708,7 @@
 4	aussi	_	ADV	RB	_	3	advmod	_	_
 5	des	_	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
 6	langues	_	NOUN	NN	Gender=Fem|Number=Plur	3	obj	_	_
-7	dérivées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	6	ccomp	_	_
+7	dérivées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	6	acl	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
 9	le	le	DET	_	Gender=Masc|Number=Sing	10	det	_	_
@@ -12144,7 +12144,7 @@
 17	le	le	DET	_	Gender=Masc|Number=Sing	18	det	_	_
 18	désert	_	NOUN	NN	Gender=Masc|Number=Sing	15	nmod	_	_
 19	saharien	_	ADJ	JJ	Gender=Masc|Number=Sing	18	amod	_	_
-20	situé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	18	ccomp	_	_
+20	situé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	18	acl	_	_
 21	juste	_	ADV	RB	_	24	advmod	_	_
 22-23	au	_	_	_	_	_	_	_	_
 22	à	à	ADP	INDT	_	24	case	_	_
@@ -12209,7 +12209,7 @@
 7	servait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
 8	de	_	ADP	IN	_	9	case	_	_
 9	passage	_	NOUN	NN	Gender=Masc|Number=Sing	7	obl	_	_
-10	permettant	_	VERB	VBG	VerbForm=Part	9	ccomp	_	_
+10	permettant	_	VERB	VBG	VerbForm=Part	9	acl	_	_
 11	de	_	ADP	IN	_	12	mark	_	_
 12	commercer	_	VERB	VB	_	10	xcomp	_	SpaceAfter=No
 13	,	_	PUNCT	,	_	15	punct	_	_
@@ -12351,7 +12351,7 @@
 4	une	_	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
 5	voie	_	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
 6	naviguable	_	ADJ	JJ	Gender=Fem|Number=Sing	5	amod	_	_
-7	entourée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	5	ccomp	_	_
+7	entourée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	5	acl	_	_
 8	de	_	ADP	IN	_	9	case	_	_
 9	récifs	_	NOUN	NN	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
 10	,	_	PUNCT	,	_	12	punct	_	_
@@ -12443,7 +12443,7 @@
 27	,	_	PUNCT	,	_	26	punct	_	_
 28	du	_	DET	DT	Gender=Masc|Number=Sing	29	det	_	_
 29	vin	_	NOUN	NN	Gender=Masc|Number=Sing	7	conj	_	_
-30	importé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	29	ccomp	_	_
+30	importé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	29	acl	_	_
 31	étaient	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	32	aux:pass	_	_
 32	consommées	_	VERB	VBN	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 33	.	_	PUNCT	.	_	32	punct	_	_
@@ -12656,7 +12656,7 @@
 2	quantité	_	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	de	_	ADP	IN	_	4	case	_	_
 4	marchandises	_	NOUN	NN	Gender=Fem|Number=Plur	2	nmod	_	_
-5	transportées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	4	ccomp	_	_
+5	transportées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	4	acl	_	_
 6	via	_	ADP	IN	_	8	case	_	_
 7	le	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
 8	Danube	_	PROPN	NNP	Gender=Masc|Number=Sing	5	obl	_	_
@@ -12867,7 +12867,7 @@
 7	de	de	ADP	INDT	_	9	case	_	_
 8	les	le	DET	_	Gender=Masc|Number=Plur	9	det	_	_
 9	événements	_	NOUN	NN	Gender=Masc|Number=Plur	6	nmod	_	_
-10	survenus	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	9	ccomp	_	_
+10	survenus	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	_
 11	dans	_	ADP	IN	_	13	case	_	_
 12	le	_	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
 13	Kansas	_	PROPN	NNP	Gender=Masc|Number=Sing	10	obl	_	_
@@ -13080,7 +13080,7 @@
 # text_en = Water from the rivers is used in over 500 hydroelectricity power plants, generating as much as 2900 kilowatts of electricity.
 1	L'	_	DET	DT	Gender=Fem|Number=Sing	2	det	_	SpaceAfter=No
 2	eau	_	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
-3	provenant	_	VERB	VBG	VerbForm=Part	2	ccomp	_	_
+3	provenant	_	VERB	VBG	VerbForm=Part	2	acl	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
 5	les	le	DET	_	Gender=Masc|Number=Plur	6	det	_	_
@@ -13270,7 +13270,7 @@
 6	lagon	_	NOUN	NN	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 7	,	_	PUNCT	,	_	9	punct	_	_
 8	aujourd'hui	_	ADV	RB	_	9	obl:mod	_	_
-9	desséché	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	6	ccomp	_	SpaceAfter=No
+9	desséché	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	SpaceAfter=No
 10	.	_	PUNCT	.	_	2	punct	_	_
 
 # sent_id = w01033025
@@ -13416,7 +13416,7 @@
 5	un	_	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
 6	écosystème	_	NOUN	NN	Gender=Masc|Number=Sing	13	nsubj	_	_
 7	sain	_	ADJ	JJ	Gender=Masc|Number=Sing	6	amod	_	_
-8	accompagné	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	6	ccomp	_	_
+8	accompagné	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
 9	d'	_	ADP	IN	_	12	case	_	SpaceAfter=No
 10	une	_	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
 11	bonne	_	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	_
@@ -13494,7 +13494,7 @@
 29	monde	_	NOUN	NN	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
 30	,	_	PUNCT	,	_	31	punct	_	_
 31	détérioration	_	NOUN	NN	Gender=Fem|Number=Sing	20	appos	_	_
-32	causée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	31	ccomp	_	_
+32	causée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	31	acl	_	_
 33	par	_	ADP	IN	_	35	case	_	_
 34	l'	_	DET	DT	Gender=Fem|Number=Sing	35	det	_	SpaceAfter=No
 35	érosion	_	NOUN	NN	Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
@@ -13751,7 +13751,7 @@
 10	un	_	DET	DT	Gender=Masc|Number=Sing	12	det	_	_
 11	petit	_	ADJ	JJ	Gender=Masc|Number=Sing	12	amod	_	_
 12	canoë	_	NOUN	NN	Gender=Masc|Number=Sing	9	obj	_	_
-13	abandonné	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	12	ccomp	_	_
+13	abandonné	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	12	acl	_	_
 14	par	_	ADP	IN	_	16	case	_	_
 15	les	_	DET	DT	Gender=Masc|Number=Plur	16	det	_	_
 16	aborigènes	_	NOUN	NN	Gender=Masc|Number=Plur	13	obl	_	_
@@ -13911,7 +13911,7 @@
 12	particules	_	NOUN	NN	Gender=Fem|Number=Plur	24	nsubj	_	_
 13	fines	_	ADJ	JJ	Gender=Fem|Number=Plur	12	amod	_	_
 14	se	_	PRON	PRP	Gender=Fem|Number=Plur|Person=3	15	obj	_	_
-15	trouvant	_	VERB	VBG	VerbForm=Part	12	ccomp	_	_
+15	trouvant	_	VERB	VBG	VerbForm=Part	12	acl	_	_
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	INDT	_	18	case	_	_
 17	le	le	DET	_	Gender=Masc|Number=Sing	18	det	_	_
@@ -14153,7 +14153,7 @@
 15	la	_	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
 16	région	_	NOUN	NN	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 17	,	_	PUNCT	,	_	18	punct	_	_
-18	dominant	_	VERB	VBG	VerbForm=Part	12	ccomp	_	_
+18	dominant	_	VERB	VBG	VerbForm=Part	12	acl	_	_
 19	à	_	ADP	IN	_	21	case	_	_
 20	l'	_	DET	DT	Gender=Fem|Number=Sing	21	det	_	SpaceAfter=No
 21	époque	_	NOUN	NN	Gender=Fem|Number=Sing	18	obl	_	_
@@ -14422,7 +14422,7 @@
 1	L'	_	DET	DT	Gender=Masc|Number=Sing	2	det	_	SpaceAfter=No
 2	essai	_	NOUN	NN	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	4	punct	_	_
-4	publié	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_
+4	publié	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
 5	sous	_	ADP	IN	_	7	case	_	_
 6	le	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 7	nom	_	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	_
@@ -14509,7 +14509,7 @@
 33	à	_	ADP	IN	_	35	case	_	_
 34	quelques	_	ADJ	JJ	Gender=Fem|Number=Plur	35	amod	_	_
 35	personnes	_	NOUN	NN	Gender=Fem|Number=Plur	30	obl	_	_
-36	choisies	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	35	ccomp	_	_
+36	choisies	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	35	acl	_	_
 37	pour	_	ADP	IN	_	39	case	_	_
 38	des	_	DET	DT	Gender=Fem|Number=Plur	39	det	_	_
 39	suggestions	_	NOUN	NN	Gender=Fem|Number=Plur	36	obl	_	_
@@ -14655,7 +14655,7 @@
 5	d'	_	ADP	IN	_	6	case	_	SpaceAfter=No
 6	Australie	_	PROPN	NNP	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 7	,	_	PUNCT	,	_	8	punct	_	_
-8	ouvert	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	4	ccomp	_	_
+8	ouvert	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
 9	en	_	ADP	IN	_	10	case	_	_
 10	1879	_	NUM	CD	_	8	obl	_	SpaceAfter=No
 11	,	_	PUNCT	,	_	8	punct	_	_
@@ -14901,7 +14901,7 @@
 9	la	_	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
 10	bataille	_	NOUN	NN	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 11	,	_	PUNCT	,	_	12	punct	_	_
-12	écrite	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	6	ccomp	_	_
+12	écrite	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	6	acl	_	_
 13	en	_	ADP	IN	_	14	case	_	_
 14	1903	_	NUM	CD	_	12	obl	_	_
 15	par	_	ADP	IN	_	16	case	_	_
@@ -15454,7 +15454,7 @@
 20	de	de	ADP	INDT	_	22	case	_	_
 21	le	le	DET	_	Gender=Masc|Number=Sing	22	det	_	_
 22	limon	_	NOUN	NN	Gender=Masc|Number=Sing	19	nmod	_	_
-23	amassé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	22	ccomp	_	_
+23	amassé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	_
 24	en	_	ADP	IN	_	27	case	_	_
 25	tant	_	ADV	RB	_	24	fixed	_	_
 26	qu'	_	SCONJ	IN	_	24	fixed	_	SpaceAfter=No
@@ -15809,7 +15809,7 @@
 14	d'	_	ADP	IN	_	16	case	_	SpaceAfter=No
 15	une	_	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
 16	campagne	_	NOUN	NN	Gender=Fem|Number=Sing	13	nmod	_	_
-17	menée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	16	ccomp	_	_
+17	menée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	16	acl	_	_
 18	par	_	ADP	IN	_	20	case	_	_
 19	le	_	DET	DT	Gender=Masc|Number=Sing	20	det	_	_
 20	pharaon	_	NOUN	NN	Gender=Masc|Number=Sing	17	obl	_	_
@@ -15834,7 +15834,7 @@
 11	une	_	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
 12	inscription	_	NOUN	NN	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 13	,	_	PUNCT	,	_	14	punct	_	_
-14	située	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	12	ccomp	_	_
+14	située	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	12	acl	_	_
 15	sur	_	ADP	IN	_	17	case	_	_
 16	des	_	DET	DT	Gender=Masc|Number=Plur	17	det	_	_
 17	territoires	_	NOUN	NN	Gender=Masc|Number=Plur	14	obl	_	_
@@ -15857,7 +15857,7 @@
 3	d'	_	ADP	IN	_	4	case	_	SpaceAfter=No
 4	Amarna	_	PROPN	NNP	Number=Sing	2	nmod	_	SpaceAfter=No
 5	,	_	PUNCT	,	_	6	punct	_	_
-6	datant	_	VERB	VBG	VerbForm=Part	2	ccomp	_	_
+6	datant	_	VERB	VBG	VerbForm=Part	2	acl	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	INDT	_	10	case	_	_
 8	le	le	DET	_	Gender=Masc|Number=Sing	10	det	_	_
@@ -15869,7 +15869,7 @@
 14	sont	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	16	cop	_	_
 15	dix	_	NUM	CD	_	16	nummod	_	_
 16	lettres	_	NOUN	NN	Gender=Fem|Number=Plur	0	root	_	_
-17	écrites	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	16	ccomp	_	_
+17	écrites	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	16	acl	_	_
 18	par	_	ADP	IN	_	20	case	_	_
 19	les	_	DET	DT	Gender=Masc|Number=Plur	20	det	_	_
 20	rois	_	NOUN	NN	Gender=Masc|Number=Plur	17	obl	_	_
@@ -15909,7 +15909,7 @@
 15	de	_	ADP	IN	_	16	case	_	_
 16	naissance	_	NOUN	NN	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 17	,	_	PUNCT	,	_	18	punct	_	_
-18	suivis	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	8	ccomp	_	_
+18	suivis	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	8	acl	_	_
 19	par	_	ADP	IN	_	21	case	_	_
 20	le	_	DET	DT	Gender=Masc|Number=Sing	21	det	_	_
 21	jour	_	NOUN	NN	Gender=Masc|Number=Sing	18	obl	_	_
@@ -15987,7 +15987,7 @@
 27	image	_	NOUN	NN	Gender=Fem|Number=Sing	24	nmod	_	_
 28	de	_	ADP	IN	_	29	case	_	_
 29	Bouddha	_	NOUN	NN	Gender=Masc|Number=Sing	27	nmod	_	Proper=True
-30	associée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	27	ccomp	_	SpaceAfter=No
+30	associée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	27	acl	_	SpaceAfter=No
 31	.	_	PUNCT	.	_	10	punct	_	_
 
 # sent_id = w01066040
@@ -16001,7 +16001,7 @@
 6	les	_	DET	DT	Gender=Fem|Number=Plur	8	det	_	_
 7	autres	_	ADJ	JJ	Gender=Fem|Number=Plur	8	amod	_	_
 8	fêtes	_	NOUN	NN	Gender=Fem|Number=Plur	3	conj	_	_
-9	célébrées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	8	ccomp	_	_
+9	célébrées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	8	acl	_	_
 10	par	_	ADP	IN	_	12	case	_	_
 11	les	_	DET	DT	Gender=Masc|Number=Plur	12	det	_	_
 12	Thaïlandais	_	NOUN	NN	Gender=Masc|Number=Plur	9	obl	_	_
@@ -16200,7 +16200,7 @@
 9	comme	_	ADP	IN	_	11	case	_	_
 10	un	_	DET	DT	Gender=Masc|Number=Sing	11	det	_	_
 11	souverain	_	NOUN	NN	Gender=Masc|Number=Sing	8	obl	_	_
-12	concerné	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	11	ccomp	_	_
+12	concerné	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	_
 13	par	_	ADP	IN	_	15	case	_	_
 14	les	_	DET	DT	Gender=Masc|Number=Plur	15	det	_	_
 15	besoins	_	NOUN	NN	Gender=Masc|Number=Plur	12	obl	_	_
@@ -16264,7 +16264,7 @@
 12	les	_	DET	DT	Gender=Fem|Number=Plur	13	det	_	_
 13	ressources	_	NOUN	NN	Gender=Fem|Number=Plur	10	obj	_	_
 14	militaires	_	ADJ	JJ	Gender=Fem|Number=Plur	13	amod	_	_
-15	pouvant	_	VERB	VBG	VerbForm=Part	13	ccomp	_	_
+15	pouvant	_	VERB	VBG	VerbForm=Part	13	acl	_	_
 16	être	_	AUX	VB	_	17	aux:pass	_	_
 17	déployées	_	VERB	VBN	Gender=Fem|Number=Plur	15	xcomp	_	_
 18	contre	_	ADP	IN	_	20	case	_	_
@@ -16289,7 +16289,7 @@
 7	de	_	ADP	IN	_	8	case	_	_
 8	bronze	_	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	_	PUNCT	,	_	10	punct	_	_
-10	construit	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_
+10	construit	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
 11	vers	_	ADP	IN	_	12	case	_	_
 12	1900	_	NUM	CD	_	10	obl	_	_
 13	avant	_	ADP	IN	_	14	case	_	_
@@ -16768,7 +16768,7 @@
 6	de	_	ADP	IN	_	7	case	_	_
 7	scolarisation	_	NOUN	NN	Gender=Fem|Number=Sing	5	nmod	_	_
 8	masculine	_	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
-9	dépassant	_	VERB	VBG	VerbForm=Part	5	ccomp	_	_
+9	dépassant	_	VERB	VBG	VerbForm=Part	5	acl	_	_
 10	la	_	DET	DT	Gender=Fem|Number=Sing	11	det	_	_
 11	moyenne	_	NOUN	NN	Gender=Fem|Number=Sing	9	obj	_	_
 12	de	_	ADP	IN	_	14	case	_	_
@@ -16922,7 +16922,7 @@
 11	de	_	ADP	IN	_	12	case	_	_
 12	doléance	_	NOUN	NN	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	_	PUNCT	,	_	14	punct	_	_
-14	incitant	_	VERB	VBG	VerbForm=Part	10	ccomp	_	_
+14	incitant	_	VERB	VBG	VerbForm=Part	10	acl	_	_
 15	une	_	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
 16	rébellion	_	NOUN	NN	Gender=Fem|Number=Sing	14	obj	_	_
 17	armée	_	ADJ	JJ	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
@@ -17076,7 +17076,7 @@
 # text_en = Forced baptism was contrary to the law of the Catholic Church, and theoretically anybody who had been forcibly baptized could legally return to Judaism.
 1	Le	_	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	baptême	_	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj	_	_
-3	forcé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	_
+3	forcé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
 4	était	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	5	cop	_	_
 5	contraire	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 6	à	_	ADP	IN	_	8	case	_	_
@@ -17377,7 +17377,7 @@
 22	dans	_	ADP	IN	_	24	case	_	_
 23	les	_	DET	DT	Gender=Fem|Number=Plur	24	det	_	_
 24	années	_	NOUN	NN	Gender=Fem|Number=Plur	16	obl	_	_
-25	précédant	_	VERB	VBG	VerbForm=Part	24	ccomp	_	_
+25	précédant	_	VERB	VBG	VerbForm=Part	24	acl	_	_
 26	la	_	DET	DT	Gender=Fem|Number=Sing	28	det	_	_
 27	Première	_	ADJ	JJ	Gender=Fem|Number=Sing	28	amod	_	Proper=True
 28	Guerre	_	NOUN	NN	Gender=Fem|Number=Sing	25	obj	_	Proper=True
@@ -17573,7 +17573,7 @@
 4	l'	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	SpaceAfter=No
 5	immense	_	ADJ	JJ	Gender=Fem|Number=Sing	6	amod	_	_
 6	armée	_	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	_
-7	engagée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	6	ccomp	_	_
+7	engagée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	6	acl	_	_
 8	par	_	ADP	IN	_	9	case	_	_
 9	Venise	_	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
 10	,	_	PUNCT	,	_	7	punct	_	_
@@ -17683,7 +17683,7 @@
 3	de	de	ADP	INDT	_	5	case	_	_
 4	les	le	DET	_	Gender=Fem|Number=Plur	5	det	_	_
 5	informations	_	NOUN	NN	Gender=Fem|Number=Plur	2	nmod	_	_
-6	concernant	_	VERB	VBG	VerbForm=Part	5	ccomp	_	_
+6	concernant	_	VERB	VBG	VerbForm=Part	5	acl	_	_
 7	cette	_	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
 8	époque	_	NOUN	NN	Gender=Fem|Number=Sing	6	obj	_	_
 9	proviennent	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
@@ -17699,7 +17699,7 @@
 17	les	le	DET	_	Gender=Masc|Number=Plur	18	det	_	_
 18	objets	_	NOUN	NN	Gender=Masc|Number=Plur	12	conj	_	_
 19	funéraires	_	ADJ	JJ	Gender=Masc|Number=Plur	18	amod	_	_
-20	trouvés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	18	ccomp	_	_
+20	trouvés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	18	acl	_	_
 21	dans	_	ADP	IN	_	23	case	_	_
 22	ces	_	DET	DT	Gender=Masc|Number=Plur	23	det	_	_
 23	lieux	_	NOUN	NN	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
@@ -17721,7 +17721,7 @@
 11	quarantaine	_	NOUN	NN	Gender=Fem|Number=Sing	8	obj	_	_
 12	de	_	ADP	IN	_	13	case	_	_
 13	familles	_	NOUN	NN	Gender=Fem|Number=Plur	11	nmod	_	_
-14	bénéficiant	_	VERB	VBG	VerbForm=Part	13	ccomp	_	_
+14	bénéficiant	_	VERB	VBG	VerbForm=Part	13	acl	_	_
 15	de	_	ADP	IN	_	17	case	_	_
 16	bonnes	_	ADJ	JJ	Gender=Fem|Number=Plur	17	amod	_	_
 17	terres	_	NOUN	NN	Gender=Fem|Number=Plur	14	obl	_	_
@@ -17884,7 +17884,7 @@
 9	les	_	DET	DT	Gender=Fem|Number=Plur	10	det	_	_
 10	pièces	_	NOUN	NN	Gender=Fem|Number=Plur	7	nmod	_	_
 11	métalliques	_	ADJ	JJ	Gender=Fem|Number=Plur	10	amod	_	_
-12	utilisées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	10	ccomp	_	_
+12	utilisées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	10	acl	_	_
 13	dans	_	ADP	IN	_	15	case	_	_
 14	les	_	DET	DT	Gender=Fem|Number=Plur	15	det	_	_
 15	machines	_	NOUN	NN	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
@@ -18193,7 +18193,7 @@
 18	les	le	DET	_	Gender=Masc|Number=Plur	19	det	_	_
 19	Chinois	_	NOUN	NN	Gender=Masc|Number=Plur	16	nmod	_	_
 20	(	_	PUNCT	(	_	21	punct	_	SpaceAfter=No
-21	estimés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	19	ccomp	_	_
+21	estimés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	19	acl	_	_
 22	à	_	ADP	IN	_	24	case	_	_
 23	7,5	_	NUM	CD	_	24	nummod	_	_
 24	millions	_	NUM	CD	_	21	obl	_	SpaceAfter=No
@@ -18610,7 +18610,7 @@
 18	d'	_	DET	DT	Gender=Masc|Number=Plur	20	det	_	SpaceAfter=No
 19	autres	_	ADJ	JJ	Gender=Masc|Number=Plur	20	amod	_	_
 20	professionnels	_	NOUN	NN	Gender=Masc|Number=Plur	16	conj	_	_
-21	impliqués	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	16	ccomp	_	_
+21	impliqués	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	16	acl	_	_
 22	dans	_	ADP	IN	_	24	case	_	_
 23	la	_	DET	DT	Gender=Fem|Number=Sing	24	det	_	_
 24	technologie	_	NOUN	NN	Gender=Fem|Number=Sing	21	obl	_	_
@@ -18631,7 +18631,7 @@
 9	de	_	ADP	IN	_	10	case	_	_
 10	circulation	_	NOUN	NN	Gender=Fem|Number=Sing	8	nmod	_	_
 11	routière	_	ADJ	JJ	Gender=Fem|Number=Sing	10	amod	_	_
-12	amélioré	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	8	ccomp	_	_
+12	amélioré	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
 13	et	_	CCONJ	CC	_	15	cc	_	_
 14	un	_	DET	DT	Gender=Masc|Number=Sing	15	det	_	_
 15	comprimé	_	NOUN	NN	Gender=Masc|Number=Sing	8	conj	_	_
@@ -19159,7 +19159,7 @@
 23	produire	_	VERB	VB	_	21	xcomp	_	_
 24	des	_	DET	DT	Gender=Fem|Number=Plur	25	det	_	_
 25	affiches	_	NOUN	NN	Gender=Fem|Number=Plur	23	obj	_	_
-26	représentant	_	VERB	VBG	VerbForm=Part	25	ccomp	_	_
+26	représentant	_	VERB	VBG	VerbForm=Part	25	acl	_	_
 27	fidèlement	_	ADV	RB	_	26	advmod	_	_
 28	ses	_	DET	DTP$	Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
 29	films	_	NOUN	NN	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
@@ -19633,7 +19633,7 @@
 4	offre	_	NOUN	NN	Gender=Fem|Number=Sing	20	obl	_	_
 5	d'	_	ADP	IN	_	6	case	_	SpaceAfter=No
 6	emploi	_	NOUN	NN	Gender=Masc|Number=Sing	4	nmod	_	_
-7	trouvée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	4	ccomp	_	_
+7	trouvée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	_
 8	par	_	ADP	IN	_	10	case	_	_
 9	sa	_	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
 10	sœur	_	NOUN	NN	Gender=Fem|Number=Sing	7	obl	_	_
@@ -19864,7 +19864,7 @@
 7	un	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
 8	dilemme	_	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	_
 9	similaire	_	ADJ	JJ	Gender=Masc|Number=Sing	8	amod	_	_
-10	concernant	_	VERB	VBG	VerbForm=Part	8	ccomp	_	_
+10	concernant	_	VERB	VBG	VerbForm=Part	8	acl	_	_
 11	la	_	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
 12	princesse	_	NOUN	NN	Gender=Fem|Number=Sing	10	obj	_	_
 13	Jasmine	_	PROPN	NNP	Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
@@ -19879,7 +19879,7 @@
 22	la	_	DET	DT	Gender=Fem|Number=Sing	23	det	_	_
 23	princesse	_	NOUN	NN	Gender=Fem|Number=Sing	21	obj	_	_
 24	entièrement	_	ADV	RB	_	25	advmod	_	_
-25	animée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	23	ccomp	_	_
+25	animée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	23	acl	_	_
 26	dans	_	ADP	IN	_	29	case	_	_
 27	un	_	DET	DT	Gender=Masc|Number=Sing	29	det	_	_
 28	seul	_	ADJ	JJ	Gender=Masc|Number=Sing	29	amod	_	_
@@ -20195,7 +20195,7 @@
 32	à	à	ADP	INDT	_	34	case	_	_
 33	le	le	DET	_	Gender=Masc|Number=Sing	34	det	_	_
 34	candidat	_	NOUN	NN	Gender=Masc|Number=Sing	31	obl	_	_
-35	arrivé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	34	ccomp	_	_
+35	arrivé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	34	acl	_	_
 36	en	_	ADP	IN	_	38	case	_	_
 37	deuxième	_	ADJ	JJ	Gender=Fem|Number=Sing	38	amod	_	_
 38	place	_	NOUN	NN	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
@@ -20225,7 +20225,7 @@
 17	à	à	ADP	INDT	_	19	case	_	_
 18	les	le	DET	_	Gender=Masc|Number=Plur	19	det	_	_
 19	Tories	_	NOUN	NN	Gender=Masc|Number=Plur	16	obl	_	_
-20	dirigés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	19	ccomp	_	_
+20	dirigés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	19	acl	_	_
 21	par	_	ADP	IN	_	22	case	_	_
 22	Lord	_	NOUN	NN	Gender=Masc|Number=Sing	20	obl	_	_
 23	North	_	PROPN	NNP	Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
@@ -20596,7 +20596,7 @@
 2	comprenait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
 3	trois	_	NUM	CD	_	4	nummod	_	_
 4	morceaux	_	NOUN	NN	Gender=Masc|Number=Plur	2	obj	_	_
-5	co-écrits	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	4	ccomp	_	_
+5	co-écrits	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	4	acl	_	_
 6	avec	_	ADP	IN	_	8	case	_	_
 7	le	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
 8	frère	_	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	_
@@ -20636,7 +20636,7 @@
 9	une	_	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
 10	chanson	_	NOUN	NN	Gender=Fem|Number=Sing	7	nmod	_	_
 11	auparavant	_	ADV	RB	_	12	advmod	_	_
-12	enregistrée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	10	ccomp	_	_
+12	enregistrée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	_
 13	avec	_	ADP	IN	_	15	case	_	_
 14	The	_	DET	DT	Number=Plur	15	det	_	Proper=True
 15	Humblebums	_	PROPN	NNP	Number=Plur	12	obl	_	_
@@ -20674,7 +20674,7 @@
 6	deux	_	NUM	CD	_	8	nummod	_	_
 7	derniers	_	ADJ	JJ	Gender=Masc|Number=Plur	8	amod	_	_
 8	enregistrements	_	NOUN	NN	Gender=Masc|Number=Plur	3	obl	_	_
-9	réalisés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	8	ccomp	_	_
+9	réalisés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	8	acl	_	_
 10	par	_	ADP	IN	_	11	case	_	_
 11	Gerry	_	PROPN	NNP	Gender=Masc|Number=Sing	9	obl	_	_
 12	Rafferty	_	PROPN	NNP	Gender=Masc|Number=Sing	11	flat:name	_	_
@@ -20753,7 +20753,7 @@
 # text_en = The patterns presented by the data from the Petén region and Uaxactun allowed for these sites to fit within the cultural development of the Maya lowlands.
 1	Les	_	DET	DT	Gender=Fem|Number=Plur	2	det	_	_
 2	tendances	_	NOUN	NN	Gender=Fem|Number=Plur	16	nsubj	_	_
-3	présentées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	2	ccomp	_	_
+3	présentées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
 4	par	_	ADP	IN	_	6	case	_	_
 5	les	_	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
 6	données	_	NOUN	NN	Gender=Fem|Number=Plur	3	obl	_	_
@@ -20893,7 +20893,7 @@
 24	vilain	_	NOUN	NN	Gender=Masc|Number=Sing	18	nmod	_	_
 25	Thanos	_	PROPN	NNP	Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
 26	,	_	PUNCT	,	_	27	punct	_	_
-27	réparti	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	18	ccomp	_	_
+27	réparti	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	18	acl	_	_
 28	dans	_	ADP	IN	_	31	case	_	_
 29	un	_	DET	DT	Gender=Masc|Number=Sing	31	det	_	_
 30	certain	_	ADJ	JJ	Gender=Masc|Number=Sing	31	amod	_	_
@@ -21052,7 +21052,7 @@
 6	la	_	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 7	comédie	_	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	_
 8	britannique	_	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
-9	dirigée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	7	ccomp	_	_
+9	dirigée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	_
 10	par	_	ADP	IN	_	11	case	_	_
 11	Lasse	_	PROPN	NNP	Gender=Masc|Number=Sing	9	obl	_	_
 12	Hallström	_	PROPN	NNP	Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
@@ -21133,7 +21133,7 @@
 15	Jason	_	PROPN	NNP	Gender=Masc|Number=Sing	14	appos	_	_
 16	Segel	_	PROPN	NNP	Gender=Masc|Number=Sing	15	flat:name	_	SpaceAfter=No
 17	,	_	PUNCT	,	_	18	punct	_	_
-18	réalisé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	6	ccomp	_	_
+18	réalisé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	_
 19	par	_	ADP	IN	_	20	case	_	_
 20	Nicholas	_	PROPN	NNP	Gender=Masc|Number=Sing	18	obl	_	_
 21	Stoller	_	PROPN	NNP	Gender=Masc|Number=Sing	20	flat:name	_	_
@@ -21177,12 +21177,12 @@
 30	science-fiction	_	NOUN	NN	Gender=Fem|Number=Sing	28	nmod	_	_
 31	américain	_	ADJ	JJ	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
 32	,	_	PUNCT	,	_	33	punct	_	_
-33	réalisé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	28	ccomp	_	_
+33	réalisé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	28	acl	_	_
 34	par	_	ADP	IN	_	35	case	_	_
 35	Rian	_	PROPN	NNP	Gender=Masc|Number=Sing	33	obl	_	_
 36	Johnson	_	PROPN	NNP	Gender=Masc|Number=Sing	35	flat:name	_	SpaceAfter=No
 37	,	_	PUNCT	,	_	38	punct	_	_
-38	sorti	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	28	ccomp	_	_
+38	sorti	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	28	acl	_	_
 39	en	_	ADP	IN	_	40	case	_	_
 40	septembre	_	NOUN	NNP	Gender=Masc|Number=Sing	38	obl	_	_
 41	2012	_	NUM	CD	_	40	nmod	_	SpaceAfter=No
@@ -21600,7 +21600,7 @@
 25	de	de	ADP	INDT	_	27	case	_	_
 26	les	le	DET	_	Gender=Fem|Number=Plur	27	det	_	_
 27	recherches	_	NOUN	NN	Gender=Fem|Number=Plur	24	nmod	_	_
-28	effectuées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	27	ccomp	_	_
+28	effectuées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	27	acl	_	_
 29	par	_	ADP	IN	_	31	case	_	_
 30	l'	_	DET	DT	Gender=Masc|Number=Sing	31	det	_	SpaceAfter=No
 31	Institut	_	NOUN	NN	Gender=Masc|Number=Sing	28	obl	_	Proper=True|SpaceAfter=No
@@ -22597,7 +22597,7 @@
 15	record	_	NOUN	NN	Gender=Masc|Number=Sing	13	obj	_	_
 16	de	_	ADP	IN	_	17	case	_	_
 17	buts	_	NOUN	NN	Gender=Masc|Number=Plur	15	nmod	_	_
-18	inscrits	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	17	ccomp	_	_
+18	inscrits	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	17	acl	_	_
 19	pour	_	ADP	IN	_	21	case	_	_
 20	la	_	DET	DT	Gender=Fem|Number=Sing	21	det	_	_
 21	fédération	_	NOUN	NN	Gender=Fem|Number=Sing	18	obl	_	Proper=True
@@ -22719,7 +22719,7 @@
 11	le	le	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	clavier	_	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 13	,	_	PUNCT	,	_	14	punct	_	_
-14	anticipé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	7	ccomp	_	_
+14	anticipé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
 15	à	_	ADP	IN	_	18	case	_	_
 16	cause	_	NOUN	NN	Gender=Fem|Number=Sing	15	fixed	_	_
 17	de	_	ADP	IN	_	15	fixed	_	_
@@ -22876,7 +22876,7 @@
 44	rembourser	_	VERB	VB	_	20	conj	_	_
 45	les	_	DET	DT	Gender=Masc|Number=Plur	46	det	_	_
 46	coûts	_	NOUN	NN	Gender=Masc|Number=Plur	44	obj	_	_
-47	engagés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	46	ccomp	_	_
+47	engagés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	46	acl	_	_
 48	en	_	ADP	IN	_	52	case	_	_
 49	raison	_	NOUN	NN	Gender=Fem|Number=Sing	48	fixed	_	_
 50	de	_	ADP	IN	_	48	fixed	_	_
@@ -23491,7 +23491,7 @@
 9	de	_	ADP	IN	_	11	case	_	_
 10	l’	_	DET	DT	Gender=Fem|Number=Sing	11	det	_	OrigForm=l'|SpaceAfter=No
 11	enquête	_	NOUN	NN	Gender=Fem|Number=Sing	5	obl	_	_
-12	menée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	11	ccomp	_	_
+12	menée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	11	acl	_	_
 13	par	_	ADP	IN	_	14	case	_	_
 14	Boeing	_	PROPN	NNP	Number=Sing	12	obl	_	_
 15	sur	_	ADP	IN	_	17	case	_	_
@@ -23808,7 +23808,7 @@
 11	selon	_	ADP	IN	_	13	case	_	_
 12	les	_	DET	DT	Gender=Fem|Number=Plur	13	det	_	_
 13	informations	_	NOUN	NN	Gender=Fem|Number=Plur	25	obl	_	_
-14	fournies	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	13	ccomp	_	_
+14	fournies	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	13	acl	_	_
 15	par	_	ADP	IN	_	17	case	_	_
 16	l’	_	DET	DT	Gender=Fem|Number=Sing	17	det	_	OrigForm=l'|SpaceAfter=No
 17	agence	_	NOUN	NN	Gender=Fem|Number=Sing	14	obl	_	_
@@ -23864,7 +23864,7 @@
 8	les	le	DET	_	Gender=Masc|Number=Plur	9	det	_	_
 9	poumons	_	NOUN	NN	Gender=Masc|Number=Plur	4	obl	_	_
 10	insuffisamment	_	ADV	RB	_	11	advmod	_	_
-11	développés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	9	ccomp	_	_
+11	développés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	_
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	INDT	_	15	case	_	_
 13	les	le	DET	_	Gender=Masc|Number=Plur	15	det	_	_
@@ -24176,7 +24176,7 @@
 21	contrat	_	NOUN	NN	Gender=Masc|Number=Sing	18	nmod	_	_
 22	de	_	ADP	IN	_	23	case	_	_
 23	ville	_	NOUN	NN	Gender=Fem|Number=Sing	21	nmod	_	_
-24	passé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	21	ccomp	_	_
+24	passé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	21	acl	_	_
 25	avec	_	ADP	IN	_	27	case	_	_
 26	l'	_	DET	DT	Gender=Masc|Number=Sing	27	det	_	SpaceAfter=No
 27	état	_	NOUN	NN	Gender=Masc|Number=Sing	24	obl	_	_
@@ -24405,7 +24405,7 @@
 14	client	_	NOUN	NN	Gender=Masc|Number=Sing	11	nmod	_	_
 15	le	_	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
 16	temps	_	NOUN	NN	Gender=Masc|Number=Sing	3	obj	_	_
-17	passé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	16	ccomp	_	_
+17	passé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	16	acl	_	_
 18	à	_	ADP	IN	_	19	case	_	_
 19	venir	_	VERB	VB	_	17	xcomp	_	_
 20	à	_	ADP	IN	_	22	case	_	_
@@ -24808,7 +24808,7 @@
 2	bon	_	NOUN	NN	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
 3	de	_	ADP	IN	_	4	case	_	_
 4	réduction	_	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	_
-5	pouvant	_	VERB	VBG	VerbForm=Part	2	ccomp	_	_
+5	pouvant	_	VERB	VBG	VerbForm=Part	2	acl	_	_
 6	être	_	AUX	VB	_	7	aux:pass	_	_
 7	enregistré	_	VERB	VBN	Gender=Masc|Number=Sing	5	xcomp	_	_
 8	sur	_	ADP	IN	_	10	case	_	_
@@ -25182,7 +25182,7 @@
 7	de	_	ADP	IN	_	8	case	_	_
 8	recherches	_	NOUN	NN	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
 9	,	_	PUNCT	,	_	10	punct	_	_
-10	appliquées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	8	ccomp	_	_
+10	appliquées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	8	acl	_	_
 11	dans	_	ADP	IN	_	13	case	_	_
 12	le	_	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
 13	cadre	_	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
@@ -25420,7 +25420,7 @@
 31	de	_	ADP	IN	_	30	fixed	_	_
 32	600 000	_	NUM	CD	_	33	nummod	_	OrigForm=600000
 33	personnes	_	NOUN	NN	Gender=Fem|Number=Plur	29	obj	_	_
-34	employées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	33	ccomp	_	_
+34	employées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	33	acl	_	_
 35	par	_	ADP	IN	_	40	case	_	_
 36	rapport	_	NOUN	NN	Gender=Masc|Number=Sing	35	fixed	_	_
 37	à	_	ADP	IN	_	35	fixed	_	_
@@ -26024,7 +26024,7 @@
 23	de	de	ADP	INDT	_	25	case	_	_
 24	le	le	DET	_	Gender=Masc|Number=Sing	25	det	_	_
 25	tribunal	_	NOUN	NN	Gender=Masc|Number=Sing	22	nmod	_	_
-26	concernant	_	VERB	VBG	VerbForm=Part	22	ccomp	_	_
+26	concernant	_	VERB	VBG	VerbForm=Part	22	acl	_	_
 27	le	_	DET	DT	Gender=Masc|Number=Sing	28	det	_	_
 28	Brexit	_	PROPN	NNP	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
 29	.	_	PUNCT	.	_	3	punct	_	_
@@ -26088,7 +26088,7 @@
 4	un	_	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
 5	système	_	NOUN	NN	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
 6	télégraphique	_	ADJ	JJ	Gender=Masc|Number=Sing	5	amod	_	_
-7	équipé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	5	ccomp	_	_
+7	équipé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
 8	de	_	ADP	IN	_	10	case	_	_
 9	34	_	NUM	CD	_	10	nummod	_	_
 10	signaux	_	NOUN	NN	Gender=Masc|Number=Plur	7	obl	_	_
@@ -26212,7 +26212,7 @@
 2	citoyens	_	NOUN	NN	Gender=Masc|Number=Plur	14	nsubj	_	_
 3	musulmans	_	ADJ	JJ	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	5	punct	_	_
-5	installés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	2	ccomp	_	_
+5	installés	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
 6	depuis	_	ADP	IN	_	8	case	_	_
 7	le	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
 8	début	_	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	_
@@ -27064,7 +27064,7 @@
 1	Les	_	DET	DT	Gender=Fem|Number=Plur	2	det	_	_
 2	sœurs	_	NOUN	NN	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
 3	religieuses	_	ADJ	JJ	Gender=Fem|Number=Plur	2	amod	_	_
-4	déplacées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	2	ccomp	_	_
+4	déplacées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	2	acl	_	_
 5	furent	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	6	aux:pass	_	_
 6	installées	_	VERB	VBN	Gender=Fem|Number=Plur	0	root	_	_
 7-8	au	_	_	_	_	_	_	_	_
@@ -27160,7 +27160,7 @@
 4	empêché	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 5	toute	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 6	opinion	_	NOUN	NN	Gender=Fem|Number=Sing	4	obj	_	_
-7	considérée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	6	ccomp	_	_
+7	considérée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	6	acl	_	_
 8	comme	_	ADP	IN	_	9	case	_	_
 9	indésirable	_	ADJ	JJ	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 10	,	_	PUNCT	,	_	17	punct	_	_
@@ -27405,13 +27405,13 @@
 7	journaux	_	NOUN	NN	Gender=Masc|Number=Plur	5	nmod	_	_
 8	de	_	ADP	IN	_	9	case	_	_
 9	2008	_	NUM	CD	_	5	nmod	_	_
-10	évoquant	_	VERB	VBG	VerbForm=Part	5	ccomp	_	_
+10	évoquant	_	VERB	VBG	VerbForm=Part	5	acl	_	_
 11	les	_	DET	DT	Gender=Masc|Number=Plur	12	det	_	_
 12	meurtres	_	NOUN	NN	Gender=Masc|Number=Plur	10	obj	_	_
 13	de	_	ADP	IN	_	15	case	_	_
 14	cinquante	_	NUM	CD	_	15	nummod	_	_
 15	personnes	_	NOUN	NN	Gender=Fem|Number=Plur	12	nmod	_	_
-16	accusées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	15	ccomp	_	_
+16	accusées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	15	acl	_	_
 17	d'	_	ADP	IN	_	19	case	_	SpaceAfter=No
 18	avoir	_	AUX	VB	_	19	aux	_	_
 19	jeté	_	VERB	VBN	Gender=Masc|Number=Sing	16	xcomp	_	_
@@ -27472,7 +27472,7 @@
 10	navire	_	NOUN	NN	Gender=Masc|Number=Sing	18	nsubj	_	_
 11	britannique	_	ADJ	JJ	Gender=Masc|Number=Sing	10	amod	_	_
 12	Endurance	_	NOUN	NN	Number=Sing	10	appos	_	Proper=True
-13	commandé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	10	ccomp	_	_
+13	commandé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_
 14	par	_	ADP	IN	_	15	case	_	_
 15	Sir	_	NOUN	NN	Gender=Masc|Number=Sing	13	obl	_	_
 16	Ernest	_	PROPN	NNP	Gender=Masc|Number=Sing	15	appos	_	_
@@ -27644,7 +27644,7 @@
 12	indépendantes	_	ADJ	JJ	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
 13	,	_	PUNCT	,	_	14	punct	_	_
 14	situation	_	NOUN	NN	Gender=Fem|Number=Sing	8	appos	_	_
-15	imposée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	14	ccomp	_	_
+15	imposée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
 16	par	_	ADP	IN	_	18	case	_	_
 17	la	_	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
 18	géographie	_	NOUN	NN	Gender=Fem|Number=Sing	15	obl	_	_
@@ -28031,7 +28031,7 @@
 13	courte	_	ADJ	JJ	Gender=Fem|Number=Sing	14	amod	_	_
 14	liaison	_	NOUN	NN	Gender=Fem|Number=Sing	11	obj	_	_
 15	amoureuse	_	ADJ	JJ	Gender=Fem|Number=Sing	14	amod	_	_
-16	avouée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	14	ccomp	_	_
+16	avouée	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
 17	peu	_	ADV	RB	_	18	advmod	_	_
 18	après	_	ADV	RB	_	16	advmod	_	SpaceAfter=No
 19	.	_	PUNCT	.	_	11	punct	_	_
@@ -28050,7 +28050,7 @@
 8	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 9	trois	_	NUM	CD	_	10	nummod	_	_
 10	palmiers	_	NOUN	NN	Gender=Masc|Number=Plur	8	obj	_	_
-11	surplombant	_	VERB	VBG	VerbForm=Part	10	ccomp	_	_
+11	surplombant	_	VERB	VBG	VerbForm=Part	10	acl	_	_
 12	la	_	DET	DT	Gender=Fem|Number=Sing	13	det	_	_
 13	mer	_	NOUN	NN	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
 14	,	_	PUNCT	,	_	16	punct	_	_
@@ -28132,7 +28132,7 @@
 # text_en = An element supporting this hypothesis would be the intense royal livestock of horses that took place at Villa Pelucca, in Sesto San Giovanni.
 1	Un	_	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	élément	_	NOUN	NN	Gender=Masc|Number=Sing	8	nsubj	_	_
-3	soutenant	_	VERB	VBG	VerbForm=Part	2	ccomp	_	_
+3	soutenant	_	VERB	VBG	VerbForm=Part	2	acl	_	_
 4	cette	_	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
 5	hypothèse	_	NOUN	NN	Gender=Fem|Number=Sing	3	obj	_	_
 6	serait	_	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
@@ -28763,7 +28763,7 @@
 4	différentes	_	ADJ	JJ	Gender=Fem|Number=Plur	5	amod	_	_
 5	pièces	_	NOUN	NN	Gender=Fem|Number=Plur	2	obl	_	_
 6	cinématographiques	_	ADJ	JJ	Gender=Fem|Number=Plur	5	amod	_	_
-7	réalisées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	5	ccomp	_	_
+7	réalisées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	5	acl	_	_
 8	par	_	ADP	IN	_	9	case	_	_
 9	Morricone	_	PROPN	NNP	Gender=Masc|Number=Sing	7	obl	_	_
 10	comme	_	ADP	IN	_	11	case	_	_
@@ -28931,7 +28931,7 @@
 16	nombre	_	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
 17	de	_	ADP	IN	_	18	case	_	_
 18	Juifs	_	NOUN	NN	Gender=Masc|Number=Plur	16	nmod	_	_
-19	convertis	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	18	ccomp	_	_
+19	convertis	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	18	acl	_	_
 20	qui	_	PRON	WP	Gender=Masc|Number=Plur	21	nsubj	_	_
 21	habitaient	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	18	acl:relcl	_	_
 22	à	_	ADP	IN	_	23	case	_	_
