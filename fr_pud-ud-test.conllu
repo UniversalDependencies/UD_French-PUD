@@ -3192,7 +3192,7 @@
 10	septembre	_	NOUN	NNP	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 11	,	_	PUNCT	,	_	13	punct	_	_
 12	prétendument	_	ADV	RB	_	13	advmod	_	_
-13	issus	_	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	6	ccomp	_	_
+13	issus	_	ADJ	VBN	Gender=Masc|Number=Plur	6	amod	_	_
 14	de	_	ADP	IN	_	15	case	_	_
 15	membres	_	NOUN	NN	Gender=Masc|Number=Plur	13	obl	_	_
 16	de	_	ADP	IN	_	18	case	_	_
@@ -11173,7 +11173,7 @@
 4	de	_	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
 5	nombreuses	_	ADJ	JJ	Gender=Fem|Number=Plur	6	amod	_	_
 6	personnes	_	NOUN	NN	Gender=Fem|Number=Plur	15	nsubj	_	_
-7	issues	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	6	ccomp	_	_
+7	issues	_	ADJ	VBN	Gender=Fem|Number=Plur	6	amod	_	_
 8-9	des	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
 9	les	le	DET	_	Gender=Fem|Number=Plur	10	det	_	_
@@ -11862,7 +11862,7 @@
 16	dioxide	_	NOUN	NN	Gender=Masc|Number=Sing	12	obj	_	_
 17	de	_	ADP	IN	_	18	case	_	_
 18	carbone	_	NOUN	NN	Gender=Masc|Number=Sing	16	nmod	_	_
-19	issu	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	16	ccomp	_	_
+19	issu	_	ADJ	VBN	Gender=Masc|Number=Sing	16	amod	_	_
 20	de	_	ADP	IN	_	22	case	_	_
 21	l'	_	DET	DT	Gender=Masc|Number=Sing	22	det	_	SpaceAfter=No
 22	air	_	NOUN	NN	Gender=Masc|Number=Sing	19	obl	_	_
@@ -24534,7 +24534,7 @@
 12	laisse	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	ccomp	_	_
 13	la	_	DET	DT	Gender=Fem|Number=Sing	14	det	_	_
 14	porte	_	NOUN	NN	Gender=Fem|Number=Sing	12	obj	_	_
-15	ouverte	_	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	14	ccomp	_	_
+15	ouverte	_	ADJ	VBN	Gender=Fem|Number=Sing	14	amod	_	_
 16	à	_	ADP	IN	_	18	case	_	_
 17	des	_	DET	DT	Gender=Fem|Number=Plur	18	det	_	_
 18	dérives	_	NOUN	NN	Gender=Fem|Number=Plur	12	obl	_	_
@@ -26033,7 +26033,7 @@
 # sent_id = w02001041
 # text = Fondé en 1925 comme espace de divertissement pour tous, sur le grand perron de St Michel, le théâtre en plein air attire toujours un large public.
 # text_en = Founded in 1925 as games for everyman, the open air theater on the great steps in front of St. Michael still attracts a diverse public.
-1	Fondé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	20	ccomp	_	_
+1	Fondé	_	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	24	advcl	_	_
 2	en	_	ADP	IN	_	3	case	_	_
 3	1925	_	NUM	CD	_	1	obl	_	_
 4	comme	_	ADP	IN	_	5	case	_	_
