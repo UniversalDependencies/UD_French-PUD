@@ -520,7 +520,7 @@
 10	nos	_	DET	DTP$	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
 11	vies	_	NOUN	NN	Gender=Fem|Number=Plur	8	conj	_	_
 12	de	_	ADP	IN	_	15	case	_	_
-13	tous	_	DET	PDT	Gender=Masc|Number=Plur	15	det:predet	_	_
+13	tous	_	ADJ	PDT	Gender=Masc|Number=Plur	15	amod	_	_
 14	les	_	DET	DT	Gender=Masc|Number=Plur	15	det	_	_
 15	jours	_	NOUN	NN	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
 16	.	_	PUNCT	.	_	2	punct	_	_
@@ -2013,7 +2013,7 @@
 # sent_id = n01027049
 # text = Tout le monde ne peut pas s'élever au dessus de ça.
 # text_en = Not everyone can rise above it.
-1	Tout	_	DET	PDT	Gender=Masc|Number=Sing	3	det:predet	_	_
+1	Tout	_	ADJ	PDT	Gender=Masc|Number=Sing	3	amod	_	_
 2	le	_	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
 3	monde	_	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj	_	_
 4	ne	_	ADV	RB	Polarity=Neg	5	advmod	_	_
@@ -3959,7 +3959,7 @@
 12	survenant	_	VERB	VBG	VerbForm=Part	4	acl	_	_
 13	une	_	DET	DT	Gender=Fem|Number=Sing	14	det	_	_
 14	fois	_	NOUN	NN	Gender=Fem|Number=Sing	12	obl	_	_
-15	toutes	_	DET	PDT	Gender=Fem|Number=Plur	18	det:predet	_	_
+15	toutes	_	ADJ	PDT	Gender=Fem|Number=Plur	18	amod	_	_
 16	les	_	DET	DT	Gender=Fem|Number=Plur	18	det	_	_
 17	35 000	_	NUM	CD	_	18	nummod	_	OrigForm=35000
 18	naissances	_	NOUN	NN	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
@@ -5945,7 +5945,7 @@
 7	le	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
 8	commerce	_	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	_
 9	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-10	tout	_	DET	PDT	Gender=Masc|Number=Sing	12	det:predet	_	_
+10	tout	_	ADJ	PDT	Gender=Masc|Number=Sing	12	amod	_	_
 11	son	_	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
 12	sens	_	NOUN	NN	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
 13	.	_	PUNCT	.	_	9	punct	_	_
@@ -7096,7 +7096,7 @@
 19	et	_	CCONJ	CC	_	20	cc	_	_
 20	comprenait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	16	conj	_	_
 21	presque	_	ADV	RB	_	22	advmod	_	_
-22	tous	_	DET	PDT	Gender=Masc|Number=Plur	24	det:predet	_	_
+22	tous	_	ADJ	PDT	Gender=Masc|Number=Plur	24	amod	_	_
 23	les	_	DET	DT	Gender=Masc|Number=Plur	24	det	_	_
 24	états	_	NOUN	NN	Gender=Masc|Number=Plur	20	obj	_	_
 25-26	au	_	_	_	_	_	_	_	_
@@ -8454,7 +8454,7 @@
 1	D’	_	ADP	IN	_	2	case	_	OrigForm=D'|SpaceAfter=No
 2	où	_	ADV	WRB	_	3	obl	_	_
 3	vient	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-4	toute	_	DET	PDT	Gender=Fem|Number=Sing	6	det:predet	_	_
+4	toute	_	ADJ	PDT	Gender=Fem|Number=Sing	6	amod	_	_
 5	son	_	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
 6	énergie	_	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 7	?	_	PUNCT	.	_	3	punct	_	_
@@ -8761,7 +8761,7 @@
 # sent_id = n01120020
 # text = Tous les assistants médicaux étaient armés, sauf moi.
 # text_en = All the medics were armed, except me.
-1	Tous	_	DET	PDT	Gender=Masc|Number=Plur	3	det:predet	_	_
+1	Tous	_	ADJ	PDT	Gender=Masc|Number=Plur	3	amod	_	_
 2	les	_	DET	DT	Gender=Masc|Number=Plur	3	det	_	_
 3	assistants	_	NOUN	NN	Gender=Masc|Number=Plur	6	nsubj	_	_
 4	médicaux	_	ADJ	JJ	Gender=Masc|Number=Plur	3	amod	_	_
@@ -10573,7 +10573,7 @@
 5	la	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 6	capitale	_	NOUN	NN	Gender=Fem|Number=Sing	4	obj	_	_
 7	dans	_	ADP	IN	_	10	case	_	_
-8	toute	_	DET	PDT	Gender=Fem|Number=Sing	10	det:predet	_	_
+8	toute	_	ADJ	PDT	Gender=Fem|Number=Sing	10	amod	_	_
 9	sa	_	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
 10	splendeur	_	NOUN	NN	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 11	,	_	PUNCT	,	_	3	punct	_	_
@@ -10630,7 +10630,7 @@
 2	n’	_	ADV	RB	Polarity=Neg	7	advmod	_	OrigForm=n'|SpaceAfter=No
 3	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 4	pas	_	ADV	RB	Polarity=Neg	7	advmod	_	_
-5	toutes	_	DET	PDT	Gender=Fem|Number=Plur	7	det:predet	_	_
+5	toutes	_	ADJ	PDT	Gender=Fem|Number=Plur	7	amod	_	_
 6	les	_	DET	DT	Gender=Fem|Number=Plur	7	det	_	_
 7	transformations	_	NOUN	NN	Gender=Fem|Number=Plur	0	root	_	_
 8	de	_	ADP	IN	_	10	case	_	_
@@ -12301,7 +12301,7 @@
 14	,	_	PUNCT	,	_	20	punct	_	_
 15	qui	_	PRON	WP	Gender=Masc|Number=Plur	20	nsubj	_	_
 16	ont	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	20	aux	_	_
-17	tous	_	DET	DT	Gender=Masc|Number=Plur	18	det:predet	_	_
+17	tous	_	ADJ	DT	Gender=Masc|Number=Plur	18	amod	_	_
 18	deux	_	NUM	CD	_	20	obl	_	_
 19	amplement	_	ADV	RB	_	20	advmod	_	_
 20	colonisé	_	VERB	VBN	Gender=Masc|Number=Sing	10	acl:relcl	_	_
@@ -12918,7 +12918,7 @@
 2	constituaient	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	0	root	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	7	punct	_	_
 4	pour	_	ADP	IN	_	7	case	_	_
-5	tous	_	DET	PDT	Gender=Masc|Number=Plur	7	det:predet	_	_
+5	tous	_	ADJ	PDT	Gender=Masc|Number=Plur	7	amod	_	_
 6	les	_	DET	DT	Gender=Masc|Number=Plur	7	det	_	_
 7	Amérindiens	_	NOUN	NN	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
 8	,	_	PUNCT	,	_	7	punct	_	_
@@ -15226,7 +15226,7 @@
 19	s'	_	PRON	PRP	Gender=Fem|Number=Plur|Person=3	20	obj	_	SpaceAfter=No
 20	appliquer	_	VERB	VB	_	18	xcomp	_	_
 21	à	_	ADP	IN	_	24	case	_	_
-22	toute	_	DET	PDT	Gender=Fem|Number=Sing	24	det:predet	_	_
+22	toute	_	ADJ	PDT	Gender=Fem|Number=Sing	24	amod	_	_
 23	la	_	DET	DT	Gender=Fem|Number=Sing	24	det	_	_
 24	Méditerranée	_	PROPN	NNP	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
 25	,	_	PUNCT	,	_	29	punct	_	_
@@ -17063,7 +17063,7 @@
 12	ne	_	ADV	RB	Polarity=Neg	14	advmod	_	_
 13	pas	_	ADV	RB	Polarity=Neg	14	advmod	_	_
 14	croire	_	VERB	VB	_	8	xcomp	_	_
-15	tout	_	DET	PDT	Gender=Masc|Number=Sing	16	det:predet	_	_
+15	tout	_	ADJ	PDT	Gender=Masc|Number=Sing	16	amod	_	_
 16	ce	_	PRON	PDEM	_	14	obj	_	_
 17	que	_	PRON	WP	_	20	obj	_	_
 18	Malleus	_	PROPN	NNP	Gender=Masc|Number=Sing	20	nsubj	_	_
@@ -17303,7 +17303,7 @@
 # text = Pendant toute la durée de la guerre, le port de Pearl Harbor était souvent utilisé dans la propagande des États-Unis.
 # text_en = Throughout the war, Pearl Harbor was frequently used in American propaganda.
 1	Pendant	_	ADP	IN	_	4	case	_	_
-2	toute	_	DET	PDT	Gender=Fem|Number=Sing	4	det:predet	_	_
+2	toute	_	ADJ	PDT	Gender=Fem|Number=Sing	4	amod	_	_
 3	la	_	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
 4	durée	_	NOUN	NN	Gender=Fem|Number=Sing	16	obl	_	_
 5	de	_	ADP	IN	_	7	case	_	_
@@ -22405,7 +22405,7 @@
 9	Empire	_	NOUN	NN	Gender=Masc|Number=Sing	11	nsubj	_	Proper=True
 10	ottoman	_	ADJ	JJ	Gender=Masc|Number=Sing	9	amod	_	Proper=True
 11	perdrait	_	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	5	ccomp	_	_
-12	toute	_	DET	PDT	Gender=Fem|Number=Sing	14	det:predet	_	_
+12	toute	_	ADJ	PDT	Gender=Fem|Number=Sing	14	amod	_	_
 13	la	_	DET	DT	Gender=Fem|Number=Sing	14	det	_	_
 14	Macédoine	_	PROPN	NNP	Gender=Fem|Number=Sing	11	obj	_	_
 15	et	_	CCONJ	CC	_	17	cc	_	_
@@ -25562,7 +25562,7 @@
 1	Malgré	_	ADP	IN	_	2	case	_	_
 2	eux	_	PRON	PRP	Gender=Masc|Number=Plur|Person=3	13	obl	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	2	punct	_	_
-4	tout	_	DET	PDT	Gender=Masc|Number=Sing	6	det:predet	_	_
+4	tout	_	ADJ	PDT	Gender=Masc|Number=Sing	6	amod	_	_
 5	le	_	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
 6	monde	_	NOUN	NN	Gender=Masc|Number=Sing	13	nsubj	_	_
 7	dans	_	ADP	IN	_	9	case	_	_
@@ -28260,7 +28260,7 @@
 23	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	aux	_	_
 24	retirée	_	VERB	VBN	Gender=Fem|Number=Sing	10	conj	_	_
 25	de	_	ADP	IN	_	28	case	_	_
-26	toutes	_	DET	PDT	Gender=Fem|Number=Plur	28	det:predet	_	_
+26	toutes	_	ADJ	PDT	Gender=Fem|Number=Plur	28	amod	_	_
 27	les	_	DET	DT	Gender=Fem|Number=Plur	28	det	_	_
 28	infractions	_	NOUN	NN	Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
 29	.	_	PUNCT	.	_	10	punct	_	_
@@ -28655,7 +28655,7 @@
 28	l'	_	DET	DT	Gender=Fem|Number=Sing	29	det	_	SpaceAfter=No
 29	Église	_	NOUN	NN	Gender=Fem|Number=Sing	26	nmod	_	_
 30	protestante	_	ADJ	JJ	Gender=Fem|Number=Sing	29	amod	_	_
-31	toute	_	DET	PDT	Gender=Fem|Number=Sing	33	det:predet	_	_
+31	toute	_	ADJ	PDT	Gender=Fem|Number=Sing	33	amod	_	_
 32	sa	_	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det	_	_
 33	vie	_	NOUN	NN	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
 34	.	_	PUNCT	.	_	12	punct	_	_
@@ -29054,7 +29054,7 @@
 18	été	_	AUX	VBN	Gender=Masc|Number=Sing	19	aux:pass	_	_
 19	légalisés	_	VERB	VBN	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
 20	,	_	PUNCT	,	_	26	punct	_	_
-21	tous	_	DET	PDT	Gender=Masc|Number=Plur	23	det:predet	_	_
+21	tous	_	ADJ	PDT	Gender=Masc|Number=Plur	23	amod	_	_
 22	les	_	DET	DT	Gender=Masc|Number=Plur	23	det	_	_
 23	exilés	_	NOUN	NN	Gender=Masc|Number=Plur	26	nsubj:pass	_	_
 24	ont	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	26	aux	_	_
@@ -29435,7 +29435,7 @@
 22	une	_	DET	DT	Gender=Fem|Number=Sing	23	det	_	_
 23	invasion	_	NOUN	NN	Gender=Fem|Number=Sing	20	appos	_	_
 24	de	_	ADP	IN	_	27	case	_	_
-25	tout	_	DET	PDT	Gender=Masc|Number=Sing	27	det:predet	_	_
+25	tout	_	ADJ	PDT	Gender=Masc|Number=Sing	27	amod	_	_
 26	le	_	DET	DT	Gender=Masc|Number=Sing	27	det	_	_
 27	Royaume	_	NOUN	NN	Gender=Masc|Number=Sing	23	nmod	_	Proper=True
 28	de	_	ADP	IN	_	29	case	_	Proper=True
