@@ -793,13 +793,13 @@
 8	agence	_	NOUN	NN	Gender=Fem|Number=Sing	5	obl	_	_
 9	de	_	ADP	IN	_	10	case	_	_
 10	conférenciers	_	NOUN	NN	Gender=Masc|Number=Plur	8	nmod	_	_
-11	après	_	ADP	IN	_	14	mark	_	_
-12	s'	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	14	obj	_	SpaceAfter=No
-13	être	_	AUX	VB	_	14	aux	_	_
-14	fait	_	VERB	VBN	Gender=Masc|Number=Sing	5	advcl	_	_
-15	virer	_	VERB	VB	_	14	xcomp	_	_
+11	après	_	ADP	IN	_	15	mark	_	_
+12	s'	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	15	obj:agent	_	SpaceAfter=No
+13	être	_	AUX	VB	_	15	aux	_	_
+14	fait	_	AUX	VBN	Gender=Masc|Number=Sing	15	aux:caus	_	_
+15	virer	_	VERB	VB	_	5	advcl	_	_
 16	en	_	ADP	IN	_	17	case	_	_
-17	juillet	_	NOUN	NNP	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+17	juillet	_	NOUN	NNP	Gender=Masc|Number=Sing	15	obl:mod	_	SpaceAfter=No
 18	.	_	PUNCT	.	_	5	punct	_	_
 
 # newdoc id = n01014
@@ -2527,9 +2527,9 @@
 14	travailler	_	VERB	VB	_	11	xcomp	_	_
 15	avec	_	ADP	IN	_	16	case	_	_
 16	lui	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	14	obl	_	_
-17	pour	_	ADP	IN	_	18	mark	_	_
-18	faire	_	VERB	VB	_	11	advcl	_	_
-19	avancer	_	VERB	VB	_	18	xcomp	_	_
+17	pour	_	ADP	IN	_	19	mark	_	_
+18	faire	_	AUX	VB	_	19	aux:caus	_	_
+19	avancer	_	VERB	VB	_	11	advcl	_	_
 20	tout	_	DET	DT	Gender=Masc|Number=Sing	21	det	_	_
 21	programme	_	NOUN	NN	Gender=Masc|Number=Sing	19	obj	_	_
 22	commun	_	ADJ	JJ	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
@@ -3622,10 +3622,10 @@
 1	C'	_	PRON	PDEM	_	3	nsubj	_	SpaceAfter=No
 2	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	ce	_	PRON	PDEM	_	0	root	_	_
-4	qui	_	PRON	WP	_	6	nsubj	_	_
-5	nous	_	PRON	PRP	Number=Plur|Person=1	6	obj	_	_
-6	fait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	acl:relcl	_	_
-7	revenir	_	VERB	VB	_	6	xcomp	_	_
+4	qui	_	PRON	WP	_	7	nsubj	_	_
+5	nous	_	PRON	PRP	Number=Plur|Person=1	7	obj:agent	_	_
+6	fait	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:caus	_	_
+7	revenir	_	VERB	VB	_	3	acl:relcl	_	_
 8	encore	_	ADV	RB	_	7	advmod	_	_
 9	et	_	CCONJ	CC	_	10	cc	_	_
 10	encore	_	ADV	RB	_	8	conj	_	SpaceAfter=No
@@ -5247,12 +5247,12 @@
 # text = Les gens s'y font tuer.
 # text_en = People got killed there.
 1	Les	_	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
-2	gens	_	NOUN	NN	Gender=Masc|Number=Plur	5	nsubj	_	_
-3	s'	_	PRON	PRP	Gender=Masc|Number=Plur|Person=3	5	obj	_	SpaceAfter=No
-4	y	_	PRON	PRP	Person=3	5	expl	_	_
-5	font	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-6	tuer	_	VERB	VB	_	5	xcomp	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	5	punct	_	_
+2	gens	_	NOUN	NN	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	s'	_	PRON	PRP	Gender=Masc|Number=Plur|Person=3	6	obj	_	SpaceAfter=No
+4	y	_	PRON	PRP	Person=3	6	obl	_	_
+5	font	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	6	aux:caus	_	_
+6	tuer	_	VERB	VB	_	0	root	_	SpaceAfter=No
+7	.	_	PUNCT	.	_	6	punct	_	_
 
 # newdoc id = n01071
 # sent_id = n01071009
@@ -5409,10 +5409,10 @@
 2	ont	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 3	une	_	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
 4	occasion	_	NOUN	NN	Gender=Fem|Number=Sing	2	obj	_	_
-5	pour	_	ADP	IN	_	7	case	_	_
-6	se	_	PRON	PRP	Gender=Masc|Number=Plur|Person=3	7	obj	_	_
-7	faire	_	VERB	VB	_	4	xcomp	_	_
-8	pardonner	_	VERB	VB	_	7	xcomp	_	_
+5	pour	_	ADP	IN	_	8	case	_	_
+6	se	_	PRON	PRP	Gender=Masc|Number=Plur|Person=3	8	obj	_	_
+7	faire	_	AUX	VB	_	8	aux:caus	_	_
+8	pardonner	_	VERB	VB	_	4	acl	_	_
 9	:	_	PUNCT	:	_	10	punct	_	_
 10	battre	_	VERB	VB	_	2	parataxis	_	_
 11	l'	_	DET	DT	Gender=Fem|Number=Sing	12	det	_	SpaceAfter=No
@@ -10850,15 +10850,15 @@
 17	la	_	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
 18	ville	_	NOUN	NN	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 19	,	_	PUNCT	,	_	12	punct	_	_
-20	qui	_	PRON	WP	Gender=Fem|Number=Sing	21	nsubj	_	_
-21	faisait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	8	acl:relcl	_	_
-22	payer	_	VERB	VB	_	21	xcomp	_	_
+20	qui	_	PRON	WP	Gender=Fem|Number=Sing	22	nsubj	_	_
+21	faisait	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	22	aux:caus	_	_
+22	payer	_	VERB	VB	_	8	acl:relcl	_	_
 23	un	_	DET	DT	Gender=Masc|Number=Sing	24	det	_	_
 24	impôt	_	NOUN	NN	Gender=Masc|Number=Sing	22	obj	_	_
 25-26	aux	_	_	_	_	_	_	_	_
 25	à	à	ADP	INDT	_	27	case	_	_
 26	les	le	DET	_	Gender=Fem|Number=Plur	27	det	_	_
-27	personnes	_	NOUN	NN	Gender=Fem|Number=Plur	22	obl	_	_
+27	personnes	_	NOUN	NN	Gender=Fem|Number=Plur	22	obl:agent	_	_
 28	traversant	_	VERB	VBG	VerbForm=Part	27	acl	_	_
 29	le	_	DET	DT	Gender=Masc|Number=Sing	30	det	_	_
 30	quartier	_	NOUN	NN	Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
@@ -23727,16 +23727,16 @@
 # text_en = The good numbers in Asia promptly pushed the stock markets up.
 1	Les	_	DET	DT	Gender=Masc|Number=Plur	3	det	_	_
 2	bons	_	ADJ	JJ	Gender=Masc|Number=Plur	3	amod	_	_
-3	résultats	_	NOUN	NN	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	résultats	_	NOUN	NN	Gender=Masc|Number=Plur	7	nsubj	_	_
 4	en	_	ADP	IN	_	5	case	_	_
 5	Asie	_	PROPN	NNP	Gender=Fem|Number=Sing	3	nmod	_	_
-6	faisaient	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	0	root	_	_
-7	monter	_	VERB	VB	_	6	xcomp	_	_
+6	faisaient	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	7	aux:caus	_	_
+7	monter	_	VERB	VB	_	0	root	_	_
 8	immédiatement	_	ADV	RB	_	7	advmod	_	_
 9	les	_	DET	DT	Gender=Masc|Number=Plur	10	det	_	_
-10	marchés	_	NOUN	NN	Gender=Masc|Number=Plur	7	obj	_	_
+10	marchés	_	NOUN	NN	Gender=Masc|Number=Plur	7	obj:agent	_	_
 11	boursiers	_	ADJ	JJ	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	6	punct	_	_
+12	.	_	PUNCT	.	_	7	punct	_	_
 
 # sent_id = n02078011
 # text = On s’attend à un choc sur un marché immobilier qui est en plein essor, et aussi à un accroissement des dépenses fédérales.
@@ -25713,11 +25713,11 @@
 22	dans	_	ADP	IN	_	24	case	_	_
 23	le	_	DET	DT	Gender=Masc|Number=Sing	24	det	_	_
 24	but	_	NOUN	NN	Gender=Masc|Number=Sing	17	obl	_	_
-25	de	_	ADP	IN	_	26	case	_	_
-26	faire	_	VERB	VB	_	24	xcomp	_	_
-27	rire	_	VERB	VB	_	26	xcomp	_	_
+25	de	_	ADP	IN	_	27	case	_	_
+26	faire	_	AUX	VB	_	27	aux:caus	_	_
+27	rire	_	VERB	VB	_	24	acl	_	_
 28	le	_	DET	DT	Gender=Masc|Number=Sing	29	det	_	_
-29	public	_	NOUN	NN	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+29	public	_	NOUN	NN	Gender=Masc|Number=Sing	27	obj:agent	_	SpaceAfter=No
 30	.	_	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n05006
@@ -27822,9 +27822,9 @@
 19	prend	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 20	diverses	_	ADJ	JJ	Gender=Fem|Number=Plur	21	amod	_	_
 21	mesures	_	NOUN	NN	Gender=Fem|Number=Plur	19	obj	_	_
-22	pour	_	ADP	IN	_	23	mark	_	_
-23	faire	_	VERB	VB	_	19	advcl	_	_
-24	libérer	_	VERB	VB	_	23	xcomp	_	_
+22	pour	_	ADP	IN	_	24	mark	_	_
+23	faire	_	AUX	VB	_	24	aux:caus	_	_
+24	libérer	_	VERB	VB	_	19	advcl	_	_
 25	des	_	DET	DT	Gender=Masc|Number=Plur	26	det	_	_
 26	suspects	_	NOUN	NN	Gender=Masc|Number=Plur	24	obj	_	SpaceAfter=No
 27	.	_	PUNCT	.	_	19	punct	_	_
