@@ -3622,7 +3622,7 @@
 1	C'	_	PRON	PDEM	_	3	nsubj	_	SpaceAfter=No
 2	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	ce	_	PRON	PDEM	_	0	root	_	_
-4	qui	_	PRON	WP	_	7	nsubj	_	_
+4	qui	_	PRON	WP	_	7	nsubj:caus	_	_
 5	nous	_	PRON	PRP	Number=Plur|Person=1	7	obj:agent	_	_
 6	fait	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:caus	_	_
 7	revenir	_	VERB	VB	_	3	acl:relcl	_	_
@@ -5247,7 +5247,7 @@
 # text = Les gens s'y font tuer.
 # text_en = People got killed there.
 1	Les	_	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
-2	gens	_	NOUN	NN	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	gens	_	NOUN	NN	Gender=Masc|Number=Plur	6	nsubj:caus	_	_
 3	s'	_	PRON	PRP	Gender=Masc|Number=Plur|Person=3	6	obj	_	SpaceAfter=No
 4	y	_	PRON	PRP	Person=3	6	obl	_	_
 5	font	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	6	aux:caus	_	_
@@ -10850,7 +10850,7 @@
 17	la	_	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
 18	ville	_	NOUN	NN	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 19	,	_	PUNCT	,	_	12	punct	_	_
-20	qui	_	PRON	WP	Gender=Fem|Number=Sing	22	nsubj	_	_
+20	qui	_	PRON	WP	Gender=Fem|Number=Sing	22	nsubj:caus	_	_
 21	faisait	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	22	aux:caus	_	_
 22	payer	_	VERB	VB	_	8	acl:relcl	_	_
 23	un	_	DET	DT	Gender=Masc|Number=Sing	24	det	_	_
@@ -23727,7 +23727,7 @@
 # text_en = The good numbers in Asia promptly pushed the stock markets up.
 1	Les	_	DET	DT	Gender=Masc|Number=Plur	3	det	_	_
 2	bons	_	ADJ	JJ	Gender=Masc|Number=Plur	3	amod	_	_
-3	résultats	_	NOUN	NN	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	résultats	_	NOUN	NN	Gender=Masc|Number=Plur	7	nsubj:caus	_	_
 4	en	_	ADP	IN	_	5	case	_	_
 5	Asie	_	PROPN	NNP	Gender=Fem|Number=Sing	3	nmod	_	_
 6	faisaient	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	7	aux:caus	_	_
