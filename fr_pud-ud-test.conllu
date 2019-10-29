@@ -219,7 +219,7 @@
 10	,	_	PUNCT	,	_	11	punct	_	_
 11	réellement	_	ADV	RB	_	15	advmod	_	SpaceAfter=No
 12	,	_	PUNCT	,	_	11	punct	_	_
-13	c'	_	PRON	PDEM	_	15	expl	_	SpaceAfter=No
+13	c'	_	PRON	PDEM	_	15	expl:subj	_	SpaceAfter=No
 14	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	cop	_	_
 15	incroyable	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 16	.	_	PUNCT	.	_	15	punct	_	_
@@ -465,7 +465,7 @@
 4	faisabilité	_	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	_
 5	estime	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 6	qu'	_	SCONJ	IN	_	8	mark	_	SpaceAfter=No
-7	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
+7	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	expl:subj	_	_
 8	faudrait	_	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	5	ccomp	_	_
 9	environ	_	ADV	RB	_	10	advmod	_	_
 10	quatre	_	NUM	CD	_	11	nummod	_	_
@@ -1075,7 +1075,7 @@
 # text = Mais il semble que BA and IAG ont trouvé la solution et peuvent proposer quelque chose de vaguement fiable.
 # text_en = "But it may be that BA and IAG have cracked it and can offer something vaguely reliable."
 1	Mais	_	CCONJ	CC	_	3	discourse	_	_
-2	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
+2	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
 3	semble	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	que	_	SCONJ	IN	_	9	mark	_	_
 5	BA	_	PROPN	NNP	Number=Sing	9	nsubj	_	_
@@ -1577,7 +1577,7 @@
 # sent_id = n01022027
 # text = C'est fantastique qu'ils aient obtenu l'Accord de Paris, mais, en ce moment, leurs contributions sont loin de l'objectif de 1,5 degrés.
 # text_en = It's fantastic that they got the Paris Agreement but their contributions at the moment are nowhere near the 1.5-degree target.
-1	C'	_	PRON	PDEM	_	3	expl	_	SpaceAfter=No
+1	C'	_	PRON	PDEM	_	3	expl:subj	_	SpaceAfter=No
 2	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	fantastique	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 4	qu'	_	SCONJ	IN	_	7	mark	_	SpaceAfter=No
@@ -1637,7 +1637,7 @@
 # sent_id = n01023034
 # text = Cela va imposer de nouvelles limitations sur la nature des changements environnementaux qui ont frappé la Terre et qui ont causé l'extinction de nombreuses espèces, et pas uniquement des dinosaures.
 # text_en = This will put new limits on the nature of the environmental changes that overtook the Earth and sent so many species - not just the dinosaurs - into oblivion.
-1	Cela	_	PRON	PDEM	_	2	expl	_	_
+1	Cela	_	PRON	PDEM	_	2	expl:subj	_	_
 2	va	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	imposer	_	VERB	VB	_	2	xcomp	_	_
 4	de	_	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
@@ -1822,7 +1822,7 @@
 1	Elle	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
 2	explique	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	qu'	_	SCONJ	IN	_	5	mark	_	SpaceAfter=No
-4	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
+4	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl:subj	_	_
 5	existe	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	ccomp	_	_
 6	toujours	_	ADV	RB	_	5	advmod	_	_
 7	un	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
@@ -2741,7 +2741,7 @@
 8	Ontario	_	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
 9	déclare	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 10	qu'	_	SCONJ	IN	_	13	mark	_	SpaceAfter=No
-11	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	13	expl	_	_
+11	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	13	expl:subj	_	_
 12	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	cop	_	_
 13	nécessaire	_	ADJ	JJ	Gender=Masc|Number=Sing	9	ccomp	_	_
 14	de	_	ADP	IN	_	15	mark	_	_
@@ -3460,10 +3460,10 @@
 4	ligne	_	NOUN	NN	Gender=Fem|Number=Sing	9	obl	_	_
 5	directrice	_	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
 6	,	_	PUNCT	,	_	4	punct	_	_
-7	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
+7	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	9	expl:subj	_	_
 8	ne	_	ADV	RB	Polarity=Neg	9	advmod	_	_
 9	doit	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-10	y	_	PRON	PRP	Person=3	11	expl	_	_
+10	y	_	PRON	PRP	Person=3	11	expl:comp	_	_
 11	avoir	_	VERB	VB	_	9	xcomp	_	_
 12	aucun	_	ADJ	JJ	Gender=Masc|Number=Sing	13	amod	_	_
 13	accès	_	NOUN	NN	Gender=Masc|Number=Sing	11	obj	_	_
@@ -3818,7 +3818,7 @@
 # sent_id = n01050014
 # text = Il est possible de présenter un taux d'hémoglobine normal tout en ayant des carences en fer, indique la Société canadienne du sang (CBS).
 # text_en = It's possible to have normal hemoglobin levels, but to have low iron stores overall, says Canadian Blood Services (CBS).
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
 2	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	possible	_	ADJ	JJ	Gender=Masc|Number=Sing	19	parataxis	_	_
 4	de	_	ADP	IN	_	5	mark	_	_
@@ -4257,8 +4257,8 @@
 # sent_id = n01057036
 # text = Il y a encore des questions qui demeurent sans réponse.
 # text_en = Still, there are questions left unanswered.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
-2	y	_	PRON	PRP	Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
+2	y	_	PRON	PRP	Person=3	3	expl:comp	_	_
 3	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	encore	_	ADV	RB	_	3	advmod	_	_
 5	des	_	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
@@ -4489,8 +4489,8 @@
 # sent_id = n01059054
 # text = Il y a plus de différences que de similitudes entre Sulla et Trump, Rome et les Etats-Unis, mais cela ne remet pas en cause les ressemblances.
 # text_en = There are more differences between Sulla and Trump, Rome and the U.S., than there are similarities, but that doesn’t discredit the resemblances.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
-2	y	_	PRON	PRP	Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
+2	y	_	PRON	PRP	Person=3	3	expl:comp	_	_
 3	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	plus	_	ADV	RBR	_	6	advmod	_	_
 5	de	_	ADP	IN	_	4	fixed	_	_
@@ -4529,7 +4529,7 @@
 4	admit	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 5	,	_	PUNCT	,	_	8	punct	_	_
 6	«	_	PUNCT	``	_	8	punct	_	_
-7	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
+7	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	expl:subj	_	_
 8	faut	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	parataxis	_	_
 9	regarder	_	VERB	VB	_	8	xcomp	_	_
 10	quand	_	SCONJ	WRB	_	13	mark	_	_
@@ -4802,7 +4802,7 @@
 # sent_id = n01064009
 # text = Il serait beaucoup plus prudent de confier le pouvoir à des gardiens soigneusement formés, pensait Platon.
 # text_en = It would be much safer, Plato thought, to entrust power to carefully educated guardians.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl:subj	_	_
 2	serait	_	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 3	beaucoup	_	ADV	RB	_	4	advmod	_	_
 4	plus	_	ADV	RBR	_	5	advmod	_	_
@@ -4895,9 +4895,9 @@
 # text = Mais il n'y avait rien d'autre de visiblement artistique chez elle ou dans sa relation avec les autres.
 # text_en = But there was nothing else obviously artistic about her or in her behavior with other people.
 1	Mais	_	CCONJ	CC	_	5	discourse	_	_
-2	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
+2	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl:subj	_	_
 3	n'	_	ADV	RB	Polarity=Neg	5	advmod	_	SpaceAfter=No
-4	y	_	PRON	PRP	Person=3	5	expl	_	_
+4	y	_	PRON	PRP	Person=3	5	expl:comp	_	_
 5	avait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
 6	rien	_	NOUN	NN	_	5	obj	_	_
 7	d'	_	ADP	IN	_	8	case	_	SpaceAfter=No
@@ -5396,7 +5396,7 @@
 12	monde	_	NOUN	NN	Gender=Masc|Number=Sing	9	nmod	_	_
 13	n'	_	ADV	RB	Polarity=Neg	17	advmod	_	SpaceAfter=No
 14	était	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	17	cop	_	SpaceAfter=No
-15	-il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	17	expl	_	_
+15	-il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	17	expl:subj	_	_
 16	plus	_	ADV	RB	Polarity=Neg	17	advmod	_	_
 17	garanti	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 18	?	_	PUNCT	.	_	17	punct	_	_
@@ -5581,12 +5581,12 @@
 15	inquiétant	_	ADJ	JJ	Gender=Masc|Number=Sing	11	xcomp	_	_
 16	et	_	CCONJ	CC	_	17	cc	_	_
 17	incertain	_	ADJ	JJ	Gender=Masc|Number=Sing	15	conj	_	_
-18	qu'	_	SCONJ	IN	_	22	mark	_	SpaceAfter=No
-19	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
-20	ne	_	ADV	RB	Polarity=Neg	22	advmod	_	_
-21	l'	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	22	expl	_	SpaceAfter=No
-22	est	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	advcl	_	_
-23	déjà	_	ADV	RB	_	22	advmod	_	SpaceAfter=No
+18	qu'	_	SCONJ	IN	_	21	mark	_	SpaceAfter=No
+19	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+20	ne	_	ADV	RB	Polarity=Neg	21	advmod	_	_
+21	l'	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	15	advcl	_	SpaceAfter=No
+22	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	cop	_	_
+23	déjà	_	ADV	RB	_	21	advmod	_	SpaceAfter=No
 24	.	_	PUNCT	.	_	6	punct	_	_
 
 # sent_id = n01076017
@@ -5649,8 +5649,8 @@
 # sent_id = n01077030
 # text = Il y a aussi les soi-disant histoires vraies avec des sous-titres déroulants sous une série de photos édifiantes.
 # text_en = Then there are the so-called true stories that get posted in a series of meaningful pictures with text running underneath.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
-2	y	_	PRON	PRP	Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
+2	y	_	PRON	PRP	Person=3	3	expl:comp	_	_
 3	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	aussi	_	ADV	RB	_	3	advmod	_	_
 5	les	_	DET	DT	Gender=Fem|Number=Plur	7	det	_	_
@@ -5695,8 +5695,8 @@
 # sent_id = n01079015
 # text = Il y a une fille dans le coin qui porte un jean et un foulard, elle a l'air tellement discrète que je pense que c'est une autre assistante.
 # text_en = In the corner is a girl in a headscarf and jeans who looks so unassuming I think it’s another assistant.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
-2	y	_	PRON	PRP	Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
+2	y	_	PRON	PRP	Person=3	3	expl:comp	_	_
 3	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	une	_	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
 5	fille	_	NOUN	NN	Gender=Fem|Number=Sing	3	obj	_	_
@@ -6180,8 +6180,8 @@
 6	et	_	CCONJ	CC	_	7	cc	_	_
 7	absurde	_	ADJ	JJ	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
 8	,	_	PUNCT	,	_	11	punct	_	_
-9	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
-10	y	_	PRON	PRP	Person=3	11	expl	_	_
+9	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	11	expl:subj	_	_
+10	y	_	PRON	PRP	Person=3	11	expl:comp	_	_
 11	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	_
 12	quand	_	ADV	WRB	_	13	advmod	_	_
 13	même	_	ADV	RB	_	11	advmod	_	_
@@ -6245,7 +6245,7 @@
 1	Je	_	PRON	PRP	Number=Sing|Person=1	2	nsubj	_	_
 2	crois	_	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 3	qu’	_	ADP	IN	_	6	mark	_	OrigForm=qu'|SpaceAfter=No
-4	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	6	expl	_	_
+4	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	6	expl:subj	_	_
 5	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 6	juste	_	ADJ	JJ	Gender=Masc|Number=Sing	2	ccomp	_	_
 7	de	_	ADP	IN	_	8	mark	_	_
@@ -6900,9 +6900,9 @@
 2	notre	_	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
 3	temps	_	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	3	punct	_	_
-5	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
+5	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	9	expl:subj	_	_
 6	n’	_	ADV	RB	Polarity=Neg	9	advmod	_	OrigForm=n'|SpaceAfter=No
-7	y	_	PRON	PRP	Person=3	9	expl	_	_
+7	y	_	PRON	PRP	Person=3	9	obl	_	_
 8	en	_	PRON	PRP	Person=3	9	iobj	_	_
 9	avait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
 10	aucun	_	NOUN	NN	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
@@ -7544,7 +7544,7 @@
 11	décalage	_	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 12	,	_	PUNCT	,	_	15	punct	_	_
 13	et	_	CCONJ	CC	_	15	cc	_	_
-14	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	15	expl	_	_
+14	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	15	expl:subj	_	_
 15	semble	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	conj	_	_
 16	qu’	_	ADP	IN	_	18	mark	_	OrigForm=qu'|SpaceAfter=No
 17	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
@@ -7976,7 +7976,7 @@
 6	ou	_	CCONJ	CC	_	7	cc	_	_
 7	prépayé	_	ADJ	JJ	Gender=Masc|Number=Sing	5	conj	_	_
 8	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	cop	_	SpaceAfter=No
-9	-il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
+9	-il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	10	expl:subj	_	_
 10	cher	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 11	?	_	PUNCT	.	_	10	punct	_	_
 
@@ -8143,7 +8143,7 @@
 # sent_id = n01111030
 # text = Cela signifie qu’ils n’ont pas bénéficié de la hausse du prix des actifs à l’étranger, provoquée par la baisse de la livre sterling.
 # text_en = This means that they have not benefited from the uplift that the fall in sterling has given to overseas assets.
-1	Cela	_	PRON	PDEM	_	2	expl	_	_
+1	Cela	_	PRON	PDEM	_	2	expl:subj	_	_
 2	signifie	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	qu’	_	ADP	IN	_	8	mark	_	OrigForm=qu'|SpaceAfter=No
 4	ils	_	PRON	PRP	Gender=Masc|Number=Plur|Person=3	8	nsubj	_	_
@@ -8223,8 +8223,8 @@
 7	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux:tense	_	_
 8	constaté	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 9	qu’	_	ADP	IN	_	12	mark	_	OrigForm=qu'|SpaceAfter=No
-10	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
-11	y	_	PRON	PRP	Person=3	12	expl	_	_
+10	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	12	expl:subj	_	_
+11	y	_	PRON	PRP	Person=3	12	expl:comp	_	_
 12	aurait	_	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	8	ccomp	_	SpaceAfter=No
 13	,	_	PUNCT	,	_	15	punct	_	_
 14	d’	_	ADP	IN	_	15	case	_	OrigForm=d'|SpaceAfter=No
@@ -8675,8 +8675,8 @@
 1	Et	_	CCONJ	CC	_	6	cc	_	_
 2	bien	_	ADV	RB	_	6	advmod	_	_
 3	sûr	_	ADJ	JJ	Gender=Masc|Number=Sing	2	fixed	_	_
-4	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	6	expl	_	_
-5	y	_	PRON	PRP	Person=3	6	expl	_	_
+4	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	6	expl:subj	_	_
+5	y	_	PRON	PRP	Person=3	6	expl:comp	_	_
 6	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 7	Bob	_	PROPN	NNP	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 8	,	_	PUNCT	,	_	10	punct	_	_
@@ -8784,7 +8784,7 @@
 6	nous	_	PRON	PRP	Number=Plur|Person=1	7	nsubj	_	_
 7	pensions	_	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Imp	0	root	_	_
 8	que	_	SCONJ	IN	_	10	mark	_	_
-9	ce	_	PRON	PDEM	_	10	expl	_	_
+9	ce	_	PRON	PDEM	_	10	expl:subj	_	_
 10	serait	_	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	7	ccomp	_	_
 11	la	_	DET	DT	Gender=Fem|Number=Sing	13	det	_	_
 12	dernière	_	ADJ	JJ	Gender=Fem|Number=Sing	13	amod	_	_
@@ -8894,7 +8894,7 @@
 # sent_id = n01123024
 # text = Il se peut que cela n’ait pas d’importance.
 # text_en = Perhaps it won’t matter as I won’t be troubled long.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
 2	se	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	obj	_	_
 3	peut	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	que	_	SCONJ	IN	_	7	mark	_	_
@@ -9581,7 +9581,7 @@
 # text = Mais ce n’est que lorsque l’Agence américaine de protection de l’environnement a alerté le monde que cette question a été abordée.
 # text_en = But it only came forward after the U.S. Environmental Protection Agency alerted the world to the issue.
 1	Mais	_	CCONJ	CC	_	4	discourse	_	_
-2	ce	_	PRON	PDEM	_	4	expl	_	_
+2	ce	_	PRON	PDEM	_	4	expl:subj	_	_
 3	n’	_	ADV	RB	Polarity=Neg	4	advmod	_	OrigForm=n'|SpaceAfter=No
 4	est	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	que	_	ADV	RB	_	4	advmod	_	_
@@ -9752,7 +9752,7 @@
 39	,	_	PUNCT	,	_	41	punct	_	_
 40	ne	_	ADV	RB	Polarity=Neg	41	advmod	_	_
 41	fut	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	38	advcl	_	SpaceAfter=No
-42	-ce	_	PRON	PDEM	_	41	expl	_	_
+42	-ce	_	PRON	PDEM	_	41	expl:subj	_	_
 43	que	_	ADV	RB	_	41	advmod	_	_
 44	brièvement	_	ADV	RB	_	41	advmod	_	SpaceAfter=No
 45	.	_	PUNCT	.	_	13	punct	_	_
@@ -10316,7 +10316,7 @@
 11	le	_	DET	DT	Gender=Masc|Number=Sing	12	det	_	_
 12	fait	_	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
 13	qu’	_	ADP	IN	_	16	mark	_	OrigForm=qu'|SpaceAfter=No
-14	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	16	expl	_	_
+14	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	16	expl:subj	_	_
 15	était	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	16	cop	_	_
 16	clair	_	ADJ	JJ	Gender=Masc|Number=Sing	12	ccomp	_	_
 17	qu’	_	ADP	IN	_	20	mark	_	OrigForm=qu'|SpaceAfter=No
@@ -10378,17 +10378,17 @@
 # sent_id = n01145008
 # text = Il n’y a pas de défilé et il n’y en a eu aucun.
 # text_en = There is no parade and there never has been.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	4	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	4	expl:subj	_	_
 2	n’	_	ADV	RB	Polarity=Neg	4	advmod	_	OrigForm=n'|SpaceAfter=No
-3	y	_	PRON	PRP	Person=3	4	expl	_	_
+3	y	_	PRON	PRP	Person=3	4	expl:comp	_	_
 4	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	pas	_	ADV	RB	Polarity=Neg	4	advmod	_	_
 6	de	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 7	défilé	_	NOUN	NN	Gender=Masc|Number=Sing	4	obj	_	_
 8	et	_	CCONJ	CC	_	14	cc	_	_
-9	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	14	expl	_	_
+9	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	14	expl:subj	_	_
 10	n’	_	ADV	RB	Polarity=Neg	14	advmod	_	OrigForm=n'|SpaceAfter=No
-11	y	_	PRON	PRP	Person=3	14	expl	_	_
+11	y	_	PRON	PRP	Person=3	14	expl:comp	_	_
 12	en	_	PRON	PRP	Person=3	14	iobj	_	_
 13	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	aux:tense	_	_
 14	eu	_	VERB	VBN	Gender=Masc|Number=Sing	4	conj	_	_
@@ -10447,7 +10447,7 @@
 22	avait	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	23	aux:tense	_	_
 23	décidé	_	VERB	VBN	Gender=Masc|Number=Sing	16	ccomp	_	_
 24	qu’	_	ADP	IN	_	26	mark	_	OrigForm=qu'|SpaceAfter=No
-25	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	26	expl	_	_
+25	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	26	expl:subj	_	_
 26	était	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	23	ccomp	_	_
 27	temps	_	NOUN	NN	Gender=Masc|Number=Sing	26	nsubj	_	_
 28	d’	_	ADP	IN	_	29	case	_	OrigForm=d'|SpaceAfter=No
@@ -10460,8 +10460,8 @@
 # sent_id = n01145028
 # text = Il y a 1200 volontaires qui travaillent uniquement pour le défilé, déclare Gonzáles Anaya.
 # text_en = "There are 1200 volunteers working for the parade alone," González Anaya says.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
-2	y	_	PRON	PRP	Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
+2	y	_	PRON	PRP	Person=3	3	expl:comp	_	_
 3	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	parataxis	_	_
 4	1200	_	NUM	CD	_	5	nummod	_	_
 5	volontaires	_	NOUN	NN	Gender=Masc|Number=Plur	3	obj	_	_
@@ -10481,7 +10481,7 @@
 # text = Alors il est formidable de pouvoir le sauver, le reconfigurer et donner naissance à une nouvelle tradition.
 # text_en = So it's wonderful to be able to rescue that and bring it to a new format and a new tradition for Mexicans.
 1	Alors	_	ADV	RB	_	4	advmod	_	_
-2	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	4	expl	_	_
+2	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	4	expl:subj	_	_
 3	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 4	formidable	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 5	de	_	ADP	IN	_	6	mark	_	_
@@ -10577,14 +10577,14 @@
 9	sa	_	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
 10	splendeur	_	NOUN	NN	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 11	,	_	PUNCT	,	_	3	punct	_	_
-12	c’	_	PRON	PDEM	_	13	expl	_	OrigForm=c'|SpaceAfter=No
+12	c’	_	PRON	PDEM	_	13	expl:subj	_	OrigForm=c'|SpaceAfter=No
 13	est	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 14	en	_	ADP	IN	_	15	case	_	_
 15	novembre	_	NOUN	NNP	Gender=Masc|Number=Sing	13	obl	_	_
 16	qu’	_	ADP	IN	_	18	mark	_	OrigForm=qu'|SpaceAfter=No
-17	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	18	expl	_	_
+17	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	18	expl:subj	_	_
 18	faut	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	ccomp	_	_
-19	y	_	PRON	PRP	Person=3	20	expl	_	_
+19	y	_	PRON	PRP	Person=3	20	obl	_	_
 20	aller	_	VERB	VB	_	18	xcomp	_	SpaceAfter=No
 21	.	_	PUNCT	.	_	13	punct	_	_
 
@@ -11348,8 +11348,8 @@
 # text_en = However, there are important differences in law and procedure between Northern Ireland and England and Wales.
 1	Toutefois	_	ADV	RB	_	5	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	,	_	1	punct	_	_
-3	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
-4	y	_	PRON	PRP	Person=3	5	expl	_	_
+3	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl:subj	_	_
+4	y	_	PRON	PRP	Person=3	5	expl:comp	_	_
 5	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 6	d'	_	DET	DT	Gender=Fem|Number=Plur	8	det	_	SpaceAfter=No
 7	importantes	_	ADJ	JJ	Gender=Fem|Number=Plur	8	amod	_	_
@@ -11501,7 +11501,7 @@
 22	Slaves	_	NOUN	NN	Gender=Masc|Number=Plur	26	nsubj	_	_
 23	ne	_	ADV	RB	Polarity=Neg	26	advmod	_	_
 24	s'	_	PRON	PRP	Gender=Masc|Number=Plur|Person=3	26	obj	_	SpaceAfter=No
-25	y	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	26	expl	_	_
+25	y	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	26	obl	_	_
 26	installent	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	10	advcl	_	_
 27	définitivement	_	ADV	RB	_	26	advmod	_	_
 28-29	au	_	_	_	_	_	_	_	_
@@ -11690,7 +11690,7 @@
 33	islandaise	_	ADJ	JJ	Gender=Fem|Number=Sing	32	amod	_	_
 34	et	_	CCONJ	CC	_	38	cc	_	_
 35	n'	_	ADV	RB	Polarity=Neg	38	advmod	_	SpaceAfter=No
-36	y	_	PRON	PRP	Person=3	38	expl	_	_
+36	y	_	PRON	PRP	Person=3	38	obl	_	_
 37	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	38	aux:tense	_	_
 38	laissé	_	VERB	VBN	Gender=Masc|Number=Sing	25	conj	_	_
 39	que	_	ADV	RB	_	38	advmod	_	_
@@ -11702,8 +11702,8 @@
 # sent_id = w01013096
 # text = Il y a aussi des langues dérivées du finnois qui ont évolué indépendamment, comme le meänkieli en Suède et le kvène en Norvège.
 # text_en = There are also languages derived from Finnish, having evolved separately, known as Meänkieli in Sweden and Kven in Norway.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
-2	y	_	PRON	PRP	Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
+2	y	_	PRON	PRP	Person=3	3	expl:comp	_	_
 3	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	aussi	_	ADV	RB	_	3	advmod	_	_
 5	des	_	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
@@ -12734,7 +12734,7 @@
 # text_en = The climate is so dry that these plains are sometimes thought of as part of the Sahara.
 1	Le	_	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	climat	_	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	_
-3	y	_	PRON	PRP	Person=3	6	expl	_	_
+3	y	_	PRON	PRP	Person=3	6	obl	_	_
 4	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 5	si	_	ADV	RB	_	6	advmod	_	_
 6	sec	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
@@ -13687,7 +13687,7 @@
 # sent_id = w01038022
 # text = Il s'agit de la seule région d'Alaska où la température moyenne de jour dépasse 0°C en hiver.
 # text_en = This is also the only region in Alaska in which the average daytime high temperature is above freezing during the winter months.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
 2	s'	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
 3	agit	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	de	_	ADP	IN	_	7	case	_	_
@@ -13739,7 +13739,7 @@
 # sent_id = w01039032
 # text = C'est à cet endroit qu'ils ont volé un petit canoë abandonné par les aborigènes australiens de la région.
 # text_en = It was here they stole a small canoe left by the Australian Aborigines of the region.
-1	C'	_	PRON	PDEM	_	2	expl	_	SpaceAfter=No
+1	C'	_	PRON	PDEM	_	2	expl:subj	_	SpaceAfter=No
 2	est	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	à	_	ADP	IN	_	5	case	_	_
 4	cet	_	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
@@ -15065,7 +15065,7 @@
 14	Pilates	_	PROPN	NNP	Gender=Masc|Number=Sing	15	nsubj	_	_
 15	décida	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 16	d'	_	ADP	IN	_	18	mark	_	SpaceAfter=No
-17	y	_	PRON	PRP	Person=3	18	expl	_	_
+17	y	_	PRON	PRP	Person=3	18	obl	_	_
 18	envoyer	_	VERB	VB	_	15	xcomp	_	_
 19	Jésus	_	PROPN	NNP	Gender=Masc|Number=Sing	18	obj	_	_
 20	pour	_	ADP	IN	_	22	case	_	_
@@ -15138,7 +15138,7 @@
 # sent_id = w01053067
 # text = Il est possible de connaître la phase exacte de la lune à une date précise, deux mille ans en arrière, mais il est impossible de savoir si elle était voilée par des nuages ou du brouillard.
 # text_en = It is possible to establish the phase of the moon on a particular day two thousand years ago but not whether it was obscured by clouds or haze.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
 2	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	possible	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 4	de	_	ADP	IN	_	5	mark	_	_
@@ -15161,7 +15161,7 @@
 21	arrière	_	NOUN	NN	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 22	,	_	PUNCT	,	_	19	punct	_	_
 23	mais	_	CCONJ	CC	_	26	cc	_	_
-24	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	26	expl	_	_
+24	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	26	expl:subj	_	_
 25	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	26	cop	_	_
 26	impossible	_	ADJ	JJ	Gender=Masc|Number=Sing	3	conj	_	_
 27	de	_	ADP	IN	_	28	mark	_	_
@@ -15294,7 +15294,7 @@
 # sent_id = w01057041
 # text = Il était prédit qu'il mourrait de vieillesse après une vie paisible, ou bien qu'il tomberait au combat jeune, mais que la poésie le rendrait immortel.
 # text_en = It was foretold that he would either die of old age after an uneventful life, or die young in a battlefield and gain immortality through poetry.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
 2	était	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	3	aux:tense	_	_
 3	prédit	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 4	qu'	_	SCONJ	IN	_	6	mark	_	SpaceAfter=No
@@ -15595,7 +15595,7 @@
 # sent_id = w01062063
 # text = Il semble avoir voulu laisser le Sénat et l'état agir sans son aide, et ses ordres directs étaient assez vagues ; la nature de ses intentions, plutôt que l'implémentation de la loi, a suscité la controverse.
 # text_en = He seems to have wished for the Senate and the state to simply act without him and his direct orders were rather vague, inspiring debate more on what he actually meant than on passing his legislation.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	2	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	semble	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	avoir	_	AUX	VB	_	4	aux:tense	_	_
 4	voulu	_	VERB	VBN	Gender=Masc|Number=Sing	2	xcomp	_	_
@@ -15670,7 +15670,7 @@
 # sent_id = w01064034
 # text = Il s'agissait d'une traversée en bateau depuis l'Europe continentale.
 # text_en = This was by boat from continental Europe.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
 2	s'	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
 3	agissait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
 4	d'	_	ADP	IN	_	6	case	_	SpaceAfter=No
@@ -16305,7 +16305,7 @@
 22	les	le	DET	_	Gender=Masc|Number=Plur	23	det	_	_
 23	environs	_	NOUN	NN	Gender=Masc|Number=Plur	20	nmod	_	_
 24	qui	_	PRON	WP	Gender=Fem|Number=Sing	27	nsubj	_	_
-25	y	_	PRON	PRP	Person=3	27	expl	_	_
+25	y	_	PRON	PRP	Person=3	27	obl	_	_
 26	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	aux:tense	_	_
 27	vécu	_	VERB	VBN	Gender=Masc|Number=Sing	20	acl:relcl	_	_
 28	jusqu'	_	ADP	IN	_	30	case	_	SpaceAfter=No
@@ -17647,8 +17647,8 @@
 # text_en = There has, however, been extensive statistical analysis of demographic and population data which includes women, especially in their childbearing roles.
 1	Cependant	_	ADV	RB	_	6	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	,	_	1	punct	_	_
-3	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	6	expl	_	_
-4	y	_	PRON	PRP	Person=3	6	expl	_	_
+3	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	6	expl:subj	_	_
+4	y	_	PRON	PRP	Person=3	6	expl:comp	_	_
 5	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux:tense	_	_
 6	eu	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 7	une	_	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
@@ -17712,9 +17712,9 @@
 2	cette	_	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 3	époque	_	NOUN	NN	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	3	punct	_	_
-5	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
+5	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	expl:subj	_	_
 6	n’	_	ADV	RB	Polarity=Neg	8	advmod	_	OrigForm=n'|SpaceAfter=No
-7	y	_	PRON	PRP	Person=3	8	expl	_	_
+7	y	_	PRON	PRP	Person=3	8	expl:comp	_	_
 8	avait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
 9	qu’	_	ADV	RB	_	8	advmod	_	OrigForm=qu'|SpaceAfter=No
 10	une	_	DET	DT	Gender=Fem|Number=Sing	11	det	_	_
@@ -17807,12 +17807,12 @@
 27	domestiqués	_	VERB	VBN	Gender=Masc|Number=Plur	0	root	_	_
 28	en	_	ADP	IN	_	29	case	_	_
 29	Afrique	_	PROPN	NNP	Gender=Fem|Number=Sing	27	obl	_	_
-30	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	32	expl	_	_
-31	y	_	PRON	PRP	Person=3	32	expl	_	_
-32	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	advcl	_	_
-33	peut-être	_	ADV	RB	_	32	advmod	_	_
+30	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	35	case	_	_
+31	y	_	PRON	PRP	Person=3	30	fixed	_	_
+32	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	30	fixed	_	_
+33	peut-être	_	ADV	RB	_	35	advmod	_	_
 34	5 000	_	NUM	CD	_	35	nummod	_	OrigForm=5000
-35	ans	_	NOUN	NN	Gender=Masc|Number=Plur	32	obj	_	SpaceAfter=No
+35	ans	_	NOUN	NN	Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
 36	.	_	PUNCT	.	_	27	punct	_	_
 
 # sent_id = w01091045
@@ -18009,7 +18009,7 @@
 14	nos	_	DET	DTP$	Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	15	det	_	_
 15	jours	_	NOUN	NN	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
 16	,	_	PUNCT	,	_	15	punct	_	_
-17	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	21	expl	_	_
+17	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	21	expl:subj	_	_
 18	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	cop	_	_
 19	encore	_	ADV	RB	_	21	advmod	_	_
 20	peu	_	ADV	RB	_	21	advmod	_	_
@@ -18064,7 +18064,7 @@
 3	empereur	_	NOUN	NN	Gender=Masc|Number=Sing	8	obl	_	_
 4	Meiji	_	PROPN	NNP	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
 5	,	_	PUNCT	,	_	3	punct	_	_
-6	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
+6	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	expl:subj	_	_
 7	était	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	8	cop	_	_
 8	coutume	_	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
 9	d'	_	ADP	IN	_	10	case	_	SpaceAfter=No
@@ -18721,9 +18721,9 @@
 5	les	_	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
 6	instructions	_	NOUN	NN	Gender=Fem|Number=Plur	4	obj	_	_
 7	qu'	_	SCONJ	IN	_	11	mark	_	SpaceAfter=No
-8	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
+8	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	11	expl:subj	_	_
 9	n'	_	ADV	RB	Polarity=Neg	11	advmod	_	SpaceAfter=No
-10	y	_	PRON	PRP	Person=3	11	expl	_	_
+10	y	_	PRON	PRP	Person=3	11	expl:comp	_	_
 11	aurait	_	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	4	ccomp	_	_
 12	aucune	_	ADJ	JJ	Gender=Fem|Number=Sing	13	amod	_	_
 13	manifestation	_	NOUN	NN	Gender=Fem|Number=Sing	11	obj	_	_
@@ -19951,9 +19951,9 @@
 # text_en = However, there was no further public recognition of her wartime resistance and humanitarian work until after the end of communist rule in Poland.
 1	Cependant	_	ADV	RB	_	7	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	,	_	1	punct	_	_
-3	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
+3	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	7	expl:subj	_	_
 4	n'	_	ADV	RB	Polarity=Neg	7	advmod	_	SpaceAfter=No
-5	y	_	PRON	PRP	Person=3	7	expl	_	_
+5	y	_	PRON	PRP	Person=3	7	expl:comp	_	_
 6	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:tense	_	_
 7	eu	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 8	de	_	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
@@ -20665,7 +20665,7 @@
 # sent_id = w01130103
 # text = Il s'agit des deux derniers enregistrements réalisés par Gerry Rafferty avec Hugh Murphy ; ce dernier est décédé en 1998.
 # text_en = These were the last two records Rafferty produced with Hugh Murphy, who died in 1998.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
 2	s'	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
 3	agit	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4-5	des	_	_	_	_	_	_	_	_
@@ -20839,7 +20839,7 @@
 21	de	_	ADP	IN	_	18	fixed	_	_
 22	cela	_	PRON	PDEM	_	6	obl	_	SpaceAfter=No
 23	,	_	PUNCT	,	_	26	punct	_	_
-24	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	26	expl	_	_
+24	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	26	expl:subj	_	_
 25	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	26	aux:pass	_	_
 26	théorisé	_	VERB	VBN	Gender=Masc|Number=Sing	6	conj	_	_
 27	que	_	SCONJ	IN	_	31	mark	_	_
@@ -21755,9 +21755,9 @@
 # sent_id = w01143015
 # text = Il n'y a pas si longtemps, il était divorcé de l'actrice Gloria Holden, mais après la rupture il a voulu reprendre le flambeau.
 # text_en = Not long ago he was divorced from the actress, Gloria Holden, but carried the torch after the marital rift.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	4	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	4	expl:subj	_	_
 2	n'	_	ADV	RB	Polarity=Neg	4	advmod	_	SpaceAfter=No
-3	y	_	PRON	PRP	Person=3	4	expl	_	_
+3	y	_	PRON	PRP	Person=3	4	expl:comp	_	_
 4	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	advcl	_	_
 5	pas	_	ADV	RB	Polarity=Neg	4	advmod	_	_
 6	si	_	ADV	RB	_	7	advmod	_	_
@@ -23107,7 +23107,7 @@
 # sent_id = n02040023
 # text = C’est parce que chaque miracle et chaque zone spécialisée occupent un domaine entier.
 # text_en = That is because each and every miracle and each specialized district occupies an entire field.
-1	C’	_	PRON	PDEM	_	2	expl	_	OrigForm=C'|SpaceAfter=No
+1	C’	_	PRON	PDEM	_	2	expl:subj	_	OrigForm=C'|SpaceAfter=No
 2	est	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	parce	_	ADV	IN	_	11	mark	_	_
 4	que	_	SCONJ	IN	_	3	fixed	_	_
@@ -23145,7 +23145,7 @@
 # sent_id = n02042005
 # text = Ce fut le 30 août 2015 qu’une armée de canards avait conquis l’internet.
 # text_en = It was August 30, 2015, as an army of ducks conquered the internet.
-1	Ce	_	PRON	PDEM	_	2	expl	_	_
+1	Ce	_	PRON	PDEM	_	2	expl:subj	_	_
 2	fut	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	le	_	DET	DT	Gender=Masc|Number=Sing	4	det	_	_
 4	30	_	NUM	CD	_	2	obl:mod	_	_
@@ -23297,7 +23297,7 @@
 1	Dans	_	ADP	IN	_	2	case	_	_
 2	lequel	_	PRON	WP	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	2	punct	_	_
-4	ce	_	PRON	PDEM	_	9	expl	_	_
+4	ce	_	PRON	PDEM	_	9	expl:subj	_	_
 5	n'	_	ADV	RB	Polarity=Neg	9	advmod	_	SpaceAfter=No
 6	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
 7	pas	_	ADV	RB	Polarity=Neg	9	advmod	_	_
@@ -23324,7 +23324,7 @@
 # sent_id = n02050052
 # text = Il est clair que les hommes pourraient prendre davantage la responsabilité de la contraception.
 # text_en = It's clear: Men could have more responsibility in matters of contraception.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
 2	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	clair	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 4	que	_	SCONJ	IN	_	7	mark	_	_
@@ -23522,7 +23522,7 @@
 1	Pour	_	ADP	IN	_	2	case	_	_
 2	Barroso	_	PROPN	NNP	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	2	punct	_	_
-4	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	6	expl	_	_
+4	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	6	expl:subj	_	_
 5	se	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	6	obj	_	_
 6	peut	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 7	que	_	SCONJ	IN	_	10	mark	_	_
@@ -23898,7 +23898,7 @@
 # sent_id = n02083054
 # text = Il n’est pas surprenant que les gouvernements fédéraux et nationaux aient qualifié d’initiative nationale de plus haute priorité le patrimoine naturel national, et, en 2005, aient commencé à rédiger en commun un contrat.
 # text_en = It is no surprise that the federal and state governments have classified the National Natural Heritage as a nation-wide endeavor of the highest priority and have documented it starting in 2005 in a coalition contract.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl:subj	_	_
 2	n’	_	ADV	RB	Polarity=Neg	5	advmod	_	OrigForm=n'|SpaceAfter=No
 3	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 4	pas	_	ADV	RB	Polarity=Neg	5	advmod	_	_
@@ -24030,7 +24030,7 @@
 # text = Elle y prendra la parole à 23 h 45 selon son programme.
 # text_en = According to the programme, she will speak at 23.45.
 1	Elle	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
-2	y	_	PRON	PRP	Person=3	3	expl	_	_
+2	y	_	PRON	PRP	Person=3	3	obl	_	_
 3	prendra	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	_
 4	la	_	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
 5	parole	_	NOUN	NN	Gender=Fem|Number=Sing	3	obj	_	_
@@ -24115,7 +24115,7 @@
 # sent_id = n03003036
 # text = Il faut la majorité des deux tiers, soit les voix de 367 députés (sur 550), tandis que 330 voix sont requises pour convoquer un référendum.
 # text_en = A third-party majority is needed, specifically the votes of 367 MPs (out of 550), whereas 330 votes are required in order to trigger a referendum.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	2	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	2	expl:subj	_	_
 2	faut	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	la	_	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
 4	majorité	_	NOUN	NN	Gender=Fem|Number=Sing	2	obj	_	_
@@ -24309,7 +24309,7 @@
 8	de	_	ADP	IN	_	9	case	_	_
 9	travail	_	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	_
 10	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	cop	_	SpaceAfter=No
-11	-il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	12	expl	_	_
+11	-il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	12	expl:subj	_	_
 12	permis	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 13	?	_	PUNCT	.	_	12	punct	_	_
 
@@ -24335,9 +24335,9 @@
 16	intégrées	_	VERB	VBN	Gender=Fem|Number=Plur	2	ccomp	_	_
 17	:	_	PUNCT	:	_	24	punct	_	_
 18	«	_	PUNCT	``	_	24	punct	_	_
-19	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	24	expl	_	_
+19	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	24	expl:subj	_	_
 20	n'	_	ADV	RB	Polarity=Neg	24	advmod	_	SpaceAfter=No
-21	y	_	PRON	PRP	Person=3	24	expl	_	_
+21	y	_	PRON	PRP	Person=3	24	expl:comp	_	_
 22	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	aux:tense	_	_
 23	pas	_	ADV	RB	Polarity=Neg	24	advmod	_	_
 24	eu	_	VERB	VBN	Gender=Masc|Number=Sing	16	parataxis	_	_
@@ -24695,7 +24695,7 @@
 # sent_id = n04002020
 # text = Il est difficile de penser que l'Italie a moins de kilomètres de ligne de métro que Madrid.
 # text_en = It is difficult to think that Italy has fewer km of underground line than Madrid.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
 2	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	difficile	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 4	de	_	ADP	IN	_	5	mark	_	_
@@ -24718,7 +24718,7 @@
 # sent_id = n04002027
 # text = Il a été souligné que nous ne pouvons absolument pas continuer avec ceux qui sont complètement contre l'Italie.
 # text_en = It has been emphasised that we absolutely cannot continue with those who are completely against Italy.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	4	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	4	expl:subj	_	_
 2	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:tense	_	_
 3	été	_	AUX	VBN	Gender=Masc|Number=Sing	4	aux:pass	_	_
 4	souligné	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -24745,7 +24745,7 @@
 1	Nous	_	PRON	PRP	Number=Plur|Person=1	2	nsubj	_	_
 2	évaluerons	_	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Fut	0	root	_	_
 3	si	_	ADP	IN	_	5	mark	_	_
-4	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
+4	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl:subj	_	_
 5	faut	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	ccomp	_	SpaceAfter=No
 6	,	_	PUNCT	,	_	10	punct	_	_
 7	et	_	CCONJ	CC	_	10	cc	_	_
@@ -24835,8 +24835,8 @@
 5	1er	_	NUM	CD	Gender=Masc|Number=Sing	10	obl:mod	_	_
 6	janvier	_	NOUN	NNP	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 7	,	_	PUNCT	,	_	5	punct	_	_
-8	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
-9	y	_	PRON	PRP	Person=3	10	expl	_	_
+8	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	10	expl:subj	_	_
+9	y	_	PRON	PRP	Person=3	10	expl:comp	_	_
 10	aura	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	_
 11	une	_	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
 12	augmentation	_	NOUN	NN	Gender=Fem|Number=Sing	10	obj	_	_
@@ -24862,9 +24862,9 @@
 7	une	_	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
 8	note	_	NOUN	NN	Gender=Fem|Number=Sing	5	obl	_	_
 9	qu'	_	SCONJ	IN	_	13	mark	_	SpaceAfter=No
-10	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	13	expl	_	_
+10	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	13	expl:subj	_	_
 11	n'	_	ADV	RB	Polarity=Neg	13	advmod	_	SpaceAfter=No
-12	y	_	PRON	PRP	Person=3	13	expl	_	_
+12	y	_	PRON	PRP	Person=3	13	expl:comp	_	_
 13	aurait	_	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	5	ccomp	_	_
 14	pas	_	ADV	RB	Polarity=Neg	13	advmod	_	_
 15	de	_	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
@@ -25008,7 +25008,7 @@
 # text = Comme il a été indiqué, la décision est une prérogative de la BCE et il ne semble pas indiqué que la banque parle en son nom, en excluant la possibilité d'envisager d'autres solutions.
 # text_en = As stated, the decision is the prerogative of the ECB and would appear inappropriate for the Bank to speak on its behalf by excluding the possibility of looking at other alternatives.
 1	Comme	_	ADP	IN	_	5	mark	_	_
-2	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
+2	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	expl:subj	_	_
 3	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:tense	_	_
 4	été	_	AUX	VBN	Gender=Masc|Number=Sing	5	aux:pass	_	_
 5	indiqué	_	VERB	VBN	Gender=Masc|Number=Sing	11	advcl	_	SpaceAfter=No
@@ -25022,7 +25022,7 @@
 13	la	_	DET	DT	Gender=Fem|Number=Sing	14	det	_	_
 14	BCE	_	PROPN	NNP	Gender=Fem|Number=Sing	11	nmod	_	_
 15	et	_	CCONJ	CC	_	18	cc	_	_
-16	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	18	expl	_	_
+16	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	18	expl:subj	_	_
 17	ne	_	ADV	RB	Polarity=Neg	18	advmod	_	_
 18	semble	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	conj	_	_
 19	pas	_	ADV	RB	Polarity=Neg	18	advmod	_	_
@@ -25413,22 +25413,22 @@
 24	%	_	SYM	SYM	_	19	obl	_	SpaceAfter=No
 25	,	_	PUNCT	,	_	29	punct	_	_
 26	et	_	CCONJ	CC	_	29	cc	_	_
-27	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	29	expl	_	_
-28	y	_	PRON	PRP	Person=3	29	expl	_	_
+27	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	29	expl:subj	_	_
+28	y	_	PRON	PRP	Person=3	29	expl:comp	_	_
 29	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	conj	_	_
 30	plus	_	ADV	RBR	_	32	advmod	_	_
 31	de	_	ADP	IN	_	30	fixed	_	_
 32	600 000	_	NUM	CD	_	33	nummod	_	OrigForm=600000
 33	personnes	_	NOUN	NN	Gender=Fem|Number=Plur	29	obj	_	_
 34	employées	_	VERB	VBN	Gender=Fem|Number=Plur|VerbForm=Part	33	acl	_	_
-35	par	_	ADP	IN	_	40	case	_	_
+35	par	_	ADP	IN	_	42	case	_	_
 36	rapport	_	NOUN	NN	Gender=Masc|Number=Sing	35	fixed	_	_
 37	à	_	ADP	IN	_	35	fixed	_	_
-38	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	40	expl	_	_
-39	y	_	PRON	PRP	Person=3	40	expl	_	_
-40	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	29	xcomp	_	_
+38	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	42	case	_	_
+39	y	_	PRON	PRP	Person=3	38	fixed	_	_
+40	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	38	fixed	_	_
 41	un	_	NUM	CD	_	42	nummod	_	_
-42	an	_	NOUN	NN	Gender=Masc|Number=Sing	40	obl:mod	_	SpaceAfter=No
+42	an	_	NOUN	NN	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
 43	.	_	PUNCT	.	_	19	punct	_	_
 
 # sent_id = n05002015
@@ -25813,7 +25813,7 @@
 # sent_id = n05007014
 # text = C’est peut-être pour cette raison qu’une vallée de larmes brouille ses pupilles pendant que les syllabes du temps détermine sa récolte et abandonne son mystère dans les eaux.
 # text_en = Perhaps that's why a surge of tears clouds his pupils while the syllable of time unearths his crop and surrenders his mystery to the bound waters.
-1	C’	_	PRON	PDEM	_	2	expl	_	OrigForm=C'|SpaceAfter=No
+1	C’	_	PRON	PDEM	_	2	expl:subj	_	OrigForm=C'|SpaceAfter=No
 2	est	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	peut-être	_	ADV	RB	_	2	advmod	_	_
 4	pour	_	ADP	IN	_	6	case	_	_
@@ -25926,7 +25926,7 @@
 14	nombre	_	NOUN	NN	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
 15	,	_	PUNCT	,	_	19	punct	_	_
 16	mais	_	CCONJ	CC	_	19	cc	_	_
-17	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	19	expl	_	_
+17	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	19	expl:subj	_	_
 18	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	cop	_	_
 19	difficile	_	ADJ	JJ	Gender=Masc|Number=Sing	4	conj	_	_
 20	de	_	ADP	IN	_	21	mark	_	_
@@ -25944,8 +25944,8 @@
 # text = « Il y aura des manifestations et bien d'autres choses, tout est déjà prévu », a déclaré l'opposition à El Mundo.
 # text_en = "There will be protests and other things, it's all already planned," the opposition told El Mundo.
 1	«	_	PUNCT	``	_	4	punct	_	_
-2	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	4	expl	_	_
-3	y	_	PRON	PRP	Person=3	4	expl	_	_
+2	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	4	expl:subj	_	_
+3	y	_	PRON	PRP	Person=3	4	expl:comp	_	_
 4	aura	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	20	parataxis	_	_
 5	des	_	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
 6	manifestations	_	NOUN	NN	Gender=Fem|Number=Plur	4	obj	_	_
@@ -26139,7 +26139,7 @@
 # sent_id = w02002120
 # text = Il s’agit d’un des rares bâtiments du centre de la ville qui a été épargné de la destruction pendant la seconde guerre mondiale.
 # text_en = This has to do with one of the few buildings in the city center that was spared from destruction by the end of the Second World War.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
 2	s’	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	obj	_	OrigForm=s'|SpaceAfter=No
 3	agit	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	d’	_	ADP	IN	_	5	case	_	OrigForm=d'|SpaceAfter=No
@@ -26287,7 +26287,7 @@
 # sent_id = w02004065
 # text = Il existe plusieurs théories sur les raisons pour lesquelles on quitte l’endroit.
 # text_en = There are different theories about the reasons for leaving the place.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	2	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	2	expl:subj	_	_
 2	existe	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	plusieurs	_	ADJ	JJ	Gender=Fem|Number=Plur	4	amod	_	_
 4	théories	_	NOUN	NN	Gender=Fem|Number=Plur	2	nsubj	_	_
@@ -26394,8 +26394,8 @@
 # sent_id = w02005029
 # text = Il y a aussi un monument à la mémoire de Martin Luther King Jr.
 # text_en = It contains a monument to Martin Luther King, Jr.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	y	_	PRON	PRP	Person=3	3	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	expl:subj	_	_
+2	y	_	PRON	PRP	Person=3	3	expl:comp	_	_
 3	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	aussi	_	ADV	RB	_	3	advmod	_	_
 5	un	_	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
@@ -27383,8 +27383,8 @@
 6	années	_	NOUN	NN	Gender=Fem|Number=Plur	3	nmod	_	_
 7	2000	_	NUM	CD	_	6	appos	_	SpaceAfter=No
 8	,	_	PUNCT	,	_	3	punct	_	_
-9	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
-10	y	_	PRON	PRP	Person=3	11	expl	_	_
+9	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	11	expl:subj	_	_
+10	y	_	PRON	PRP	Person=3	11	expl:comp	_	_
 11	avait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
 12	5	_	NUM	CD	_	13	nummod	_	_
 13	médecins	_	NOUN	NN	Gender=Masc|Number=Plur	11	obj	_	_
@@ -27674,7 +27674,7 @@
 # sent_id = w03005016
 # text = Il semble qu'à partir du VIIIe siècle av. J.-C. apparaissent les cités, de petits territoires indépendants et politiquement structurés.
 # text_en = From about the 8th century BC city states began to appear: small, self-governing territories with their own political systems.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	2	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	2	expl:subj	_	_
 2	semble	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	qu'	_	SCONJ	IN	_	12	mark	_	SpaceAfter=No
 4	à	_	ADP	IN	_	9	case	_	_
@@ -28046,8 +28046,8 @@
 3	partie	_	NOUN	NN	Gender=Fem|Number=Sing	8	obl	_	_
 4	inférieure	_	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
 5	,	_	PUNCT	,	_	3	punct	_	_
-6	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
-7	y	_	PRON	PRP	Person=3	8	expl	_	_
+6	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	expl:subj	_	_
+7	y	_	PRON	PRP	Person=3	8	expl:comp	_	_
 8	a	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 9	trois	_	NUM	CD	_	10	nummod	_	_
 10	palmiers	_	NOUN	NN	Gender=Masc|Number=Plur	8	obj	_	_
@@ -28321,7 +28321,7 @@
 # sent_id = w04004045
 # text = Il existe de nombreux artefacts préhistoriques, dont plusieurs différents menhirs et dolmens.
 # text_en = There are many prehistoric artifacts, including several different menhirs and dolmens.
-1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	2	expl	_	_
+1	Il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	2	expl:subj	_	_
 2	existe	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	de	_	DET	DT	Gender=Masc|Number=Plur	5	det	_	_
 4	nombreux	_	ADJ	JJ	Gender=Masc|Number=Plur	5	amod	_	_
@@ -28688,7 +28688,7 @@
 21	avec	_	ADP	IN	_	22	case	_	_
 22	Walter	_	PROPN	NNP	Gender=Masc|Number=Sing	20	obl	_	_
 23	;	_	PUNCT	:	_	25	punct	_	_
-24	c’	_	PRON	PDEM	_	25	expl	_	OrigForm=c'|SpaceAfter=No
+24	c’	_	PRON	PDEM	_	25	expl:subj	_	OrigForm=c'|SpaceAfter=No
 25	est	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	parataxis	_	_
 26	pour	_	ADP	IN	_	28	case	_	_
 27	cette	_	DET	DT	Gender=Fem|Number=Sing	28	det	_	_
@@ -28828,7 +28828,7 @@
 6	diverses	_	ADJ	JJ	Gender=Fem|Number=Plur	7	amod	_	_
 7	collaborations	_	NOUN	NN	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
 8	,	_	PUNCT	,	_	7	punct	_	_
-9	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
+9	il	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	11	expl:subj	_	_
 10	est	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	cop	_	_
 11	difficile	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 12	de	_	ADP	IN	_	13	mark	_	_
@@ -29560,7 +29560,7 @@
 23	on	_	PRON	PRP	Number=Sing|Person=3	24	nsubj	_	_
 24	pouvait	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	30	advcl	_	_
 25	s'	_	PRON	PRP	Number=Sing|Person=3	27	obj	_	SpaceAfter=No
-26	y	_	PRON	PRP	Person=3	27	expl	_	_
+26	y	_	PRON	PRP	Person=3	27	expl:comp	_	_
 27	attendre	_	VERB	VB	_	24	xcomp	_	SpaceAfter=No
 28	,	_	PUNCT	,	_	24	punct	_	_
 29	a	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	30	aux:tense	_	_
