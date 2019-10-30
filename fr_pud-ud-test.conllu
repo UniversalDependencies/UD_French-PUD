@@ -26798,8 +26798,8 @@
 9	ont	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	10	aux:tense	_	_
 10	demandé	_	VERB	VBN	Gender=Masc|Number=Sing	5	conj	_	_
 11	que	_	SCONJ	IN	_	14	mark	_	_
-12	l’	_	PART	RP	_	13	dep	_	OrigForm=l'|SpaceAfter=No
-13	on	_	PRON	PRP	Number=Sing|Person=3	14	nsubj	_	_
+12	l’	_	DET	_	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+13	on	_	PRON	PRP	Number=Sing|Person=3	12	fixed	_	_
 14	chante	_	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	10	ccomp	_	_
 15	à	_	ADP	IN	_	14	advmod	_	_
 16	nouveau	_	ADJ	JJ	Gender=Masc|Number=Sing	15	fixed	_	SpaceAfter=No
