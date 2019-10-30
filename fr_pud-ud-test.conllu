@@ -268,7 +268,7 @@
 23	les	le	DET	_	Gender=Fem|Number=Plur	24	det	_	_
 24	technologies	_	NOUN	NN	Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
 25	,	_	PUNCT	,	_	26	punct	_	_
-26	invitant	_	VERB	VBG	VerbForm=Part	9	acl	_	_
+26	invitant	_	VERB	VBG	VerbForm=Part	9	advcl	_	_
 27	des	_	DET	DT	Gender=Masc|Number=Plur	28	det	_	_
 28	représentants	_	NOUN	NN	Gender=Masc|Number=Plur	26	obj	_	_
 29	de	_	ADP	IN	_	30	case	_	_
@@ -25282,7 +25282,7 @@
 12	capitalisation	_	NOUN	NN	Gender=Fem|Number=Sing	6	nmod	_	_
 13	boursière	_	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
 14	,	_	PUNCT	,	_	15	punct	_	_
-15	dépassant	_	VERB	VBG	VerbForm=Part	3	acl	_	_
+15	dépassant	_	VERB	VBG	VerbForm=Part	3	advcl	_	_
 16	ExxonMobil	_	PROPN	NNP	Number=Sing	15	obj	_	SpaceAfter=No
 17	.	_	PUNCT	.	_	3	punct	_	_
 
