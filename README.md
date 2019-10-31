@@ -7,8 +7,7 @@ Universal Dependencies](http://universaldependencies.org/conll17/).
 
 # Introduction
 
-There are
-1000 sentences in each language, always in the same order. (The sentence
+There are 1000 sentences in each language, always in the same order. (The sentence
 alignment is 1-1 but occasionally a sentence-level segment actually consists
 of two real sentences.) The sentences are taken from the news domain (sentence
 id starts in ‘n’) and from Wikipedia (sentence id starts with ‘w’). There are
@@ -33,8 +32,14 @@ The entire treebank is labeled as test set (and was used for testing in the
 shared task). If it is used for training in future research, the users should
 employ ten-fold cross-validation.
 
-
 # Changelog
+
+## 2019-11-15 v2.5
+  * Manual correction of errors reported by the validator
+  * Change annotations to improve consistency with other French treebanks:
+     * possessives are `DET`
+     * remove relations `det:predet` and `obl:tmod`
+     * annotations of `aux:caus`, `nsubj:caus`, `expl:subj`, `expl:comp`,
 
 ## 2019-04-24 v2.4
   * Automatic change of upos VERB into AUX when the relation is `aux` or `aux:pass`
