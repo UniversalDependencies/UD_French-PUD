@@ -338,7 +338,7 @@
 # sent_id = n01004009
 # text = Plutôt que d'enseigner la méthode scientifique en tant qu'unité séparée, par exemple, les étudiants apprennent le contenu scientifique en l'appliquant.
 # text_en = Rather than teaching the scientific method as a separate unit, for example, students learn science content by applying it.
-1	Plutôt	Plutôt	ADV	RB	_	4	mark	_	_
+1	Plutôt	plutôt	ADV	RB	_	4	mark	_	_
 2	que	que	ADP	IN	_	1	fixed	_	_
 3	d'	de	ADP	IN	_	1	fixed	_	SpaceAfter=No
 4	enseigner	enseigner	VERB	VB	_	19	advcl	_	_
@@ -690,7 +690,7 @@
 # sent_id = n01011011
 # text = La police a indiqué qu'elle avait tué Andre Price III en lui enfonçant le visage dans un matelas pneumatique situé dans sa salle de séjour avant de tenter de faire la même chose à sa fille, Angel.
 # text_en = She killed Andre Price III by pressing his face into an air mattress in her sitting room before trying to do the same to her daughter, Angel, police said.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	police	police	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:tense	_	_
 4	indiqué	indiquer	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -841,7 +841,7 @@
 # sent_id = n01014012
 # text = La promesse de nouvelles commandes de la Marine Royale britannique destinées à protéger l'industrie de la construction navale de la Clyde a été faite avant le référendum sur l'indépendance de l'Écosse de 2014.
 # text_en = The promise of new Royal Navy orders to secure the Clyde shipbuilding industry was made before the Scottish independence referendum in 2014.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	promesse	promesse	NOUN	NN	Gender=Fem|Number=Sing	25	nsubj:pass	_	_
 3	de	de	ADP	IN	_	5	case	_	_
 4	nouvelles	nouveau	ADJ	JJ	Gender=Fem|Number=Plur	5	amod	_	_
@@ -951,7 +951,7 @@
 # sent_id = n01016014
 # text = La compagnie sud-coréenne a d'abord pensé que le défaut venait d'une batterie, et avait remplacé son propre matériel par la batterie d'un sous-traitant.
 # text_en = The South Korean company initially thought a battery fault was to blame, and switched its own component for a third-party power cell.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	compagnie	compagnie	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	sud-coréenne	sud-coréen	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:tense	_	_
@@ -1098,7 +1098,7 @@
 # sent_id = n01017010
 # text = La compagnie a indiqué à la BBC que la décision de facturer l'accès aux passagers serait du ressort de chaque compagnie aérienne.
 # text_en = The company told the BBC it would be the responsibility of each airline brand to decide whether to charge passengers an access fee.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	compagnie	compagnie	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:tense	_	_
 4	indiqué	indiquer	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -1130,7 +1130,7 @@
 # sent_id = n01017013
 # text = La plupart des gens trouveraient le Wifi à l'aéroport plus utile que la possibilité d'envoyer des mails depuis l'avion.
 # text_en = "Most people would find airport wi-fi more useful than being able to send emails on a plane."
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	plupart	plupart	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
@@ -1193,7 +1193,7 @@
 # sent_id = n01019004
 # text = La formation de 10 semaines a été « certifiée » par l'agence d'espionnage anglaise GCHQ.
 # text_en = The 10-week course has been "certified" by UK spy agency GCHQ.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	formation	formation	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 3	de	de	ADP	IN	_	5	case	_	_
 4	10	10	NUM	CD	_	5	nummod	_	_
@@ -1913,7 +1913,7 @@
 5	allons	aller	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	16	parataxis	_	_
 6	punir	punir	VERB	VB	_	5	xcomp	_	_
 7	les	le	DET	DT	Gender=Masc|Number=Plur	8	det	_	_
-8	conducteurs	conducteurs	NOUN	NN	Gender=Masc|Number=Plur	6	obj	_	_
+8	conducteurs	conducteur	NOUN	NN	Gender=Masc|Number=Plur	6	obj	_	_
 9	qui	qui	PRON	WP	Gender=Masc|Number=Plur	10	nsubj	_	_
 10	utilisent	utiliser	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	8	acl:relcl	_	_
 11	les	le	DET	DT	Gender=Masc|Number=Plur	12	det	_	_
@@ -1929,7 +1929,7 @@
 # sent_id = n01026016
 # text = La police routière de Shenzhen a opté pour des pénalités inhabituelles dans le passé.
 # text_en = Shenzhen's traffic police have opted for unconventional penalties before.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	police	police	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	routière	routier	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	de	de	ADP	IN	_	5	case	_	_
@@ -1957,7 +1957,7 @@
 # sent_id = n01027030
 # text = La majorité du débat, étant cette année du côté des démocrates, a été centrée sur l'identité masculine et blanche.
 # text_en = Much of the debate, from the Democratic side this year, has been about white male identity.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	majorité	majorité	NOUN	NN	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
@@ -1978,7 +1978,7 @@
 16	,	,	PUNCT	,	_	7	punct	_	_
 17	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	aux:tense	_	_
 18	été	être	AUX	VBN	Gender=Masc|Number=Sing	19	aux:pass	_	_
-19	centrée	centré	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
+19	centrée	centrer	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
 20	sur	sur	ADP	IN	_	22	case	_	_
 21	l'	le	DET	DT	Gender=Fem|Number=Sing	22	det	_	SpaceAfter=No
 22	identité	identité	NOUN	NN	Gender=Fem|Number=Sing	19	obl	_	_
@@ -2341,7 +2341,7 @@
 16	d'	de	ADP	IN	_	18	case	_	SpaceAfter=No
 17	une	un	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
 18	contraception	contraception	NOUN	NN	Gender=Fem|Number=Sing	15	nmod	_	_
-19	hormonale	hormonale	ADJ	JJ	Gender=Fem|Number=Sing	18	amod	_	_
+19	hormonale	hormonal	ADJ	JJ	Gender=Fem|Number=Sing	18	amod	_	_
 20	masculine	masculin	ADJ	JJ	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	8	punct	_	_
 22	»	»	PUNCT	''	_	8	punct	_	_
@@ -2542,7 +2542,7 @@
 29	entreprises	entreprise	NOUN	NN	Gender=Fem|Number=Plur	34	nsubj:pass	_	_
 30	et	et	CCONJ	CC	_	31	cc	_	_
 31	intérêts	intérêt	NOUN	NN	Gender=Masc|Number=Plur	29	conj	_	_
-32	canadiens	canadiens	ADJ	JJ	Gender=Masc|Number=Plur	31	amod	_	_
+32	canadiens	canadien	ADJ	JJ	Gender=Masc|Number=Plur	31	amod	_	_
 33	soient	être	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Pres	34	aux:pass	_	_
 34	représentés	représenter	VERB	VBN	Gender=Masc|Number=Plur	26	ccomp	_	_
 35	à	à	ADP	IN	_	36	case	_	_
@@ -2623,7 +2623,7 @@
 # sent_id = n01035013
 # text = La police de la C.B. a déclaré précédemment que Klein ne semblait pas avoir de casier judiciaire, et a révélé des détails vagues quant à sa situation récente.
 # text_en = Police in B.C. said earlier Klein did not appear to have a criminal history and released vague details about his recent whereabouts.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	police	police	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	IN	_	5	case	_	_
 4	la	le	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
@@ -3013,7 +3013,7 @@
 # sent_id = n01039039
 # text = La femme de Trump, Melania Trump, a fait sa première apparition depuis la convention républicaine de juillet.
 # text_en = Trump's wife, Melania Trump, made her first appearance on the trail since the Republican convention in July.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	femme	femme	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	IN	_	4	case	_	_
 4	Trump	Trump	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
@@ -3309,7 +3309,7 @@
 24	site	site	NOUN	NN	Gender=Masc|Number=Sing	27	nsubj:pass	_	_
 25	web	web	NOUN	NN	Gender=Masc|Number=Sing	24	compound	_	_
 26	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	aux:pass	_	_
-27	périmé	périmé	VERB	VBN	Gender=Masc|Number=Sing	4	conj	_	_
+27	périmé	périmer	VERB	VBN	Gender=Masc|Number=Sing	4	conj	_	_
 28	de	de	ADP	IN	_	30	case	_	_
 29	deux	deux	NUM	CD	_	30	nummod	_	_
 30	ans	an	NOUN	NN	Gender=Masc|Number=Plur	27	obl	_	_
@@ -3804,7 +3804,7 @@
 # sent_id = n01050009
 # text = La période d'attente actuelle est de huit semaines.
 # text_en = The current waiting period is eight weeks.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	période	période	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	d'	de	ADP	IN	_	4	case	_	SpaceAfter=No
 4	attente	attente	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -4699,7 +4699,7 @@
 12	de	de	ADP	IN	_	13	case	_	_
 13	remuer	remuer	VERB	VB	_	11	xcomp	_	_
 14	les	le	DET	DT	Gender=Masc|Number=Plur	15	det	_	_
-15	popotins	popotins	NOUN	NN	Gender=Masc|Number=Plur	13	obj	_	_
+15	popotins	popotin	NOUN	NN	Gender=Masc|Number=Plur	13	obj	_	_
 16	-	-	PUNCT	-	_	18	punct	_	_
 17	leur	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
 18	intérêt	intérêt	NOUN	NN	Gender=Masc|Number=Sing	11	appos	_	_
@@ -4765,7 +4765,7 @@
 20	à	à	ADP	IN	_	22	case	_	_
 21	la	le	DET	DT	Gender=Fem|Number=Sing	22	det	_	_
 22	masse	masse	NOUN	NN	Gender=Fem|Number=Sing	13	obl	_	_
-23	vibrante	vibrante	ADJ	JJ	Gender=Fem|Number=Sing	22	amod	_	_
+23	vibrante	vibrant	ADJ	JJ	Gender=Fem|Number=Sing	22	amod	_	_
 24	de	de	ADP	IN	_	25	case	_	_
 25	vidéos	vidéo	NOUN	NN	Gender=Fem|Number=Plur	22	nmod	_	_
 26	de	de	ADP	IN	_	28	case	_	_
@@ -5155,7 +5155,7 @@
 16	récupérer	récupérer	VERB	VB	_	14	xcomp	_	_
 17	avec	avec	ADP	IN	_	19	case	_	_
 18	leur	son	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
-19	candidate	candidat	NOUN	NN	Gender=Fem|Number=Sing	16	obl	_	_
+19	candidate	candidate	NOUN	NN	Gender=Fem|Number=Sing	16	obl	_	_
 20	Sarah	Sarah	PROPN	NNP	Gender=Fem|Number=Sing	19	appos	_	_
 21	Olney	Olney	PROPN	NNP	Gender=Fem|Number=Sing	20	flat:name	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	14	punct	_	_
@@ -5229,7 +5229,7 @@
 # text = Vega suggèrait que la plupart ignoreraient son histoire à cause de leur âge.
 # text_en = Vega suggested that, because of their age, many would be unaware of its history.
 1	Vega	Vega	PROPN	NNP	Gender=Fem|Number=Sing	2	nsubj	_	_
-2	suggèrait	suggèrer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
+2	suggèrait	suggérer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
 3	que	que	SCONJ	IN	_	6	mark	_	_
 4	la	le	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
 5	plupart	plupart	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -5358,7 +5358,7 @@
 23	jamais	jamais	ADV	RB	Polarity=Neg	24	advmod	_	_
 24	connu	connaître	VERB	VBN	Gender=Masc|Number=Sing	11	parataxis	_	_
 25	plus	plus	ADV	RBR	_	26	advmod	_	_
-26	Africain	Africain	ADJ	JJ	Gender=Masc|Number=Sing	24	obj	_	_
+26	Africain	africain	ADJ	JJ	Gender=Masc|Number=Sing	24	obj	_	_
 27	que	que	ADP	IN	_	28	case	_	_
 28	toi	soi	PRON	PRP	Gender=Masc|Number=Sing|Person=2	26	obl	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	24	punct	_	_
@@ -5519,7 +5519,7 @@
 1	C'	ce	PRON	PDEM	_	2	nsubj	_	SpaceAfter=No
 2	était	être	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
 3	comme	comme	ADP	IN	_	6	mark	_	_
-4	s'	sinfng	ADP	IN	_	3	fixed	_	SpaceAfter=No
+4	s'	si	ADP	IN	_	3	fixed	_	SpaceAfter=No
 5	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 6	poussait	pousser	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	2	ccomp	_	_
 7	le	le	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
@@ -5564,7 +5564,7 @@
 # sent_id = n01076006
 # text = La victoire de Donald Trump aurait l'effet immédiat de rendre ce monde plus inquiétant et incertain qu'il ne l'est déjà.
 # text_en = A Donald Trump victory would immediately make the world more worrying and unsettled than it already is.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	victoire	victoire	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	IN	_	4	case	_	_
 4	Donald	Donald	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -5825,7 +5825,7 @@
 15	le	le	PRON	PRP	Gender=Masc|Number=Sing|Person=3	16	obj	_	_
 16	regarder	regarder	VERB	VB	_	14	xcomp	_	_
 17	sans	sans	ADP	IN	_	18	case	_	_
-18	moi	moi	PRON	PRP	Number=Sing|Person=1	16	obl	_	SpaceAfter=No
+18	moi	soi	PRON	PRP	Number=Sing|Person=1	16	obl	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01081
@@ -6465,7 +6465,7 @@
 16	d'	de	ADP	IN	_	18	case	_	SpaceAfter=No
 17	une	un	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
 18	femme	femme	NOUN	NN	Gender=Fem|Number=Sing	15	nmod	_	_
-19	apparaissait	apparaissaître	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	11	conj	_	SpaceAfter=No
+19	apparaissait	apparaître	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	11	conj	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	_	_
 21	sur	sur	ADP	IN	_	23	case	_	_
 22	des	un	DET	DT	Gender=Fem|Number=Plur	23	det	_	_
@@ -6497,7 +6497,7 @@
 13	des	un	DET	DT	Gender=Fem|Number=Plur	14	det	_	_
 14	muses	muse	NOUN	NN	Gender=Fem|Number=Plur	11	obj	_	_
 15	qui	qui	PRON	WP	Gender=Fem|Number=Plur	16	nsubj	_	_
-16	conviendraient	conviendraient	VERB	VBC	Mood=Cnd|Number=Plur|Person=3|Tense=Pres	14	acl:relcl	_	SpaceAfter=No
+16	conviendraient	convenir	VERB	VBC	Mood=Cnd|Number=Plur|Person=3|Tense=Pres	14	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	30	punct	_	_
 18	car	car	CCONJ	CC	_	30	cc	_	_
 19	lorsque	lorsque	SCONJ	IN	_	22	mark	_	_
@@ -6606,7 +6606,7 @@
 # sent_id = n01091019
 # text = La position adoptée par la RSPB a également crée des conflits avec plusieurs acteurs de premier plan dans le domaine de la conservation environnementale, dont Mark Avery, l’auteur de la pétition, et Chris Packam, présentateur de télévision.
 # text_en = The RSPB’s stance has also brought it into conflict with many leading conservationists, from the author of the petition, Mark Avery, to the TV presenter Chris Packham.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	position	position	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	adoptée	adopter	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
 4	par	par	ADP	IN	_	6	case	_	_
@@ -6746,7 +6746,7 @@
 16	exception	exception	NOUN	NN	Gender=Fem|Number=Sing	12	nmod	_	_
 17	de	de	ADP	IN	_	18	case	_	_
 18	ceux	celui	PRON	PDEM	Gender=Masc|Number=Plur	16	nmod	_	_
-19	émanant	émanant	VERB	VBG	VerbForm=Part	18	ccomp	_	_
+19	émanant	émaner	VERB	VBG	VerbForm=Part	18	ccomp	_	_
 20-21	des	_	_	_	_	_	_	_	_
 20	de	de	ADP	INDT	_	22	case	_	_
 21	les	le	DET	_	Gender=Masc|Number=Plur	22	det	_	_
@@ -6784,13 +6784,13 @@
 15	mer	mer	NOUN	NN	Gender=Fem|Number=Sing	10	nmod	_	Proper=True
 16	Celtique	celtique	ADJ	JJ	Gender=Fem|Number=Sing	15	amod	_	Proper=True
 17	pourraient	pouvoir	VERB	VBC	Mood=Cnd|Number=Plur|Person=3|Tense=Pres	3	parataxis	_	_
-18	s’	le	PRON	PRP	Gender=Masc|Number=Sing|Person=3	19	obj	_	OrigForm=s'|SpaceAfter=No
+18	s’	se	PRON	PRP	Gender=Masc|Number=Sing|Person=3	19	obj	_	OrigForm=s'|SpaceAfter=No
 19	effondrer	effondrer	VERB	VB	_	17	xcomp	_	_
 20	»	»	PUNCT	''	_	17	punct	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	_	_
 22	sans	sans	ADP	IN	_	24	case	_	_
 23	les	le	DET	DT	Gender=Masc|Number=Plur	24	det	_	_
-24	quotas	quotas	NOUN	NN	Gender=Masc|Number=Plur	17	obl	_	_
+24	quotas	quota	NOUN	NN	Gender=Masc|Number=Plur	17	obl	_	_
 25	de	de	ADP	IN	_	26	case	_	_
 26	pêche	pêche	NOUN	NN	Gender=Fem|Number=Sing	24	nmod	_	_
 27	proposés	proposer	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	24	acl	_	SpaceAfter=No
@@ -6834,7 +6834,7 @@
 # sent_id = n01093025
 # text = L’annonce a été très favorablement accueillie par les défenseurs de l’environnement
 # text_en = Conservationists welcomed the commission’s announcement.
-1	L’	Le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	annonce	annonce	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:tense	_	_
 4	été	être	AUX	VBN	Gender=Masc|Number=Sing	7	aux:pass	_	_
@@ -7280,7 +7280,7 @@
 # sent_id = n01101003
 # text = L’intervention de Pékin est potentiellement la plus considérable depuis la rétrocession en 1997.
 # text_en = The intervention is potentially the most far-reaching by Beijing since the 1997 handover of Hong Kong from the UK.
-1	L’	Le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	intervention	intervention	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	IN	_	4	case	_	_
 4	Pékin	Pékin	PROPN	NNP	Number=Sing	2	nmod	_	_
@@ -7306,7 +7306,7 @@
 5	allégeance	allégeance	NOUN	NN	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	2	punct	_	_
 7	les	le	DET	DT	Gender=Masc|Number=Plur	8	det	_	_
-8	législateurs	législateurs	NOUN	NN	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	législateurs	législateur	NOUN	NN	Gender=Masc|Number=Plur	9	nsubj	_	_
 9	reconnaissent	reconnaître	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 10	Hong	Hong	PROPN	NNP	Number=Sing	9	obj	_	_
 11	Kong	Kong	PROPN	NNP	Number=Sing	10	flat:name	_	_
@@ -7317,7 +7317,7 @@
 16	de	de	ADP	IN	_	18	case	_	_
 17	la	le	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
 18	République	république	NOUN	NN	Gender=Fem|Number=Sing	13	obl	_	Proper=True
-19	Populaire	Populaire	ADJ	JJ	Gender=Fem|Number=Sing	18	amod	_	Proper=True
+19	Populaire	populaire	ADJ	JJ	Gender=Fem|Number=Sing	18	amod	_	Proper=True
 20	de	de	ADP	IN	_	21	case	_	Proper=True
 21	Chine	Chine	PROPN	NNP	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	9	punct	_	_
@@ -7558,7 +7558,7 @@
 # text = Je me demande également si la Coupe Davis a joué un rôle.
 # text_en = I also wonder whether the Davis Cup played a part.
 1	Je	il	PRON	PRP	Number=Sing|Person=1	3	nsubj	_	_
-2	me	lui	PRON	PRP	Number=Sing|Person=1	3	iobj	_	_
+2	me	se	PRON	PRP	Number=Sing|Person=1	3	iobj	_	_
 3	demande	demander	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 4	également	également	ADV	RB	_	3	advmod	_	_
 5	si	si	ADP	IN	_	10	mark	_	_
@@ -7575,7 +7575,7 @@
 # sent_id = n01106008
 # text = L’enquête annuelle a également révélé qu’une flambée d’inquiétudes a été provoquée par la prise des décisions relatives à des nouvelles charges financières.
 # text_en = The annual survey also revealed that worries about taking on fresh financial burdens has rocketed.
-1	L’	Le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	enquête	enquête	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	annuelle	annuel	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux:tense	_	_
@@ -7607,7 +7607,7 @@
 # sent_id = n01106015
 # text = La hausse brutale des risques politiques ne doit pas passer inaperçue.
 # text_en = Ms Hopley added: “The spike in political risk should not go unnoticed.”
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	hausse	hausse	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	brutale	brutal	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4-5	des	_	_	_	_	_	_	_	_
@@ -7619,7 +7619,7 @@
 9	doit	devoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 10	pas	pas	ADV	RB	Polarity=Neg	9	advmod	_	_
 11	passer	passer	VERB	VB	_	9	xcomp	_	_
-12	inaperçue	inapercevoir	ADJ	JJ	Gender=Fem|Number=Sing	11	xcomp	_	SpaceAfter=No
+12	inaperçue	inaperçu	ADJ	JJ	Gender=Fem|Number=Sing	11	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	9	punct	_	_
 
 # newdoc id = n01107
@@ -7725,7 +7725,7 @@
 # sent_id = n01107008
 # text = L’enquête a commencé en juin et s’est concentrée sur M. Winterkorn et le chef de marque, Herbert Diess, qui travaille encore chez le constructeur automobile.
 # text_en = The probe began in June, focusing on Mr Winterkorn and brand chief Herbert Diess, who remains at the car maker.
-1	L’	Le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	enquête	enquête	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:tense	_	_
 4	commencé	commencer	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -7950,7 +7950,7 @@
 13	d’	de	ADP	IN	_	15	case	_	OrigForm=d'|SpaceAfter=No
 14	Avro	Avro	PROPN	NNP	Number=Sing	15	compound	_	_
 15	Energy	Energy	NOUN	NN	Number=Sing	12	nmod	_	Proper=True
-16	payeraient	payeraient	VERB	VBC	Mood=Cnd|Number=Plur|Person=3|Tense=Pres	6	parataxis	_	_
+16	payeraient	payer	VERB	VBC	Mood=Cnd|Number=Plur|Person=3|Tense=Pres	6	parataxis	_	_
 17	environ	environ	ADV	RB	_	19	advmod	_	_
 18	£	£	SYM	SYM	_	16	obj	_	SpaceAfter=No
 19	760	760	NUM	CD	_	18	nummod	_	_
@@ -8440,7 +8440,7 @@
 # sent_id = n01116014
 # text = La robe a un style contemporain.
 # text_en = The dress is contemporary.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	robe	robe	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	a	avoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	un	un	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
@@ -8737,7 +8737,7 @@
 # sent_id = n01120010
 # text = L’histoire de Doss est quelque peu improbable, ce qui lui confère un aspect d’autant plus irrésistible.
 # text_en = Doss’s story also has an unlikely quality to it that makes it all the more appealing.
-1	L’	Le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	histoire	histoire	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	IN	_	4	case	_	_
 4	Doss	Doss	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -8946,7 +8946,7 @@
 # sent_id = n01125016
 # text = La South Bank Tower, emblématique de Londres, a retenu les services de Rachel Winham, architecte d’intérieur, pour l’aménagement de l’appartement témoin.
 # text_en = London’s landmark South Bank Tower commissioned interior designer Rachel Winham to design the show apartment.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
 2	South	South	ADJ	JJ	Number=Sing	4	amod	_	Proper=True
 3	Bank	Bank	NOUN	NN	Number=Sing	4	compound	_	Proper=True
 4	Tower	Tower	NOUN	NN	Gender=Fem|Number=Sing	11	nsubj	_	Proper=True|SpaceAfter=No
@@ -9300,7 +9300,7 @@
 # sent_id = n01130003
 # text = La Caroline du Nord est le point zéro de cet élection.
 # text_en = North Carolina is ground zero in this election.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	Caroline	Caroline	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	Proper=True
 3-4	du	_	_	_	_	_	_	_	Proper=True
 3	de	de	ADP	INDT	_	5	case	_	_
@@ -9398,7 +9398,7 @@
 22	à	à	ADP	IN	_	25	case	_	_
 23	environ	environ	ADV	RB	_	24	advmod	_	_
 24	16 500	16 500	NUM	CD	_	25	nummod	_	OrigForm=16500
-25	votes	votes	NOUN	NN	Gender=Masc|Number=Plur	21	obl	_	_
+25	votes	vote	NOUN	NN	Gender=Masc|Number=Plur	21	obl	_	_
 26	plus	plus	ADV	RBR	_	27	advmod	_	_
 27	tôt	tôt	ADV	RB	_	29	advmod	_	_
 28	cette	ce	DET	DT	Gender=Fem|Number=Sing	29	det	_	_
@@ -9610,7 +9610,7 @@
 # sent_id = n01135002
 # text = L’appétit insatiable de la Chine pour le poulet frit était autrefois une excellente raison pour laquelle les investisseurs appréciaient Yum Brands, société mère de KFC.
 # text_en = China's insatiable appetite for fried chicken used to be a big reason why investors loved KFC-parent Yum Brands.
-1	L’	Le	DET	DT	Gender=Masc|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Masc|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	appétit	appétit	NOUN	NN	Gender=Masc|Number=Sing	15	nsubj	_	_
 3	insatiable	insatiable	ADJ	JJ	Gender=Masc|Number=Sing	2	amod	_	_
 4	de	de	ADP	IN	_	6	case	_	_
@@ -10018,7 +10018,7 @@
 22	entreprise	entreprise	NOUN	NN	Gender=Fem|Number=Sing	19	nmod	_	_
 23	,	,	PUNCT	,	_	26	punct	_	_
 24	et	et	CCONJ	CC	_	26	cc	_	_
-25	s’	s’e	PRON	PRP	Number=Sing|Person=3	26	obj	_	OrigForm=s'|SpaceAfter=No
+25	s’	se	PRON	PRP	Number=Sing|Person=3	26	obj	_	OrigForm=s'|SpaceAfter=No
 26	apprête	apprêter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	_
 27	à	à	ADP	IN	_	28	case	_	_
 28	faire	faire	VERB	VB	_	26	xcomp	_	_
@@ -10044,13 +10044,13 @@
 6	la	le	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 7	plate-forme	plate-forme	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	_
 8	des	un	DET	DT	Gender=Masc|Number=Plur	9	det	_	_
-9	emojis	emojis	NOUN	NN	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+9	emojis	emoji	NOUN	NN	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	_	_
 11	des	un	DET	DT	Gender=Masc|Number=Plur	12	det	_	_
 12	gif	gif	NOUN	NN	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	_	_
 14	des	un	DET	DT	Gender=Masc|Number=Plur	15	det	_	_
-15	mèmes	mèmes	NOUN	NN	Gender=Masc|Number=Plur	9	conj	_	_
+15	mèmes	mème	NOUN	NN	Gender=Masc|Number=Plur	9	conj	_	_
 16	personnalisés	personnalisé	ADJ	JJ	Gender=Masc|Number=Plur	15	amod	_	_
 17	et	et	CCONJ	CC	_	19	cc	_	_
 18	des	un	DET	DT	Gender=Masc|Number=Plur	19	det	_	_
@@ -10068,7 +10068,7 @@
 # sent_id = n01141020
 # text = La démarche a souligné l’importance pour l’entreprise d’une approche nouvelle chez les usagers : qu’ils commencent à considérer les produits non pas seulement comme outils de productivité.
 # text_en = The move highlighted the company's desire for users to start thinking of its products as more than just productivity tools.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	démarche	démarche	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:tense	_	_
 4	souligné	souligner	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -10692,7 +10692,7 @@
 6	expérience	expérience	NOUN	NN	Gender=Fem|Number=Sing	3	obl	_	_
 7	à	à	ADP	IN	_	9	case	_	_
 8	CCN	CCN	PROPN	NNP	Number=Sing	9	compound	_	_
-9	Style	Style	NOUN	NN	Number=Sing	6	nmod	_	Proper=True|SpaceAfter=No
+9	Style	style	NOUN	NN	Number=Sing	6	nmod	_	Proper=True|SpaceAfter=No
 10	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01149027
@@ -10709,7 +10709,7 @@
 9	gens	gens	NOUN	NN	Gender=Masc|Number=Plur	7	obj	_	_
 10	avec	avec	ADP	IN	_	12	case	_	_
 11	des	un	DET	DT	Gender=Masc|Number=Plur	12	det	_	_
-12	Smartphones	smartphones	NOUN	NN	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	Smartphones	smartphone	NOUN	NN	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	_	_
 14	mais	mais	CCONJ	CC	_	16	cc	_	_
 15	beaucoup	beaucoup	ADV	RB	_	16	advmod	_	_
@@ -10800,7 +10800,7 @@
 # sent_id = n01150051
 # text = L’architecture ne peut pas aider les morts, mais il aide à perpétuer les souvenirs d’eux chez les vivants, affirme-t-il.
 # text_en = "Architecture won't help deceased people, but it helps to keep their memories alive among the living," he says.
-1	L’	Le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	architecture	architecture	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	ne	ne	ADV	RB	Polarity=Neg	4	advmod	_	_
 4	peut	pouvoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	23	parataxis	_	_
@@ -10831,7 +10831,7 @@
 # sent_id = w01001049
 # text = La charte permit la création d'une guilde de marchands, dirigée par la bourgeoisie de la ville, qui faisait payer un impôt aux personnes traversant le quartier.
 # text_en = The charter allowed for the creation of a merchants' guild, run by the town's burgesses to tax people passing through the borough.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	charte	charte	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	permit	permettre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	la	le	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
@@ -10916,7 +10916,7 @@
 8	taïga	taïga	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
 9	domine	dominer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
-11	recouvrant	recouvrant	VERB	VBG	VerbForm=Part	9	ccomp	_	_
+11	recouvrant	recouvrir	VERB	VBG	VerbForm=Part	9	ccomp	_	_
 12	une	un	DET	DT	Gender=Fem|Number=Sing	13	det	_	_
 13	partie	partie	NOUN	NN	Gender=Fem|Number=Sing	11	obj	_	_
 14	importante	important	ADJ	JJ	Gender=Fem|Number=Sing	13	amod	_	_
@@ -11001,7 +11001,7 @@
 5	exemples	exemple	NOUN	NN	Gender=Masc|Number=Plur	3	obl	_	_
 6	d'	de	ADP	IN	_	7	case	_	SpaceAfter=No
 7	îles	île	NOUN	NN	Gender=Fem|Number=Plur	5	nmod	_	_
-8	désertes	désertes	ADJ	JJ	Gender=Fem|Number=Plur	7	amod	_	_
+8	désertes	désert	ADJ	JJ	Gender=Fem|Number=Plur	7	amod	_	_
 9	les	le	DET	DT	Gender=Fem|Number=Plur	11	det	_	_
 10	petites	petit	ADJ	JJ	Gender=Fem|Number=Plur	11	amod	_	_
 11	îles	île	NOUN	NN	Gender=Fem|Number=Plur	3	obj	_	_
@@ -11096,7 +11096,7 @@
 1	Les	le	DET	DT	Gender=Fem|Number=Plur	2	det	_	_
 2	troupes	troupe	NOUN	NN	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	achéménides	achéménide	ADJ	JJ	Gender=Fem|Number=Plur	2	amod	_	_
-4	conquirent	conquerir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
+4	conquirent	conquérir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 5	Thrace	Thrace	PROPN	NNP	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	_	_
 7	les	le	DET	DT	Gender=Fem|Number=Plur	8	det	_	_
@@ -11191,7 +11191,7 @@
 # sent_id = w01006027
 # text = La première société de production cinématrographique (Athina Film) fut créée en 1912, et Asty Film en 1916.
 # text_en = In 1912 was founded the first film company (Athina Film) and in 1916 the Asty Film.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 2	première	premier	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	_
 3	société	société	NOUN	NN	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
 4	de	de	ADP	IN	_	5	case	_	_
@@ -11266,7 +11266,7 @@
 # sent_id = w01007035
 # text = La branche exécutive est composée d'un ministre d'état comme chef du gouvernement et qui préside un conseil de gouvernement de cinq membres.
 # text_en = The executive branch consists of a Minister of State as the head of government, who presides over a five-member Council of Government.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	branche	branche	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	exécutive	exécutif	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:pass	_	_
@@ -11385,7 +11385,7 @@
 # sent_id = w01009010
 # text = La classification de Bergeron est la forme la plus répandue de classification de la masse d'air.
 # text_en = The Bergeron classification is the most widely accepted form of air mass classification.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	classification	classification	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	IN	_	4	case	_	_
 4	Bergeron	Bergeron	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -11452,7 +11452,7 @@
 # sent_id = w01009027
 # text = La mousson est un vent saisonnier dominant qui dure plusieurs mois, annonçant la saison pluvieuse d'une région.
 # text_en = A monsoon is a seasonal prevailing wind which lasts for several months, ushering in a region's rainy season.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	mousson	mousson	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 4	un	un	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
@@ -11782,7 +11782,7 @@
 # sent_id = w01014002
 # text = La partie nord du Caucase est connue sous le nom de Ciscaucasie et la partie sud sous le nom de Transcaucasie.
 # text_en = The northern portion of the Caucasus is known as the Ciscaucasus and the southern portion as the Transcaucasus.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	partie	partie	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3	nord	nord	NOUN	NN	Gender=Masc|Number=Sing	2	compound	_	_
 4-5	du	_	_	_	_	_	_	_	_
@@ -11987,7 +11987,7 @@
 # sent_id = w01018019
 # text = La France a intégré l'économie du Cameroun à la sienne et amélioré l'infrastructure à l'aide d'investissements de capitaux et de travailleurs qualifiés, modifiant ainsi le système de travail forcé.
 # text_en = France integrated the economy of Cameroun with that of France and improved the infrastructure with capital investments and skilled workers, modifying the system of forced labour.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	France	France	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:tense	_	_
 4	intégré	intégrer	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -12155,7 +12155,7 @@
 # sent_id = w01019073
 # text = La famine a touché le Sahel de juin à août 2010.
 # text_en = In June to August 2010 famine struck the Sahel.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	famine	famine	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:tense	_	_
 4	touché	toucher	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -12345,7 +12345,7 @@
 # sent_id = w01022033
 # text = La Blindleia est une voie naviguable entourée de récifs, qui débute près de Kristiansand au sud de la Norvège et s'étend au-delà de Lillesand.
 # text_en = The Blindleia is a skerry-protected waterway that starts near Kristiansand in southern Norway, and continues past Lillesand.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	Blindleia	Blindleia	PROPN	NNP	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 4	une	un	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
@@ -12477,7 +12477,7 @@
 # sent_id = w01025083
 # text = La Schlei et les zones humides entre le Danevirke et Husum avaient gelé pendant un rude hiver, et les terres juste au sud du Danevirke avaient été conquises par l'armée allemande qui continuait de progresser.
 # text_en = The Schlei and the wetlands between the Danevirke and Husum had frozen solid in a hard winter, and the territory immediately south of the Danevirke had been conquered by the advancing German army.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	Schlei	Schlei	PROPN	NNP	Gender=Fem|Number=Sing	13	nsubj	_	_
 3	et	et	CCONJ	CC	_	5	cc	_	_
 4	les	le	DET	DT	Gender=Fem|Number=Plur	5	det	_	_
@@ -12652,7 +12652,7 @@
 # sent_id = w01026024
 # text = La quantité de marchandises transportées via le Danube a augmenté de près de 100 millions de tonnes en 1987.
 # text_en = The amount of goods transported on the Danube increased to about 100 million tons in 1987.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	quantité	quantité	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	IN	_	4	case	_	_
 4	marchandises	marchandise	NOUN	NN	Gender=Fem|Number=Plur	2	nmod	_	_
@@ -12676,7 +12676,7 @@
 # sent_id = w01026037
 # text = La plus grande partie du delta du Danube se trouve en Roumanie (județ de Tulcea), tandis que la partie nord, au niveau de la rive gauche du Chilia, se situe en Ukraine (oblast d'Odessa).
 # text_en = The greater part of the Danube Delta lies in Romania (Tulcea county), while its northern part, on the left bank of the Chilia arm, is situated in Ukraine (Odessa Oblast).
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	plus	plus	ADV	RBR	_	3	advmod	_	_
 3	grande	grand	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	_
 4	partie	partie	NOUN	NN	Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -12752,7 +12752,7 @@
 # sent_id = w01027015
 # text = La zone diffère de la partie ouest du pays car ses propriétés topographiques ne ressemblent pas à celles des côtes.
 # text_en = It differs from the western portion of the country in that its prominent topographic features do not parallel the coast.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	zone	zone	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	diffère	différer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	de	de	ADP	IN	_	6	case	_	_
@@ -12805,7 +12805,7 @@
 # sent_id = w01028004
 # text = La plus importante fut la rivière Ohio, un affluent du fleuve Mississippi.
 # text_en = The first and foremost was the Ohio River, which flowed into the Mississippi River.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	plus	plus	ADV	RBR	_	3	advmod	_	_
 3	importante	important	ADJ	JJ	Gender=Fem|Number=Sing	0	root	_	_
 4	fut	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	cop	_	_
@@ -13137,7 +13137,7 @@
 31	suisses	suisse	ADJ	JJ	Gender=Fem|Number=Plur	30	amod	_	_
 32	et	et	CCONJ	CC	_	34	cc	_	_
 33	se	se	PRON	PRP	Gender=Masc|Number=Plur|Person=3	34	obj	_	_
-34	jettent	jetter	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	25	conj	_	_
+34	jettent	jeter	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	25	conj	_	_
 35	dans	dans	ADP	IN	_	37	case	_	_
 36	les	le	DET	DT	Gender=Masc|Number=Plur	37	det	_	_
 37	pays	pays	NOUN	NN	Gender=Masc|Number=Plur	34	obl	_	_
@@ -13270,7 +13270,7 @@
 6	lagon	lagon	NOUN	NN	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
 8	aujourd'hui	aujourd'hui	ADV	RB	_	9	obl:mod	_	_
-9	desséché	desséché	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	SpaceAfter=No
+9	desséché	dessécher	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = w01033025
@@ -13365,7 +13365,7 @@
 # sent_id = w01035079
 # text = La destruction d'un milieu augmente grandement la vulnérabilité de ladite zone aux catastrophes naturelles comme les inondations ou les sécheresses, les mauvaises récoltes, la propagation de maladies et la contamination des eaux.
 # text_en = Habitat destruction vastly increases an area's vulnerability to natural disasters like flood and drought, crop failure, spread of disease, and water contamination.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	destruction	destruction	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	d'	de	ADP	IN	_	5	case	_	SpaceAfter=No
 4	un	un	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
@@ -13542,7 +13542,7 @@
 # sent_id = w01036044
 # text = La Papouasie-Nouvelle-Guinée est souvent considérée comme le pays où les femmes subissent le plus de violences.
 # text_en = Papua New Guinea is often labelled as potentially the worst place in the world for gender violence.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	Papouasie-Nouvelle-Guinée	Papouasie-Nouvelle-Guinée	PROPN	NNP	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:pass	_	_
 4	souvent	souvent	ADV	RB	_	5	advmod	_	_
@@ -13934,7 +13934,7 @@
 2	le	le	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
 3	vent	vent	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj	_	_
 4	s'	se	PRON	PRP	Gender=Masc|Number=Sing|Person=3	5	obj	_	SpaceAfter=No
-5	accélère	accélère	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	advcl	_	SpaceAfter=No
+5	accélère	accélerer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	certaines	certain	ADJ	JJ	Gender=Fem|Number=Plur	8	amod	_	_
 8	particules	particule	NOUN	NN	Gender=Fem|Number=Plur	10	nsubj	_	_
@@ -14098,7 +14098,7 @@
 # sent_id = w01044010
 # text = La production industrielle du Nevada inclue le tourisme, l'exploitation minière, la mécanique, la presse et l'édition, la transformation alimentaire et l'équipement électrique.
 # text_en = Nevada's industrial outputs are tourism, mining, machinery, printing and publishing, food processing, and electric equipment.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	production	production	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	industrielle	industriel	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4-5	du	_	_	_	_	_	_	_	_
@@ -14324,7 +14324,7 @@
 # sent_id = w01045006
 # text = La mer des Caraïbes était inconnue des populations eurasiennes jusqu'en 1492, année où Christophe Colomb navigua les eaux des Caraïbes dans le but de trouver une route maritime jusqu'à l'Asie.
 # text_en = The Caribbean Sea had been unknown to the populations of Eurasia until 1492, when Christopher Columbus first sailed into Caribbean waters on a quest to find a sea route to Asia.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	mer	mer	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	Proper=True
 3-4	des	_	_	_	_	_	_	_	Proper=True
 3	de	de	ADP	INDT	_	5	case	_	_
@@ -14676,7 +14676,7 @@
 # sent_id = w01049082
 # text = La toute première était de mettre à disposition des habitants de la ville et des résidents locaux un espace ouvert dans une zone qui se développait rapidement.
 # text_en = First and foremost was the provision of open space for the benefit of townspeople and local residents within an area that was being rapidly built up.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 2	toute	tout	ADV	RB	_	3	advmod	_	_
 3	première	première	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	était	être	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
@@ -14844,7 +14844,7 @@
 # sent_id = w01050071
 # text = La zone sous le contrôle du Bogdo Khan correspondait à peu près à celle de l'ancienne Mongolie-Extérieure.
 # text_en = The area controlled by the Bogd Khaan was approximately that of the former Outer Mongolia during the Qing period.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	zone	zone	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	sous	sous	ADP	IN	_	5	case	_	_
 4	le	le	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
@@ -15534,7 +15534,7 @@
 # sent_id = w01061050
 # text = La médecine était également étudiée, en particulier dans le sud de l'Italie, où la médecine islamique eut une grande influence sur l'école de Salerne.
 # text_en = Medicine was also studied, especially in southern Italy, where Islamic medicine influenced the school at Salerno.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	médecine	médecine	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	était	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	5	aux:pass	_	_
 4	également	également	ADV	RB	_	5	advmod	_	_
@@ -15793,7 +15793,7 @@
 # sent_id = w01065020
 # text = La ville cananéenne fut détruite dans un incendie, probablement à la suite d'une campagne menée par le pharaon égyptien Thoutmôsis III.
 # text_en = The Canaanite city was destroyed in a fire, presumably in the wake of a campaign by the Egyptian pharaoh Thutmose III.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	ville	ville	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	cananéenne	cananéen	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	fut	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	aux:pass	_	_
@@ -15821,7 +15821,7 @@
 # sent_id = w01065021
 # text = La première mention historique de la ville se trouve sur une inscription, située sur des territoires conquis, dans le temple de Thoutmôsis à Karnak.
 # text_en = The oldest known historical reference to the city is to be found on an inscription of conquered sites at Thutmose's temple at Karnak.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 2	première	premier	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	_
 3	mention	mention	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
 4	historique	historique	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	_
@@ -16688,7 +16688,7 @@
 # sent_id = w01074088
 # text = La publication de Jin Ping Mei en 1610 marque une nouvelle tendance vers la composition indépendante et les préoccupations psychologiques, bien qu'incorporant des travaux antérieurs.
 # text_en = Jin Ping Mei, published in 1610, although incorporating earlier material, marks the trend toward independent composition and concern with psychology.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	publication	publication	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	IN	_	4	case	_	_
 4	Jin	Jin	X	FW	_	2	nmod	_	Proper=True
@@ -16954,7 +16954,7 @@
 # sent_id = w01076054
 # text = La Révolte arabe qui débuta en 1916 a inversé le cours de la guerre contre les Ottomans sur le front du Moyen-Orient, où ces derniers avaient gardé l'avantage pendant les deux premières années du conflit.
 # text_en = The Arab Revolt which began in 1916 turned the tide against the Ottomans on the Middle Eastern front, where they initially seemed to have the upper hand during the first two years of the war.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	Révolte	révolte	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	Proper=True
 3	arabe	arabe	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	Proper=True
 4	qui	qui	PRON	WP	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -17147,7 +17147,7 @@
 # sent_id = w01080128
 # text = La frontière de la Macédoine-Orientale-et-Thrace est garantie par le fleuve Nestus (Mesta).
 # text_en = The Macedonian eastern border with Thrace was now secured at the river Nestus (Mesta).
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	frontière	frontière	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	de	de	ADP	IN	_	5	case	_	_
 4	la	le	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
@@ -17353,7 +17353,7 @@
 # sent_id = w01083021
 # text = L’empire russe était une agglomération d’un grand nombre de diverses ethnies qui avaient montré des signes significatifs de désunion dans les années précédant la Première Guerre mondiale.
 # text_en = The Russian Empire was an agglomeration of diverse ethnicities that had shown significant signs of disunity in the years before the First World War.
-1	L’	Le	DET	DT	Gender=Masc|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Masc|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	empire	empire	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	russe	russe	ADJ	JJ	Gender=Masc|Number=Sing	2	amod	_	_
 4	était	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	6	cop	_	_
@@ -17604,7 +17604,7 @@
 # sent_id = w01087052
 # text = L’éducation à la Renaissance était principalement composée de littérature et d'histoire anciennes, car on pensait que les lettres classiques fournissaient une instruction morale et une compréhension approfondie du comportement humain.
 # text_en = Education during the Renaissance was mainly composed of ancient literature and history as it was thought that the classics provided moral instruction and an intensive understanding of human behavior.
-1	L’	Le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	éducation	éducation	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 3	à	à	ADP	IN	_	5	case	_	_
 4	la	le	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
@@ -17677,7 +17677,7 @@
 # sent_id = w01089017
 # text = La plupart des informations concernant cette époque proviennent des lieux de sépulture et des objets funéraires trouvés dans ces lieux.
 # text_en = Most of the information about the period comes from burial sites and the grave goods contained within them.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	plupart	plupart	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
@@ -17873,7 +17873,7 @@
 # sent_id = w01092032
 # text = La révolution industrielle a créé une demande pour les pièces métalliques utilisées dans les machines.
 # text_en = The Industrial Revolution created a demand for metal parts used in machinery.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	révolution	révolution	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj	_	Proper=True
 3	industrielle	industriel	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	Proper=True
 4	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:tense	_	_
@@ -17926,7 +17926,7 @@
 # sent_id = w01094022
 # text = La Ford T a été désignée au niveau international par Car of the Century awards, comme la voiture la plus importante du XXème siècle.
 # text_en = Ford T was proclaimed as the most influential car of the 20th century in the international Car of the Century awards.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	Ford	Ford	PROPN	NNP	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	T	T	PROPN	NNP	Number=Sing	2	flat:name	_	_
 4	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux:tense	_	_
@@ -18040,7 +18040,7 @@
 # sent_id = w01095090
 # text = La famille impériale considère l’utilisation du prénom comme étant extrêmement inappropriée.
 # text_en = In the case of the imperial family, it is considered extremely inappropriate to use the given name.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	famille	famille	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	impériale	impérial	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	considère	considérer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -18241,7 +18241,7 @@
 # sent_id = w01096074
 # text = La guerre terrestre est passée du front statique de la Première Guerre mondiale à la mobilité accrue et aux armes combinées.
 # text_en = Land warfare changed from the static front lines of World War I to increased mobility and combined arms.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	guerre	guerre	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	terrestre	terrestre	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:tense	_	_
@@ -18453,7 +18453,7 @@
 # sent_id = w01100047
 # text = La Chine fut vaincue, et en 1842, elle accepta les dispositions du Traité de Nankin.
 # text_en = China was defeated, and in 1842 agreed to the provisions of the Treaty of Nanking.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	Chine	Chine	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	fut	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	aux:pass	_	_
 4	vaincue	vaincre	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -19059,7 +19059,7 @@
 # sent_id = w01106073
 # text = La haute altitude contribue à rafraîchir le climat, qui autrement serait très chaud.
 # text_en = The high altitude serves to cool the climate, which would otherwise be very hot.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 2	haute	haut	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	_
 3	altitude	altitude	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	contribue	contribuer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -19889,7 +19889,7 @@
 # sent_id = w01119076
 # text = La princesse Jasmine est devenue la première princesse de couleur comme contraire à l’héritage européen.
 # text_en = With her appearance finalized, Jasmine became Disney's first non-white princess as opposed to being of European heritage.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	princesse	princesse	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	Jasmine	Jasmine	PROPN	NNP	Gender=Fem|Number=Sing	2	appos	_	_
 4	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:tense	_	_
@@ -19989,7 +19989,7 @@
 # sent_id = w01122031
 # text = La chanson « Really Really Love You » est sortie en août et a atteint le top 50 ; « Shaky Ground » , le CD correspondant, est sorti en septembre mais Renee Geyer était déjà aux États-Unis.
 # text_en = Really Really Love You was released in August and reach the top 50; "Shaky Ground", the related single, appeared in September but Geyer was already in the US.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	chanson	chanson	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	«	«	PUNCT	``	_	6	punct	_	_
 4	Really	Really	ADV	RB	_	5	advmod	_	Proper=True
@@ -20434,7 +20434,7 @@
 # sent_id = w01129019
 # text = La voiture prit feu et Kenseth s'éloigna.
 # text_en = The car burst into flames, and Kenseth walked away.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	voiture	voiture	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	prit	prendre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	feu	feu	NOUN	NN	Gender=Masc|Number=Sing	3	obj	_	_
@@ -21858,7 +21858,7 @@
 # sent_id = w01144056
 # text = La campagne présidentielle de 1980 entre Ronald Reagan et le président en exercice Jimmy Carter s'est déroulée sur fond de problèmes de politique intérieure et de crise des otages américains en Iran.
 # text_en = The 1980 presidential campaign between Reagan and incumbent President Jimmy Carter was conducted during domestic concerns and the ongoing Iran hostage crisis.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	campagne	campagne	NOUN	NN	Gender=Fem|Number=Sing	18	nsubj	_	_
 3	présidentielle	présidentiel	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	de	de	ADP	IN	_	5	case	_	_
@@ -22705,7 +22705,7 @@
 # sent_id = n02017008
 # text = La photo illustre bien l’étroit écran tactile au-dessus du clavier, anticipé à cause de rumeurs.
 # text_en = The photo clearly shows the narrow touch display bar above the keyboard that has been anticipated in rumors.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	photo	photo	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	illustre	illustrer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	bien	bien	ADV	RB	_	3	advmod	_	_
@@ -22804,7 +22804,7 @@
 # sent_id = n02027019
 # text = La Russie a annoncé la suspension du contrat au début du mois d’octobre.
 # text_en = Russia announced a suspension of the contract at the beginning of October.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	Russie	Russie	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux:tense	_	_
 4	annoncé	annoncer	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -22829,7 +22829,7 @@
 # sent_id = n02027021
 # text = La loi délimite quelques conditions, dont leur réalisation pourrait remettre en vigueur l’accord : les États-Unis devraient retirer leurs troupes des pays qui ont adhéré à l’Otan depuis l’année 2000, annuler les sanctions contre la Russie et rembourser les coûts engagés en raison de ces sanctions.
 # text_en = The law delineates a number of conditions whose fulfillment could bring the agreement back into effect: the USA would have to withdraw all of its troops from countries who joined NATO after 2000, rescind all of the sanctions against Russia as well as reimburse the costs that have been incurred as a result of the sanctions.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	loi	loi	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	délimite	délimiter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	quelques	quelque	ADJ	JJ	Gender=Fem|Number=Plur	5	amod	_	_
@@ -23127,7 +23127,7 @@
 # sent_id = n02041014
 # text = La fabrication du modèle de smartphone s’est complètement arrêtée.
 # text_en = Production of the smartphone model was completely discontinued.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	fabrication	fabrication	NOUN	NN	Gender=Fem|Number=Sing	11	nsubj	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
@@ -23165,7 +23165,7 @@
 # sent_id = n02042026
 # text = La génération « smartphone » a reçu une application bien méritée : dans le meilleur des cas, la situation la plus idiote attirerait l’attention de millions de personnes.
 # text_en = The smartphone generation received an app it deserved, where, in the best case scenario, the most idiotic situation received an audience of millions.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	génération	génération	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	«	«	PUNCT	``	_	4	punct	_	_
 4	smartphone	smartphone	NOUN	NN	Gender=Masc|Number=Sing	2	appos	_	_
@@ -23538,7 +23538,7 @@
 # sent_id = n02068015
 # text = L’échange des Barroso fit sensation.
 # text_en = The exchange of Barrosos caused a big stir.
-1	L’	Le	DET	DT	Gender=Masc|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Masc|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	échange	échange	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
@@ -23552,7 +23552,7 @@
 # sent_id = n02069039
 # text = La série d’arrestations actuelle n’est qu’une « continuation des machinations menées contre nous », a fustigé Dündar.
 # text_en = The current arrests are "a continuation of the shenanigans against us," said Dündar.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	série	série	NOUN	NN	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	d’	de	ADP	IN	_	4	case	_	OrigForm=d'|SpaceAfter=No
 4	arrestations	arrestation	NOUN	NN	Gender=Fem|Number=Plur	2	nmod	_	_
@@ -24608,7 +24608,7 @@
 # sent_id = n03010019
 # text = La France n'a pas bonne réputation.
 # text_en = France doesn't have a good reputation.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	France	France	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	n'	ne	ADV	RB	Polarity=Neg	4	advmod	_	SpaceAfter=No
 4	a	avoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -24780,7 +24780,7 @@
 # sent_id = n04005003
 # text = L’état offrira 500 euros à ceux qui ont l’âge, à dépenser avant le 31 décembre 2017.
 # text_en = Those of age will be offered 500 euros by the state, to be spent by 31st December 2017.
-1	L’	Le	DET	DT	Gender=Masc|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Masc|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	état	état	NOUN	NN	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	offrira	offrir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	_
 4	500	500	NUM	CD	_	5	nummod	_	_
@@ -25321,7 +25321,7 @@
 # sent_id = n05001005
 # text = La présidente de la Communauté de Madrid, Cristina Cifuentes, représente la partie la plus conservatrice, tandis que les dirigeants du parti, comme le sous-secrétaire d’État, Javier Maroto, représente la partie la plus progressite.
 # text_en = The president of the Community of Madrid, Cristina Cifuentes, represents the most conservative, while leaders of the party, such as the Sectorial Under-Secretary, Javier Maroto, represent the most progressive.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	présidente	président	NOUN	NN	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	de	de	ADP	IN	_	5	case	_	_
 4	la	le	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
@@ -26066,7 +26066,7 @@
 # sent_id = w02001069
 # text = La dédicace festive a eu lieu le 30 avril 1955.
 # text_en = The festive dedication took place on April 30, 1955.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	dédicace	dédicace	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	festive	festif	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:tense	_	_
@@ -26254,7 +26254,7 @@
 # sent_id = w02004021
 # text = L’hôtel de ville historique d’Obermarsberg, qui remonte au XVIII ème siècle, a été remis en état après la guerre de Trente Ans.
 # text_en = The historical city hall in Obermarsberg originates from the 13th century and was refurbished after the Thirty Years' War.
-1	L’	Le	DET	DT	Gender=Masc|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Masc|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	hôtel	hôtel	NOUN	NN	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
 3	de	de	ADP	IN	_	4	case	_	_
 4	ville	ville	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -26691,7 +26691,7 @@
 # sent_id = w02009002
 # text = La présence de la révolution dans la campagne, et sa violence, alarmait la Cour et l’Assemblée nationale.
 # text_en = The severity and the presence of the revolution in the countryside alarmed the Court and National Assembly in Versailles.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	présence	présence	NOUN	NN	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	de	de	ADP	IN	_	5	case	_	_
 4	la	le	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
@@ -26787,7 +26787,7 @@
 # sent_id = w02011012
 # text = L’hymne est bien reçu et les auditeurs ont demandé que l’on chante à nouveau.
 # text_en = The hymn was well received and the audience demanded an encore.
-1	L’	Le	DET	DT	Gender=Masc|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Masc|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	hymne	hymne	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux:pass	_	_
 4	bien	bien	ADV	RB	_	5	advmod	_	_
@@ -26822,7 +26822,7 @@
 # sent_id = w02012042
 # text = La Première Guerre mondiale entraîna d’importants changements dans la politique coloniale.
 # text_en = The First World War brought about shifts and new developments in colonial politics.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 2	Première	premier	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	Proper=True
 3	Guerre	guerre	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj	_	Proper=True
 4	mondiale	mondial	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	Proper=True
@@ -26840,7 +26840,7 @@
 # sent_id = w02013015
 # text = La révolution industrielle s’est déroulée en Grande-Bretagne plus tôt qu’ailleurs.
 # text_en = The Industrial Revolution took place in Great Britain earlier than in any other country.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	révolution	révolution	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	Proper=True
 3	industrielle	industriel	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	Proper=True
 4	s’	se	PRON	PRP	Gender=Fem|Number=Sing|Person=3	6	obj	_	OrigForm=s'|SpaceAfter=No
@@ -26857,7 +26857,7 @@
 # sent_id = w02013033
 # text = La crise de Suez montra, dans un monde en mutation, les limites du pouvoir des vieilles puissances coloniales, dont la Grande-Bretagne et la France.
 # text_en = The Suez Crisis showed the limits of the old colonial powers such as Great Britain and France in a changing world.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	crise	crise	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	IN	_	4	case	_	_
 4	Suez	Suez	PROPN	NNP	Number=Sing	2	nmod	_	_
@@ -27154,7 +27154,7 @@
 # sent_id = w02017046
 # text = La censure avait empêché toute opinion considérée comme indésirable, la participation aux affaires publiques devint quasiment impossible.
 # text_en = The censorship disposed of all undesirable opinions; participation in public life had become practically impossible.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	censure	censure	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	avait	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	4	aux:tense	_	_
 4	empêché	empêcher	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -27278,7 +27278,7 @@
 # sent_id = w02019085
 # text = L’année suivante, en 1977, il reçut la médaille de l’Amitié américaine, à cause de la position amicale de sa presse à l’égard des États-Unis.
 # text_en = In the following year, 1977, he received the distinction of the American Friendship Medal for the friendly position of his press toward the USA.
-1	L’	Le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
+1	L’	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	OrigForm=L'|SpaceAfter=No
 2	année	année	NOUN	NN	Gender=Fem|Number=Sing	9	obl:mod	_	_
 3	suivante	suivant	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	2	punct	_	_
@@ -28296,7 +28296,7 @@
 # sent_id = w04004005
 # text = La partie intérieure de la région est plate et vallonnée, sans distinction claire d’un endroit à un autre.
 # text_en = The inner part of the region is flat and hilly, with no clear distinction between one area to the next.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	partie	partie	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	intérieure	intérieur	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	de	de	ADP	IN	_	6	case	_	_
@@ -28339,7 +28339,7 @@
 # sent_id = w04004051
 # text = La deuxième région royale des Pouilles et de la Calabre a ensuite été établie, y compris le Samnium, certaines zones de la région Molise et de la basilique orientale.
 # text_en = The second Apulian and Calabrian Royal Region was then established, also including Samnium, parts of Molise and the oriental Basilicata.
-1	La	la	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
+1	La	le	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 2	deuxième	deuxième	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	_
 3	région	région	NOUN	NN	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
 4	royale	royal	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	_
