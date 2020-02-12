@@ -11208,7 +11208,7 @@
 15	,	,	PUNCT	,	_	18	punct	_	_
 16	et	et	CCONJ	CC	_	18	cc	_	_
 17	Asty	Asty	PROPN	NNP	Number=Sing	18	compound	_	_
-18	Film	film	NOUN	NN	Number=Sing	12	conj	_	orig_deprel=appos|Proper=True|wordform=film
+18	Film	film	NOUN	NN	Number=Sing	12	conj	_	Proper=True|orig_deprel=appos|wordform=film
 19	en	en	ADP	IN	_	20	case	_	orig_deprel=obl
 20	1916	1916	NUM	CD	_	18	orphan	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	12	punct	_	_
