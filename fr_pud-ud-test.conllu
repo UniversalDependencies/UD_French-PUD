@@ -273,18 +273,18 @@
 28	représentants	représentant	NOUN	NN	Gender=Masc|Number=Plur	26	obj	_	_
 29	de	de	ADP	IN	_	30	case	_	_
 30	Uber	Uber	PROPN	NNP	Number=Sing	28	nmod	_	SpaceAfter=No
-31	,	,	PUNCT	,	_	35	punct	_	_
-32	de	de	ADP	IN	_	35	case	_	_
-33	Motion	Motion	NOUN	NN	Number=Sing	34	compound	_	Proper=True|wordform=motion
-34	Picture	Picture	NOUN	NN	Number=Sing	35	compound	_	Proper=True|wordform=picture
-35	Association	association	NOUN	NN	Number=Sing	30	conj	_	Proper=True|wordform=association
-36	of	of	ADP	IN	_	37	case	_	Proper=True
-37	America	America	PROPN	NNP	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
-38	,	,	PUNCT	,	_	42	punct	_	_
-39	de	de	ADP	IN	_	42	case	_	_
-40	Consumer	Consumer	PROPN	NNP	Number=Sing	41	compound	_	_
-41	Technology	Technology	NOUN	NN	Number=Sing	42	compound	_	Proper=True|wordform=technology
-42	Association	association	NOUN	NN	Number=Sing	30	conj	_	Proper=True|wordform=association
+31	,	,	PUNCT	,	_	33	punct	_	_
+32	de	de	ADP	IN	_	33	case	_	_
+33	Motion	Motion	X	FW	_	30	conj	_	Proper=True
+34	Picture	Picture	X	FW	_	33	flat:foreign	_	Proper=True
+35	Association	association	X	FW	_	33	flat:foreign	_	Proper=True
+36	of	of	X	FW	_	33	flat:foreign	_	Proper=True
+37	America	America	X	FW	_	33	flat:foreign	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	40	punct	_	_
+39	de	de	ADP	IN	_	40	case	_	_
+40	Consumer	Consumer	X	FW	_	30	conj	_	_
+41	Technology	Technology	X	FW	_	40	flat:foreign	_	Proper=True
+42	Association	association	X	FW	_	40	flat:foreign	_	Proper=True
 43	et	et	CCONJ	CC	_	46	cc	_	_
 44	d'	de	ADP	IN	_	46	case	_	SpaceAfter=No
 45	autres	autre	ADJ	JJ	Gender=Masc|Number=Plur	46	amod	_	_
@@ -311,12 +311,12 @@
 13	privé	privé	ADJ	JJ	Gender=Masc|Number=Sing	12	amod	_	_
 14	de	de	ADP	IN	_	15	case	_	_
 15	Washington	Washington	PROPN	NNP	Number=Sing	12	nmod	_	_
-16	dans	dans	ADP	IN	_	18	case	_	_
-17	H	heure	NOUN	NN	Number=Sing	18	compound	_	Proper=True|wordform=h
-18	Street	Street	NOUN	NN	Number=Sing	8	obl	_	Proper=True|SpaceAfter=No|wordform=street
+16	dans	dans	ADP	IN	_	17	case	_	_
+17	H	H	X	FW	_	8	obl	_	Proper=True
+18	Street	Street	X	FW	_	17	flat:foreign	_	Proper=True|SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	_	_
 20	quelques	quelque	ADJ	JJ	Gender=Fem|Number=Plur	21	amod	_	_
-21	rues	rue	NOUN	NN	Gender=Fem|Number=Plur	18	appos	_	_
+21	rues	rue	NOUN	NN	Gender=Fem|Number=Plur	17	appos	_	_
 22	plus	plus	ADV	RBR	_	23	advmod	_	_
 23	loin	loin	ADV	RB	_	21	advmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	8	punct	_	_
@@ -411,7 +411,7 @@
 19	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	aux:tense	_	_
 20	coûté	coûter	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 21	103,7	103,7	NUM	CD	_	22	nummod	_	_
-22	millions	million	NUM	CD	_	20	obj	_	_
+22	millions	million	NOUN	NN	Gender=Masc|Number=Plur	20	obj	_	_
 23	de	de	ADP	IN	_	24	case	_	_
 24	dollars	dollar	NOUN	NN	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	20	punct	_	_
@@ -1018,13 +1018,13 @@
 10	interface	interface	NOUN	NN	Gender=Fem|Number=Sing	6	obl	_	_
 11	intelligente	intelligent	ADJ	JJ	Gender=Fem|Number=Sing	10	amod	_	_
 12	telles	tel	ADJ	JJ	Gender=Fem|Number=Plur	10	amod	_	_
-13	que	que	ADP	IN	_	16	case	_	_
-14	le	le	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
-15	Google	Google	PROPN	NNP	Gender=Masc|Number=Sing	16	compound	_	_
-16	Assistant	Assistant	NOUN	NN	Gender=Masc|Number=Sing	12	obl	_	Proper=True|wordform=assistant
+13	que	que	ADP	IN	_	15	case	_	_
+14	le	le	DET	DT	Gender=Masc|Number=Sing	15	det	_	_
+15	Google	Google	PROPN	NNP	_	12	obl	_	_
+16	Assistant	Assistant	PROPN	NNP	_	15	flat:name	_	Proper=True
 17	ou	ou	CCONJ	CC	_	19	cc	_	_
 18	le	le	DET	DT	Gender=Masc|Number=Sing	19	det	_	_
-19	Siri	Siri	PROPN	NNP	Gender=Masc|Number=Sing	16	conj	_	_
+19	Siri	Siri	PROPN	NNP	Gender=Masc|Number=Sing	15	conj	_	_
 20	de	de	ADP	IN	_	21	case	_	Proper=True
 21	Apple	Apple	PROPN	NNP	Number=Sing	19	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	6	punct	_	_
@@ -1472,7 +1472,7 @@
 40	de	de	ADP	IN	_	42	case	_	_
 41	2	2	NUM	CD	_	42	nummod	_	SpaceAfter=No
 42	°	°	SYM	SYM	_	39	nmod	_	_
-43	C	C	NOUN	NN	Gender=Masc|Number=Sing	42	compound	_	SpaceAfter=No
+43	C	C	SYM	SYM	_	42	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = n01022005
@@ -2035,7 +2035,7 @@
 # text_en = "Luckily, someone in Sony Australia was like, 'Hey, by the way, did you guys notice this?'" says Pall.
 1	Heureusement	heureusement	ADV	RB	_	9	advmod	_	SpaceAfter=No|wordform=heureusement
 2	,	,	PUNCT	,	_	1	punct	_	_
-3	quelqu'un	quelqu'un	NOUN	NN	_	9	nsubj	_	_
+3	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 4	chez	chez	ADP	IN	_	5	case	_	_
 5	Sony	Sony	PROPN	NNP	Number=Sing	9	obl	_	_
 6	en	en	ADP	IN	_	7	case	_	_
@@ -2385,7 +2385,7 @@
 4	que	que	SCONJ	IN	_	10	mark	_	_
 5	l'	le	DET	DT	Gender=Fem|Number=Sing	6	det	_	SpaceAfter=No
 6	analyse	analyse	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj	_	_
-7	ADN	ADN	NOUN	NN	Gender=Masc|Number=Sing	6	compound	_	_
+7	ADN	ADN	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	_
 8	de	de	ADP	IN	_	9	case	_	_
 9	tumeurs	tumeur	NOUN	NN	Gender=Fem|Number=Plur	6	nmod	_	_
 10	pourrait	pouvoir	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	3	ccomp	_	_
@@ -2786,19 +2786,19 @@
 14	d'	de	ADP	IN	_	15	case	_	SpaceAfter=No
 15	enquête	enquête	NOUN	NN	Gender=Fem|Number=Sing	13	nmod	_	_
 16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	INDT	_	20	case	_	_
-17	le	le	DET	_	Gender=Masc|Number=Sing	20	det	_	_
-18	Real	Real	ADJ	JJ	Number=Sing	19	amod	_	Proper=True|wordform=real
-19	Estate	Estate	NOUN	NN	Number=Sing	20	compound	_	Proper=True|wordform=estate
-20	Council	Council	NOUN	NN	Number=Sing	13	nmod	_	Proper=True|wordform=council
-21	of	of	ADP	IN	_	22	case	_	Proper=True
-22	Ontario	Ontario	PROPN	NNP	Number=Sing	20	nmod	_	_
+16	à	à	ADP	INDT	_	18	case	_	_
+17	le	le	DET	_	Gender=Masc|Number=Sing	18	det	_	_
+18	Real	Real	X	FW	_	13	nmod	_	Proper=True
+19	Estate	Estate	X	FW	_	18	flat:foreign	_	Proper=True
+20	Council	Council	X	FW	_	18	flat:foreign	_	Proper=True
+21	of	of	X	FW	_	18	flat:foreign	_	Proper=True
+22	Ontario	Ontario	X	FW	_	18	flat:foreign	_	_
 23	(	(	PUNCT	(	_	24	punct	_	SpaceAfter=No
-24	RECO	RECO	PROPN	NNP	Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No
+24	RECO	RECO	PROPN	NNP	Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
 25	)	)	PUNCT	)	_	24	punct	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	28	punct	_	_
 27	qui	qui	PRON	WP	Gender=Masc|Number=Sing	28	nsubj	_	_
-28	réglemente	réglementer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	acl:relcl	_	_
+28	réglemente	réglementer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	acl:relcl	_	_
 29	les	le	DET	DT	Gender=Masc|Number=Plur	30	det	_	_
 30	agents	agent	NOUN	NN	Gender=Masc|Number=Plur	28	obj	_	_
 31	de	de	ADP	IN	_	33	case	_	_
@@ -3307,7 +3307,7 @@
 22	mais	mais	CCONJ	CC	_	27	cc	_	_
 23	le	le	DET	DT	Gender=Masc|Number=Sing	24	det	_	_
 24	site	site	NOUN	NN	Gender=Masc|Number=Sing	27	nsubj:pass	_	_
-25	web	web	NOUN	NN	Gender=Masc|Number=Sing	24	compound	_	_
+25	web	web	NOUN	NN	Gender=Masc|Number=Sing	24	nmod	_	_
 26	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	aux:pass	_	_
 27	périmé	périmer	VERB	VBN	Gender=Masc|Number=Sing	4	conj	_	_
 28	de	de	ADP	IN	_	30	case	_	_
@@ -3346,7 +3346,7 @@
 15	élevait	élever	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
 16	à	à	ADP	IN	_	18	case	_	_
 17	1	1	NUM	CD	_	18	nummod	_	_
-18	million	million	NOUN	NN	_	15	obl	_	_
+18	million	million	NOUN	NN	Gender=Masc|Number=Sing	15	obl	_	_
 19	et	et	CCONJ	CC	_	20	cc	_	_
 20	demi	demi	NOUN	NN	Gender=Masc|Number=Sing	18	conj	_	_
 21	de	de	ADP	IN	_	22	case	_	_
@@ -3578,7 +3578,7 @@
 11	de	de	ADP	INDT	_	13	case	_	_
 12	le	le	DET	_	Gender=Masc|Number=Sing	13	det	_	_
 13	forfait	forfait	NOUN	NN	Gender=Masc|Number=Sing	10	nmod	_	_
-14	Internet	internet	NOUN	NN	Gender=Masc|Number=Sing	13	compound	_	Proper=True|wordform=internet
+14	Internet	internet	NOUN	NN	Gender=Masc|Number=Sing	13	nmod	_	Proper=True|wordform=internet
 15	illimité	illimité	ADJ	JJ	Gender=Masc|Number=Sing	14	amod	_	Proper=True
 16	de	de	ADP	IN	_	17	case	_	_
 17	SaskTel	SaskTel	PROPN	NNP	Number=Sing	13	nmod	_	SpaceAfter=No
@@ -4286,9 +4286,9 @@
 11	à	à	ADP	IN	_	13	case	_	_
 12	la	le	DET	DT	Gender=Fem|Number=Sing	13	det	_	_
 13	périphérie	périphérie	NOUN	NN	Gender=Fem|Number=Sing	28	obl	_	_
-14	de	de	ADP	IN	_	16	case	_	_
-15	Chapel	Chapel	PROPN	NNP	Number=Sing	16	compound	_	_
-16	Hill	Hill	NOUN	NN	Number=Sing	13	nmod	_	Proper=True|SpaceAfter=No|wordform=hill
+14	de	de	ADP	IN	_	15	case	_	_
+15	Chapel	Chapel	X	FW	_	13	nmod	_	_
+16	Hill	Hill	X	FW	_	15	flat:foreign	_	Proper=True|SpaceAfter=No
 17	,	,	PUNCT	,	_	13	punct	_	_
 18	le	le	DET	DT	Gender=Masc|Number=Sing	19	det	_	_
 19	quartier	quartier	NOUN	NN	Gender=Masc|Number=Sing	28	nsubj	_	_
@@ -4606,7 +4606,7 @@
 14	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	aux:tense	_	_
 15	expliqué	expliquer	VERB	VBN	Gender=Masc|Number=Sing	10	parataxis	_	_
 16	John	John	PROPN	NNP	Gender=Masc|Number=Sing	15	nsubj	_	_
-17	Di	Di	ADP	IN	_	16	flat:name	_	Proper=True
+17	Di	Di	PROPN	NNP	_	16	flat:name	_	Proper=True
 18	Domenico	Domenico	PROPN	NNP	Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	_	_
 20	l'	le	DET	DT	Gender=Masc|Number=Sing	21	det	_	SpaceAfter=No
@@ -4687,9 +4687,9 @@
 # text_en = Miami Bass producers were clinical in the art of moving butts—their main concern.
 1	Les	le	DET	DT	Gender=Masc|Number=Plur	2	det	_	wordform=les
 2	producteurs	producteur	NOUN	NN	Gender=Masc|Number=Plur	8	nsubj	_	_
-3	de	de	ADP	IN	_	5	case	_	_
-4	Miami	Miami	PROPN	NNP	Number=Sing	5	compound	_	_
-5	Bass	Bass	NOUN	NN	Number=Sing	2	nmod	_	Proper=True|wordform=bass
+3	de	de	ADP	IN	_	4	case	_	_
+4	Miami	Miami	PROPN	NNP	_	2	nmod	_	_
+5	Bass	Bass	PROPN	NNP	_	4	flat:name	_	Proper=True
 6	étaient	être	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	8	cop	_	_
 7	des	un	DET	DT	Gender=Masc|Number=Plur	8	det	_	_
 8	professionnels	professionnel	NOUN	NN	Gender=Masc|Number=Plur	0	root	_	_
@@ -4899,7 +4899,7 @@
 3	n'	ne	ADV	RB	Polarity=Neg	5	advmod	_	SpaceAfter=No
 4	y	y	PRON	PRP	Person=3	5	expl:comp	_	_
 5	avait	avoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
-6	rien	rien	NOUN	NN	_	5	obj	_	_
+6	rien	rien	PRON	_	Number=Sing	5	obj	_	_
 7	d'	de	ADP	IN	_	8	case	_	SpaceAfter=No
 8	autre	autre	ADJ	JJ	Gender=Masc|Number=Sing	6	nmod	_	_
 9	de	de	ADP	IN	_	11	case	_	_
@@ -5306,13 +5306,13 @@
 7	à	à	ADP	IN	_	9	case	_	_
 8	la	le	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
 9	radio	radio	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	_
-10	de	de	ADP	IN	_	13	case	_	_
-11	BBC	BBC	PROPN	NNP	Number=Sing	13	compound	_	_
-12	World	World	NOUN	NN	Number=Sing	13	compound	_	Proper=True|wordform=world
-13	Service	service	NOUN	NN	Number=Sing	9	nmod	_	Proper=True|wordform=service
-14	à	à	ADP	IN	_	16	case	_	_
-15	Bush	Bush	PROPN	NNP	Gender=Masc|Number=Sing	16	compound	_	_
-16	House	House	NOUN	NN	Number=Sing	4	obl	_	Proper=True|SpaceAfter=No|wordform=house
+10	de	de	ADP	IN	_	11	case	_	_
+11	BBC	BBC	X	FW	_	9	nmod	_	_
+12	World	World	X	FW	_	11	flat:foreign	_	Proper=True
+13	Service	service	X	FW	_	11	flat:foreign	_	Proper=True
+14	à	à	ADP	IN	_	15	case	_	_
+15	Bush	Bush	X	FW	_	4	obl	_	_
+16	House	House	X	FW	_	15	flat:foreign	_	Proper=True|SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01072012
@@ -5547,10 +5547,10 @@
 7	matchs	match	NOUN	NN	Gender=Masc|Number=Plur	4	obl	_	_
 8	récents	récent	ADJ	JJ	Gender=Masc|Number=Plur	7	amod	_	_
 9-10	du	_	_	_	_	_	_	_	_
-9	de	de	ADP	INDT	_	12	case	_	_
-10	le	le	DET	_	Gender=Masc|Number=Sing	12	det	_	_
-11	Rugby	Rugby	NOUN	NN	Number=Sing	12	compound	_	Proper=True|wordform=rugby
-12	Championship	Championship	NOUN	NN	Number=Sing	7	nmod	_	Proper=True|SpaceAfter=No|wordform=championship
+9	de	de	ADP	INDT	_	11	case	_	_
+10	le	le	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+11	Rugby	Rugby	X	FW	_	7	nmod	_	Proper=True
+12	Championship	Championship	X	FW	_	11	flat:foreign	_	Proper=True|SpaceAfter=No
 13	,	,	PUNCT	,	_	4	punct	_	_
 14	était	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	15	aux:tense	_	_
 15	passée	passer	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
@@ -5770,14 +5770,14 @@
 6	sont	être	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	cop	_	_
 7	ambassadeur	ambassadeur	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 8	mondial	mondial	ADJ	JJ	Gender=Masc|Number=Sing	7	amod	_	_
-9	pour	pour	ADP	IN	_	13	case	_	_
-10	New	New	ADJ	JJ	Number=Sing	11	amod	_	Proper=True|wordform=new
-11	York	York	PROPN	NNP	Number=Sing	12	compound	_	_
-12	City	City	NOUN	NN	Number=Sing	13	compound	_	Proper=True|wordform=city
-13	Health	Health	NOUN	NN	Number=Sing	7	obl	_	Proper=True|wordform=health
-14	et	et	CCONJ	CC	_	16	cc	_	_
-15	Hospitals	Hospitals	NOUN	NN	Number=Plur	16	compound	_	Proper=True|wordform=hospitals
-16	Corporation	Corporation	NOUN	NN	Number=Sing	13	conj	_	Proper=True|SpaceAfter=No|wordform=corporation
+9	pour	pour	ADP	IN	_	10	case	_	_
+10	New	New	X	FW	_	7	obl	_	Proper=True
+11	York	York	X	FW	_	10	flat:foreign	_	_
+12	City	City	X	FW	_	10	flat:foreign	_	Proper=True
+13	Health	Health	X	FW	_	10	flat:foreign	_	Proper=True
+14	et	et	CCONJ	CC	_	15	cc	_	_
+15	Hospitals	Hospitals	X	FW	_	10	conj	_	Proper=True
+16	Corporation	Corporation	X	FW	_	15	flat:foreign	_	Proper=True|SpaceAfter=No
 17	,	,	PUNCT	,	_	20	punct	_	_
 18	et	et	CCONJ	CC	_	20	cc	_	_
 19	une	un	DET	DT	Gender=Fem|Number=Sing	20	det	_	_
@@ -5842,7 +5842,7 @@
 8	devenir	devenir	VERB	VB	_	5	xcomp	_	_
 9	président	président	NOUN	NN	Gender=Masc|Number=Sing	8	xcomp	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
-11	quelqu'un	quelqu'un	NOUN	NN	Gender=Masc|Number=Sing	6	appos	_	_
+11	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing	6	appos	_	_
 12	de	de	ADP	IN	_	14	case	_	_
 13	si	si	ADV	RB	_	14	advmod	_	_
 14	raciste	raciste	ADJ	JJ	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -5990,9 +5990,9 @@
 2	clients	client	NOUN	NN	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	IN	_	5	case	_	_
 4	la	le	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
-5	Bank	Bank	NOUN	NN	Number=Sing	2	nmod	_	Proper=True|wordform=bank
-6	of	of	ADP	IN	_	7	case	_	Proper=True
-7	Scotland	Scotland	PROPN	NNP	Number=Sing	5	nmod	_	SpaceAfter=No
+5	Bank	Bank	X	FW	_	2	nmod	_	Proper=True
+6	of	of	X	FW	_	5	flat:foreign	_	Proper=True
+7	Scotland	Scotland	X	FW	_	5	flat:foreign	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	cependant	cependant	ADV	RB	_	11	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
@@ -6069,7 +6069,7 @@
 16	carte	carte	NOUN	NN	Gender=Fem|Number=Sing	13	nmod	_	_
 17	de	de	ADP	IN	_	18	case	_	_
 18	fidélité	fidélité	NOUN	NN	Gender=Fem|Number=Sing	16	nmod	_	_
-19	Nectar	Nectar	PROPN	NNP	Number=Sing	18	compound	_	SpaceAfter=No
+19	Nectar	Nectar	PROPN	NNP	Number=Sing	16	appos	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	22	punct	_	_
 21	qui	qui	PRON	WP	Gender=Masc|Number=Plur	22	nsubj	_	_
 22	cherchent	chercher	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	acl:relcl	_	_
@@ -6189,7 +6189,7 @@
 14	à	à	ADP	INDT	_	16	case	_	_
 15	le	le	DET	_	Gender=Masc|Number=Sing	16	det	_	_
 16	moins	moins	ADV	RBR	_	17	advmod	_	_
-17	quelqu’un	quelqu’un	NOUN	NN	_	11	obj	_	wordform=quelqu'un
+17	quelqu’un	quelqu’un	PRON	_	Gender=Masc|Number=Sing	11	obj	_	wordform=quelqu'un
 18	qui	qui	PRON	WP	_	20	nsubj	_	_
 19	se	se	PRON	PRP	Person=3	20	obj	_	_
 20	respecte	respecter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	acl:relcl	_	_
@@ -6308,12 +6308,12 @@
 22	créationn	création	NOUN	NN	Gender=Fem|Number=Sing	20	obj	_	_
 23	de	de	ADP	IN	_	24	case	_	_
 24	bijoux	bijou	NOUN	NN	Gender=Masc|Number=Plur	22	nmod	_	_
-25	à	à	ADP	IN	_	28	case	_	_
-26	la	le	DET	DT	Gender=Fem|Number=Sing	28	det	_	_
-27	Glasgow	Glasgow	PROPN	NNP	Number=Sing	28	compound	_	_
-28	School	School	NOUN	NN	Number=Sing	20	obl	_	Proper=True|wordform=school
-29	of	of	ADP	IN	_	30	case	_	Proper=True
-30	Art	art	NOUN	NN	Number=Sing	28	nmod	_	Proper=True|SpaceAfter=No|wordform=art
+25	à	à	ADP	IN	_	27	case	_	_
+26	la	le	DET	DT	Gender=Fem|Number=Sing	27	det	_	_
+27	Glasgow	Glasgow	X	FW	_	20	obl	_	_
+28	School	School	X	FW	_	27	flat:foreign	_	Proper=True
+29	of	of	X	FW	_	27	flat:foreign	_	Proper=True
+30	Art	art	X	FW	_	27	flat:foreign	_	Proper=True|SpaceAfter=No
 31	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01087035
@@ -7429,11 +7429,11 @@
 24	de	de	ADP	IN	_	26	case	_	_
 25	la	le	DET	DT	Gender=Fem|Number=Sing	26	det	_	_
 26	BBC	BBC	PROPN	NNP	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	,	_	31	punct	_	_
-28	The	The	DET	DT	Number=Sing	31	det	_	Proper=True|wordform=the
-29	Andrew	Andrew	PROPN	NNP	Gender=Masc|Number=Sing	31	compound	_	_
-30	Marr	Marr	PROPN	NNP	Gender=Masc|Number=Sing	29	flat:name	_	_
-31	Show	Show	NOUN	NN	Number=Sing	23	appos	_	Proper=True|SpaceAfter=No|wordform=show
+27	,	,	PUNCT	,	_	28	punct	_	_
+28	The	The	X	FW	_	23	appos	_	Proper=True
+29	Andrew	Andrew	X	FW	_	28	flat:foreign	_	_
+30	Marr	Marr	X	FW	_	28	flat:foreign	_	_
+31	Show	Show	X	FW	_	28	flat:foreign	_	Proper=True|SpaceAfter=No
 32	.	.	PUNCT	.	_	20	punct	_	_
 
 # newdoc id = n01103
@@ -7947,9 +7947,9 @@
 10	;	;	PUNCT	:	_	16	punct	_	_
 11	les	le	DET	DT	Gender=Masc|Number=Plur	12	det	_	_
 12	clients	client	NOUN	NN	Gender=Masc|Number=Plur	16	nsubj	_	_
-13	d’	de	ADP	IN	_	15	case	_	SpaceAfter=No|wordform=d'
-14	Avro	Avro	PROPN	NNP	Number=Sing	15	compound	_	_
-15	Energy	Energy	NOUN	NN	Number=Sing	12	nmod	_	Proper=True|wordform=energy
+13	d’	de	ADP	IN	_	14	case	_	SpaceAfter=No|wordform=d'
+14	Avro	Avro	PROPN	NNP	_	12	nmod	_	_
+15	Energy	Energy	PROPN	NNP	_	14	flat:name	_	Proper=True
 16	payeraient	payer	VERB	VBC	Mood=Cnd|Number=Plur|Person=3|Tense=Pres	6	parataxis	_	_
 17	environ	environ	ADV	RB	_	19	advmod	_	_
 18	£	£	SYM	SYM	_	16	obj	_	SpaceAfter=No
@@ -8081,7 +8081,7 @@
 3	n’	n’	ADV	RB	Polarity=Neg	7	advmod	_	SpaceAfter=No|wordform=n'
 4	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:tense	_	_
 5	en	en	ADP	IN	_	6	case	_	_
-6	rien	rien	NOUN	NN	_	7	obl	_	_
+6	rien	rien	PRON	_	Number=Sing	7	obl	_	_
 7	entravé	entraver	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 8	les	le	DET	DT	Gender=Masc|Number=Plur	9	det	_	_
 9	investisseurs	investisseur	NOUN	NN	Gender=Masc|Number=Plur	7	obj	_	_
@@ -8137,7 +8137,7 @@
 39	milliards	milliard	NUM	CD	_	36	conj	_	_
 40	de	de	ADP	IN	_	41	case	_	_
 41	livres	livre	NOUN	NN	Gender=Fem|Number=Plur	39	nmod	_	_
-42	sterling	sterling	NOUN	NN	_	41	compound	_	SpaceAfter=No
+42	sterling	sterling	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01111030
@@ -8173,7 +8173,7 @@
 26	de	de	ADP	IN	_	28	case	_	_
 27	la	le	DET	DT	Gender=Fem|Number=Sing	28	det	_	_
 28	livre	livre	NOUN	NN	Gender=Fem|Number=Sing	25	nmod	_	_
-29	sterling	sterling	NOUN	NN	_	28	compound	_	SpaceAfter=No
+29	sterling	sterling	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01112
@@ -8946,12 +8946,12 @@
 # sent_id = n01125016
 # text = La South Bank Tower, emblématique de Londres, a retenu les services de Rachel Winham, architecte d’intérieur, pour l’aménagement de l’appartement témoin.
 # text_en = London’s landmark South Bank Tower commissioned interior designer Rachel Winham to design the show apartment.
-1	La	le	DET	DT	Gender=Fem|Number=Sing	4	det	_	wordform=la
-2	South	South	ADJ	JJ	Number=Sing	4	amod	_	Proper=True|wordform=south
-3	Bank	Bank	NOUN	NN	Number=Sing	4	compound	_	Proper=True|wordform=bank
-4	Tower	Tower	NOUN	NN	Gender=Fem|Number=Sing	11	nsubj	_	Proper=True|SpaceAfter=No|wordform=tower
+1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	wordform=la
+2	South	South	PROPN	NNP	_	11	nsubj	_	Proper=True
+3	Bank	Bank	PROPN	NNP	_	2	flat:name	_	Proper=True
+4	Tower	Tower	PROPN	NNP	_	2	flat:name	_	Proper=True|SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
-6	emblématique	emblématique	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	_
+6	emblématique	emblématique	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 7	de	de	ADP	IN	_	8	case	_	_
 8	Londres	Londres	PROPN	NNP	Number=Sing	6	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	6	punct	_	_
@@ -9257,7 +9257,7 @@
 16	ne	ne	ADV	RB	Polarity=Neg	17	advmod	_	_
 17	servira	servir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	5	conj	_	_
 18	à	à	ADP	IN	_	19	case	_	_
-19	rien	rien	NOUN	NN	_	17	obl	_	_
+19	rien	rien	PRON	_	Number=Sing	17	obl	_	_
 20	si	si	ADP	IN	_	25	mark	_	_
 21	les	le	DET	DT	Gender=Masc|Number=Plur	22	det	_	_
 22	électeurs	électeur	NOUN	NN	Gender=Masc|Number=Plur	25	nsubj	_	_
@@ -9354,7 +9354,7 @@
 1	Plus	plus	ADV	RBR	_	3	advmod	_	wordform=plus
 2	de	de	ADP	IN	_	1	fixed	_	_
 3	5,7	5,7	NUM	CD	_	4	nummod	_	_
-4	millions	million	NUM	CD	_	9	nsubj	_	_
+4	millions	million	NOUN	NN	Gender=Masc|Number=Plur	9	nsubj	_	_
 5	de	de	ADP	IN	_	6	case	_	_
 6	Floridiens	Floridiens	NOUN	NN	Gender=Masc|Number=Sing	4	nmod	_	wordform=floridiens
 7	ont	avoir	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	aux:tense	_	_
@@ -9417,9 +9417,9 @@
 6	,	,	PUNCT	,	_	9	punct	_	_
 7	pas	pas	ADV	RB	Polarity=Neg	9	advmod	_	_
 8	«	«	PUNCT	``	_	9	punct	_	_
-9	Game	Game	NOUN	NN	Number=Sing	5	appos	_	Proper=True|wordform=game
-10	of	of	ADP	IN	_	11	case	_	Proper=True
-11	Thrones	Thrones	NOUN	NN	Number=Plur	9	nmod	_	Proper=True|wordform=thrones
+9	Game	Game	X	FW	_	5	appos	_	Proper=True
+10	of	of	X	FN	_	9	flat:foreign	_	Proper=True
+11	Thrones	Thrones	X	FW	_	9	flat:foreign	_	Proper=True
 12	»	»	PUNCT	''	_	9	punct	_	_
 13	!	!	PUNCT	.	_	5	punct	_	_
 
@@ -9437,20 +9437,20 @@
 9	collection	collection	NOUN	NN	Gender=Fem|Number=Sing	6	nmod	_	_
 10	très	très	ADV	RB	_	11	advmod	_	_
 11	réputée	réputé	ADJ	JJ	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
-12	,	,	PUNCT	,	_	15	punct	_	_
-13	«	«	PUNCT	``	_	15	punct	_	_
-14	The	The	DET	DT	Number=Sing	15	det	_	Proper=True|wordform=the
-15	Winds	Winds	NOUN	NN	Number=Plur	6	appos	_	Proper=True|wordform=winds
-16	of	of	ADP	IN	_	17	case	_	Proper=True
-17	Winter	Winter	NOUN	NN	Number=Sing	15	nmod	_	Proper=True|wordform=winter
-18	»	»	PUNCT	''	_	15	punct	_	_
-19	et	et	CCONJ	CC	_	22	cc	_	_
-20	«	«	PUNCT	``	_	22	punct	_	_
-21	A	a	DET	DT	Number=Sing	22	det	_	Proper=True|wordform=a
-22	Dream	Dream	NOUN	NN	Number=Sing	15	conj	_	Proper=True|wordform=dream
-23	of	of	ADP	IN	_	24	case	_	Proper=True
-24	Spring	Spring	PROPN	NNP	Number=Sing	22	nmod	_	_
-25	»	»	PUNCT	''	_	22	punct	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	«	«	PUNCT	``	_	14	punct	_	_
+14	The	The	X	FW	Number=Sing	6	appos	_	Proper=True|wordform=the
+15	Winds	Winds	X	FW	Number=Plur	14	flat:foreign	_	Proper=True|wordform=winds
+16	of	of	X	FW	_	14	flat:foreign	_	Proper=True
+17	Winter	Winter	X	FW	Number=Sing	14	flat:foreign	_	Proper=True|wordform=winter
+18	»	»	PUNCT	''	_	14	punct	_	_
+19	et	et	CCONJ	CC	_	21	cc	_	_
+20	«	«	PUNCT	``	_	21	punct	_	_
+21	A	a	X	FW	Number=Sing	14	conj	_	Proper=True|wordform=a
+22	Dream	Dream	X	FW	Number=Sing	21	flat:foreign	_	Proper=True|wordform=dream
+23	of	of	X	FW	_	21	flat:foreign	_	Proper=True
+24	Spring	Spring	X	FW	Number=Sing	21	flat:foreign	_	_
+25	»	»	PUNCT	''	_	21	punct	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01133
@@ -9630,11 +9630,11 @@
 18	les	le	DET	DT	Gender=Masc|Number=Plur	19	det	_	_
 19	investisseurs	investisseur	NOUN	NN	Gender=Masc|Number=Plur	20	nsubj	_	_
 20	appréciaient	apprécier	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	15	acl:relcl	_	_
-21	Yum	Yum	PROPN	NNP	Number=Sing	22	compound	_	_
-22	Brands	Brands	NOUN	NN	Number=Plur	20	obj	_	Proper=True|SpaceAfter=No|wordform=brands
+21	Yum	Yum	PROPN	NNP	_	20	obj	_	_
+22	Brands	Brands	PROPN	NNP	_	21	flat:name	_	Proper=True|SpaceAfter=No
 23	,	,	PUNCT	,	_	24	punct	_	_
-24	société	société	NOUN	NN	Gender=Fem|Number=Sing	22	appos	_	_
-25	mère	mère	NOUN	NN	Gender=Fem|Number=Sing	24	compound	_	_
+24	société	société	NOUN	NN	Gender=Fem|Number=Sing	21	appos	_	_
+25	mère	mère	NOUN	NN	Gender=Fem|Number=Sing	24	nmod	_	_
 26	de	de	ADP	IN	_	27	case	_	_
 27	KFC	KFC	PROPN	NNP	Number=Sing	24	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	15	punct	_	_
@@ -9788,11 +9788,11 @@
 24	comme	comme	ADP	IN	_	26	case	_	_
 25	des	un	DET	DT	Gender=Masc|Number=Plur	26	det	_	_
 26	personnages	personnage	NOUN	NN	Gender=Masc|Number=Plur	23	obl	_	_
-27	de	de	ADP	IN	_	30	case	_	_
-28	«	«	PUNCT	``	_	30	punct	_	_
-29	Stranger	Stranger	ADJ	JJR	Number=Plur	30	amod	_	Proper=True|wordform=stranger
-30	Things	Things	NOUN	NN	Number=Plur	26	nmod	_	Proper=True|wordform=things
-31	»	»	PUNCT	''	_	30	punct	_	SpaceAfter=No
+27	de	de	ADP	IN	_	29	case	_	_
+28	«	«	PUNCT	``	_	29	punct	_	_
+29	Stranger	Stranger	X	FW	_	26	nmod	_	Proper=True
+30	Things	Things	X	FW	_	29	flat:foreign	_	Proper=True
+31	»	»	PUNCT	''	_	29	punct	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	23	punct	_	_
 
 # sent_id = n01137010
@@ -9882,12 +9882,12 @@
 5	suivis	suivre	VERB	VBN	Gender=Masc|Number=Plur	0	root	_	_
 6	par	par	ADP	IN	_	8	case	_	_
 7	un	un	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
-8	after-show	after-show	NOUN	NN	Gender=Masc	5	obl	_	_
-9	«	«	PUNCT	``	_	12	punct	_	_
-10	the	the	DET	DT	Number=Sing	12	det	_	Proper=True
-11	Talking	Talking	ADJ	JJ	Number=Sing	12	amod	_	Proper=True|wordform=talking
-12	Dead	Dead	NOUN	NN	Number=Sing	8	appos	_	Proper=True|wordform=dead
-13	»	»	PUNCT	''	_	12	punct	_	SpaceAfter=No
+8	after-show	after-show	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	_
+9	«	«	PUNCT	``	_	10	punct	_	_
+10	the	the	X	FW	_	8	appos	_	Proper=True
+11	Talking	Talking	X	FW	_	10	flat:foreign	_	Proper=True
+12	Dead	Dead	X	FW	_	10	flat:foreign	_	Proper=True
+13	»	»	PUNCT	''	_	10	punct	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	_	_
 
 # newdoc id = n01139
@@ -10215,12 +10215,12 @@
 13	de	de	ADP	INDT	_	15	case	_	_
 14	le	le	DET	_	Gender=Masc|Number=Sing	15	det	_	_
 15	Nord	nord	NOUN	NN	Gender=Masc|Number=Sing	12	nmod	_	Proper=True|SpaceAfter=No|wordform=nord
-16	,	,	PUNCT	,	_	19	punct	_	_
-17	selon	selon	ADP	IN	_	19	case	_	_
-18	Nine	Nine	NUM	CD	_	19	nummod	_	Proper=True|wordform=nine
-19	News	News	NOUN	NN	Number=Plur	5	obl	_	Proper=True|wordform=news
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	selon	selon	ADP	IN	_	18	case	_	_
+18	Nine	Nine	PROPN	NNP	_	5	obl	_	Proper=True
+19	News	News	PROPN	NNP	_	18	flat:name	_	Proper=True
 20	à	à	ADP	IN	_	21	case	_	_
-21	Brisbane	Brisbane	PROPN	NNP	Number=Sing	19	nmod	_	SpaceAfter=No
+21	Brisbane	Brisbane	PROPN	NNP	Number=Sing	18	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n01143009
@@ -10551,12 +10551,12 @@
 # text_en = The Yas Marina Circuit website has exact timings.
 1	Le	le	DET	DT	Gender=Masc|Number=Sing	2	det	_	wordform=le
 2	site	site	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj	_	_
-3	internet	internet	NOUN	NN	Gender=Masc|Number=Sing	2	compound	_	_
-4	de	de	ADP	IN	_	8	case	_	_
-5	la	le	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
-6	Yas	Yas	PROPN	NNP	Number=Sing	8	compound	_	_
-7	Marina	Marina	PROPN	NNP	Number=Sing	8	compound	_	_
-8	Circuit	circuit	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	Proper=True|wordform=circuit
+3	internet	internet	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
+4	de	de	ADP	IN	_	6	case	_	_
+5	la	le	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
+6	Yas	Yas	PROPN	NNP	_	2	nmod	_	_
+7	Marina	Marina	PROPN	NNP	_	6	flat:name	_	_
+8	Circuit	circuit	PROPN	NNP	_	6	flat:name	_	Proper=True
 9	fournit	fournir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 10	un	un	DET	DT	Gender=Masc|Number=Sing	11	det	_	_
 11	minutage	minutage	NOUN	NN	Gender=Masc|Number=Sing	9	obj	_	_
@@ -10690,9 +10690,9 @@
 4	de	de	ADP	IN	_	6	case	_	_
 5	son	son	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
 6	expérience	expérience	NOUN	NN	Gender=Fem|Number=Sing	3	obl	_	_
-7	à	à	ADP	IN	_	9	case	_	_
-8	CCN	CCN	PROPN	NNP	Number=Sing	9	compound	_	_
-9	Style	style	NOUN	NN	Number=Sing	6	nmod	_	Proper=True|SpaceAfter=No|wordform=style
+7	à	à	ADP	IN	_	8	case	_	_
+8	CCN	CCN	PROPN	NNP	_	6	nmod	_	_
+9	Style	style	PROPN	NNP	_	8	flat:name	_	Proper=True|SpaceAfter=No
 10	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01149027
@@ -11197,20 +11197,20 @@
 4	de	de	ADP	IN	_	5	case	_	_
 5	production	production	NOUN	NN	Gender=Fem|Number=Sing	3	nmod	_	_
 6	cinématrographique	cinématrographique	ADJ	JJ	Gender=Fem|Number=Sing	5	amod	_	_
-7	(	(	PUNCT	(	_	9	punct	_	SpaceAfter=No
-8	Athina	Athina	PROPN	NNP	Number=Sing	9	compound	_	_
-9	Film	film	NOUN	NN	Number=Sing	3	appos	_	Proper=True|SpaceAfter=No|wordform=film
-10	)	)	PUNCT	)	_	9	punct	_	_
+7	(	(	PUNCT	(	_	8	punct	_	SpaceAfter=No
+8	Athina	Athina	PROPN	NNP	Number=Sing	3	appos	_	_
+9	Film	film	PROPN	NNP	Number=Sing	8	flat:name	_	Proper=True|SpaceAfter=No
+10	)	)	PUNCT	)	_	8	punct	_	_
 11	fut	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	aux:pass	_	_
 12	créée	créer	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
 13	en	en	ADP	IN	_	14	case	_	_
 14	1912	1912	NUM	CD	_	12	obl	_	SpaceAfter=No
-15	,	,	PUNCT	,	_	18	punct	_	_
-16	et	et	CCONJ	CC	_	18	cc	_	_
-17	Asty	Asty	PROPN	NNP	Number=Sing	18	compound	_	_
-18	Film	film	NOUN	NN	Number=Sing	12	conj	_	Proper=True|orig_deprel=appos|wordform=film
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	et	et	CCONJ	CC	_	17	cc	_	_
+17	Asty	Asty	PROPN	NNP	Number=Sing	12	conj	_	_
+18	Film	film	PROPN	NNP	Number=Sing	17	flat:name	_	Proper=True|orig_deprel=appos
 19	en	en	ADP	IN	_	20	case	_	orig_deprel=obl
-20	1916	1916	NUM	CD	_	18	orphan	_	SpaceAfter=No
+20	1916	1916	NUM	CD	_	17	orphan	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = w01006081
@@ -11619,7 +11619,7 @@
 14	Rastiz	Rastiz	PROPN	NNP	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	_	_
 16	devenu	devenir	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_
-17	Saint	Saint	ADJ	JJ	Gender=Masc|Number=Sing	16	xcomp	_	Proper=True|wordform=saint
+17	Saint	Saint	PROPN	NNP	Gender=Masc|Number=Sing	16	xcomp	_	Proper=True|wordform=saint
 18	Rastislav	Rastislav	PROPN	NNP	Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -11784,7 +11784,7 @@
 # text_en = The northern portion of the Caucasus is known as the Ciscaucasus and the southern portion as the Transcaucasus.
 1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	wordform=la
 2	partie	partie	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
-3	nord	nord	NOUN	NN	Gender=Masc|Number=Sing	2	compound	_	_
+3	nord	nord	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
 5	le	le	DET	_	Gender=Masc|Number=Sing	6	det	_	_
@@ -11799,7 +11799,7 @@
 14	et	et	CCONJ	CC	_	16	cc	_	_
 15	la	le	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
 16	partie	partie	NOUN	NN	Gender=Fem|Number=Sing	8	conj	_	orig_deprel=nsubj:pass
-17	sud	sud	NOUN	NN	Gender=Fem|Number=Sing	16	compound	_	_
+17	sud	sud	NOUN	NN	Gender=Fem|Number=Sing	16	nmod	_	_
 18	sous	sous	ADP	IN	_	20	case	_	orig_deprel=obl
 19	le	le	DET	DT	Gender=Masc|Number=Sing	20	det	_	_
 20	nom	nom	NOUN	NN	Gender=Masc|Number=Sing	16	orphan	_	_
@@ -11927,7 +11927,7 @@
 27	et	et	CCONJ	CC	_	29	cc	_	_
 28	le	le	DET	DT	Gender=Masc|Number=Sing	29	det	_	_
 29	mont	mont	NOUN	NN	Gender=Masc|Number=Sing	26	conj	_	Proper=True
-30	Kenya	Kenya	PROPN	NNP	Gender=Masc|Number=Sing	29	compound	_	SpaceAfter=No
+30	Kenya	Kenya	PROPN	NNP	Gender=Masc|Number=Sing	29	appos	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	32	punct	_	_
 32	deux	deux	NUM	CD	_	26	appos	_	_
 33-34	des	_	_	_	_	_	_	_	_
@@ -12666,7 +12666,7 @@
 12	près	près	ADV	RB	_	14	advmod	_	_
 13	de	de	ADP	IN	_	12	fixed	_	_
 14	100	100	NUM	CD	_	15	nummod	_	_
-15	millions	million	NUM	CD	_	10	obl	_	_
+15	millions	million	NOUN	NN	Gender=Masc|Number=Plur	10	obl	_	_
 16	de	de	ADP	IN	_	17	case	_	_
 17	tonnes	tonne	NOUN	NN	Gender=Fem|Number=Plur	15	nmod	_	_
 18	en	en	ADP	IN	_	19	case	_	_
@@ -12758,7 +12758,7 @@
 4	de	de	ADP	IN	_	6	case	_	_
 5	la	le	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 6	partie	partie	NOUN	NN	Gender=Fem|Number=Sing	3	obl	_	_
-7	ouest	ouest	NOUN	NN	Number=Sing	6	compound	_	_
+7	ouest	ouest	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
 9	le	le	DET	_	Gender=Masc|Number=Sing	10	det	_	_
@@ -13705,7 +13705,7 @@
 16	dépasse	dépasser	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	acl:relcl	_	_
 17	0	0	NUM	CD	_	18	nummod	_	SpaceAfter=No
 18	°	°	SYM	SYM	_	16	obj	_	SpaceAfter=No
-19	C	C	NOUN	NN	_	18	compound	_	wordform=c
+19	C	C	SYM	SYM	_	18	nmod	_	wordform=c
 20	en	en	ADP	IN	_	21	case	_	_
 21	hiver	hiver	NOUN	NN	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	_	_
@@ -14278,7 +14278,7 @@
 26	(	(	PUNCT	(	_	28	punct	_	SpaceAfter=No
 27	l'	le	DET	DT	Gender=Masc|Number=Sing	28	det	_	SpaceAfter=No
 28	océan	océan	NOUN	NN	Gender=Masc|Number=Sing	21	appos	_	Proper=True
-29	Pacifique	Pacifique	PROPN	NNP	Gender=Masc|Number=Sing	28	compound	_	SpaceAfter=No
+29	Pacifique	Pacifique	PROPN	NNP	Gender=Masc|Number=Sing	28	appos	_	SpaceAfter=No
 30	,	,	PUNCT	,	_	31	punct	_	_
 31	jusqu'	jusqu'	ADP	IN	_	34	case	_	SpaceAfter=No
 32-33	au	_	_	_	_	_	_	_	_
@@ -14398,16 +14398,16 @@
 1	Le	le	DET	DT	Gender=Masc|Number=Sing	2	det	_	wordform=le
 2	gouvernement	gouvernement	NOUN	NN	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	local	local	ADJ	JJ	Gender=Masc|Number=Sing	2	amod	_	_
-4	de	de	ADP	IN	_	6	case	_	_
-5	Cape	Cape	NOUN	NN	Number=Sing	6	compound	_	Proper=True|wordform=cape
-6	Town	town	NOUN	NN	Number=Sing	2	nmod	_	Proper=True|wordform=town
+4	de	de	ADP	IN	_	5	case	_	_
+5	Cape	Cape	PROPN	NNP	_	2	nmod	_	Proper=True
+6	Town	town	PROPN	NNP	_	5	flat:name	_	Proper=True
 7	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
 8	la	le	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
 9	«	«	PUNCT	``	_	10	punct	_	_
-10	City	City	NOUN	NN	Number=Sing	0	root	_	Proper=True|wordform=city
-11	of	of	ADP	IN	_	13	case	_	Proper=True
-12	Cape	Cape	NOUN	NN	Number=Sing	13	compound	_	Proper=True|wordform=cape
-13	Town	town	NOUN	NN	Number=Sing	10	nmod	_	Proper=True|wordform=town
+10	City	City	X	FW	_	0	root	_	Proper=True
+11	of	of	X	FW	_	10	flat:foreign	_	Proper=True
+12	Cape	Cape	X	FW	_	10	flat:foreign	_	Proper=True
+13	Town	town	X	FW	_	10	flat:foreign	_	Proper=True
 14	»	»	PUNCT	''	_	10	punct	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	_	_
 16	une	un	DET	DT	Gender=Fem|Number=Sing	17	det	_	_
@@ -14428,7 +14428,7 @@
 7	nom	nom	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	_
 8	d'	de	ADP	IN	_	10	case	_	_
 9	«	«	PUNCT	``	_	10	punct	_	_
-10	Undersea	Undersea	NOUN	NN	Number=Sing	7	nmod	_	Proper=True|wordform=undersea
+10	Undersea	Undersea	PROPN	NNP	_	7	nmod	_	Proper=True|wordform=undersea
 11	»	»	PUNCT	''	_	10	punct	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	4	punct	_	_
 13	racontait	raconter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
@@ -14648,14 +14648,14 @@
 # sent_id = w01049066
 # text = Le Royal National Park d'Australie, ouvert en 1879, fut le deuxième du monde à officiellement voir le jour.
 # text_en = Australia's Royal National Park, established in 1879, was the world's second officially established national park.
-1	Le	le	DET	DT	Gender=Masc|Number=Sing	4	det	_	wordform=le
-2	Royal	royal	ADJ	JJ	Number=Sing	4	amod	_	Proper=True|wordform=royal
-3	National	national	ADJ	JJ	Number=Sing	4	amod	_	Proper=True|wordform=national
-4	Park	Park	NOUN	NN	Number=Sing	14	nsubj	_	Proper=True|wordform=park
+1	Le	le	DET	DT	Gender=Masc|Number=Sing	2	det	_	wordform=le
+2	Royal	royal	X	FW	_	14	nsubj	_	Proper=True
+3	National	national	X	FW	_	2	flat:foreign	_	Proper=True
+4	Park	Park	X	FW	_	2	flat:foreign	_	Proper=True
 5	d'	de	ADP	IN	_	6	case	_	SpaceAfter=No
-6	Australie	Australie	PROPN	NNP	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	Australie	Australie	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
-8	ouvert	ouvrir	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
+8	ouvert	ouvrir	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
 9	en	en	ADP	IN	_	10	case	_	_
 10	1879	1879	NUM	CD	_	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	8	punct	_	_
@@ -15708,7 +15708,7 @@
 18	(	(	PUNCT	(	_	19	punct	_	SpaceAfter=No
 19	appelée	appeler	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	14	acl	_	_
 20	«	«	PUNCT	``	_	21	punct	_	_
-21	massebot	massebot	NOUN	NN	Number=Sing	19	xcomp	_	_
+21	massebot	massebot	NOUN	NN	Gender=Masc|Number=Sing	19	xcomp	_	_
 22	»	»	PUNCT	''	_	21	punct	_	SpaceAfter=No
 23	)	)	PUNCT	)	_	19	punct	_	_
 24	orientés	orienter	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	17	acl	_	_
@@ -16126,9 +16126,9 @@
 10	dans	dans	ADP	IN	_	12	case	_	_
 11	un	un	DET	DT	Gender=Masc|Number=Sing	12	det	_	_
 12	hôtel	hôtel	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
-13	de	de	ADP	IN	_	15	case	_	_
-14	Beverly	Beverly	PROPN	NNP	Number=Sing	15	compound	_	_
-15	Hills	Hills	NOUN	NN	Number=Plur	12	nmod	_	Proper=True|wordform=hills
+13	de	de	ADP	IN	_	14	case	_	_
+14	Beverly	Beverly	PROPN	NNP	_	12	nmod	_	_
+15	Hills	Hills	PROPN	NNP	_	14	flat:name	_	Proper=True
 16	croyant	croire	VERB	VBG	VerbForm=Part	9	advcl	_	_
 17	participer	participer	VERB	VB	_	16	xcomp	_	_
 18	à	à	ADP	IN	_	20	case	_	_
@@ -17120,7 +17120,7 @@
 8	en	en	ADP	IN	_	9	case	_	_
 9	1492	1492	NUM	CD	_	4	obl	_	_
 10	;	;	PUNCT	:	_	17	punct	_	_
-11	beaucoup	beaucoup	NOUN	NN	_	17	nsubj	_	_
+11	beaucoup	beaucoup	ADV	RB	_	17	nsubj	_	_
 12	de	de	ADP	IN	_	14	case	_	_
 13	ces	ce	DET	DT	Gender=Masc|Number=Plur	14	det	_	_
 14	Juifs	juif	NOUN	NN	Gender=Masc|Number=Plur	11	nmod	_	wordform=juifs
@@ -17312,9 +17312,9 @@
 8	,	,	PUNCT	,	_	4	punct	_	_
 9	le	le	DET	DT	Gender=Masc|Number=Sing	10	det	_	_
 10	port	port	NOUN	NN	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
-11	de	de	ADP	IN	_	13	case	_	_
-12	Pearl	Pearl	NOUN	NN	Number=Sing	13	compound	_	Proper=True|wordform=pearl
-13	Harbor	Harbor	NOUN	NN	Number=Sing	10	nmod	_	Proper=True|wordform=harbor
+11	de	de	ADP	IN	_	12	case	_	_
+12	Pearl	Pearl	PROPN	NNP	_	10	nmod	_	Proper=True
+13	Harbor	Harbor	PROPN	NNP	_	12	flat:name	_	Proper=True
 14	était	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	16	aux:pass	_	_
 15	souvent	souvent	ADV	RB	_	16	advmod	_	_
 16	utilisé	utiliser	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -17937,12 +17937,12 @@
 8	le	le	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 9	niveau	niveau	NOUN	NN	Gender=Masc|Number=Sing	6	obl	_	_
 10	international	international	ADJ	JJ	Gender=Masc|Number=Sing	9	amod	_	_
-11	par	par	ADP	IN	_	16	case	_	_
-12	Car	Car	NOUN	NN	Number=Sing	16	compound	_	Proper=True|wordform=car
-13	of	of	ADP	IN	_	15	case	_	Proper=True
-14	the	the	DET	DT	Number=Sing	15	det	_	Proper=True
-15	Century	Century	NOUN	NN	Number=Sing	12	nmod	_	Proper=True|wordform=century
-16	awards	awards	NOUN	NN	Number=Plur	6	obl	_	Proper=True|SpaceAfter=No
+11	par	par	ADP	IN	_	12	case	_	_
+12	Car	Car	X	FW	_	6	obl	_	Proper=True
+13	of	of	X	FW	_	12	flat:foreign	_	Proper=True
+14	the	the	X	FW	_	12	flat:foreign	_	Proper=True
+15	Century	Century	X	FW	_	12	flat:foreign	_	Proper=True
+16	awards	awards	X	FW	_	12	flat:foreign	_	Proper=True|SpaceAfter=No
 17	,	,	PUNCT	,	_	20	punct	_	_
 18	comme	comme	ADP	IN	_	20	case	_	_
 19	la	le	DET	DT	Gender=Fem|Number=Sing	20	det	_	_
@@ -17970,15 +17970,15 @@
 7	petite	petit	ADJ	JJ	Gender=Fem|Number=Sing	8	amod	_	_
 8	voiture	voiture	NOUN	NN	Gender=Fem|Number=Sing	5	nmod	_	_
 9	Rambler	Rambler	PROPN	NNP	Number=Sing	5	appos	_	_
-10	d’	de	ADP	IN	_	12	case	_	SpaceAfter=No|wordform=d'
-11	American	American	ADJ	JJ	Number=Plur	12	amod	_	Proper=True|wordform=american
-12	Motors	Motors	NOUN	NN	Number=Plur	5	nmod	_	Proper=True|wordform=motors
+10	d’	de	ADP	IN	_	11	case	_	SpaceAfter=No|wordform=d'
+11	American	American	PROPN	NNP	_	5	nmod	_	Proper=True
+12	Motors	Motors	PROPN	NNP	_	11	flat:name	_	Proper=True
 13	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	aux:tense	_	_
 14	incité	inciter	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
-15	General	General	ADJ	JJ	Number=Plur	16	amod	_	Proper=True|wordform=general
-16	Motors	Motors	NOUN	NN	Number=Plur	14	obj	_	Proper=True|wordform=motors
+15	General	General	PROPN	NNP	_	14	obj	_	Proper=True
+16	Motors	Motors	PROPN	NNP	_	15	flat:name	_	Proper=True
 17	et	et	CCONJ	CC	_	18	cc	_	_
-18	Ford	Ford	PROPN	NNP	Number=Sing	16	conj	_	_
+18	Ford	Ford	PROPN	NNP	Number=Sing	15	conj	_	_
 19	à	à	ADP	IN	_	20	case	_	_
 20	introduire	introduire	VERB	VB	_	14	xcomp	_	_
 21	leurs	son	DET	DTP$	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
@@ -18177,12 +18177,12 @@
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	entre	entre	ADP	IN	_	6	case	_	_
 5	3	3	NUM	CD	_	6	nummod	_	_
-6	millions	million	NUM	CD	_	29	obl	_	_
+6	millions	million	NOUN	NN	Gender=Masc|Number=Plur	29	obl	_	_
 7	et	et	CCONJ	CC	_	11	cc	_	_
 8	plus	plus	ADV	RBR	_	10	advmod	_	_
 9	de	de	ADP	IN	_	8	fixed	_	_
 10	10	10	NUM	CD	_	11	nummod	_	_
-11	millions	million	NUM	CD	_	6	conj	_	_
+11	millions	million	NOUN	NN	Gender=Masc|Number=Plur	6	conj	_	_
 12	de	de	ADP	IN	_	13	case	_	_
 13	civils	civil	NOUN	NN	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	16	punct	_	_
@@ -18196,7 +18196,7 @@
 21	estimés	estimer	VERB	VBN	Gender=Masc|Number=Plur|VerbForm=Part	19	acl	_	_
 22	à	à	ADP	IN	_	24	case	_	_
 23	7,5	7,5	NUM	CD	_	24	nummod	_	_
-24	millions	million	NUM	CD	_	21	obl	_	SpaceAfter=No
+24	millions	million	NOUN	NN	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
 25	)	)	PUNCT	)	_	21	punct	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	16	punct	_	_
 27	ont	avoir	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	29	aux:tense	_	_
@@ -18440,7 +18440,7 @@
 34	Lin	Lin	PROPN	NNP	Gender=Masc|Number=Sing	24	appos	_	_
 35	Zexu	Zexu	PROPN	NNP	Gender=Masc|Number=Sing	34	flat:name	_	SpaceAfter=No
 36	,	,	PUNCT	,	_	34	punct	_	_
-37	eut	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	38	aux:pass	_	_
+37	eut	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	38	aux:tense	_	_
 38	interdit	interdire	VERB	VBN	Gender=Masc|Number=Sing	7	advcl	_	_
 39	le	le	DET	DT	Gender=Masc|Number=Sing	40	det	_	_
 40	commerce	commerce	NOUN	NN	Gender=Masc|Number=Sing	38	obj	_	_
@@ -18668,7 +18668,7 @@
 15	scène	scène	NOUN	NN	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	13	punct	_	_
 17	mais	mais	CCONJ	CC	_	22	cc	_	_
-18	rien	rien	NOUN	NN	_	22	nsubj	_	_
+18	rien	rien	PRON	_	Number=Sing	22	nsubj	_	_
 19	ne	ne	ADV	RB	Polarity=Neg	22	advmod	_	_
 20	l’	le	PRON	PRP	Gender=Masc|Number=Sing|Person=3	22	obj	_	SpaceAfter=No|wordform=l'
 21	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	aux:tense	_	_
@@ -18813,9 +18813,9 @@
 12	un	un	DET	DT	Gender=Masc|Number=Sing	14	det	_	_
 13	certain	certain	ADJ	JJ	Gender=Masc|Number=Sing	14	amod	_	_
 14	nombre	nombre	NOUN	NN	Gender=Masc|Number=Sing	18	nsubj	_	_
-15	de	de	ADP	IN	_	17	case	_	_
-16	Boeing	Boeing	PROPN	NNP	Number=Plur	17	compound	_	_
-17	B-29	B-29	NUM	CD	_	14	nmod	_	wordform=b-29
+15	de	de	ADP	IN	_	16	case	_	_
+16	Boeing	Boeing	PROPN	NNP	Number=Plur	14	nmod	_	_
+17	B-29	B-29	NUM	CD	_	16	nmod	_	_
 18	étaient	être	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	3	advcl	_	_
 19	à	à	ADP	IN	_	21	case	_	_
 20	la	le	DET	DT	Gender=Fem|Number=Sing	21	det	_	_
@@ -18843,7 +18843,7 @@
 # text_en = The radar system for which Alvarez is best known and which has played a major role in aviation, most particularly in the post war Berlin airlift, was Ground Controlled Approach (GCA).
 1	Le	le	DET	DT	Gender=Masc|Number=Sing	2	det	_	wordform=le
 2	système	système	NOUN	NN	Gender=Masc|Number=Sing	38	nsubj	_	_
-3	radar	radar	NOUN	NN	Gender=Masc|Number=Sing	2	compound	_	_
+3	radar	radar	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
 4	pour	pour	ADP	IN	_	5	case	_	_
 5	lequel	lequel	PRON	WP	Gender=Masc|Number=Sing	12	obl	_	_
 6	Luis	Luis	PROPN	NNP	Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -18880,11 +18880,11 @@
 37	le	le	DET	DT	Gender=Masc|Number=Sing	38	det	_	_
 38	système	système	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 39	GCA	GCA	PROPN	NNP	Number=Sing	38	appos	_	_
-40	(	(	PUNCT	(	_	43	punct	_	SpaceAfter=No
-41	Ground	Ground	NOUN	NN	Number=Sing	43	compound	_	Proper=True|wordform=ground
-42	Controlled	Controlled	ADJ	JJ	Number=Sing	43	amod	_	Proper=True|wordform=controlled
-43	Approach	Approach	NOUN	NN	Number=Sing	39	appos	_	Proper=True|SpaceAfter=No|wordform=approach
-44	)	)	PUNCT	)	_	43	punct	_	SpaceAfter=No
+40	(	(	PUNCT	(	_	41	punct	_	SpaceAfter=No
+41	Ground	Ground	X	FW	_	39	appos	_	Proper=True
+42	Controlled	Controlled	X	FW	_	41	flat:foreign	_	Proper=True
+43	Approach	Approach	X	FW	_	41	flat:foreign	_	Proper=True|SpaceAfter=No
+44	)	)	PUNCT	)	_	41	punct	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	38	punct	_	_
 
 # sent_id = w01105055
@@ -18913,7 +18913,7 @@
 20	à	à	ADP	INDT	_	22	case	_	_
 21	les	le	DET	_	Gender=Masc|Number=Plur	22	det	_	_
 22	opérateurs	opérateur	NOUN	NN	Gender=Masc|Number=Plur	19	obl	_	_
-23	radar	radar	NOUN	NN	Gender=Masc|Number=Sing	22	compound	_	_
+23	radar	radar	NOUN	NN	Gender=Masc|Number=Sing	22	nmod	_	_
 24	de	de	ADP	IN	_	25	mark	_	_
 25	regarder	regarder	VERB	VB	_	19	xcomp	_	_
 26	des	un	DET	DT	Gender=Masc|Number=Plur	27	det	_	_
@@ -19318,12 +19318,12 @@
 10	de	de	ADP	INDT	_	9	fixed	_	_
 11	le	le	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	tournage	tournage	NOUN	NN	Gender=Masc|Number=Sing	3	obl	_	_
-13	de	de	ADP	IN	_	16	case	_	_
-14	«	«	PUNCT	``	_	16	punct	_	_
-15	That	That	DET	DT	Number=Sing	16	det	_	Proper=True|wordform=that
-16	Summer	Summer	NOUN	NN	Number=Sing	12	nmod	_	Proper=True|wordform=summer
-17	!	!	PUNCT	.	_	16	punct	_	_
-18	»	»	PUNCT	''	_	16	punct	_	_
+13	de	de	ADP	IN	_	15	case	_	_
+14	«	«	PUNCT	``	_	15	punct	_	_
+15	That	That	X	FW	_	12	nmod	_	Proper=True
+16	Summer	Summer	X	FW	_	15	flat:foreign	_	Proper=True
+17	!	!	PUNCT	.	_	15	punct	_	_
+18	»	»	PUNCT	''	_	15	punct	_	_
 19	en	en	ADP	IN	_	20	case	_	_
 20	1979	1979	NUM	CD	_	3	obl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	20	punct	_	_
@@ -19600,9 +19600,9 @@
 18	pour	pour	ADP	IN	_	20	case	_	_
 19	le	le	DET	DT	Gender=Masc|Number=Sing	20	det	_	_
 20	journal	journal	NOUN	NN	Gender=Masc|Number=Sing	13	obl	_	_
-21	Edinburgh	Edinburgh	PROPN	NNP	Number=Sing	22	compound	_	_
-22	Evening	Evening	NOUN	NN	Number=Sing	20	appos	_	Proper=True|wordform=evening
-23	Courant	Courant	ADJ	JJ	Number=Sing	22	amod	_	Proper=True|SpaceAfter=No|wordform=courant
+21	Edinburgh	Edinburgh	PROPN	NNP	_	20	appos	_	_
+22	Evening	Evening	PROPN	NNP	_	21	flat:name	_	Proper=True
+23	Courant	Courant	PROPN	NNP	_	21	flat:name	_	Proper=True|SpaceAfter=No
 24	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = w01115024
@@ -19641,8 +19641,8 @@
 12	le	le	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
 13	journal	journal	NOUN	NN	Gender=Masc|Number=Sing	7	obl	_	_
 14	écossais	écossais	ADJ	JJ	Gender=Masc|Number=Sing	13	amod	_	_
-15	The	The	DET	DT	Number=Sing	16	det	_	Proper=True|wordform=the
-16	Scotsman	Scotsman	NOUN	NN	Number=Sing	13	appos	_	Proper=True|SpaceAfter=No|wordform=scotsman
+15	The	The	PROPN	NNP	_	13	appos	_	Proper=True
+16	Scotsman	Scotsman	PROPN	NNP	_	15	flat:name	_	Proper=True|SpaceAfter=No
 17	,	,	PUNCT	,	_	4	punct	_	_
 18	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
 19	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	aux:tense	_	_
@@ -19742,10 +19742,10 @@
 45	respectivement	respectivement	ADV	RB	_	44	advmod	_	_
 46	à	à	ADP	IN	_	48	case	_	_
 47	trois	trois	NUM	CD	_	48	nummod	_	_
-48	millions	million	NUM	CD	_	44	obl	_	_
+48	millions	million	NOUN	NN	Gender=Masc|Number=Plur	44	obl	_	_
 49	et	et	CCONJ	CC	_	51	cc	_	_
 50	cinq	cinq	NUM	CD	_	51	nummod	_	_
-51	millions	million	NUM	CD	_	48	conj	_	_
+51	millions	million	NOUN	NN	Gender=Masc|Number=Plur	48	conj	_	_
 52	d'	de	ADP	IN	_	53	case	_	SpaceAfter=No
 53	exemplaires	exemplaire	NOUN	NN	Gender=Masc|Number=Plur	48	nmod	_	SpaceAfter=No
 54	.	.	PUNCT	.	_	44	punct	_	_
@@ -19991,12 +19991,12 @@
 # text_en = Really Really Love You was released in August and reach the top 50; "Shaky Ground", the related single, appeared in September but Geyer was already in the US.
 1	La	le	DET	DT	Gender=Fem|Number=Sing	2	det	_	wordform=la
 2	chanson	chanson	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj	_	_
-3	«	«	PUNCT	``	_	6	punct	_	_
-4	Really	Really	ADV	RB	_	5	advmod	_	Proper=True|wordform=really
-5	Really	Really	ADV	RB	_	6	advmod	_	Proper=True|wordform=really
-6	Love	Love	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	2	appos	_	Proper=True|wordform=love
-7	You	You	PRON	PRP	Number=Sing|Person=2	6	obj	_	Proper=True|wordform=you
-8	»	»	PUNCT	''	_	6	punct	_	_
+3	«	«	PUNCT	``	_	4	punct	_	_
+4	Really	Really	X	FW	_	2	appos	_	Proper=True
+5	Really	Really	X	FW	_	4	flat:foreign	_	Proper=True
+6	Love	Love	X	FW	_	4	flat:foreign	_	Proper=True
+7	You	You	X	FW	_	4	flat:foreign	_	Proper=True
+8	»	»	PUNCT	''	_	4	punct	_	_
 9	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	aux:tense	_	_
 10	sortie	sortir	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
 11	en	en	ADP	IN	_	12	case	_	_
@@ -20008,13 +20008,13 @@
 17	top	top	NOUN	NN	Gender=Masc|Number=Sing	15	obj	_	_
 18	50	50	NUM	CD	_	17	nummod	_	_
 19	;	;	PUNCT	:	_	30	punct	_	_
-20	«	«	PUNCT	``	_	22	punct	_	_
-21	Shaky	Shaky	ADJ	JJ	Number=Sing	22	amod	_	Proper=True|wordform=shaky
-22	Ground	Ground	NOUN	NN	Number=Sing	30	nsubj	_	Proper=True|wordform=ground
-23	»	»	PUNCT	''	_	22	punct	_	_
+20	«	«	PUNCT	``	_	21	punct	_	_
+21	Shaky	Shaky	X	FW	_	30	nsubj	_	Proper=True
+22	Ground	Ground	X	FW	_	21	flat:foreign	_	Proper=True
+23	»	»	PUNCT	''	_	21	punct	_	_
 24	,	,	PUNCT	,	_	26	punct	_	_
 25	le	le	DET	DT	Gender=Masc|Number=Sing	26	det	_	_
-26	CD	CD	NOUN	NN	Gender=Masc|Number=Sing	22	appos	_	wordform=cd
+26	CD	CD	NOUN	NN	Gender=Masc|Number=Sing	21	appos	_	wordform=cd
 27	correspondant	correspondant	ADJ	JJ	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	26	punct	_	_
 29	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	30	aux:tense	_	_
@@ -20088,8 +20088,8 @@
 11	à	à	ADP	IN	_	13	case	_	_
 12	la	le	DET	DT	Gender=Fem|Number=Sing	13	det	_	_
 13	place	place	NOUN	NN	Gender=Fem|Number=Sing	6	obl	_	_
-14	n°	n°	X	GW	_	13	appos	_	SpaceAfter=No
-15	96	96	NUM	CD	_	14	appos	_	SpaceAfter=No
+14	n°	n°	SYM	SYM	_	13	appos	_	SpaceAfter=No
+15	96	96	NUM	CD	_	14	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	6	punct	_	_
 17	l’	le	DET	DT	Gender=Masc|Number=Sing	18	det	_	SpaceAfter=No|wordform=l'
 18	album	album	NOUN	NN	Gender=Masc|Number=Sing	25	nsubj	_	_
@@ -20149,10 +20149,10 @@
 21	la	le	DET	DT	Gender=Fem|Number=Sing	22	det	_	_
 22	comédie	comédie	NOUN	NN	Gender=Fem|Number=Sing	18	nmod	_	_
 23	musicale	musical	ADJ	JJ	Gender=Fem|Number=Sing	22	amod	_	_
-24	«	«	PUNCT	``	_	26	punct	_	_
-25	The	The	DET	DT	Number=Sing	26	det	_	Proper=True|wordform=the
-26	Wiz	Wiz	NOUN	NN	Number=Sing	22	appos	_	Proper=True|wordform=wiz
-27	»	»	PUNCT	''	_	26	punct	_	SpaceAfter=No
+24	«	«	PUNCT	``	_	25	punct	_	_
+25	The	The	X	FW	_	22	appos	_	Proper=True
+26	Wiz	Wiz	X	FW	_	25	flat:foreign	_	Proper=True
+27	»	»	PUNCT	''	_	25	punct	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	8	punct	_	_
 
 # newdoc id = w01125
@@ -20333,8 +20333,8 @@
 # text_en = Her 1981 album Wild West was one of her biggest sellers.
 1	Son	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	wordform=son
 2	album	album	NOUN	NN	Gender=Masc|Number=Sing	11	nsubj	_	_
-3	Wild	Wild	ADJ	JJ	Number=Sing	4	amod	_	Proper=True|wordform=wild
-4	West	West	NOUN	NN	Number=Sing	2	appos	_	Proper=True|wordform=west
+3	Wild	Wild	X	FW	_	2	appos	_	Proper=True
+4	West	West	X	WF	_	3	flat:foreign	_	Proper=True
 5	(	(	PUNCT	(	_	6	punct	_	SpaceAfter=No
 6	1981	1981	NUM	CD	_	2	obl:mod	_	SpaceAfter=No
 7	)	)	PUNCT	)	_	6	punct	_	_
@@ -20411,11 +20411,11 @@
 # sent_id = w01128059
 # text = Le St Louis Post Dispatch l'a appelé l'une des meilleures performances de LaBeouf.
 # text_en = Louis Post Dispatch called it one of LaBeouf's best performances.
-1	Le	le	DET	DT	Gender=Masc|Number=Sing	5	det	_	wordform=le
-2	St	St	ADJ	JJ	Number=Sing	3	amod	_	Proper=True|wordform=st
-3	Louis	Louis	PROPN	NNP	Number=Sing	5	compound	_	_
-4	Post	Post	NOUN	NN	Number=Sing	5	compound	_	Proper=True|wordform=post
-5	Dispatch	Dispatch	NOUN	NN	Number=Sing	8	nsubj	_	Proper=True|wordform=dispatch
+1	Le	le	DET	DT	Gender=Masc|Number=Sing	2	det	_	wordform=le
+2	St	St	X	FW	_	8	nsubj	_	Proper=True
+3	Louis	Louis	X	FW	_	2	flat:foreign	_	_
+4	Post	Post	X	FW	_	2	flat:foreign	_	Proper=True
+5	Dispatch	Dispatch	X	FW	_	2	flat:foreign	_	Proper=True
 6	l'	le	PRON	PRP	Gender=Masc|Number=Sing|Person=3	8	obj	_	SpaceAfter=No
 7	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux:tense	_	_
 8	appelé	appeler	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -20501,12 +20501,12 @@
 29	l’	le	DET	DT	Gender=Fem|Number=Sing	30	det	_	SpaceAfter=No|wordform=l'
 30	année	année	NOUN	NN	Gender=Fem|Number=Sing	27	nmod	_	_
 31	2003	2003	NUM	CD	_	30	appos	_	_
-32	de	de	ADP	IN	_	35	case	_	_
-33	la	le	DET	DT	Gender=Fem|Number=Sing	35	det	_	_
-34	Winston	Winston	PROPN	NNP	Number=Sing	35	compound	_	_
-35	Cup	cup	NOUN	NN	Gender=Fem|Number=Sing	27	nmod	_	Proper=True|wordform=cup
+32	de	de	ADP	IN	_	34	case	_	_
+33	la	le	DET	DT	Gender=Fem|Number=Sing	34	det	_	_
+34	Winston	Winston	PROPN	NNP	_	27	nmod	_	_
+35	Cup	cup	PROPN	NNP	_	34	flat:name	_	Proper=True|wordform=cup
 36	de	de	ADP	IN	_	37	case	_	_
-37	NASCAR	NASCAR	PROPN	NNP	Number=Sing	35	nmod	_	SpaceAfter=No
+37	NASCAR	NASCAR	PROPN	NNP	Number=Sing	34	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	,	_	41	punct	_	_
 39	le	le	DET	DT	Gender=Masc|Number=Sing	41	det	_	_
 40	dernier	dernier	ADJ	JJ	Gender=Masc|Number=Sing	41	amod	_	_
@@ -20558,14 +20558,14 @@
 1	Dans	dans	ADP	IN	_	3	case	_	wordform=dans
 2	l’	le	DET	DT	Gender=Masc|Number=Sing	3	det	_	SpaceAfter=No|wordform=l'
 3	album	album	NOUN	NN	Gender=Masc|Number=Sing	17	obl	_	_
-4	«	«	PUNCT	``	_	7	punct	_	_
-5	On	On	ADP	IN	_	7	case	_	Proper=True|wordform=on
-6	a	a	DET	DT	Number=Sing	7	det	_	Proper=True
-7	Wing	Wing	NOUN	NN	Number=Sing	3	appos	_	Proper=True|wordform=wing
-8	and	and	CCONJ	CC	_	10	cc	_	Proper=True
-9	a	a	DET	DT	Number=Sing	10	det	_	Proper=True
-10	Prayer	Prayer	NOUN	NN	Number=Sing	7	conj	_	Proper=True|wordform=prayer
-11	»	»	PUNCT	''	_	7	punct	_	_
+4	«	«	PUNCT	``	_	5	punct	_	_
+5	On	On	X	FW	_	3	appos	_	Proper=True
+6	a	a	X	FW	_	5	flat:foreign	_	Proper=True
+7	Wing	Wing	X	FW	_	5	flat:foreign	_	Proper=True
+8	and	and	X	FW	_	5	flat:foreign	_	Proper=True
+9	a	a	X	FW	_	5	flat:foreign	_	Proper=True
+10	Prayer	Prayer	X	FW	Number=Sing	5	flat:foreign	_	Proper=True
+11	»	»	PUNCT	''	_	5	punct	_	_
 12	(	(	PUNCT	(	_	13	punct	_	SpaceAfter=No
 13	1992	1992	NUM	CD	_	3	obl:mod	_	SpaceAfter=No
 14	)	)	PUNCT	)	_	13	punct	_	SpaceAfter=No
@@ -20581,8 +20581,8 @@
 23	de	de	ADP	INDT	_	25	case	_	_
 24	le	le	DET	_	Gender=Masc|Number=Sing	25	det	_	_
 25	groupe	groupe	NOUN	NN	Gender=Masc|Number=Sing	19	nmod	_	_
-26	Stealers	Stealers	NOUN	NN	Number=Plur	27	compound	_	Proper=True|wordform=stealers
-27	Wheel	Wheel	NOUN	NN	Number=Sing	25	appos	_	Proper=True|SpaceAfter=No|wordform=wheel
+26	Stealers	Stealers	PROPN	NNP	_	25	appos	_	Proper=True
+27	Wheel	Wheel	PROPN	NNP	_	26	flat:name	_	Proper=True|SpaceAfter=No
 28	,	,	PUNCT	,	_	25	punct	_	_
 29	dans	dans	ADP	IN	_	31	case	_	_
 30	plusieurs	plusieurs	ADJ	JJ	Gender=Masc|Number=Plur	31	amod	_	_
@@ -20613,9 +20613,9 @@
 19	qui	qui	PRON	WP	Gender=Masc|Number=Sing	21	nsubj	_	_
 20	avait	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp	21	aux:tense	_	_
 21	signé	signer	VERB	VBN	Gender=Masc|Number=Sing	8	acl:relcl	_	_
-22	chez	chez	ADP	IN	_	24	case	_	_
-23	Decca	Decca	PROPN	NNP	Number=Sing	24	compound	_	_
-24	Records	Records	NOUN	NN	Number=Plur	21	obl	_	Proper=True|wordform=records
+22	chez	chez	ADP	IN	_	23	case	_	_
+23	Decca	Decca	PROPN	NNP	_	21	obl	_	_
+24	Records	Records	PROPN	NNP	_	23	flat:name	_	Proper=True
 25	dans	dans	ADP	IN	_	27	case	_	_
 26	les	le	DET	DT	Gender=Fem|Number=Plur	27	det	_	_
 27	années	année	NOUN	NN	Gender=Fem|Number=Plur	21	obl	_	_
@@ -20637,30 +20637,29 @@
 10	chanson	chanson	NOUN	NN	Gender=Fem|Number=Sing	7	nmod	_	_
 11	auparavant	auparavant	ADV	RB	_	12	advmod	_	_
 12	enregistrée	enregistrer	VERB	VBN	Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	_
-13	avec	avec	ADP	IN	_	15	case	_	_
-14	The	The	DET	DT	Number=Plur	15	det	_	Proper=True|wordform=the
-15	Humblebums	Humblebums	PROPN	NNP	Number=Plur	12	obl	_	_
-16	«	«	PUNCT	``	_	21	punct	_	_
-17	Her	Her	DET	DTP$	Number=Sing|Person=3|Poss=Yes	18	det	_	Proper=True|wordform=her
-18	Father	Father	NOUN	NN	Number=Sing	21	nsubj	_	Proper=True|wordform=father
-19	Didn'	Didn'	X	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	dep	_	Proper=True|SpaceAfter=No|wordform=didn'
-20	t	t	ADV	RB	Polarity=Neg	21	advmod	_	Proper=True
-21	Like	Like	VERB	VB	_	10	appos	_	Proper=True|wordform=like
-22	Me	I	PRON	PRP	Number=Sing|Person=1	21	obj	_	Proper=True|wordform=me
-23	Anyway	Anyway	ADV	RB	_	21	advmod	_	Proper=True|wordform=anyway
-24	»	»	PUNCT	''	_	21	punct	_	_
-25	sur	sur	ADP	IN	_	27	case	_	_
-26	son	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
-27	album	album	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	_
-28	«	«	PUNCT	``	_	31	punct	_	_
-29	Over	Over	ADP	IN	_	31	case	_	wordform=over
-30	My	My	DET	DTP$	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	31	det	_	Proper=True|wordform=my
-31	Head	Head	NOUN	NN	Number=Sing	27	appos	_	Proper=True|wordform=head
-32	»	»	PUNCT	''	_	31	punct	_	_
-33	(	(	PUNCT	(	_	34	punct	_	SpaceAfter=No
-34	1994	1994	NUM	CD	_	27	obl:mod	_	SpaceAfter=No
-35	)	)	PUNCT	)	_	34	punct	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	4	punct	_	_
+13	avec	avec	ADP	IN	_	14	case	_	_
+14	The	The	X	FW	_	12	obl	_	Proper=True
+15	Humblebums	Humblebums	X	FW	_	14	flat:foreign	_	_
+16	«	«	PUNCT	``	_	17	punct	_	_
+17	Her	Her	X	FW	_	10	appos	_	Proper=True
+18	Father	Father	X	FW	_	17	flat:foreign	_	Proper=True
+19	Didn't	Didn't	X	FW	_	17	flat:foreign	_	Proper=True
+20	Like	Like	X	FW	_	17	flat:foreign	_	Proper=True
+21	Me	I	X	FW	_	17	flat:foreign	_	Proper=True
+22	Anyway	Anyway	X	FW	_	17	flat:foreign	_	Proper=True
+23	»	»	PUNCT	''	_	17	punct	_	_
+24	sur	sur	ADP	IN	_	26	case	_	_
+25	son	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	26	det	_	_
+26	album	album	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	_
+27	«	«	PUNCT	``	_	28	punct	_	_
+28	Over	Over	X	FW	_	26	appos	_	_
+29	My	My	X	FW	_	28	flat:foreign	_	Proper=True
+30	Head	Head	X	FW	_	28	flat:foreign	_	Proper=True
+31	»	»	PUNCT	''	_	28	punct	_	_
+32	(	(	PUNCT	(	_	33	punct	_	SpaceAfter=No
+33	1994	1994	NUM	CD	_	26	obl:mod	_	SpaceAfter=No
+34	)	)	PUNCT	)	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = w01130103
 # text = Il s'agit des deux derniers enregistrements réalisés par Gerry Rafferty avec Hugh Murphy ; ce dernier est décédé en 1998.
@@ -20900,7 +20899,7 @@
 31	nombre	nombre	NOUN	NN	Gender=Masc|Number=Sing	27	obl	_	_
 32	de	de	ADP	IN	_	33	case	_	_
 33	titres	titre	NOUN	NN	Gender=Masc|Number=Plur	31	nmod	_	_
-34	Marvel	Marvel	PROPN	NNP	Number=Sing	33	compound	_	SpaceAfter=No
+34	Marvel	Marvel	PROPN	NNP	Number=Sing	33	appos	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = w01133016
@@ -20926,9 +20925,9 @@
 16	collection	collection	NOUN	NN	Gender=Fem|Number=Sing	13	obl	_	_
 17	d’	de	ADP	IN	_	18	case	_	SpaceAfter=No|wordform=d'
 18	histoires	histoire	NOUN	NN	Gender=Fem|Number=Plur	16	nmod	_	_
-19	de	de	ADP	IN	_	21	case	_	_
-20	Start	Start	NOUN	NN	Number=Sing	21	compound	_	Proper=True|wordform=start
-21	Reach	Reach	NOUN	NN	Number=Sing	18	nmod	_	Proper=True|SpaceAfter=No|wordform=reach
+19	de	de	ADP	IN	_	20	case	_	_
+20	Start	Start	X	FW	_	18	nmod	_	Proper=True
+21	Reach	Reach	X	FW	_	20	flat:foreign	_	Proper=True|SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	_	_
 23	des	un	DET	DT	Gender=Masc|Number=Plur	24	det	_	_
 24	périodiques	périodique	NOUN	NN	Gender=Masc|Number=Plur	16	appos	_	_
@@ -21106,11 +21105,11 @@
 24	(	(	PUNCT	(	_	25	punct	_	SpaceAfter=No
 25	2011	2011	NUM	CD	_	19	appos	_	SpaceAfter=No
 26	)	)	PUNCT	)	_	25	punct	_	SpaceAfter=No
-27	,	,	PUNCT	,	_	31	punct	_	_
-28	de	de	ADP	IN	_	31	case	_	_
-29	Walt	Walt	PROPN	NNP	Gender=Masc|Number=Sing	31	compound	_	_
-30	Disney	Disney	PROPN	NNP	Gender=Masc|Number=Sing	29	flat:name	_	_
-31	Pictures	Pictures	NOUN	NN	Number=Plur	19	nmod	_	Proper=True|SpaceAfter=No|wordform=pictures
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	de	de	ADP	IN	_	29	case	_	_
+29	Walt	Walt	X	FW	_	19	nmod	_	_
+30	Disney	Disney	X	FW	_	29	flat:foreign	_	_
+31	Pictures	Pictures	X	FW	_	29	flat:foreign	_	Proper=True|SpaceAfter=No
 32	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = w01135037
@@ -21321,7 +21320,7 @@
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	INDT	_	14	case	_	_
 13	les	le	DET	_	Gender=Masc|Number=Plur	14	det	_	_
-14	Sudètes	Sudètes	NOUN	NN	Number=Plur	10	nmod	_	Proper=True|wordform=sudètes
+14	Sudètes	Sudètes	PROPN	NNP	Number=Plur	10	nmod	_	Proper=True
 15	qui	qui	PRON	WP	Gender=Masc|Number=Plur	16	nsubj	_	_
 16	tentaient	tenter	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp	10	acl:relcl	_	_
 17	de	de	ADP	IN	_	18	mark	_	_
@@ -21511,7 +21510,7 @@
 33	à	à	ADP	IN	_	35	case	_	_
 34	l'	le	DET	DT	Gender=Masc|Number=Sing	35	det	_	SpaceAfter=No
 35	Institut	institut	NOUN	NN	Gender=Masc|Number=Sing	27	obl	_	Proper=True|wordform=institut
-36	Curie	Curie	PROPN	NNP	Gender=Masc|Number=Sing	35	compound	_	_
+36	Curie	Curie	PROPN	NNP	Gender=Masc|Number=Sing	35	appos	_	_
 37	à	à	ADP	IN	_	38	case	_	_
 38	Paris	Paris	PROPN	NNP	Number=Sing	27	obl	_	_
 
@@ -21816,7 +21815,7 @@
 26	se	se	PRON	PRP	Gender=Masc|Number=Sing|Person=3	27	obj	_	_
 27	soucie	soucier	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	23	acl:relcl	_	_
 28	de	de	ADP	IN	_	29	case	_	_
-29	rien	rien	NOUN	NN	_	27	obl	_	_
+29	rien	rien	PRON	_	Number=Sing	27	obl	_	_
 30	et	et	CCONJ	CC	_	32	cc	_	_
 31	qui	qui	PRON	WP	Gender=Masc|Number=Sing	32	nsubj	_	_
 32	trompe	tromper	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	conj	_	_
@@ -22150,7 +22149,7 @@
 11	son	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
 12	prochain	prochain	ADJ	JJ	Gender=Masc|Number=Sing	13	amod	_	_
 13	album	album	NOUN	NN	Gender=Masc|Number=Sing	9	nmod	_	_
-14	studio	studio	NOUN	NN	Gender=Masc|Number=Sing	13	compound	_	SpaceAfter=No
+14	studio	studio	NOUN	NN	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	_	_
 16	le	le	DET	DT	Gender=Masc|Number=Sing	17	det	_	_
 17	troisième	troisième	NOUN	NN	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
@@ -23058,8 +23057,8 @@
 28	années	année	NOUN	NN	Gender=Fem|Number=Plur	25	nmod	_	_
 29	1960	1960	NUM	CD	_	28	appos	_	_
 30	«	«	PUNCT	``	_	31	punct	_	_
-31	Monster	Monster	NOUN	NN	Number=Sing	25	appos	_	Proper=True|wordform=monster
-32	Mash	Mash	NOUN	NN	Number=Sing	31	appos	_	Proper=True|wordform=mash
+31	Monster	Monster	X	FW	_	25	appos	_	Proper=True
+32	Mash	Mash	X	FW	_	31	flat:foreign	_	Proper=True
 33	»	»	PUNCT	''	_	31	punct	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -23317,7 +23316,7 @@
 6	disputez	disputer	VERB	VBC	Mood=Ind|Number=Plur|Person=2|Tense=Pres	1	ccomp	_	_
 7	avec	avec	ADP	IN	_	9	case	_	_
 8	votre	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	9	det	_	_
-9	réveille-matin	réveille-matin	NOUN	NN	Number=Sing	6	obl	_	_
+9	réveille-matin	réveille-matin	NOUN	NN	Gender=Masc|Number=Sing	6	obl	_	_
 10	?	?	PUNCT	.	_	1	punct	_	_
 
 # newdoc id = n02050
@@ -23411,7 +23410,7 @@
 18	l’	le	DET	DT	Gender=Masc|Number=Sing	19	det	_	SpaceAfter=No|wordform=l'
 19	écrivain	écrivain	NOUN	NN	Gender=Masc|Number=Sing	17	obj	_	_
 20	Günter	Günter	PROPN	NNP	Gender=Masc|Number=Sing	19	appos	_	_
-21	de	de	ADP	IN	_	20	flat:name	_	_
+21	de	de	PROPN	NNP	_	20	flat:name	_	_
 22	Bruyn	Bruyn	PROPN	NNP	Gender=Masc|Number=Sing	20	flat:name	_	_
 23	et	et	CCONJ	CC	_	28	cc	_	_
 24	si	si	ADP	IN	_	28	mark	_	_
@@ -23692,13 +23691,13 @@
 19	,	,	PUNCT	,	_	16	punct	_	_
 20	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	aux:pass	_	_
 21	convaincu	convaincre	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
-22	que	que	SCONJ	WP	_	28	mark	_	_
-23	«	«	PUNCT	``	_	28	punct	_	_
+22	que	que	SCONJ	WP	_	27	mark	_	_
+23	«	«	PUNCT	``	_	27	punct	_	_
 24	l’	le	DET	DT	Gender=Fem|Number=Sing	25	det	_	SpaceAfter=No|wordform=l'
-25	énergie	énergie	NOUN	NN	Gender=Fem|Number=Sing	28	nsubj	_	_
+25	énergie	énergie	NOUN	NN	Gender=Fem|Number=Sing	27	nsubj	_	_
 26	éolienne	éolien	ADJ	JJ	Gender=Fem|Number=Sing	25	amod	_	_
-27	pourrait	pouvoir	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	28	aux:tense	_	_
-28	devenir	devenir	VERB	VB	_	21	ccomp	_	_
+27	pourrait	pouvoir	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	21	ccomp	_	_
+28	devenir	devenir	VERB	VB	_	27	xcomp	_	_
 29	la	le	DET	DT	Gender=Fem|Number=Sing	31	det	_	_
 30	meilleure	meilleur	ADJ	JJR	Gender=Fem|Number=Sing	31	amod	_	_
 31	source	source	NOUN	NN	Gender=Fem|Number=Sing	28	xcomp	_	_
@@ -23718,7 +23717,7 @@
 45	base	base	NOUN	NN	Gender=Fem|Number=Sing	44	fixed	_	_
 46	de	de	ADP	IN	_	44	fixed	_	_
 47	charbon	charbon	NOUN	NN	Gender=Masc|Number=Sing	43	nmod	_	_
-48	»	»	PUNCT	''	_	28	punct	_	SpaceAfter=No
+48	»	»	PUNCT	''	_	27	punct	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	21	punct	_	_
 
 # newdoc id = n02078
@@ -24000,7 +23999,7 @@
 # text = « Quelqu'un qui ne peut pas gérer son compte Twitter ne peut pas disposer des codes nucléaires », a ironisé M. Obama.
 # text_en = "If somebody can't handle a Twitter account, they can't handle the nuclear codes," Obama mocked.
 1	«	«	PUNCT	``	_	12	punct	_	_
-2	Quelqu'un	quelqu'un	NOUN	NN	_	12	nsubj	_	wordform=quelqu'un
+2	Quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing	12	nsubj	_	wordform=quelqu'un
 3	qui	qui	PRON	WP	_	5	nsubj	_	_
 4	ne	ne	ADV	RB	Polarity=Neg	5	advmod	_	_
 5	peut	pouvoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	acl:relcl	_	_
@@ -24594,12 +24593,12 @@
 10	plus	plus	ADV	RBR	_	12	advmod	_	_
 11	de	de	ADP	IN	_	10	fixed	_	_
 12	42	42	NUM	CD	_	13	nummod	_	_
-13	millions	million	NUM	CD	_	9	obj	_	_
+13	millions	million	NOUN	NN	Gender=Masc|Number=Plur	9	obj	_	_
 14	d'	de	ADP	IN	_	15	case	_	SpaceAfter=No
 15	euros	euro	NOUN	NN	Gender=Masc|Number=Plur	13	nmod	_	_
 16	dont	dont	ADP	INP	Gender=Masc|Number=Plur	18	nmod	_	_
 17	15,5	15,5	NUM	CD	_	18	nummod	_	_
-18	millions	million	NUM	CD	_	13	nmod	_	_
+18	millions	million	NOUN	NN	Gender=Masc|Number=Plur	13	nmod	_	_
 19	pour	pour	ADP	IN	_	21	case	_	_
 20	la	le	DET	DT	Gender=Fem|Number=Sing	21	det	_	_
 21	sécurité	sécurité	NOUN	NN	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
@@ -24938,7 +24937,7 @@
 30	de	de	ADP	IN	_	32	case	_	_
 31	la	le	DET	DT	Gender=Fem|Number=Sing	32	det	_	_
 32	zone	zone	NOUN	NN	Gender=Fem|Number=Sing	29	nmod	_	_
-33	euro	euro	NOUN	NN	Gender=Masc|Number=Sing	32	compound	_	_
+33	euro	euro	NOUN	NN	Gender=Masc|Number=Sing	32	nmod	_	_
 34	de	de	ADP	IN	_	36	case	_	_
 35	1,165	1,165	NUM	CD	_	36	nummod	_	_
 36	euros	euro	NOUN	NN	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
@@ -25252,17 +25251,17 @@
 13	que	que	SCONJ	IN	_	12	fixed	_	_
 14	jamais	jamais	ADV	RB	_	15	advmod	_	_
 15	auparavant	auparavant	ADV	RB	_	12	advmod	_	_
-16	à	à	ADP	IN	_	18	case	_	_
-17	Wall	Wall	NOUN	NN	Number=Sing	18	compound	_	Proper=True|wordform=wall
-18	Street	Street	NOUN	NN	Number=Sing	9	obl	_	Proper=True|SpaceAfter=No|wordform=street
+16	à	à	ADP	IN	_	17	case	_	_
+17	Wall	Wall	PROPN	NNP	_	9	obl	_	Proper=True
+18	Street	Street	PROPN	NNP	_	17	flat:name	_	Proper=True|SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	_	_
 20	encore	encore	ADV	RB	_	21	advmod	_	_
 21	plus	plus	ADV	RBR	_	9	conj	_	_
-22	que	que	SCONJ	IN	_	26	mark	_	_
-23	dans	dans	ADP	IN	_	26	case	_	_
-24	la	le	DET	DT	Gender=Fem|Number=Sing	26	det	_	_
-25	Silicon	Silicon	NOUN	NN	Number=Sing	26	compound	_	Proper=True|wordform=silicon
-26	Valley	Valley	NOUN	NN	Gender=Fem|Number=Sing	21	advcl	_	Proper=True|SpaceAfter=No|wordform=valley
+22	que	que	SCONJ	IN	_	25	mark	_	_
+23	dans	dans	ADP	IN	_	25	case	_	_
+24	la	le	DET	DT	Gender=Fem|Number=Sing	25	det	_	_
+25	Silicon	Silicon	PROPN	NNP	Number=Sing	21	advcl	_	Proper=True
+26	Valley	Valley	PROPN	NNP	Gender=Fem|Number=Sing	25	flat:name	_	Proper=True|SpaceAfter=No
 27	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = n04010017
@@ -25312,9 +25311,9 @@
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	INDT	_	19	fixed	_	_
 22	le	le	DET	_	Gender=Masc|Number=Sing	23	det	_	_
-23	Summit	Summit	NOUN	NN	Gender=Masc|Number=Sing	13	obl	_	Proper=True|wordform=summit
-24	Mountain	Mountain	NOUN	NN	Number=Sing	25	compound	_	Proper=True|wordform=mountain
-25	View	View	NOUN	NN	Number=Sing	23	compound	_	Proper=True|SpaceAfter=No|wordform=view
+23	Summit	Summit	X	FW	_	13	obl	_	Proper=True
+24	Mountain	Mountain	X	FW	_	23	flat:foreign	_	Proper=True
+25	View	View	X	FW	_	23	flat:foreign	_	Proper=True|SpaceAfter=No
 26	.	.	PUNCT	.	_	13	punct	_	_
 
 # newdoc id = n05001
@@ -25731,7 +25730,7 @@
 5	guerre	guerre	NOUN	NN	Gender=Fem|Number=Sing	3	nmod	_	_
 6	ou	ou	CCONJ	CC	_	8	cc	_	_
 7	de	de	ADP	IN	_	8	case	_	_
-8	cow-boys	cow-boy	NOUN	NN	_	5	conj	_	_
+8	cow-boys	cow-boy	NOUN	NN	Gender=Masc|Number=Plur	5	conj	_	_
 9	et	et	CCONJ	CC	_	11	cc	_	_
 10	d'	de	ADP	IN	_	11	case	_	SpaceAfter=No|_=true
 11	indiens	indien	NOUN	NN	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
@@ -25918,7 +25917,7 @@
 6	cette	ce	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 7	fois	fois	NOUN	NN	Gender=Fem|Number=Sing	10	obl	_	_
 8	les	le	DET	DT	Gender=Masc|Number=Plur	9	det	_	_
-9	Latino-Américains	Latino-Américains	NOUN	NN	_	10	nsubj	_	Proper=True|wordform=latino-américains
+9	Latino-Américains	latino-américain	NOUN	NN	Gender=Masc|Number=Plur	10	nsubj	_	Proper=True|wordform=latino-américains
 10	vont	aller	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	ccomp	_	_
 11	voter	voter	VERB	VB	_	10	xcomp	_	_
 12	en	en	ADP	IN	_	14	case	_	_
@@ -26094,7 +26093,7 @@
 10	signaux	signal	NOUN	NN	Gender=Masc|Number=Plur	7	obl	_	_
 11	d’	de	ADP	IN	_	12	case	_	SpaceAfter=No|wordform=d'
 12	alarme	alarme	NOUN	NN	Gender=Fem|Number=Sing	10	nmod	_	_
-13	incendie	incendie	NOUN	NN	Gender=Masc|Number=Sing	12	compound	_	_
+13	incendie	incendie	NOUN	NN	Gender=Masc|Number=Sing	12	nmod	_	_
 14	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	aux:tense	_	_
 15	été	être	AUX	VBN	Gender=Masc|Number=Sing	16	aux:pass	_	_
 16	mis	mettre	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -26360,10 +26359,10 @@
 # sent_id = w02005028
 # text = Le Yerba Buena Garden a été construit au début des années 1990 et se trouve sur le toit du Moscone North Convention Center.
 # text_en = The Yerba Buena Garden was built at the beginning of the 1990s on the roof of the Moscone North Convention Center.
-1	Le	le	DET	DT	Gender=Masc|Number=Sing	4	det	_	wordform=le
-2	Yerba	Yerba	PROPN	NNP	Number=Sing	4	compound	_	_
-3	Buena	Buena	PROPN	NNP	Number=Sing	4	compound	_	_
-4	Garden	Garden	NOUN	NN	Gender=Masc|Number=Sing	7	nsubj:pass	_	Proper=True|wordform=garden
+1	Le	le	DET	DT	Gender=Masc|Number=Sing	2	det	_	wordform=le
+2	Yerba	Yerba	X	FW	Number=Sing	7	nsubj:pass	_	_
+3	Buena	Buena	X	FW	Number=Sing	2	flat:foreign	_	_
+4	Garden	Garden	X	FW	Gender=Masc|Number=Sing	2	flat:foreign	_	Proper=True
 5	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux:tense	_	_
 6	été	être	AUX	VBN	Gender=Masc|Number=Sing	7	aux:pass	_	_
 7	construit	construire	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
@@ -26383,12 +26382,12 @@
 19	le	le	DET	DT	Gender=Masc|Number=Sing	20	det	_	_
 20	toit	toit	NOUN	NN	Gender=Masc|Number=Sing	17	obl	_	_
 21-22	du	_	_	_	_	_	_	_	_
-21	de	de	ADP	INDT	_	26	case	_	_
-22	le	le	DET	_	Gender=Masc|Number=Sing	26	det	_	_
-23	Moscone	Moscone	PROPN	NNP	Number=Sing	26	compound	_	_
-24	North	North	ADJ	JJ	Number=Sing	25	amod	_	Proper=True|wordform=north
-25	Convention	convention	NOUN	NN	Number=Sing	26	compound	_	Proper=True|wordform=convention
-26	Center	Center	NOUN	NN	Number=Sing	20	nmod	_	Proper=True|SpaceAfter=No|wordform=center
+21	de	de	ADP	INDT	_	23	case	_	_
+22	le	le	DET	_	Gender=Masc|Number=Sing	23	det	_	_
+23	Moscone	Moscone	X	FW	_	20	nmod	_	_
+24	North	North	X	FW	_	23	flat:foreign	_	Proper=True
+25	Convention	convention	X	FW	_	23	flat:foreign	_	Proper=True
+26	Center	Center	X	FW	_	23	flat:foreign	_	Proper=True|SpaceAfter=No
 27	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = w02005029
@@ -26407,7 +26406,7 @@
 11	Martin	Martin	PROPN	NNP	Gender=Masc|Number=Sing	9	nmod	_	_
 12	Luther	Luther	PROPN	NNP	Gender=Masc|Number=Sing	11	flat:name	_	_
 13	King	King	PROPN	NNP	Gender=Masc|Number=Sing	11	flat:name	_	_
-14	Jr	Jr	ADJ	JJ	Gender=Masc|Number=Sing	11	flat:name	_	Proper=True|SpaceAfter=No|wordform=jr
+14	Jr	Jr	PROPN	NNP	Gender=Masc|Number=Sing	11	flat:name	_	Proper=True|SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = w02006
@@ -27099,9 +27098,9 @@
 7	signe	signer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 8	un	un	DET	DT	Gender=Masc|Number=Sing	9	det	_	_
 9	contrat	contrat	NOUN	NN	Gender=Masc|Number=Sing	7	obj	_	_
-10	avec	avec	ADP	IN	_	12	case	_	_
-11	Team	team	NOUN	NN	Number=Sing	12	compound	_	Proper=True|wordform=team
-12	Telecom	Telecom	PROPN	NNP	Number=Sing	9	nmod	_	SpaceAfter=No
+10	avec	avec	ADP	IN	_	11	case	_	_
+11	Team	Team	PROPN	NNP	_	9	nmod	_	Proper=True
+12	Telecom	Telecom	PROPN	NNP	_	11	flat:name	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	_	_
 14	rejoint	rejoindre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	conj	_	_
 15	son	son	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
@@ -27396,8 +27395,8 @@
 # sent_id = w03002055
 # text = Amnesty International cite des articles de journaux de 2008 évoquant les meurtres de cinquante personnes accusées d'avoir jeté des sorts.
 # text_en = Amnesty International cites newspaper articles from 2008 describing the murder of fifty people accused of witchcraft.
-1	Amnesty	Amnesty	NOUN	NN	Number=Sing	3	nsubj	_	Proper=True|wordform=amnesty
-2	International	international	ADJ	JJ	Number=Sing	1	amod	_	Proper=True|wordform=international
+1	Amnesty	Amnesty	PROPN	NNP	_	3	nsubj	_	Proper=True
+2	International	International	PROPN	NNP	_	1	flat:name	_	Proper=True
 3	cite	citer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	des	un	DET	DT	Gender=Masc|Number=Plur	5	det	_	_
 5	articles	article	NOUN	NN	Gender=Masc|Number=Plur	3	obj	_	_
@@ -27423,7 +27422,7 @@
 # sent_id = w03003023
 # text = Von Bellingshausen voit l'Antarctique le 27 janvier 1820, trois jours avant que Bransfield aperçoive la terre, et dix mois avant que ne le fasse Palmer, en novembre 1820.
 # text_en = Von Bellingshausen sighted Antarctica on the 27th of January 1820, three days before Bransfield sighted land, and ten months before Palmer did so in November 1820.
-1	Von	Von	ADP	IN	_	3	nsubj	_	Proper=True|wordform=von
+1	Von	Von	PROPN	NNP	_	3	nsubj	_	Proper=True
 2	Bellingshausen	Bellingshausen	PROPN	NNP	Gender=Masc|Number=Sing	1	flat:name	_	_
 3	voit	voir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	l'	le	DET	DT	Gender=Masc|Number=Sing	5	det	_	SpaceAfter=No
@@ -27464,14 +27463,14 @@
 2	de	de	ADP	IN	_	1	fixed	_	_
 3	l'	le	DET	DT	Gender=Fem|Number=Sing	4	det	_	SpaceAfter=No
 4	expédition	expédition	NOUN	NN	Gender=Fem|Number=Sing	18	obl	_	_
-5	Endurance	Endurance	NOUN	NN	Number=Sing	4	appos	_	Proper=True|wordform=endurance
+5	Endurance	Endurance	PROPN	NNP	_	4	appos	_	Proper=True
 6	en	en	ADP	IN	_	7	case	_	_
 7	1914	1914	NUM	CD	_	4	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	4	punct	_	_
 9	le	le	DET	DT	Gender=Masc|Number=Sing	10	det	_	_
 10	navire	navire	NOUN	NN	Gender=Masc|Number=Sing	18	nsubj	_	_
 11	britannique	britannique	ADJ	JJ	Gender=Masc|Number=Sing	10	amod	_	_
-12	Endurance	Endurance	NOUN	NN	Number=Sing	10	appos	_	Proper=True|wordform=endurance
+12	Endurance	Endurance	PROPN	NNP	_	10	appos	_	Proper=True
 13	commandé	commander	VERB	VBN	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_
 14	par	par	ADP	IN	_	15	case	_	_
 15	Sir	Sir	NOUN	NN	Gender=Masc|Number=Sing	13	obl	_	wordform=sir
@@ -27863,8 +27862,8 @@
 # text_en = Despite being the number one distributor of equipment and textiles worldwide, the German company was in financial trouble.
 1	Bien	bien	ADV	RB	_	17	mark	_	wordform=bien
 2	que	que	SCONJ	IN	_	1	fixed	_	_
-3	n°	numéro	NOUN	NN	Gender=Masc|Number=Sing	17	advcl	_	SpaceAfter=No
-4	1	1	NUM	CD	_	3	appos	_	_
+3	n°	n°	SYM	SYM	_	17	advcl	_	SpaceAfter=No
+4	1	1	NUM	CD	_	3	nmod	_	_
 5	mondiale	mondial	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	_
 6	de	de	ADP	IN	_	8	case	_	_
 7	l'	le	DET	DT	Gender=Masc|Number=Sing	8	det	_	SpaceAfter=No
@@ -28150,7 +28149,7 @@
 16	lieu	lieu	NOUN	NN	Gender=Masc|Number=Sing	15	obj	_	_
 17	à	à	ADP	IN	_	18	case	_	_
 18	Villa	villa	NOUN	NN	Gender=Fem|Number=Sing	15	obl	_	Proper=True|wordform=villa
-19	Pelucca	Pelucca	PROPN	NNP	Number=Sing	18	compound	_	SpaceAfter=No
+19	Pelucca	Pelucca	PROPN	NNP	Number=Sing	18	appos	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	22	punct	_	_
 21	dans	dans	ADP	IN	_	22	case	_	_
 22	Sesto	Sesto	PROPN	NNP	Number=Sing	15	obl	_	_
@@ -28177,7 +28176,7 @@
 14	dans	dans	ADP	IN	_	16	case	_	_
 15	la	le	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
 16	partie	partie	NOUN	NN	Gender=Fem|Number=Sing	13	obl	_	_
-17	nord-est	nord-est	NOUN	NN	Gender=Masc	16	compound	_	_
+17	nord-est	nord-est	NOUN	NN	Gender=Masc|Number=Sing	16	nmod	_	_
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	INDT	_	20	case	_	_
 19	le	le	DET	_	Gender=Masc|Number=Sing	20	det	_	_
@@ -28401,7 +28400,7 @@
 20	signifier	signifier	VERB	VB	_	15	advcl	_	_
 21	la	le	DET	DT	Gender=Fem|Number=Sing	22	det	_	_
 22	partie	partie	NOUN	NN	Gender=Fem|Number=Sing	20	obj	_	_
-23	sud	sud	NOUN	NN	Gender=Fem|Number=Sing	22	compound	_	_
+23	sud	sud	NOUN	NN	Gender=Fem|Number=Sing	22	nmod	_	_
 24	de	de	ADP	IN	_	26	case	_	_
 25	la	le	DET	DT	Gender=Fem|Number=Sing	26	det	_	_
 26	péninsule	péninsule	NOUN	NN	Gender=Fem|Number=Sing	22	nmod	_	_
@@ -29501,10 +29500,10 @@
 13	maison	maison	NOUN	NN	Gender=Fem|Number=Sing	10	obl	_	_
 14	de	de	ADP	IN	_	15	case	_	_
 15	disques	disque	NOUN	NN	Gender=Masc|Number=Plur	13	nmod	_	_
-16	The	The	DET	DT	Number=Sing	19	det	_	Proper=True|wordform=the
-17	Rocket	Rocket	NOUN	NN	Number=Sing	19	compound	_	Proper=True|wordform=rocket
-18	Record	Record	NOUN	NN	Number=Sing	19	compound	_	Proper=True|wordform=record
-19	Company	Company	NOUN	NN	Number=Sing	13	appos	_	Proper=True|SpaceAfter=No|wordform=company
+16	The	The	X	FW	_	13	appos	_	Proper=True
+17	Rocket	Rocket	X	FW	_	16	flat:foreign	_	Proper=True
+18	Record	Record	X	FW	_	16	flat:foreign	_	Proper=True
+19	Company	Company	X	FW	_	16	flat:foreign	_	Proper=True|SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	_	_
 21	Kiki	Kiki	PROPN	NNP	Gender=Masc|Number=Sing	8	appos	_	_
 22	Dee	Dee	PROPN	NNP	Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No
@@ -29523,11 +29522,11 @@
 35	lui	lui	PRON	PRP	Gender=Masc|Number=Sing|Person=3	32	nmod	_	SpaceAfter=No
 36	:	:	PUNCT	:	_	38	punct	_	_
 37	«	«	PUNCT	``	_	38	punct	_	_
-38	Don’t	Don’t	VERB	VBC	Mood=Imp|Number=Sing|Person=2|Tense=Pres	32	appos	_	wordform=don't
-39	Go	Go	VERB	VB	_	38	xcomp	_	Proper=True|wordform=go
-40	Breaking	Breaking	VERB	VBG	_	39	xcomp	_	wordform=breaking
-41	My	My	PRON	DTP$	Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	42	compound	_	Proper=True|wordform=my
-42	Heart	Heart	NOUN	NN	Number=Sing	40	obj	_	Proper=True|wordform=heart
+38	Don’t	Don’t	X	FW	_	32	appos	_	_
+39	Go	Go	X	FW	_	38	flat:foreign	_	Proper=True
+40	Breaking	Breaking	X	FW	_	38	flat:foreign	_	_
+41	My	My	X	FW	_	38	flat:foreign	_	Proper=True
+42	Heart	Heart	X	FW	_	38	flat:foreign	_	Proper=True
 43	»	»	PUNCT	''	_	38	punct	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	6	punct	_	_
 
