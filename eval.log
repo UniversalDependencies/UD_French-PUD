@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_French-PUD:
-commit fc2d3b834953707d0041b26f07bfa9f1cfb73175
-Merge: 4eeef52 9ae5afe
+commit 1a0ff281b6198d35f292dff6ea58ed2ca3790396
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 10 17:59:44 2020 +0200
 Size: counted 24734 of 24734 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.41635763063973.
 Size: maximum value 13.815511 is for 1000000 words or more.
