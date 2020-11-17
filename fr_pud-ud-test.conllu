@@ -6329,9 +6329,8 @@
 7	»	»	PUNCT	''	_	3	punct	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	_	_
 9	affirme	affirmer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-10	-t	t	PART	RP	_	11	dep	_	SpaceAfter=No
-11	-il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
-12	.	.	PUNCT	.	_	9	punct	_	_
+10	-t-il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = n01087039
 # text = « J’assiste à l’exposition des diplômés de l’université de Northampton, afin de rechercher e nouveaux talents », déclare-t-il.
@@ -6361,9 +6360,8 @@
 22	»	»	PUNCT	''	_	3	punct	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	3	punct	_	_
 24	déclare	déclarer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-25	-t	t	PART	RP	_	26	dep	_	SpaceAfter=No
-26	-il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3	24	nsubj	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	24	punct	_	_
+25	-t-il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3	24	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	24	punct	_	_
 
 # newdoc id = n01088
 # sent_id = n01088026
@@ -7378,9 +7376,8 @@
 19	»	»	PUNCT	''	_	3	punct	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	3	punct	_	_
 21	précise	préciser	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-22	-t	t	PART	RP	_	23	dep	_	SpaceAfter=No
-23	-il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3	21	nsubj	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	21	punct	_	_
+22	-t-il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = n01101017
 # text = Pendant ce temps, Hong Kong se prépare à une vague de protestations.
@@ -7413,29 +7410,28 @@
 7	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	la	le	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
 9	dernière	dernier	ADJ	JJ	Gender=Fem|Number=Sing	10	amod	_	_
-10	chose	chose	NOUN	NN	Gender=Fem|Number=Sing	20	parataxis	_	_
+10	chose	chose	NOUN	NN	Gender=Fem|Number=Sing	19	parataxis	_	_
 11	que	que	PRON	WP	Gender=Fem|Number=Sing	12	obj	_	_
 12	voudrait	vouloir	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13	le	le	DET	DT	Gender=Masc|Number=Sing	14	det	_	_
 14	gouvernement	gouvernement	NOUN	NN	Gender=Masc|Number=Sing	12	nsubj	_	_
 15	»	»	PUNCT	''	_	10	punct	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	10	punct	_	_
-17	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	SpaceAfter=No
-18	-t	t	PART	RP	_	19	dep	_	SpaceAfter=No
-19	-il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
-20	expliqué	expliquer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-21	dans	dans	ADP	IN	_	23	case	_	_
-22	l’	le	DET	DT	Gender=Fem|Number=Sing	23	det	_	SpaceAfter=No|wordform=l'
-23	émission	émission	NOUN	NN	Gender=Fem|Number=Sing	20	obl	_	_
-24	de	de	ADP	IN	_	26	case	_	_
-25	la	le	DET	DT	Gender=Fem|Number=Sing	26	det	_	_
-26	BBC	BBC	PROPN	NNP	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	,	_	28	punct	_	_
-28	The	The	X	FW	_	23	appos	_	Proper=True
-29	Andrew	Andrew	X	FW	_	28	flat:foreign	_	_
-30	Marr	Marr	X	FW	_	28	flat:foreign	_	_
-31	Show	Show	X	FW	_	28	flat:foreign	_	Proper=True|SpaceAfter=No
-32	.	.	PUNCT	.	_	20	punct	_	_
+17	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	SpaceAfter=No
+18	-t-il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+19	expliqué	expliquer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	dans	dans	ADP	IN	_	22	case	_	_
+21	l’	le	DET	DT	Gender=Fem|Number=Sing	22	det	_	SpaceAfter=No|wordform=l'
+22	émission	émission	NOUN	NN	Gender=Fem|Number=Sing	19	obl	_	_
+23	de	de	ADP	IN	_	25	case	_	_
+24	la	le	DET	DT	Gender=Fem|Number=Sing	25	det	_	_
+25	BBC	BBC	PROPN	NNP	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	27	punct	_	_
+27	The	The	X	FW	_	22	appos	_	Proper=True
+28	Andrew	Andrew	X	FW	_	27	flat:foreign	_	_
+29	Marr	Marr	X	FW	_	27	flat:foreign	_	_
+30	Show	Show	X	FW	_	27	flat:foreign	_	Proper=True|SpaceAfter=No
+31	.	.	PUNCT	.	_	19	punct	_	_
 
 # newdoc id = n01103
 # sent_id = n01103013
@@ -10824,9 +10820,8 @@
 21	vivants	vivant	NOUN	NN	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	12	punct	_	_
 23	affirme	affirmer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-24	-t	t	PART	RP	_	25	dep	_	SpaceAfter=No
-25	-il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3	23	nsubj	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	23	punct	_	_
+24	-t-il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3	23	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	23	punct	_	_
 
 # newdoc id = w01001
 # sent_id = w01001049
@@ -24510,11 +24505,10 @@
 7	»	»	PUNCT	''	_	3	punct	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	_	_
 9	confirme	confirmer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-10	-t	t	PART	RP	_	11	dep	_	SpaceAfter=No
-11	-on	on	PRON	PRP	Number=Sing|Person=3	9	nsubj	_	_
-12	côté	côté	NOUN	NN	Gender=Masc|Number=Sing	9	dep	_	_
-13	français	français	ADJ	JJ	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	9	punct	_	_
+10	-t-on	on	PRON	PRP	Number=Sing|Person=3	9	nsubj	_	_
+11	côté	côté	NOUN	NN	Gender=Masc|Number=Sing	9	dep	_	_
+12	français	français	ADJ	JJ	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
 
 # newdoc id = n03009
 # sent_id = n03009006
