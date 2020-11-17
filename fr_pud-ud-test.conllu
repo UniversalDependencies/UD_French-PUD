@@ -77,7 +77,7 @@
 16	va	aller	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	être	être	AUX	VB	VerbForm=Inf	20	cop	_	_
 18	un	un	DET	DT	Gender=Masc|Number=Sing	20	advmod	_	_
-19	peu	peu	ADV	RB	_	18	fixed	_	_
+19	peu	peu	NOUN	NN	Gender=Masc|Number=Sing	18	fixed	_	_
 20	différent	différent	ADJ	JJ	Gender=Masc|Number=Sing	16	xcomp	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	16	punct	_	_
 
@@ -1737,7 +1737,7 @@
 35	espace	espace	NOUN	NN	Gender=Masc|Number=Sing	32	nmod	_	_
 36	(	(	PUNCT	(	_	42	punct	_	SpaceAfter=No
 37	un	un	DET	DT	Gender=Masc|Number=Sing	39	advmod	_	_
-38	peu	peu	ADV	RB	_	37	fixed	_	_
+38	peu	peu	NOUN	NN	Gender=Masc|Number=Sing	37	fixed	_	_
 39	plus	plus	ADV	RBR	_	41	advmod	_	_
 40	de	de	ADP	IN	_	39	fixed	_	_
 41	66	66	NUM	CD	_	42	nummod	_	SpaceAfter=No
@@ -7999,7 +7999,7 @@
 12	qui	qui	PRON	WP	Gender=Masc|Number=Sing	13	nsubj	_	_
 13	a	avoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 14	un	un	DET	DT	Gender=Masc|Number=Sing	17	det	_	_
-15	peu	peu	ADV	RB	_	14	fixed	_	_
+15	peu	peu	NOUN	NN	Gender=Masc|Number=Sing	14	fixed	_	_
 16	de	de	ADP	IN	_	14	fixed	_	_
 17	chance	chance	NOUN	NN	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	13	punct	_	_
@@ -8730,8 +8730,8 @@
 20	exploits	exploit	NOUN	NN	Gender=Masc|Number=Plur	18	obj	_	_
 21	de	de	ADP	IN	_	22	case	_	_
 22	Doss	Doss	PROPN	NNP	Gender=Masc|Number=Sing	20	nmod	_	_
-23	quelque	quelque	ADV	RB	_	24	advmod	_	_
-24	peu	peu	ADV	RB	_	25	advmod	_	_
+23	quelque	quelque	ADV	RB	_	25	advmod	_	_
+24	peu	peu	NOUN	NN	Gender=Masc|Number=Sing	23	fixed	_	_
 25	farfelus	farfelu	ADJ	JJ	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	17	punct	_	_
 
@@ -8743,8 +8743,8 @@
 3	de	de	ADP	IN	_	4	case	_	_
 4	Doss	Doss	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
 5	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-6	quelque	quelque	ADV	RB	_	7	advmod	_	_
-7	peu	peu	ADV	RB	_	8	advmod	_	_
+6	quelque	quelque	ADV	RB	_	8	advmod	_	_
+7	peu	peu	NOUN	NN	Gender=Masc|Number=Sing	6	fixed	_	_
 8	improbable	improbable	ADJ	JJ	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
 10	ce	ce	PRON	PDEM	_	8	parataxis	_	_
