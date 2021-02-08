@@ -3754,7 +3754,7 @@
 21	ne	ne	ADV	RB	Polarity=Neg	22	advmod	_	_
 22	savent	savoir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	pas	pas	ADV	RB	Polarity=Neg	22	advmod	_	_
-24	quelle	quel	DET	WDT	Gender=Fem|Number=Sing	25	det	_	_
+24	quelle	quel	DET	WDT	Gender=Fem|Number=Sing|PronType=Int	25	det	_	_
 25	position	position	NOUN	NN	Gender=Fem|Number=Sing	26	obj	_	_
 26	adopter	adopter	VERB	VB	VerbForm=Inf	22	xcomp	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	22	punct	_	_
@@ -24744,7 +24744,7 @@
 6	,	,	PUNCT	,	_	10	punct	_	_
 7	et	et	CCONJ	CC	_	10	cc	_	_
 8	de	de	ADP	IN	_	10	case	_	_
-9	quelle	quel	DET	WDT	Gender=Fem|Number=Sing	10	det	_	_
+9	quelle	quel	DET	WDT	Gender=Fem|Number=Sing|PronType=Int	10	det	_	_
 10	manière	manière	NOUN	NN	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	_	_
 12	continuer	continuer	VERB	VB	VerbForm=Inf	5	xcomp	_	_
