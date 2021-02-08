@@ -96,8 +96,8 @@
 9	concernant	concerner	VERB	VBG	Tense=Pres|VerbForm=Part	7	acl	_	_
 10	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	réduction	réduction	NOUN	NN	Gender=Fem|Number=Sing	9	obj	_	_
-12	de	de	ADP	IN	_	14	case	_	_
-13	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+12	de	de	ADP	IN	_	14	det	_	_
+13	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	fixed	_	SpaceAfter=No
 14	immigration	immigration	NOUN	NN	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	4	punct	_	_
 16	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -1176,8 +1176,8 @@
 1	Le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	programme	programme	NOUN	NN	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	gagne	gagner	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	de	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+4	de	de	ADP	IN	_	6	det	_	_
+5	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	SpaceAfter=No
 6	argent	argent	NOUN	NN	Gender=Masc|Number=Sing	3	obj	_	_
 7	grâce	grâce	NOUN	NN	Gender=Fem|Number=Sing	10	case	_	_
 8-9	au	_	_	_	_	_	_	_	_
@@ -3791,8 +3791,8 @@
 24	de	de	ADP	INDT	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	transport	transport	NOUN	NN	Gender=Masc|Number=Sing	23	obl	_	_
-27	de	de	ADP	IN	_	29	case	_	_
-28	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+27	de	de	ADP	IN	_	29	det	_	_
+28	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	fixed	_	SpaceAfter=No
 29	oxygène	oxygène	NOUN	NN	Gender=Masc|Number=Sing	26	nmod	_	_
 30	vers	vers	ADP	IN	_	32	case	_	_
 31	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
@@ -11859,8 +11859,8 @@
 17	de	de	ADP	IN	_	18	case	_	_
 18	carbone	carbone	NOUN	NN	Gender=Masc|Number=Sing	16	nmod	_	_
 19	issu	issu	ADJ	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	amod	_	_
-20	de	de	ADP	IN	_	22	case	_	_
-21	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+20	de	de	ADP	IN	_	22	det	_	_
+21	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	fixed	_	SpaceAfter=No
 22	air	air	NOUN	NN	Gender=Masc|Number=Sing	19	obl	_	_
 23	environnant	environnant	ADJ	JJ	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	12	punct	_	_
@@ -18412,8 +18412,8 @@
 12	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	première	premier	ADJ	JJ	Gender=Fem|Number=Sing	14	amod	_	Proper=True
 14	guerre	guerre	NOUN	NN	Gender=Fem|Number=Sing	10	nmod	_	Proper=True
-15	de	de	ADP	IN	_	17	case	_	Proper=True
-16	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Proper=True|SpaceAfter=No
+15	de	de	ADP	IN	_	17	det	_	Proper=True
+16	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	fixed	_	Proper=True|SpaceAfter=No
 17	opium	opium	NOUN	NN	Gender=Masc|Number=Sing	14	nmod	_	Proper=True
 18	avec	avec	ADP	IN	_	20	case	_	_
 19	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -18441,8 +18441,8 @@
 39	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	commerce	commerce	NOUN	NN	Gender=Masc|Number=Sing	38	obj	_	_
 41	extérieur	extérieur	ADJ	JJ	Gender=Masc|Number=Sing	40	amod	_	_
-42	de	de	ADP	IN	_	44	case	_	_
-43	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
+42	de	de	ADP	IN	_	44	det	_	_
+43	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	fixed	_	SpaceAfter=No
 44	opium	opium	NOUN	NN	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -18520,8 +18520,8 @@
 4	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	seconde	second	ADJ	JJ	Gender=Fem|Number=Sing	6	amod	_	Proper=True
 6	guerre	guerre	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	Proper=True
-7	de	de	ADP	IN	_	9	case	_	Proper=True
-8	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Proper=True|SpaceAfter=No
+7	de	de	ADP	IN	_	9	det	_	Proper=True
+8	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	fixed	_	Proper=True|SpaceAfter=No
 9	Opium	Opium	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	Proper=True|wordform=opium
 10	;	;	PUNCT	:	_	16	punct	_	_
 11	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
@@ -19403,7 +19403,7 @@
 1	Cette	ce	DET	DT	Gender=Fem|Number=Sing	2	det	_	wordform=cette
 2	carte	carte	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	contient	contenir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	de	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+4	de	de	ADP	IN	_	6	det	_	_
 5	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	SpaceAfter=No
 6	argent	argent	NOUN	NN	Gender=Masc|Number=Sing	3	obj	_	_
 7	qui	qui	PRON	WP	Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -21997,8 +21997,8 @@
 4	soucieux	soucieux	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 5	de	de	ADP	IN	_	6	case	_	_
 6	faire	faire	VERB	VB	VerbForm=Inf	4	xcomp	_	_
-7	de	de	ADP	IN	_	9	case	_	_
-8	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+7	de	de	ADP	IN	_	9	det	_	_
+8	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	fixed	_	SpaceAfter=No
 9	espoir	espoir	NOUN	NN	Gender=Masc|Number=Sing	6	obl	_	_
 10	un	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	principe	principe	NOUN	NN	Gender=Masc|Number=Sing	6	obj	_	_
@@ -24834,15 +24834,13 @@
 10	aura	avoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 11	une	un	DET	DT	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	augmentation	augmentation	NOUN	NN	Gender=Fem|Number=Sing	10	obj	_	_
-13	de	de	ADP	IN	_	15	case	_	_
-14	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+13	de	de	ADP	IN	_	15	det	_	_
+14	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	fixed	_	SpaceAfter=No
 15	essence	essence	NOUN	NN	Gender=Fem|Number=Sing	12	nmod	_	_
-16	et	et	CCONJ	CC	_	19	cc	_	_
-17-18	du	_	_	_	_	_	_	_	_
-17	de	de	ADP	INDT	_	19	case	_	_
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	diesel	diesel	NOUN	NN	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	10	punct	_	_
+16	et	et	CCONJ	CC	_	18	cc	_	_
+17	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	diesel	diesel	NOUN	NN	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = n04006004
 # text = Le CGI Mestre a déclaré dans une note qu'il n'y aurait pas de hausse de la TVA, au moins pour 2017.
@@ -25864,12 +25862,12 @@
 18	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	nouvelle	nouveau	ADJ	JJ	Gender=Fem|Number=Sing	20	amod	_	_
 20	génération	génération	NOUN	NN	Gender=Fem|Number=Sing	17	obj	_	_
-21	de	de	ADP	IN	_	23	case	_	_
-22	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+21	de	de	ADP	IN	_	23	det	_	_
+22	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	fixed	_	_
 23	beauté	beauté	NOUN	NN	Gender=Fem|Number=Sing	20	nmod	_	_
 24	et	et	CCONJ	CC	_	27	cc	_	_
-25	de	de	ADP	IN	_	27	case	_	_
-26	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+25	de	de	ADP	IN	_	27	det	_	_
+26	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	fixed	_	SpaceAfter=No
 27	espoir	espoir	NOUN	NN	Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -27855,28 +27853,26 @@
 # sent_id = w03009044
 # text = Bien que n°1 mondiale de l'équipement et du textile, l'entreprise allemande avait des difficultés financières.
 # text_en = Despite being the number one distributor of equipment and textiles worldwide, the German company was in financial trouble.
-1	Bien	bien	ADV	RB	_	17	mark	_	wordform=bien
+1	Bien	bien	ADV	RB	_	16	mark	_	wordform=bien
 2	que	que	SCONJ	IN	_	1	fixed	_	_
-3	n°	n°	SYM	SYM	_	17	advcl	_	SpaceAfter=No
+3	n°	n°	SYM	SYM	_	16	advcl	_	SpaceAfter=No
 4	1	1	NUM	CD	_	3	nmod	_	_
 5	mondiale	mondial	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	_
-6	de	de	ADP	IN	_	8	case	_	_
-7	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+6	de	de	ADP	IN	_	8	det	_	_
+7	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	fixed	_	SpaceAfter=No
 8	équipement	équipement	NOUN	NN	Gender=Masc|Number=Sing	3	nmod	_	_
-9	et	et	CCONJ	CC	_	12	cc	_	_
-10-11	du	_	_	_	_	_	_	_	_
-10	de	de	ADP	INDT	_	12	case	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	textile	textile	NOUN	NN	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
-13	,	,	PUNCT	,	_	3	punct	_	_
-14	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	entreprise	entreprise	NOUN	NN	Gender=Fem|Number=Sing	17	nsubj	_	_
-16	allemande	allemand	ADJ	JJ	Gender=Fem|Number=Sing	15	amod	_	_
-17	avait	avoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-18	des	un	DET	DT	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
-19	difficultés	difficulté	NOUN	NN	Gender=Fem|Number=Plur	17	obj	_	_
-20	financières	financier	ADJ	JJ	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	17	punct	_	_
+9	et	et	CCONJ	CC	_	11	cc	_	_
+10	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	textile	textile	NOUN	NN	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	entreprise	entreprise	NOUN	NN	Gender=Fem|Number=Sing	16	nsubj	_	_
+15	allemande	allemand	ADJ	JJ	Gender=Fem|Number=Sing	14	amod	_	_
+16	avait	avoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17	des	un	DET	DT	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	difficultés	difficulté	NOUN	NN	Gender=Fem|Number=Plur	16	obj	_	_
+19	financières	financier	ADJ	JJ	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	16	punct	_	_
 
 # newdoc id = w03010
 # sent_id = w03010096
