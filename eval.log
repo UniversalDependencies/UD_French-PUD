@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_French-PUD:
-commit fef484cb950eda3af20f0b92ac6bedf85c01ac26
+commit 965d6ced777f2d50271a2bc7d8bb6da7b3b7c90a
+Merge: 09aa48f e1d2653
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:12:22 2021 +0200
 Size: counted 24726 of 24726 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.41571064316947.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,13 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.4.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 16029 out of 24726 total words have one or more features.
+Features: 16031 out of 24726 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        658
-Udapi: found 658 bugs.
+               TOTAL        657
+Udapi: found 657 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 24726 words.
 Genres: found 2 out of 17 known.
 validate.py --lang fr --max-err=10 UD_French-PUD/fr_pud-ud-test.conllu
@@ -33,8 +33,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.464384621636077) = 0.119072979906686
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.733883361643614) = 0.225810265121112
+(weight=0.307692307692308) * (score{udapi}=0.734287794224703) = 0.225934705915293
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.572860905946636) * (availability=1) * (validity=1) = 0.572860905946636
+(TOTAL score=0.572985346740817) * (availability=1) * (validity=1) = 0.572985346740817
 STARS = 3
-UD_French-PUD	0.572860905946636	3
+UD_French-PUD	0.572985346740817	3
