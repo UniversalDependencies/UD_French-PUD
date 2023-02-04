@@ -4960,7 +4960,7 @@
 # sent_id = n01066068
 # text = Correspondant par e-mail avec Woods, je m'essayais a l'étymologie.
 # text_en = Corresponding with Woods by e-mail, I tried my hand at uncovering an etym.
-1	Correspondant	correspondant	VERB	VBG	Tense=Pres|VerbForm=Part	9	ccomp	_	wordform=correspondant
+1	Correspondant	correspondre	VERB	VBG	Tense=Pres|VerbForm=Part	9	ccomp	_	wordform=correspondant
 2	par	par	ADP	IN	_	3	case	_	_
 3	e-mail	e-mail	NOUN	NN	Gender=Masc|Number=Sing	1	obl	_	_
 4	avec	avec	ADP	IN	_	5	case	_	_
@@ -20592,7 +20592,7 @@
 2	comprenait	comprendre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	trois	trois	NUM	CD	_	4	nummod	_	_
 4	morceaux	morceau	NOUN	NN	Gender=Masc|Number=Plur	2	obj	_	_
-5	co-écrits	co-écrit	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+5	co-écrits	co-écrire	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
 6	avec	avec	ADP	IN	_	8	case	_	_
 7	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	frère	frère	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	_
@@ -27826,7 +27826,7 @@
 # sent_id = w03009029
 # text = Financées exclusivement par Bernard Tapie sur ses fonds propres, ces écoles furent fermées en 1994 lorsqu'il fut mis en faillite.
 # text_en = Financed entirely with Bernard Tapie's own money, these schools were closed in 1994 when he was declared bankrupt.
-1	Financées	Financer	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	ccomp	_	wordform=financées
+1	Financées	financer	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	ccomp	_	wordform=financées
 2	exclusivement	exclusivement	ADV	RB	_	1	advmod	_	_
 3	par	par	ADP	IN	_	4	case	_	_
 4	Bernard	Bernard	PROPN	NNP	Gender=Masc|Number=Sing	1	obl	_	_
@@ -27991,7 +27991,7 @@
 16	de	de	ADP	IN	_	17	case	_	_
 17	Rosana	Rosana	PROPN	NNP	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	_	_
-19	âgée	âger	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	ccomp	_	_
+19	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 20	de	de	ADP	IN	_	22	case	_	_
 21	18	18	NUM	CD	_	22	nummod	_	_
 22	ans	an	NOUN	NN	Gender=Masc|Number=Plur	19	obl	_	_
