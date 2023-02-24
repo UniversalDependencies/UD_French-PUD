@@ -23290,7 +23290,7 @@
 # text = Dans lequel, ce n'est pas très clair.
 # text_en = It is now only unclear, in which one.
 1	Dans	dans	ADP	IN	_	2	case	_	wordform=dans
-2	lequel	lequel	PRON	WP	Gender=Masc|Number=Sing|PronType=Int	9	obl	_	SpaceAfter=No
+2	lequel	lequel	PRON	WP	Gender=Masc|Number=Sing|PronType=Rel	9	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	ce	ce	PRON	PDEM	PronType=Dem	9	expl:subj	_	_
 5	n'	ne	ADV	RB	Polarity=Neg	9	advmod	_	SpaceAfter=No
