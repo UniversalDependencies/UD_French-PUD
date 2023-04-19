@@ -12870,7 +12870,7 @@
 14	ont	avoir	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
 15	démontré	démontrer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 16	à	à	ADP	IN	_	18	case	_	_
-17	quel	quel	ADJ	JJ	Gender=Masc|Number=Sing	18	amod	_	_
+17	quel	quel	DET	JJ	Gender=Masc|Number=Sing	18	det	_	_
 18	point	point	NOUN	NN	Gender=Masc|Number=Sing	23	obl	_	_
 19	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	pays	pays	NOUN	NN	Gender=Masc|Number=Sing	23	nsubj	_	_
