@@ -9902,7 +9902,7 @@
 9	lancé	lancer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
 10	notre	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
 11	travail	travail	NOUN	NN	Gender=Masc|Number=Sing	9	obj	_	_
-12	où	où	CCONJ	CC	_	14	cc	_	_
+12	où	ou	CCONJ	CC	_	14	cc	_	CorrectForm=ou|Typo=Yes
 13	qui	qui	PRON	WP	PronType=Rel	14	nsubj	_	_
 14	sont	être	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 15	encore	encore	ADV	RB	_	14	advmod	_	_
