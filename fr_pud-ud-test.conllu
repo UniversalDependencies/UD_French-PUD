@@ -2523,8 +2523,8 @@
 9	d'	de	ADP	IN	_	10	case	_	SpaceAfter=No
 10	ici	ici	ADV	RB	_	8	nmod	_	_
 11	devra	devoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-12	quand	quand	ADV	WRB	_	13	advmod	_	_
-13	même	même	ADV	RB	_	14	advmod	_	_
+12	quand	quand	SCONJ	WRB	_	14	advmod	_	_
+13	même	même	ADV	RB	_	12	fixed	_	_
 14	travailler	travailler	VERB	VB	VerbForm=Inf	11	xcomp	_	_
 15	avec	avec	ADP	IN	_	16	case	_	_
 16	lui	lui	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
@@ -4083,7 +4083,7 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	monde	monde	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	5	punct	_	_
-12	dit	dire	VERB	VBN	Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	dit	dire	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	Leive	Leive	PROPN	NNP	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	12	punct	_	_
 
@@ -6184,8 +6184,8 @@
 9	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
 10	y	y	PRON	PRP	Person=3|PronType=Prs	11	expl:comp	_	_
 11	a	avoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-12	quand	quand	ADV	WRB	_	13	advmod	_	_
-13	même	même	ADV	RB	_	11	advmod	_	_
+12	quand	quand	SCONJ	WRB	_	11	advmod	_	_
+13	même	même	ADV	RB	_	12	fixed	_	_
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	INDT	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
