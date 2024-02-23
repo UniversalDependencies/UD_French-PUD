@@ -276,16 +276,16 @@
 30	Uber	Uber	PROPN	NNP	Number=Sing	28	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	33	punct	_	_
 32	de	de	ADP	IN	_	33	case	_	_
-33	Motion	Motion	X	FW	_	30	conj	_	Proper=True
-34	Picture	Picture	X	FW	_	33	flat:foreign	_	Proper=True
-35	Association	association	X	FW	_	33	flat:foreign	_	Proper=True
-36	of	of	X	FW	_	33	flat:foreign	_	Proper=True
-37	America	America	X	FW	_	33	flat:foreign	_	SpaceAfter=No
+33	Motion	Motion	X	FW	Foreign=Yes	30	conj	_	Proper=True
+34	Picture	Picture	X	FW	Foreign=Yes	33	flat:foreign	_	Proper=True
+35	Association	association	X	FW	Foreign=Yes	33	flat:foreign	_	Proper=True
+36	of	of	X	FW	Foreign=Yes	33	flat:foreign	_	Proper=True
+37	America	America	X	FW	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
 38	,	,	PUNCT	,	_	40	punct	_	_
 39	de	de	ADP	IN	_	40	case	_	_
-40	Consumer	Consumer	X	FW	_	30	conj	_	_
-41	Technology	Technology	X	FW	_	40	flat:foreign	_	Proper=True
-42	Association	association	X	FW	_	40	flat:foreign	_	Proper=True
+40	Consumer	Consumer	X	FW	Foreign=Yes	30	conj	_	_
+41	Technology	Technology	X	FW	Foreign=Yes	40	flat:foreign	_	Proper=True
+42	Association	association	X	FW	Foreign=Yes	40	flat:foreign	_	Proper=True
 43	et	et	CCONJ	CC	_	46	cc	_	_
 44	d'	de	ADP	IN	_	46	case	_	SpaceAfter=No
 45	autres	autre	ADJ	JJ	Gender=Masc|Number=Plur	46	amod	_	_
@@ -313,8 +313,8 @@
 14	de	de	ADP	IN	_	15	case	_	_
 15	Washington	Washington	PROPN	NNP	Number=Sing	12	nmod	_	_
 16	dans	dans	ADP	IN	_	17	case	_	_
-17	H	H	X	FW	_	8	obl	_	Proper=True
-18	Street	Street	X	FW	_	17	flat:foreign	_	Proper=True|SpaceAfter=No
+17	H	H	X	FW	Foreign=Yes	8	obl	_	Proper=True
+18	Street	Street	X	FW	Foreign=Yes	17	flat:foreign	_	Proper=True|SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	_	_
 20	quelques	quelque	ADJ	JJ	Gender=Fem|Number=Plur	21	amod	_	_
 21	rues	rue	NOUN	NN	Gender=Fem|Number=Plur	17	appos	_	_
@@ -2789,11 +2789,11 @@
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	INDT	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Real	Real	X	FW	_	13	nmod	_	Proper=True
-19	Estate	Estate	X	FW	_	18	flat:foreign	_	Proper=True
-20	Council	Council	X	FW	_	18	flat:foreign	_	Proper=True
-21	of	of	X	FW	_	18	flat:foreign	_	Proper=True
-22	Ontario	Ontario	X	FW	_	18	flat:foreign	_	_
+18	Real	Real	X	FW	Foreign=Yes	13	nmod	_	Proper=True
+19	Estate	Estate	X	FW	Foreign=Yes	18	flat:foreign	_	Proper=True
+20	Council	Council	X	FW	Foreign=Yes	18	flat:foreign	_	Proper=True
+21	of	of	X	FW	Foreign=Yes	18	flat:foreign	_	Proper=True
+22	Ontario	Ontario	X	FW	Foreign=Yes	18	flat:foreign	_	_
 23	(	(	PUNCT	(	_	24	punct	_	SpaceAfter=No
 24	RECO	RECO	PROPN	NNP	Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
 25	)	)	PUNCT	)	_	24	punct	_	SpaceAfter=No
@@ -4288,8 +4288,8 @@
 12	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	périphérie	périphérie	NOUN	NN	Gender=Fem|Number=Sing	28	obl	_	_
 14	de	de	ADP	IN	_	15	case	_	_
-15	Chapel	Chapel	X	FW	_	13	nmod	_	_
-16	Hill	Hill	X	FW	_	15	flat:foreign	_	Proper=True|SpaceAfter=No
+15	Chapel	Chapel	X	FW	Foreign=Yes	13	nmod	_	_
+16	Hill	Hill	X	FW	Foreign=Yes	15	flat:foreign	_	Proper=True|SpaceAfter=No
 17	,	,	PUNCT	,	_	13	punct	_	_
 18	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	quartier	quartier	NOUN	NN	Gender=Masc|Number=Sing	28	nsubj	_	_
@@ -4727,10 +4727,10 @@
 15	version	version	NOUN	NN	Gender=Fem|Number=Sing	12	nmod	_	_
 16	de	de	ADP	IN	_	18	case	_	_
 17	«	«	PUNCT	``	_	18	punct	_	_
-18	Knuck	Knuck	X	FW	_	15	nmod	_	Proper=True
-19	If	If	X	FW	_	18	flat:foreign	_	Proper=True
-20	You	You	X	FW	_	18	flat:foreign	_	Proper=True
-21	Buck	Buck	X	FW	_	18	flat:foreign	_	Proper=True
+18	Knuck	Knuck	X	FW	Foreign=Yes	15	nmod	_	Proper=True
+19	If	If	X	FW	Foreign=Yes	18	flat:foreign	_	Proper=True
+20	You	You	X	FW	Foreign=Yes	18	flat:foreign	_	Proper=True
+21	Buck	Buck	X	FW	Foreign=Yes	18	flat:foreign	_	Proper=True
 22	»	»	PUNCT	''	_	18	punct	_	_
 23	sur	sur	ADP	IN	_	25	case	_	_
 24	un	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -4860,8 +4860,8 @@
 2	réfute	réfuter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	votes	vote	NOUN	NN	Gender=Masc|Number=Plur	2	obj	_	_
-5	a	a	X	FW	_	2	advmod	_	_
-6	posteriori	posteriori	X	FW	_	5	fixed	_	SpaceAfter=No
+5	a	a	X	FW	Foreign=Yes	2	advmod	_	_
+6	posteriori	posteriori	X	FW	Foreign=Yes	5	fixed	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
 8	citant	citer	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	_
 9	un	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -4933,7 +4933,7 @@
 10	dactylographiée	dactylographier	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
 11	de	de	ADP	IN	_	13	case	_	_
 12	«	«	PUNCT	``	_	13	punct	_	_
-13	Zettel's	Zettel's	X	FW	_	9	nmod	_	Proper=True
+13	Zettel's	Zettel's	X	FW	Foreign=Yes	9	nmod	_	Proper=True
 14	Traum	Traum	X	FW	Foreign=Yes	13	flat:foreign	_	Proper=True|SpaceAfter=No|wordform=traum
 15	,	,	PUNCT	,	_	13	punct	_	_
 16	»	»	PUNCT	''	_	13	punct	_	_
@@ -5308,12 +5308,12 @@
 8	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	radio	radio	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	_
 10	de	de	ADP	IN	_	11	case	_	_
-11	BBC	BBC	X	FW	_	9	nmod	_	_
-12	World	World	X	FW	_	11	flat:foreign	_	Proper=True
-13	Service	service	X	FW	_	11	flat:foreign	_	Proper=True
+11	BBC	BBC	X	FW	Foreign=Yes	9	nmod	_	_
+12	World	World	X	FW	Foreign=Yes	11	flat:foreign	_	Proper=True
+13	Service	service	X	FW	Foreign=Yes	11	flat:foreign	_	Proper=True
 14	à	à	ADP	IN	_	15	case	_	_
-15	Bush	Bush	X	FW	_	4	obl	_	_
-16	House	House	X	FW	_	15	flat:foreign	_	Proper=True|SpaceAfter=No
+15	Bush	Bush	X	FW	Foreign=Yes	4	obl	_	_
+16	House	House	X	FW	Foreign=Yes	15	flat:foreign	_	Proper=True|SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01072012
@@ -5550,8 +5550,8 @@
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	INDT	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Rugby	Rugby	X	FW	_	7	nmod	_	Proper=True
-12	Championship	Championship	X	FW	_	11	flat:foreign	_	Proper=True|SpaceAfter=No
+11	Rugby	Rugby	X	FW	Foreign=Yes	7	nmod	_	Proper=True
+12	Championship	Championship	X	FW	Foreign=Yes	11	flat:foreign	_	Proper=True|SpaceAfter=No
 13	,	,	PUNCT	,	_	4	punct	_	_
 14	était	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux:tense	_	_
 15	passée	passer	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -5772,13 +5772,13 @@
 7	ambassadeur	ambassadeur	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 8	mondial	mondial	ADJ	JJ	Gender=Masc|Number=Sing	7	amod	_	_
 9	pour	pour	ADP	IN	_	10	case	_	_
-10	New	New	X	FW	_	7	obl	_	Proper=True
-11	York	York	X	FW	_	10	flat:foreign	_	_
-12	City	City	X	FW	_	10	flat:foreign	_	Proper=True
-13	Health	Health	X	FW	_	10	flat:foreign	_	Proper=True
+10	New	New	X	FW	Foreign=Yes	7	obl	_	Proper=True
+11	York	York	X	FW	Foreign=Yes	10	flat:foreign	_	_
+12	City	City	X	FW	Foreign=Yes	10	flat:foreign	_	Proper=True
+13	Health	Health	X	FW	Foreign=Yes	10	flat:foreign	_	Proper=True
 14	et	et	CCONJ	CC	_	15	cc	_	_
-15	Hospitals	Hospitals	X	FW	_	10	conj	_	Proper=True
-16	Corporation	Corporation	X	FW	_	15	flat:foreign	_	Proper=True|SpaceAfter=No
+15	Hospitals	Hospitals	X	FW	Foreign=Yes	10	conj	_	Proper=True
+16	Corporation	Corporation	X	FW	Foreign=Yes	15	flat:foreign	_	Proper=True|SpaceAfter=No
 17	,	,	PUNCT	,	_	20	punct	_	_
 18	et	et	CCONJ	CC	_	20	cc	_	_
 19	une	un	DET	DT	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -5991,9 +5991,9 @@
 2	clients	client	NOUN	NN	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	IN	_	5	case	_	_
 4	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Bank	Bank	X	FW	_	2	nmod	_	Proper=True
-6	of	of	X	FW	_	5	flat:foreign	_	Proper=True
-7	Scotland	Scotland	X	FW	_	5	flat:foreign	_	SpaceAfter=No
+5	Bank	Bank	X	FW	Foreign=Yes	2	nmod	_	Proper=True
+6	of	of	X	FW	Foreign=Yes	5	flat:foreign	_	Proper=True
+7	Scotland	Scotland	X	FW	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	cependant	cependant	ADV	RB	_	11	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
@@ -6311,10 +6311,10 @@
 24	bijoux	bijou	NOUN	NN	Gender=Masc|Number=Plur	22	nmod	_	_
 25	à	à	ADP	IN	_	27	case	_	_
 26	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	Glasgow	Glasgow	X	FW	_	20	obl	_	_
-28	School	School	X	FW	_	27	flat:foreign	_	Proper=True
-29	of	of	X	FW	_	27	flat:foreign	_	Proper=True
-30	Art	art	X	FW	_	27	flat:foreign	_	Proper=True|SpaceAfter=No
+27	Glasgow	Glasgow	X	FW	Foreign=Yes	20	obl	_	_
+28	School	School	X	FW	Foreign=Yes	27	flat:foreign	_	Proper=True
+29	of	of	X	FW	Foreign=Yes	27	flat:foreign	_	Proper=True
+30	Art	art	X	FW	Foreign=Yes	27	flat:foreign	_	Proper=True|SpaceAfter=No
 31	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01087035
@@ -7427,10 +7427,10 @@
 24	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	BBC	BBC	PROPN	NNP	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	27	punct	_	_
-27	The	The	X	FW	_	22	appos	_	Proper=True
-28	Andrew	Andrew	X	FW	_	27	flat:foreign	_	_
-29	Marr	Marr	X	FW	_	27	flat:foreign	_	_
-30	Show	Show	X	FW	_	27	flat:foreign	_	Proper=True|SpaceAfter=No
+27	The	The	X	FW	Foreign=Yes	22	appos	_	Proper=True
+28	Andrew	Andrew	X	FW	Foreign=Yes	27	flat:foreign	_	_
+29	Marr	Marr	X	FW	Foreign=Yes	27	flat:foreign	_	_
+30	Show	Show	X	FW	Foreign=Yes	27	flat:foreign	_	Proper=True|SpaceAfter=No
 31	.	.	PUNCT	.	_	19	punct	_	_
 
 # newdoc id = n01103
@@ -9414,9 +9414,9 @@
 6	,	,	PUNCT	,	_	9	punct	_	_
 7	pas	pas	ADV	RB	Polarity=Neg	9	advmod	_	_
 8	«	«	PUNCT	``	_	9	punct	_	_
-9	Game	Game	X	FW	_	5	appos	_	Proper=True
-10	of	of	X	FN	_	9	flat:foreign	_	Proper=True
-11	Thrones	Thrones	X	FW	_	9	flat:foreign	_	Proper=True
+9	Game	Game	X	FW	Foreign=Yes	5	appos	_	Proper=True
+10	of	of	X	FW	Foreign=Yes	9	flat:foreign	_	Proper=True
+11	Thrones	Thrones	X	FW	Foreign=Yes	9	flat:foreign	_	Proper=True
 12	»	»	PUNCT	''	_	9	punct	_	_
 13	!	!	PUNCT	.	_	5	punct	_	_
 
@@ -9436,17 +9436,17 @@
 11	réputée	réputé	ADJ	JJ	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	_	_
 13	«	«	PUNCT	``	_	14	punct	_	_
-14	The	The	X	FW	Number=Sing	6	appos	_	Proper=True|wordform=the
-15	Winds	Winds	X	FW	Number=Plur	14	flat:foreign	_	Proper=True|wordform=winds
-16	of	of	X	FW	_	14	flat:foreign	_	Proper=True
-17	Winter	Winter	X	FW	Number=Sing	14	flat:foreign	_	Proper=True|wordform=winter
+14	The	The	X	FW	Foreign=Yes	6	appos	_	Proper=True|wordform=the
+15	Winds	Winds	X	FW	Foreign=Yes	14	flat:foreign	_	Proper=True|wordform=winds
+16	of	of	X	FW	Foreign=Yes	14	flat:foreign	_	Proper=True
+17	Winter	Winter	X	FW	Foreign=Yes	14	flat:foreign	_	Proper=True|wordform=winter
 18	»	»	PUNCT	''	_	14	punct	_	_
 19	et	et	CCONJ	CC	_	21	cc	_	_
 20	«	«	PUNCT	``	_	21	punct	_	_
-21	A	a	X	FW	Number=Sing	14	conj	_	Proper=True|wordform=a
-22	Dream	Dream	X	FW	Number=Sing	21	flat:foreign	_	Proper=True|wordform=dream
-23	of	of	X	FW	_	21	flat:foreign	_	Proper=True
-24	Spring	Spring	X	FW	Number=Sing	21	flat:foreign	_	_
+21	A	a	X	FW	Foreign=Yes	14	conj	_	Proper=True|wordform=a
+22	Dream	Dream	X	FW	Foreign=Yes	21	flat:foreign	_	Proper=True|wordform=dream
+23	of	of	X	FW	Foreign=Yes	21	flat:foreign	_	Proper=True
+24	Spring	Spring	X	FW	Foreign=Yes	21	flat:foreign	_	_
 25	»	»	PUNCT	''	_	21	punct	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -9787,8 +9787,8 @@
 26	personnages	personnage	NOUN	NN	Gender=Masc|Number=Plur	23	obl	_	_
 27	de	de	ADP	IN	_	29	case	_	_
 28	«	«	PUNCT	``	_	29	punct	_	_
-29	Stranger	Stranger	X	FW	_	26	nmod	_	Proper=True
-30	Things	Things	X	FW	_	29	flat:foreign	_	Proper=True
+29	Stranger	Stranger	X	FW	Foreign=Yes	26	nmod	_	Proper=True
+30	Things	Things	X	FW	Foreign=Yes	29	flat:foreign	_	Proper=True
 31	»	»	PUNCT	''	_	29	punct	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	23	punct	_	_
 
@@ -9881,9 +9881,9 @@
 7	un	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	after-show	after-show	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	_
 9	«	«	PUNCT	``	_	10	punct	_	_
-10	the	the	X	FW	_	8	appos	_	Proper=True
-11	Talking	Talking	X	FW	_	10	flat:foreign	_	Proper=True
-12	Dead	Dead	X	FW	_	10	flat:foreign	_	Proper=True
+10	the	the	X	FW	Foreign=Yes	8	appos	_	Proper=True
+11	Talking	Talking	X	FW	Foreign=Yes	10	flat:foreign	_	Proper=True
+12	Dead	Dead	X	FW	Foreign=Yes	10	flat:foreign	_	Proper=True
 13	»	»	PUNCT	''	_	10	punct	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -11223,7 +11223,7 @@
 8	de	de	ADP	IN	_	9	case	_	_
 9	2007	2007	NUM	CD	_	2	nmod	_	_
 10	fut	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
-11	El	El	X	FW	_	0	root	_	Proper=True|wordform=el
+11	El	El	X	FW	Foreign=Yes	0	root	_	Proper=True|wordform=el
 12	Greco	Greco	X	GW	Foreign=Yes	11	flat:foreign	_	Proper=True|SpaceAfter=No|wordform=greco
 13	,	,	PUNCT	,	_	14	punct	_	_
 14	réalisé	réaliser	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
@@ -14400,10 +14400,10 @@
 7	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	«	«	PUNCT	``	_	10	punct	_	_
-10	City	City	X	FW	_	0	root	_	Proper=True
-11	of	of	X	FW	_	10	flat:foreign	_	Proper=True
-12	Cape	Cape	X	FW	_	10	flat:foreign	_	Proper=True
-13	Town	town	X	FW	_	10	flat:foreign	_	Proper=True
+10	City	City	X	FW	Foreign=Yes	0	root	_	Proper=True
+11	of	of	X	FW	Foreign=Yes	10	flat:foreign	_	Proper=True
+12	Cape	Cape	X	FW	Foreign=Yes	10	flat:foreign	_	Proper=True
+13	Town	town	X	FW	Foreign=Yes	10	flat:foreign	_	Proper=True
 14	»	»	PUNCT	''	_	10	punct	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	_	_
 16	une	un	DET	DT	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -14645,9 +14645,9 @@
 # text = Le Royal National Park d'Australie, ouvert en 1879, fut le deuxième du monde à officiellement voir le jour.
 # text_en = Australia's Royal National Park, established in 1879, was the world's second officially established national park.
 1	Le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	Royal	royal	X	FW	_	14	nsubj	_	Proper=True
-3	National	national	X	FW	_	2	flat:foreign	_	Proper=True
-4	Park	Park	X	FW	_	2	flat:foreign	_	Proper=True
+2	Royal	royal	X	FW	Foreign=Yes	14	nsubj	_	Proper=True
+3	National	national	X	FW	Foreign=Yes	2	flat:foreign	_	Proper=True
+4	Park	Park	X	FW	Foreign=Yes	2	flat:foreign	_	Proper=True
 5	d'	de	ADP	IN	_	6	case	_	SpaceAfter=No
 6	Australie	Australie	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
@@ -16687,7 +16687,7 @@
 1	La	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	publication	publication	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	IN	_	4	case	_	_
-4	Jin	Jin	X	FW	_	2	nmod	_	Proper=True|wordform=jin
+4	Jin	Jin	X	FW	Foreign=Yes	2	nmod	_	Proper=True|wordform=jin
 5	Ping	Ping	X	FW	Foreign=Yes	4	flat:foreign	_	Proper=True|wordform=ping
 6	Mei	Mei	X	FW	Foreign=Yes	4	flat:foreign	_	Proper=True|wordform=mei
 7	en	en	ADP	IN	_	8	case	_	_
@@ -17751,9 +17751,9 @@
 16	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	Italie	Italie	PROPN	NNP	Gender=Fem|Number=Sing	14	conj	_	_
 18	(	(	PUNCT	(	_	19	punct	_	SpaceAfter=No
-19	Pithekoussae	Pithekoussae	X	FW	_	14	appos	_	SpaceAfter=No|wordform=pithekoussae
+19	Pithekoussae	Pithekoussae	X	FW	Foreign=Yes	14	appos	_	SpaceAfter=No|wordform=pithekoussae
 20	,	,	PUNCT	,	_	21	punct	_	_
-21	Cumae	Cumae	X	FW	_	19	conj	_	SpaceAfter=No|wordform=cumae
+21	Cumae	Cumae	X	FW	Foreign=Yes	19	conj	_	SpaceAfter=No|wordform=cumae
 22	)	)	PUNCT	)	_	19	punct	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	5	punct	_	_
 24	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
@@ -17934,11 +17934,11 @@
 9	niveau	niveau	NOUN	NN	Gender=Masc|Number=Sing	6	obl	_	_
 10	international	international	ADJ	JJ	Gender=Masc|Number=Sing	9	amod	_	_
 11	par	par	ADP	IN	_	12	case	_	_
-12	Car	Car	X	FW	_	6	obl	_	Proper=True
-13	of	of	X	FW	_	12	flat:foreign	_	Proper=True
-14	the	the	X	FW	_	12	flat:foreign	_	Proper=True
-15	Century	Century	X	FW	_	12	flat:foreign	_	Proper=True
-16	awards	awards	X	FW	_	12	flat:foreign	_	Proper=True|SpaceAfter=No
+12	Car	Car	X	FW	Foreign=Yes	6	obl	_	Proper=True
+13	of	of	X	FW	Foreign=Yes	12	flat:foreign	_	Proper=True
+14	the	the	X	FW	Foreign=Yes	12	flat:foreign	_	Proper=True
+15	Century	Century	X	FW	Foreign=Yes	12	flat:foreign	_	Proper=True
+16	awards	awards	X	FW	Foreign=Yes	12	flat:foreign	_	Proper=True|SpaceAfter=No
 17	,	,	PUNCT	,	_	20	punct	_	_
 18	comme	comme	ADP	IN	_	20	case	_	_
 19	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -18877,9 +18877,9 @@
 38	système	système	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 39	GCA	GCA	PROPN	NNP	Number=Sing	38	appos	_	_
 40	(	(	PUNCT	(	_	41	punct	_	SpaceAfter=No
-41	Ground	Ground	X	FW	_	39	appos	_	Proper=True
-42	Controlled	Controlled	X	FW	_	41	flat:foreign	_	Proper=True
-43	Approach	Approach	X	FW	_	41	flat:foreign	_	Proper=True|SpaceAfter=No
+41	Ground	Ground	X	FW	Foreign=Yes	39	appos	_	Proper=True
+42	Controlled	Controlled	X	FW	Foreign=Yes	41	flat:foreign	_	Proper=True
+43	Approach	Approach	X	FW	Foreign=Yes	41	flat:foreign	_	Proper=True|SpaceAfter=No
 44	)	)	PUNCT	)	_	41	punct	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	38	punct	_	_
 
@@ -19316,8 +19316,8 @@
 12	tournage	tournage	NOUN	NN	Gender=Masc|Number=Sing	3	obl	_	_
 13	de	de	ADP	IN	_	15	case	_	_
 14	«	«	PUNCT	``	_	15	punct	_	_
-15	That	That	X	FW	_	12	nmod	_	Proper=True
-16	Summer	Summer	X	FW	_	15	flat:foreign	_	Proper=True
+15	That	That	X	FW	Foreign=Yes	12	nmod	_	Proper=True
+16	Summer	Summer	X	FW	Foreign=Yes	15	flat:foreign	_	Proper=True
 17	!	!	PUNCT	.	_	15	punct	_	_
 18	»	»	PUNCT	''	_	15	punct	_	_
 19	en	en	ADP	IN	_	20	case	_	_
@@ -19988,10 +19988,10 @@
 1	La	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	chanson	chanson	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	«	«	PUNCT	``	_	4	punct	_	_
-4	Really	Really	X	FW	_	2	appos	_	Proper=True
-5	Really	Really	X	FW	_	4	flat:foreign	_	Proper=True
-6	Love	Love	X	FW	_	4	flat:foreign	_	Proper=True
-7	You	You	X	FW	_	4	flat:foreign	_	Proper=True
+4	Really	Really	X	FW	Foreign=Yes	2	appos	_	Proper=True
+5	Really	Really	X	FW	Foreign=Yes	4	flat:foreign	_	Proper=True
+6	Love	Love	X	FW	Foreign=Yes	4	flat:foreign	_	Proper=True
+7	You	You	X	FW	Foreign=Yes	4	flat:foreign	_	Proper=True
 8	»	»	PUNCT	''	_	4	punct	_	_
 9	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 10	sortie	sortir	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -20005,8 +20005,8 @@
 18	50	50	NUM	CD	_	17	nummod	_	_
 19	;	;	PUNCT	:	_	30	punct	_	_
 20	«	«	PUNCT	``	_	21	punct	_	_
-21	Shaky	Shaky	X	FW	_	30	nsubj	_	Proper=True
-22	Ground	Ground	X	FW	_	21	flat:foreign	_	Proper=True
+21	Shaky	Shaky	X	FW	Foreign=Yes	30	nsubj	_	Proper=True
+22	Ground	Ground	X	FW	Foreign=Yes	21	flat:foreign	_	Proper=True
 23	»	»	PUNCT	''	_	21	punct	_	_
 24	,	,	PUNCT	,	_	26	punct	_	_
 25	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -20090,9 +20090,9 @@
 17	l’	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No|wordform=l'
 18	album	album	NOUN	NN	Gender=Masc|Number=Sing	25	nsubj	_	_
 19	«	«	PUNCT	``	_	20	punct	_	_
-20	Thought	Thought	X	FW	_	18	appos	_	Proper=True
-21	'Ya	'Ya	X	FW	_	20	flat:foreign	_	Proper=True
-22	Knew	Knew	X	FW	_	20	flat:foreign	_	Proper=True
+20	Thought	Thought	X	FW	Foreign=Yes	18	appos	_	Proper=True
+21	'Ya	'Ya	X	FW	Foreign=Yes	20	flat:foreign	_	Proper=True
+22	Knew	Knew	X	FW	Foreign=Yes	20	flat:foreign	_	Proper=True
 23	»	»	PUNCT	''	_	20	punct	_	_
 24	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
 25	grimpé	grimper	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -20146,8 +20146,8 @@
 22	comédie	comédie	NOUN	NN	Gender=Fem|Number=Sing	18	nmod	_	_
 23	musicale	musical	ADJ	JJ	Gender=Fem|Number=Sing	22	amod	_	_
 24	«	«	PUNCT	``	_	25	punct	_	_
-25	The	The	X	FW	_	22	appos	_	Proper=True
-26	Wiz	Wiz	X	FW	_	25	flat:foreign	_	Proper=True
+25	The	The	X	FW	Foreign=Yes	22	appos	_	Proper=True
+26	Wiz	Wiz	X	FW	Foreign=Yes	25	flat:foreign	_	Proper=True
 27	»	»	PUNCT	''	_	25	punct	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -20329,8 +20329,8 @@
 # text_en = Her 1981 album Wild West was one of her biggest sellers.
 1	Son	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	2	det	_	wordform=son
 2	album	album	NOUN	NN	Gender=Masc|Number=Sing	11	nsubj	_	_
-3	Wild	Wild	X	FW	_	2	appos	_	Proper=True
-4	West	West	X	WF	_	3	flat:foreign	_	Proper=True
+3	Wild	Wild	X	FW	Foreign=Yes	2	appos	_	Proper=True
+4	West	West	X	FW	Foreign=Yes	3	flat:foreign	_	Proper=True
 5	(	(	PUNCT	(	_	6	punct	_	SpaceAfter=No
 6	1981	1981	NUM	CD	_	2	obl:mod	_	SpaceAfter=No
 7	)	)	PUNCT	)	_	6	punct	_	_
@@ -20384,7 +20384,7 @@
 5	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	groupe	groupe	NOUN	NN	Gender=Masc|Number=Sing	11	nsubj	_	_
 7	islandais	islandais	ADJ	JJ	Gender=Masc|Number=Sing	6	amod	_	_
-8	Sigur	Sigur	X	FW	_	6	appos	_	Proper=True|wordform=sigur
+8	Sigur	Sigur	X	FW	Foreign=Yes	6	appos	_	Proper=True|wordform=sigur
 9	Rós	Rós	X	FW	Foreign=Yes	8	flat:foreign	_	Proper=True|wordform=rós
 10	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 11	publié	publier	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -20394,7 +20394,7 @@
 15	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	chanson	chanson	NOUN	NN	Gender=Fem|Number=Sing	13	nmod	_	_
 17	«	«	PUNCT	``	_	18	punct	_	_
-18	Fjögur	Fjögur	X	FW	_	16	appos	_	Proper=True|wordform=fjögur
+18	Fjögur	Fjögur	X	FW	Foreign=Yes	16	appos	_	Proper=True|wordform=fjögur
 19	Píanó	Píanó	X	FW	Foreign=Yes	18	flat:foreign	_	Proper=True|wordform=píanó
 20	»	»	PUNCT	''	_	18	punct	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	_	_
@@ -20408,10 +20408,10 @@
 # text = Le St Louis Post Dispatch l'a appelé l'une des meilleures performances de LaBeouf.
 # text_en = Louis Post Dispatch called it one of LaBeouf's best performances.
 1	Le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	St	St	X	FW	_	8	nsubj	_	Proper=True
-3	Louis	Louis	X	FW	_	2	flat:foreign	_	_
-4	Post	Post	X	FW	_	2	flat:foreign	_	Proper=True
-5	Dispatch	Dispatch	X	FW	_	2	flat:foreign	_	Proper=True
+2	St	St	X	FW	Foreign=Yes	8	nsubj	_	Proper=True
+3	Louis	Louis	X	FW	Foreign=Yes	2	flat:foreign	_	_
+4	Post	Post	X	FW	Foreign=Yes	2	flat:foreign	_	Proper=True
+5	Dispatch	Dispatch	X	FW	Foreign=Yes	2	flat:foreign	_	Proper=True
 6	l'	le	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
 7	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	appelé	appeler	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -20555,12 +20555,12 @@
 2	l’	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No|wordform=l'
 3	album	album	NOUN	NN	Gender=Masc|Number=Sing	17	obl	_	_
 4	«	«	PUNCT	``	_	5	punct	_	_
-5	On	On	X	FW	_	3	appos	_	Proper=True
-6	a	a	X	FW	_	5	flat:foreign	_	Proper=True
-7	Wing	Wing	X	FW	_	5	flat:foreign	_	Proper=True
-8	and	and	X	FW	_	5	flat:foreign	_	Proper=True
-9	a	a	X	FW	_	5	flat:foreign	_	Proper=True
-10	Prayer	Prayer	X	FW	Number=Sing	5	flat:foreign	_	Proper=True
+5	On	On	X	FW	Foreign=Yes	3	appos	_	Proper=True
+6	a	a	X	FW	Foreign=Yes	5	flat:foreign	_	Proper=True
+7	Wing	Wing	X	FW	Foreign=Yes	5	flat:foreign	_	Proper=True
+8	and	and	X	FW	Foreign=Yes	5	flat:foreign	_	Proper=True
+9	a	a	X	FW	Foreign=Yes	5	flat:foreign	_	Proper=True
+10	Prayer	Prayer	X	FW	Foreign=Yes	5	flat:foreign	_	Proper=True
 11	»	»	PUNCT	''	_	5	punct	_	_
 12	(	(	PUNCT	(	_	13	punct	_	SpaceAfter=No
 13	1992	1992	NUM	CD	_	3	obl:mod	_	SpaceAfter=No
@@ -20634,23 +20634,23 @@
 11	auparavant	auparavant	ADV	RB	_	12	advmod	_	_
 12	enregistrée	enregistrer	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
 13	avec	avec	ADP	IN	_	14	case	_	_
-14	The	The	X	FW	_	12	obl	_	Proper=True
-15	Humblebums	Humblebums	X	FW	_	14	flat:foreign	_	_
+14	The	The	X	FW	Foreign=Yes	12	obl	_	Proper=True
+15	Humblebums	Humblebums	X	FW	Foreign=Yes	14	flat:foreign	_	_
 16	«	«	PUNCT	``	_	17	punct	_	_
-17	Her	Her	X	FW	_	10	appos	_	Proper=True
-18	Father	Father	X	FW	_	17	flat:foreign	_	Proper=True
-19	Didn't	Didn't	X	FW	_	17	flat:foreign	_	Proper=True
-20	Like	Like	X	FW	_	17	flat:foreign	_	Proper=True
-21	Me	I	X	FW	_	17	flat:foreign	_	Proper=True
-22	Anyway	Anyway	X	FW	_	17	flat:foreign	_	Proper=True
+17	Her	Her	X	FW	Foreign=Yes	10	appos	_	Proper=True
+18	Father	Father	X	FW	Foreign=Yes	17	flat:foreign	_	Proper=True
+19	Didn't	Didn't	X	FW	Foreign=Yes	17	flat:foreign	_	Proper=True
+20	Like	Like	X	FW	Foreign=Yes	17	flat:foreign	_	Proper=True
+21	Me	I	X	FW	Foreign=Yes	17	flat:foreign	_	Proper=True
+22	Anyway	Anyway	X	FW	Foreign=Yes	17	flat:foreign	_	Proper=True
 23	»	»	PUNCT	''	_	17	punct	_	_
 24	sur	sur	ADP	IN	_	26	case	_	_
 25	son	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	26	det	_	_
 26	album	album	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	_
 27	«	«	PUNCT	``	_	28	punct	_	_
-28	Over	Over	X	FW	_	26	appos	_	_
-29	My	My	X	FW	_	28	flat:foreign	_	Proper=True
-30	Head	Head	X	FW	_	28	flat:foreign	_	Proper=True
+28	Over	Over	X	FW	Foreign=Yes	26	appos	_	_
+29	My	My	X	FW	Foreign=Yes	28	flat:foreign	_	Proper=True
+30	Head	Head	X	FW	Foreign=Yes	28	flat:foreign	_	Proper=True
 31	»	»	PUNCT	''	_	28	punct	_	_
 32	(	(	PUNCT	(	_	33	punct	_	SpaceAfter=No
 33	1994	1994	NUM	CD	_	26	obl:mod	_	SpaceAfter=No
@@ -20922,8 +20922,8 @@
 17	d’	de	ADP	IN	_	18	case	_	SpaceAfter=No|wordform=d'
 18	histoires	histoire	NOUN	NN	Gender=Fem|Number=Plur	16	nmod	_	_
 19	de	de	ADP	IN	_	20	case	_	_
-20	Start	Start	X	FW	_	18	nmod	_	Proper=True
-21	Reach	Reach	X	FW	_	20	flat:foreign	_	Proper=True|SpaceAfter=No
+20	Start	Start	X	FW	Foreign=Yes	18	nmod	_	Proper=True
+21	Reach	Reach	X	FW	Foreign=Yes	20	flat:foreign	_	Proper=True|SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	_	_
 23	des	un	DET	DT	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	périodiques	périodique	NOUN	NN	Gender=Masc|Number=Plur	16	appos	_	_
@@ -21103,9 +21103,9 @@
 26	)	)	PUNCT	)	_	25	punct	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	29	punct	_	_
 28	de	de	ADP	IN	_	29	case	_	_
-29	Walt	Walt	X	FW	_	19	nmod	_	_
-30	Disney	Disney	X	FW	_	29	flat:foreign	_	_
-31	Pictures	Pictures	X	FW	_	29	flat:foreign	_	Proper=True|SpaceAfter=No
+29	Walt	Walt	X	FW	Foreign=Yes	19	nmod	_	_
+30	Disney	Disney	X	FW	Foreign=Yes	29	flat:foreign	_	_
+31	Pictures	Pictures	X	FW	Foreign=Yes	29	flat:foreign	_	Proper=True|SpaceAfter=No
 32	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = w01135037
@@ -22988,7 +22988,7 @@
 # text_en = The newspaper "Die ZEIT" first inquired with the real estate business about its dubious cash flows and the threat of insolvency in July.
 1	Le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	journal	journal	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	_
-3	Die	Die	X	FW	_	2	appos	_	wordform=die
+3	Die	Die	X	FW	Foreign=Yes	2	appos	_	wordform=die
 4	Zeit	Zeit	X	FW	Foreign=Yes	3	flat:foreign	_	wordform=zeit
 5	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	commencé	commencer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -23053,8 +23053,8 @@
 28	années	année	NOUN	NN	Gender=Fem|Number=Plur	25	nmod	_	_
 29	1960	1960	NUM	CD	_	28	appos	_	_
 30	«	«	PUNCT	``	_	31	punct	_	_
-31	Monster	Monster	X	FW	_	25	appos	_	Proper=True
-32	Mash	Mash	X	FW	_	31	flat:foreign	_	Proper=True
+31	Monster	Monster	X	FW	Foreign=Yes	25	appos	_	Proper=True
+32	Mash	Mash	X	FW	Foreign=Yes	31	flat:foreign	_	Proper=True
 33	»	»	PUNCT	''	_	31	punct	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -23440,7 +23440,7 @@
 16	à	à	ADP	INDT	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	journal	journal	NOUN	NN	Gender=Masc|Number=Sing	15	obl	_	_
-19	der	der	X	FW	_	18	appos	_	_
+19	der	der	X	FW	Foreign=Yes	18	appos	_	_
 20	Spiegel	Spiegel	X	FW	Foreign=Yes	19	flat:foreign	_	wordform=spiegel
 21	qu’	que	ADP	IN	_	24	mark	_	SpaceAfter=No|wordform=qu'
 22	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj:pass	_	_
@@ -24439,8 +24439,8 @@
 2	se	se	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 3	voit	voir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	imposer	imposer	VERB	VB	VerbForm=Inf	3	xcomp	_	_
-5	a	a	X	FW	_	4	advmod	_	_
-6	posteriori	posteriori	X	FW	_	5	fixed	_	_
+5	a	a	X	FW	Foreign=Yes	4	advmod	_	_
+6	posteriori	posteriori	X	FW	Foreign=Yes	5	fixed	_	_
 7	des	un	DET	DT	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	temps	temps	NOUN	NN	Gender=Masc|Number=Plur	4	obj	_	_
 9	de	de	ADP	IN	_	10	case	_	_
@@ -25134,7 +25134,7 @@
 3	de	de	ADP	IN	_	5	case	_	_
 4	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Université	université	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	Proper=True|wordform=université
-6	Roma	Roma	X	FW	_	5	appos	_	Proper=True|wordform=roma
+6	Roma	Roma	X	FW	Foreign=Yes	5	appos	_	Proper=True|wordform=roma
 7	Tre	Tre	X	FW	Foreign=Yes	6	flat:foreign	_	Proper=True|wordform=tre
 8	ont	avoir	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 9	développé	développer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -25304,9 +25304,9 @@
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	INDT	_	19	fixed	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	Summit	Summit	X	FW	_	13	obl	_	Proper=True
-24	Mountain	Mountain	X	FW	_	23	flat:foreign	_	Proper=True
-25	View	View	X	FW	_	23	flat:foreign	_	Proper=True|SpaceAfter=No
+23	Summit	Summit	X	FW	Foreign=Yes	13	obl	_	Proper=True
+24	Mountain	Mountain	X	FW	Foreign=Yes	23	flat:foreign	_	Proper=True
+25	View	View	X	FW	Foreign=Yes	23	flat:foreign	_	Proper=True|SpaceAfter=No
 26	.	.	PUNCT	.	_	13	punct	_	_
 
 # newdoc id = n05001
@@ -25958,7 +25958,7 @@
 21	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
 22	opposition	opposition	NOUN	NN	Gender=Fem|Number=Sing	20	nsubj	_	_
 23	à	à	ADP	IN	_	24	case	_	_
-24	El	El	X	FW	_	20	obl	_	Proper=True|wordform=el
+24	El	El	X	FW	Foreign=Yes	20	obl	_	Proper=True|wordform=el
 25	Mundo	Mundo	X	FW	Foreign=Yes	24	flat:foreign	_	Proper=True|SpaceAfter=No|wordform=mundo
 26	.	.	PUNCT	.	_	20	punct	_	_
 
@@ -26353,9 +26353,9 @@
 # text = Le Yerba Buena Garden a été construit au début des années 1990 et se trouve sur le toit du Moscone North Convention Center.
 # text_en = The Yerba Buena Garden was built at the beginning of the 1990s on the roof of the Moscone North Convention Center.
 1	Le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	Yerba	Yerba	X	FW	Number=Sing	7	nsubj:pass	_	_
-3	Buena	Buena	X	FW	Number=Sing	2	flat:foreign	_	_
-4	Garden	Garden	X	FW	Gender=Masc|Number=Sing	2	flat:foreign	_	Proper=True
+2	Yerba	Yerba	X	FW	Foreign=Yes	7	nsubj:pass	_	_
+3	Buena	Buena	X	FW	Foreign=Yes	2	flat:foreign	_	_
+4	Garden	Garden	X	FW	Foreign=Yes	2	flat:foreign	_	Proper=True
 5	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 6	été	être	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
 7	construit	construire	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -26377,10 +26377,10 @@
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	INDT	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	Moscone	Moscone	X	FW	_	20	nmod	_	_
-24	North	North	X	FW	_	23	flat:foreign	_	Proper=True
-25	Convention	convention	X	FW	_	23	flat:foreign	_	Proper=True
-26	Center	Center	X	FW	_	23	flat:foreign	_	Proper=True|SpaceAfter=No
+23	Moscone	Moscone	X	FW	Foreign=Yes	20	nmod	_	_
+24	North	North	X	FW	Foreign=Yes	23	flat:foreign	_	Proper=True
+25	Convention	convention	X	FW	Foreign=Yes	23	flat:foreign	_	Proper=True
+26	Center	Center	X	FW	Foreign=Yes	23	flat:foreign	_	Proper=True|SpaceAfter=No
 27	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = w02005029
@@ -27507,7 +27507,7 @@
 20-21	du	_	_	_	_	_	_	_	_
 20	de	de	ADP	INDT	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	mos	mos	X	FW	_	9	conj	_	_
+22	mos	mos	X	FW	Foreign=Yes	9	conj	_	_
 23	maiorum	maiorum	X	FW	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -29121,7 +29121,7 @@
 20	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	phare	phare	NOUN	NN	Gender=Masc|Number=Sing	19	obj	_	_
 22	de	de	ADP	IN	_	23	case	_	_
-23	Punta	Punta	X	FW	_	21	nmod	_	Proper=True|wordform=punta
+23	Punta	Punta	X	FW	Foreign=Yes	21	nmod	_	Proper=True|wordform=punta
 24	del	del	X	FW	Foreign=Yes	23	flat:foreign	_	Proper=True
 25	Este	Este	X	FW	Foreign=Yes	23	flat:foreign	_	Proper=True|wordform=este
 26-27	au	_	_	_	_	_	_	_	_
@@ -29129,7 +29129,7 @@
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	phare	phare	NOUN	NN	Gender=Masc|Number=Sing	21	nmod	_	_
 29	de	de	ADP	IN	_	30	case	_	_
-30	Punta	Punta	X	FW	_	28	nmod	_	Proper=True|wordform=punta
+30	Punta	Punta	X	FW	Foreign=Yes	28	nmod	_	Proper=True|wordform=punta
 31	Rasa	Rasa	X	FW	Foreign=Yes	30	flat:foreign	_	Proper=True|SpaceAfter=No|wordform=rasa
 32	.	.	PUNCT	.	_	16	punct	_	_
 
@@ -29491,10 +29491,10 @@
 13	maison	maison	NOUN	NN	Gender=Fem|Number=Sing	10	obl	_	_
 14	de	de	ADP	IN	_	15	case	_	_
 15	disques	disque	NOUN	NN	Gender=Masc|Number=Plur	13	nmod	_	_
-16	The	The	X	FW	_	13	appos	_	Proper=True
-17	Rocket	Rocket	X	FW	_	16	flat:foreign	_	Proper=True
-18	Record	Record	X	FW	_	16	flat:foreign	_	Proper=True
-19	Company	Company	X	FW	_	16	flat:foreign	_	Proper=True|SpaceAfter=No
+16	The	The	X	FW	Foreign=Yes	13	appos	_	Proper=True
+17	Rocket	Rocket	X	FW	Foreign=Yes	16	flat:foreign	_	Proper=True
+18	Record	Record	X	FW	Foreign=Yes	16	flat:foreign	_	Proper=True
+19	Company	Company	X	FW	Foreign=Yes	16	flat:foreign	_	Proper=True|SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	_	_
 21	Kiki	Kiki	PROPN	NNP	Gender=Masc|Number=Sing	8	appos	_	_
 22	Dee	Dee	PROPN	NNP	Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No
@@ -29513,11 +29513,11 @@
 35	lui	lui	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nmod	_	SpaceAfter=No
 36	:	:	PUNCT	:	_	38	punct	_	_
 37	«	«	PUNCT	``	_	38	punct	_	_
-38	Don’t	Don’t	X	FW	_	32	appos	_	_
-39	Go	Go	X	FW	_	38	flat:foreign	_	Proper=True
-40	Breaking	Breaking	X	FW	_	38	flat:foreign	_	_
-41	My	My	X	FW	_	38	flat:foreign	_	Proper=True
-42	Heart	Heart	X	FW	_	38	flat:foreign	_	Proper=True
+38	Don’t	Don’t	X	FW	Foreign=Yes	32	appos	_	_
+39	Go	Go	X	FW	Foreign=Yes	38	flat:foreign	_	Proper=True
+40	Breaking	Breaking	X	FW	Foreign=Yes	38	flat:foreign	_	_
+41	My	My	X	FW	Foreign=Yes	38	flat:foreign	_	Proper=True
+42	Heart	Heart	X	FW	Foreign=Yes	38	flat:foreign	_	Proper=True
 43	»	»	PUNCT	''	_	38	punct	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	6	punct	_	_
 
