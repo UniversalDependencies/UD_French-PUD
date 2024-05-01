@@ -34,7 +34,11 @@ employ ten-fold cross-validation.
 
 # Changelog
 
-## 2020-05-15 v 2.6
+## 2024-05-15 v2.14
+  * Fix some inconsistencies with other French treebanks
+  * Fix [L3 Warning flat-foreign-upos-feats]
+
+## 2020-05-15 v2.6
   * Add lemmas
   * Add VerbForm features
   * Improve consistency with other French treebanks
