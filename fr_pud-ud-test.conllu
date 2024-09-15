@@ -2001,7 +2001,7 @@
 9	si	si	ADP	IN	_	11	mark	_	_
 10	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	comprenait	comprendre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
-12	pourquoi	pourquoi	ADV	WRB	_	15	advmod	_	_
+12	pourquoi	pourquoi	ADV	WRB	PronType=Int	15	advmod	_	_
 13	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	gens	gens	NOUN	NN	Gender=Masc|Number=Plur	15	nsubj	_	_
 15	pourraient	pouvoir	VERB	VBC	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
@@ -2566,7 +2566,7 @@
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	Etats-Unis	Etats-Unis	NOUN	NN	Gender=Masc|Number=Plur	8	nmod	_	Proper=True|SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	_	_
-13	quel	quel	ADJ	_	Gender=Masc|Number=Sing	8	acl:relcl	_	_
+13	quel	quel	ADJ	_	Gender=Masc|Number=Sing|PronType=Rel	8	acl:relcl	_	_
 14	qu'	que	ADP	IN	_	13	mark	_	SpaceAfter=No
 15	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 16	soit	être	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
@@ -4350,7 +4350,7 @@
 34	à	à	ADP	INDT	_	36	case	_	_
 35	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
 36	gens	gens	NOUN	NN	Gender=Masc|Number=Plur	33	obl	_	_
-37	comment	comment	ADV	WRB	_	38	advmod	_	_
+37	comment	comment	ADV	WRB	PronType=Int	38	advmod	_	_
 38	gérer	gérer	VERB	VB	VerbForm=Inf	33	xcomp	_	_
 39	les	le	DET	DT	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
 40	difficultés	difficulté	NOUN	NN	Gender=Fem|Number=Plur	38	obj	_	_
@@ -4450,7 +4450,7 @@
 3	ne	ne	ADV	RB	Polarity=Neg	4	advmod	_	_
 4	sais	savoir	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	RB	Polarity=Neg	4	advmod	_	_
-6	quelle	quel	ADJ	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+6	quelle	quel	ADJ	_	Gender=Fem|Number=Sing|PronType=Int	10	nsubj	_	_
 7	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 8	été	être	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
 9	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -6266,7 +6266,7 @@
 # text = Voilà pourquoi ils se sont plongés dans les motifs et les couleurs, peut-être.
 # text_en = I think that’s why they immersed themselves in pattern and colour.
 1	Voilà	voilà	VERB	VBC	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	wordform=voilà
-2	pourquoi	pourquoi	ADV	WRB	_	6	advmod	_	_
+2	pourquoi	pourquoi	ADV	WRB	PronType=Int	6	advmod	_	_
 3	ils	il	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 4	se	se	PRON	PRP	Person=3|PronType=Prs	6	obj	_	_
 5	sont	être	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
@@ -9049,7 +9049,7 @@
 2	ne	ne	ADV	RB	Polarity=Neg	3	advmod	_	_
 3	comprends	comprendre	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	RB	Polarity=Neg	3	advmod	_	_
-5	pourquoi	pourquoi	ADV	WRB	_	9	advmod	_	_
+5	pourquoi	pourquoi	ADV	WRB	PronType=Int	9	advmod	_	_
 6	je	il	PRON	PRP	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 7	l'	le	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 8	ai	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
@@ -9594,7 +9594,7 @@
 16	alerté	alerter	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
 17	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	monde	monde	NOUN	NN	Gender=Masc|Number=Sing	16	obj	_	_
-19	que	que	ADP	IN	_	24	mark	_	_
+19	que	que	ADP	IN	PronType=Rel	24	mark	_	_
 20	cette	ce	DET	DT	Gender=Fem|Number=Sing	21	det	_	_
 21	question	question	NOUN	NN	Gender=Fem|Number=Sing	24	nsubj:pass	_	_
 22	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
@@ -10437,7 +10437,7 @@
 16	expliqué	expliquer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 17	à	à	ADP	IN	_	18	case	_	_
 18	CNN	CNN	PROPN	NNP	Number=Sing	16	obl	_	_
-19	pourquoi	pourquoi	ADV	WRB	_	23	advmod	_	_
+19	pourquoi	pourquoi	ADV	WRB	PronType=Int	23	advmod	_	_
 20	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Mexique	Mexique	PROPN	NNP	Gender=Masc|Number=Sing	23	nsubj	_	_
 22	avait	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux:tense	_	_
@@ -12446,7 +12446,7 @@
 # sent_id = w01023120
 # text = Quelles que fussent les règles, les combats se terminaient souvent par la mort d'un des étalons.
 # text_en = Whatever the rules were, the fights often resulted in the death of one of the stallions.
-1	Quelles	quel	ADJ	WP	Gender=Fem|Number=Plur	10	advcl	_	wordform=quelles
+1	Quelles	quel	ADJ	WP	Gender=Fem|Number=Plur|PronType=Rel	10	advcl	_	wordform=quelles
 2	que	que	SCONJ	IN	_	1	mark	_	_
 3	fussent	être	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 4	les	le	DET	DT	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -12869,7 +12869,7 @@
 14	ont	avoir	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
 15	démontré	démontrer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 16	à	à	ADP	IN	_	18	case	_	_
-17	quel	quel	DET	JJ	Gender=Masc|Number=Sing	18	det	_	_
+17	quel	quel	DET	JJ	Gender=Masc|Number=Sing|PronType=Int	18	det	_	_
 18	point	point	NOUN	NN	Gender=Masc|Number=Sing	23	obl	_	_
 19	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	pays	pays	NOUN	NN	Gender=Masc|Number=Sing	23	nsubj	_	_
@@ -21454,7 +21454,7 @@
 19	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
 20	pour	pour	ADP	IN	_	21	mark	_	_
 21	apprendre	apprendre	VERB	VB	VerbForm=Inf	17	advcl	_	_
-22	comment	comment	ADV	WRB	_	25	advmod	_	_
+22	comment	comment	ADV	WRB	PronType=Int	25	advmod	_	_
 23	son	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	24	det	_	_
 24	laboratoire	laboratoire	NOUN	NN	Gender=Masc|Number=Sing	25	nsubj	_	_
 25	pouvait	pouvoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	ccomp	_	_
@@ -22728,7 +22728,7 @@
 2	ne	ne	ADV	RB	Polarity=Neg	3	advmod	_	_
 3	sait	savoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	RB	Polarity=Neg	3	advmod	_	_
-5	comment	comment	ADV	WRB	_	10	advmod	_	_
+5	comment	comment	ADV	WRB	PronType=Int	10	advmod	_	_
 6	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 7	deux	deux	NUM	CD	_	8	nummod	_	_
 8	dramaturges	dramaturge	NOUN	NN	Gender=Masc|Number=Plur	10	nsubj	_	_
@@ -23369,7 +23369,7 @@
 3	sait	savoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	RB	Polarity=Neg	3	advmod	_	_
 5	vraiment	vraiment	ADV	RB	_	3	advmod	_	_
-6	pourquoi	pourquoi	ADV	WRB	_	13	advmod	_	_
+6	pourquoi	pourquoi	ADV	WRB	PronType=Int	13	advmod	_	_
 7	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	promotion	promotion	NOUN	NN	Gender=Fem|Number=Sing	13	nsubj	_	_
 9	de	de	ADP	IN	_	11	case	_	_
@@ -24246,7 +24246,7 @@
 # sent_id = n03006003
 # text = Quelles sont les limites qui peuvent être opposées à l'expression de convictions religieuses dans les entreprises privées ?
 # text_en = What are the limits that could inhibit the expression of religious beliefs in private companies?
-1	Quelles	quel	ADJ	_	Gender=Fem|Number=Plur	0	root	_	wordform=quelles
+1	Quelles	quel	ADJ	_	Gender=Fem|Number=Plur|PronType=Int	0	root	_	wordform=quelles
 2	sont	être	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	les	le	DET	DT	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	limites	limite	NOUN	NN	Gender=Fem|Number=Plur	1	nsubj	_	_
@@ -25810,7 +25810,7 @@
 4	pour	pour	ADP	IN	_	6	case	_	_
 5	cette	ce	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 6	raison	raison	NOUN	NN	Gender=Fem|Number=Sing	2	obl	_	_
-7	qu’	que	ADP	IN	_	12	mark	_	SpaceAfter=No|wordform=qu'
+7	qu’	que	ADP	IN	PronType=Rel	12	mark	_	SpaceAfter=No|wordform=qu'
 8	une	un	DET	DT	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	vallée	vallée	NOUN	NN	Gender=Fem|Number=Sing	12	nsubj	_	_
 10	de	de	ADP	IN	_	11	case	_	_
@@ -28682,7 +28682,7 @@
 26	pour	pour	ADP	IN	_	28	case	_	_
 27	cette	ce	DET	DT	Gender=Fem|Number=Sing	28	det	_	_
 28	raison	raison	NOUN	NN	Gender=Fem|Number=Sing	25	obl	_	_
-29	qu’	que	ADP	IN	_	37	mark	_	SpaceAfter=No|wordform=qu'
+29	qu’	que	ADP	IN	PronType=Rel	37	mark	_	SpaceAfter=No|wordform=qu'
 30	Olivia	Olivia	PROPN	NNP	Gender=Fem|Number=Sing	37	nsubj	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	33	punct	_	_
 32	entre	entre	ADP	IN	_	33	case	_	_
@@ -29663,7 +29663,7 @@
 35	comprit	comprendre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 36	que	que	SCONJ	IN	_	49	mark	_	SpaceAfter=No
 37	,	,	PUNCT	,	_	38	punct	_	_
-38	quelle	quel	ADJ	_	Gender=Fem|Number=Sing	49	advcl	_	_
+38	quelle	quel	ADJ	_	Gender=Fem|Number=Sing|PronType=Rel	49	advcl	_	_
 39	que	que	ADP	IN	_	38	mark	_	_
 40	soit	être	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
 41	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
