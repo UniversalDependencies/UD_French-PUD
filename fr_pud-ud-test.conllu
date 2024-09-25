@@ -8070,11 +8070,11 @@
 
 # newdoc id = n01111
 # sent_id = n01111018
-# text = Cette conjoncture n’a en rien entravé les investisseurs qui ont afflué vers ces fonds.
+# text = Cette conjoncture n'a en rien entravé les investisseurs qui ont afflué vers ces fonds.
 # text_en = This has not stopped investors flocking to put their money in the funds.
 1	Cette	ce	DET	DT	Gender=Fem|Number=Sing	2	det	_	wordform=cette
 2	conjoncture	conjoncture	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	_
-3	n’	n’	ADV	RB	Polarity=Neg	7	advmod	_	SpaceAfter=No|wordform=n'
+3	n'	ne	ADV	RB	Polarity=Neg	7	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 5	en	en	ADP	IN	_	6	case	_	_
 6	rien	rien	PRON	_	Number=Sing|PronType=Neg	7	obl	_	_
