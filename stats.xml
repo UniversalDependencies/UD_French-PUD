@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>24131</tokens><words>24726</words><fused>595</fused></test>
   </size>
-  <lemmas unique="4603" /><!-- le, de, ,, ., un, avoir, être, à, et, il, en, que, son, dans, ce -->
+  <lemmas unique="4602" /><!-- le, de, ,, ., un, avoir, être, à, et, il, en, que, son, dans, ce -->
   <forms unique="5956" /><!-- de, ,, ., le, la, les, à, et, l', en, a, un, est, une, que -->
   <fusions unique="5" /><!-- du, des, au, aux, desquelles -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -53,7 +53,7 @@
     <feat name="Person[psor]" value="1" upos="DET">20</feat><!-- notre, nos, mon, ma, mes -->
     <feat name="Person[psor]" value="2" upos="DET">4</feat><!-- votre, vos -->
     <feat name="Person[psor]" value="3" upos="DET,PRON">252</feat><!-- son, sa, ses, leur, leurs, sar, sienne -->
-    <feat name="Polarity" value="Neg" upos="ADV,DET,PRON">231</feat><!-- pas, ne, n', n’, aucun, plus, aucune, jamais, non -->
+    <feat name="Polarity" value="Neg" upos="ADV">221</feat><!-- pas, ne, n', n’, plus, jamais, non -->
     <feat name="Poss" value="Yes" upos="DET">275</feat><!-- son, sa, ses, leur, leurs, notre, nos, mon, votre, ma -->
     <feat name="PronType" value="Art" upos="DET">3452</feat><!-- le, la, les, l', un, une, des, l’, de, d' -->
     <feat name="PronType" value="Dem" upos="PRON">118</feat><!-- ce, c', cela, c’, ça, ceux, ceci, celle, -ce, ca -->
