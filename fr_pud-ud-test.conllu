@@ -250,7 +250,7 @@
 # text = Début octobre, l'équipe de transition avait utilisé le même endroit pour sa réunion avec les lobbyistes du secteur des technologies, invitant des représentants de Uber, de Motion Picture Association of America, de Consumer Technology Association et d'autres groupes.
 # text_en = In early October, the transition team used the same venue to meet with technology lobbyists, inviting representatives from Uber, the Motion Picture Association of America, the Consumer Technology Association and other groups.
 1	Début	début	NOUN	NN	Gender=Masc|Number=Sing	9	obl:mod	_	wordform=début
-2	octobre	octobre	NOUN	NNP	Gender=Masc|Number=Sing	1	obl:mod	_	SpaceAfter=No
+2	octobre	octobre	NOUN	NNP	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	1	punct	_	_
 4	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	équipe	équipe	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -1096,7 +1096,7 @@
 26	voyageurs	voyageur	NOUN	NN	Gender=Masc|Number=Plur	22	obj	_	_
 27	lors	lors	ADV	RB	_	22	obl	_	_
 28-29	du	_	_	_	_	_	_	_	_
-28	de	de	ADP	INDT	_	30	obl	_	_
+28	de	de	ADP	INDT	_	30	case	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	choix	choix	NOUN	NN	Gender=Masc|Number=Sing	27	obj	_	_
 31	de	de	ADP	IN	_	33	case	_	_
@@ -2371,7 +2371,7 @@
 30	plateau	plateau	NOUN	NN	Gender=Masc|Number=Sing	14	nmod	_	_
 31	de	de	ADP	IN	_	32	case	_	_
 32	tournage	tournage	NOUN	NN	Gender=Masc|Number=Sing	30	nmod	_	_
-33	mardi	mardi	NOUN	NNP	Gender=Masc|Number=Sing	14	obl:mod	_	SpaceAfter=No
+33	mardi	mardi	NOUN	NNP	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	11	punct	_	_
 
 # newdoc id = n01031
@@ -4087,7 +4087,7 @@
 15	toutes	tout	ADJ	PDT	Gender=Fem|Number=Plur	18	amod	_	_
 16	les	le	DET	DT	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 17	35 000	35 000	NUM	CD	_	18	nummod	_	_
-18	naissances	naissance	NOUN	NN	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+18	naissances	naissance	NOUN	NN	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n01052
@@ -6636,7 +6636,7 @@
 # text = Wintour elle-même apparaît brièvement, et on la filme lorsqu’elle met ses lunettes de soleil juste avant que commence l’entrevue.
 # text_en = Wintour herself appears briefly, and is filmed putting her sunglasses on before being interviewed.
 1	Wintour	Wintour	PROPN	NNP	Gender=Fem|Number=Sing	3	nsubj	_	_
-2	elle-même	lui-même	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+2	elle-même	lui-même	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
 3	apparaît	apparaître	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	brièvement	brièvement	ADV	RB	_	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	9	punct	_	_
@@ -6693,7 +6693,7 @@
 27	dans	dans	ADP	IN	_	29	case	_	_
 28	les	le	DET	DT	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
 29	années	année	NOUN	NN	Gender=Fem|Number=Plur	26	obl	_	_
-30	1970	1970	NUM	CD	_	29	obl:mod	_	SpaceAfter=No
+30	1970	1970	NUM	CD	_	29	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01090037
@@ -8957,7 +8957,7 @@
 19	pour	pour	ADP	IN	_	21	case	_	_
 20	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	dimanche	dimanche	NOUN	NNP	Gender=Masc|Number=Sing	18	obl	_	_
-22	après-midi	après-midi	NOUN	NN	Gender=Masc|Number=Sing	21	obl:mod	_	SpaceAfter=No
+22	après-midi	après-midi	NOUN	NN	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = n01119017
@@ -9812,7 +9812,7 @@
 12	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	médias	média	NOUN	NN	Gender=Masc|Number=Plur	10	obl	_	_
 14	(	(	PUNCT	(	_	15	punct	_	SpaceAfter=No
-15	2017	2017	NUM	CD	_	9	obl:mod	_	_
+15	2017	2017	NUM	CD	_	9	nmod	_	_
 16	ou	ou	CCONJ	CC	_	17	cc	_	_
 17	2020	2020	NUM	CD	_	15	conj	_	SpaceAfter=No
 18	)	)	PUNCT	)	_	15	punct	_	_
@@ -15217,7 +15217,7 @@
 6	dynastie	dynastie	NOUN	NN	Gender=Fem|Number=Sing	3	nmod	_	_
 7	Qing	Qing	PROPN	NNP	Number=Sing	6	appos	_	_
 8	en	en	ADP	IN	_	9	case	_	_
-9	1911	1911	NUM	CD	_	3	obl	_	SpaceAfter=No
+9	1911	1911	NUM	CD	_	3	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	1	punct	_	_
 11	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Mongolie	Mongolie	PROPN	NNP	Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No
@@ -15490,7 +15490,7 @@
 30	Thoutmôsis	Thoutmôsis	PROPN	NNP	Gender=Masc|Number=Sing	28	nmod	_	_
 31	III	III	NUM	CD	_	30	nummod	_	Proper=True|SpaceAfter=No|wordform=iii
 32	,	,	PUNCT	,	_	33	punct	_	_
-33	près	près	ADV	RB	_	28	obl:mod	_	_
+33	près	près	ADV	RB	_	28	advmod	_	_
 34	de	de	ADP	IN	_	36	case	_	_
 35	120	120	NUM	CD	_	36	nummod	_	_
 36	ans	an	NOUN	NN	Gender=Masc|Number=Plur	33	obl:arg	_	_
@@ -15666,7 +15666,7 @@
 16	,	,	PUNCT	,	_	19	punct	_	_
 17	deux	deux	NUM	CD	_	18	nummod	_	_
 18	mille	mille	NUM	CD	_	19	nummod	_	_
-19	ans	an	NOUN	NN	Gender=Masc|Number=Plur	14	obl:mod	_	_
+19	ans	an	NOUN	NN	Gender=Masc|Number=Plur	14	nmod	_	_
 20	en	en	ADP	IN	_	21	case	_	_
 21	arrière	arrière	NOUN	NN	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	19	punct	_	_
@@ -15998,7 +15998,7 @@
 11	durant	durant	ADP	IN	_	13	case	_	_
 12	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	été	été	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	_
-14	1075	1075	NUM	CD	_	13	obl:mod	_	SpaceAfter=No
+14	1075	1075	NUM	CD	_	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	4	punct	_	_
 16	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 17	gagna	gagner	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -17594,7 +17594,7 @@
 20	sur	sur	ADP	IN	_	22	case	_	_
 21	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
 22	humanité	humanité	NOUN	NN	Gender=Fem|Number=Sing	8	nmod	_	_
-23	elle-même	lui-même	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+23	elle-même	lui-même	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	6	punct	_	_
 
 # newdoc id = w01079
@@ -19740,7 +19740,7 @@
 20	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 21	deux	deux	NUM	CD	_	23	nummod	_	_
 22	dernières	dernier	ADJ	JJ	Gender=Fem|Number=Plur	23	amod	_	_
-23	décennies	décennie	NOUN	NN	Gender=Fem|Number=Plur	18	obl:arg	_	_
+23	décennies	décennie	NOUN	NN	Gender=Fem|Number=Plur	18	nmod	_	_
 24	de	de	ADP	IN	_	26	case	_	_
 25	sa	son	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	26	det	_	_
 26	vie	vie	NOUN	NN	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
@@ -21015,7 +21015,7 @@
 3	Wild	Wild	X	FW	Foreign=Yes	2	appos	_	Proper=True
 4	West	West	X	FW	Foreign=Yes	3	flat:foreign	_	Proper=True
 5	(	(	PUNCT	(	_	6	punct	_	SpaceAfter=No
-6	1981	1981	NUM	CD	_	2	obl:mod	_	SpaceAfter=No
+6	1981	1981	NUM	CD	_	2	nmod	_	SpaceAfter=No
 7	)	)	PUNCT	)	_	6	punct	_	_
 8	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 9	été	être	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
@@ -21254,7 +21254,7 @@
 10	Prayer	Prayer	X	FW	Foreign=Yes	5	flat:foreign	_	Proper=True
 11	»	»	PUNCT	''	_	5	punct	_	_
 12	(	(	PUNCT	(	_	13	punct	_	SpaceAfter=No
-13	1992	1992	NUM	CD	_	3	obl:mod	_	SpaceAfter=No
+13	1992	1992	NUM	CD	_	3	nmod	_	SpaceAfter=No
 14	)	)	PUNCT	)	_	13	punct	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	3	punct	_	_
 16	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
@@ -21346,7 +21346,7 @@
 30	Head	Head	X	FW	Foreign=Yes	28	flat:foreign	_	Proper=True
 31	»	»	PUNCT	''	_	28	punct	_	_
 32	(	(	PUNCT	(	_	33	punct	_	SpaceAfter=No
-33	1994	1994	NUM	CD	_	26	obl:mod	_	SpaceAfter=No
+33	1994	1994	NUM	CD	_	26	nmod	_	SpaceAfter=No
 34	)	)	PUNCT	)	_	33	punct	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -21766,7 +21766,7 @@
 19	désert	désert	NOUN	NN	Gender=Masc|Number=Sing	16	nmod	_	Proper=True
 20	»	»	PUNCT	''	_	16	punct	_	_
 21	(	(	PUNCT	(	_	22	punct	_	SpaceAfter=No
-22	2011	2011	NUM	CD	_	7	obl:mod	_	SpaceAfter=No
+22	2011	2011	NUM	CD	_	7	nmod	_	SpaceAfter=No
 23	)	)	PUNCT	)	_	22	punct	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	26	punct	_	_
 25	avec	avec	ADP	IN	_	26	case	_	_
@@ -22530,7 +22530,7 @@
 15	Sabrina	Sabrina	PROPN	NNP	Gender=Fem|Number=Sing	3	obl	_	_
 16	»	»	PUNCT	''	_	15	punct	_	_
 17	(	(	PUNCT	(	_	18	punct	_	SpaceAfter=No
-18	1954	1954	NUM	CD	_	15	obl:mod	_	SpaceAfter=No
+18	1954	1954	NUM	CD	_	15	nmod	_	SpaceAfter=No
 19	)	)	PUNCT	)	_	18	punct	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	_	_
 21	un	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -23240,7 +23240,7 @@
 4	réussi	réussir	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
 6	dimanche	dimanche	NOUN	NNP	Gender=Masc|Number=Sing	4	obl:mod	_	_
-7	matin	matin	NOUN	NN	Gender=Masc|Number=Sing	6	obl:mod	_	SpaceAfter=No
+7	matin	matin	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	6	punct	_	_
 9	à	à	ADP	IN	_	10	mark	_	_
 10	maîtriser	maîtriser	VERB	VB	VerbForm=Inf	4	xcomp	_	_
@@ -23952,7 +23952,7 @@
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	INDT	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	cas	cas	NOUN	NN	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+18	cas	cas	NOUN	NN	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	15	punct	_	_
 20	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	situation	situation	NOUN	NN	Gender=Fem|Number=Sing	25	nsubj	_	_
@@ -24743,7 +24743,7 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	28	28	NUM	CD	_	3	obl:mod	_	_
+6	28	28	NUM	CD	_	3	nmod	_	_
 7	octobre	octobre	NOUN	NNP	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	1	punct	_	_
 9	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -24835,7 +24835,7 @@
 6	à	à	ADP	IN	_	8	case	_	_
 7	23	23	NUM	CD	_	8	nummod	_	_
 8	h	heure	NOUN	NN	Gender=Fem|Number=Plur	3	obl	_	_
-9	45	45	NUM	CD	_	8	obl:mod	_	_
+9	45	45	NUM	CD	_	8	nmod	_	_
 10	selon	selon	ADP	IN	_	12	case	_	_
 11	son	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	12	det	_	_
 12	programme	programme	NOUN	NN	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
@@ -27664,7 +27664,7 @@
 11	cours	cours	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	_
 12	de	de	ADP	IN	_	14	case	_	_
 13	sa	son	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	14	det	_	_
-14	fuite	fuite	NOUN	NN	Gender=Fem|Number=Sing	11	obl:arg	_	_
+14	fuite	fuite	NOUN	NN	Gender=Fem|Number=Sing	11	nmod	_	_
 15	et	et	CCONJ	CC	_	18	cc	_	_
 16	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj:pass	_	_
 17	fut	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
@@ -28737,7 +28737,7 @@
 # text_en = In Pluviose year III (January-February 1794), easing off the pressure of the Reign of Terror, he took various measures to liberate the suspects.
 1	En	en	ADP	IN	_	2	case	_	wordform=en
 2	pluviôse	pluviôse	PROPN	NNP	Gender=Masc|Number=Sing	20	obl	_	_
-3	an	an	NOUN	NN	Gender=Masc|Number=Sing	2	obl:mod	_	_
+3	an	an	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
 4	II	II	NUM	CD	_	3	appos	_	Proper=True|wordform=ii
 5	(	(	PUNCT	(	_	6	punct	_	SpaceAfter=No
 6	janvier	janvier	NOUN	NNP	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
@@ -28842,7 +28842,7 @@
 17	de	de	ADP	IN	_	19	case	_	_
 18	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	été	été	NOUN	NN	Gender=Masc|Number=Sing	16	nmod	_	_
-20	1947	1947	NUM	CD	_	19	obl:mod	_	SpaceAfter=No
+20	1947	1947	NUM	CD	_	19	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = w03010097
@@ -28887,7 +28887,7 @@
 1	À	à	ADP	INDT	_	3	case	_	wordform=à
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	printemps	printemps	NOUN	NN	Gender=Masc|Number=Sing	17	obl	_	_
-4	1948	1948	NUM	CD	_	3	obl:mod	_	SpaceAfter=No
+4	1948	1948	NUM	CD	_	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	_	_
 6	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	artiste	artiste	NOUN	NN	Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -29601,7 +29601,7 @@
 15	sein	sein	NOUN	NN	Gender=Masc|Number=Sing	12	obl	_	_
 16	de	de	ADP	IN	_	18	case	_	_
 17	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	Église	église	NOUN	NN	Gender=Fem|Number=Sing	15	obl:arg	_	wordform=église
+18	Église	église	NOUN	NN	Gender=Fem|Number=Sing	15	nmod	_	wordform=église
 19	épiscopale	épiscopal	ADJ	JJ	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	24	punct	_	_
 21	et	et	CCONJ	CC	_	24	cc	_	_
@@ -29790,7 +29790,7 @@
 4	de	de	ADP	IN	_	7	case	_	_
 5	leurs	son	DET	DTP$	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
 6	diverses	divers	ADJ	JJ	Gender=Fem|Number=Plur	7	amod	_	_
-7	collaborations	collaboration	NOUN	NN	Gender=Fem|Number=Plur	3	obl:arg	_	SpaceAfter=No
+7	collaborations	collaboration	NOUN	NN	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	_	_
 9	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
 10	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
@@ -30405,7 +30405,7 @@
 9	à	à	ADP	INDT	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	printemps	printemps	NOUN	NN	Gender=Masc|Number=Sing	7	obl	_	_
-12	1415	1415	NUM	CD	_	11	obl:mod	_	_
+12	1415	1415	NUM	CD	_	11	nmod	_	_
 13	et	et	CCONJ	CC	_	16	cc	_	_
 14	Enrique	Enrique	PROPN	NNP	Gender=Masc|Number=Sing	16	nsubj	_	_
 15	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:tense	_	_
