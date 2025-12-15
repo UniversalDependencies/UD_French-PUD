@@ -2064,7 +2064,7 @@
 6	après	après	ADP	IN	_	7	case	_	_
 7	coup	coup	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	_	_
-9	si	si	ADP	IN	_	11	mark	_	_
+9	si	si	SCONJ	IN	_	11	mark	_	_
 10	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	comprenait	comprendre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
 12	pourquoi	pourquoi	ADV	WRB	_	15	advmod	_	_
@@ -2595,7 +2595,7 @@
 # parallel_id = pud/n01034033
 # text = Si Donald Trump devient président, le gouvernement d'ici devra quand même travailler avec lui pour faire avancer tout programme commun, afin de garantir que les entreprises et intérêts canadiens soient représentés à Washington.
 # text_en = "If Donald Trump becomes president, the government here will still have to work with him to advance whatever shared agenda there is, to ensure that Canadian businesses and interests are represented in Washington."
-1	Si	si	ADP	IN	_	4	mark	_	wordform=si
+1	Si	si	SCONJ	IN	_	4	mark	_	wordform=si
 2	Donald	Donald	PROPN	NNP	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	Trump	Trump	PROPN	NNP	Gender=Masc|Number=Sing	2	flat:name	_	_
 4	devient	devenir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
@@ -5703,7 +5703,7 @@
 1	C'	ce	PRON	PDEM	PronType=Dem	2	nsubj	_	SpaceAfter=No|wordform=c'
 2	était	être	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	comme	comme	ADP	IN	_	6	mark	_	_
-4	s'	si	ADP	IN	_	6	mark	_	SpaceAfter=No
+4	s'	si	SCONJ	IN	_	6	mark	_	SpaceAfter=No
 5	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	poussait	pousser	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
 7	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -7109,7 +7109,7 @@
 15	sont	être	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	facilement	facilement	ADV	RB	_	17	advmod	_	_
 17	accessibles	accessible	ADJ	JJ	Gender=Masc|Number=Plur	5	conj	_	_
-18	si	si	ADP	IN	_	20	mark	_	_
+18	si	si	SCONJ	IN	_	20	mark	_	_
 19	vous	il	PRON	PRP	Number=Plur|Person=2|PronType=Prs	20	nsubj	_	_
 20	savez	savoir	VERB	VBC	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	advcl	_	_
 21	quoi	quoi	PRON	WP	PronType=Int	22	obj	_	_
@@ -7814,7 +7814,7 @@
 2	me	moi	PRON	PRP	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	expl:pv	_	_
 3	demande	demander	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	également	également	ADV	RB	_	3	advmod	_	_
-5	si	si	ADP	IN	_	10	mark	_	_
+5	si	si	SCONJ	IN	_	10	mark	_	_
 6	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Coupe	coupe	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj	_	Proper=True|wordform=coupe
 8	Davis	Davis	PROPN	NNP	Gender=Masc|Number=Sing	7	appos	_	_
@@ -8283,7 +8283,7 @@
 # parallel_id = pud/n01110008
 # text = Si oui, les obligations à prime ne pourraient être distinguées des comptes d’épargne ordinaires.
 # text_en = If they did, Premium Bonds would be indistinguishable from ordinary savings accounts.
-1	Si	si	ADP	IN	_	2	mark	_	wordform=si
+1	Si	si	SCONJ	IN	_	2	mark	_	wordform=si
 2	oui	oui	ADV	RB	_	9	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	les	le	DET	DT	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -8842,7 +8842,7 @@
 4	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	indétectable	indétectable	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
-7	s’	si	ADP	IN	_	10	mark	_	SpaceAfter=No|wordform=s'
+7	s’	si	SCONJ	IN	_	10	mark	_	SpaceAfter=No|wordform=s'
 8	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	_
 9	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 10	fait	faire	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
@@ -9573,7 +9573,7 @@
 17	servira	servir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
 18	à	à	ADP	IN	_	19	case	_	_
 19	rien	rien	PRON	_	Number=Sing|PronType=Neg	17	obl	_	_
-20	si	si	ADP	IN	_	25	mark	_	_
+20	si	si	SCONJ	IN	_	25	mark	_	_
 21	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	électeurs	électeur	NOUN	NN	Gender=Masc|Number=Plur	25	nsubj	_	_
 23	inscrits	inscrire	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
@@ -9786,7 +9786,7 @@
 4	doivent	devoir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	encore	encore	ADV	RB	_	4	advmod	_	_
 6	décider	décider	VERB	VB	VerbForm=Inf	4	xcomp	_	_
-7	s’	si	ADP	IN	_	9	mark	_	SpaceAfter=No|wordform=s'
+7	s’	si	SCONJ	IN	_	9	mark	_	SpaceAfter=No|wordform=s'
 8	ils	il	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
 9	commercialiseront	commercialiser	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	ccomp	_	_
 10	leur	son	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	_
@@ -10928,7 +10928,7 @@
 # parallel_id = pud/n01147087
 # text = Si vous voulez voir la capitale dans toute sa splendeur, c’est en novembre qu’il faut y aller.
 # text_en = For anyone who wants to see the capital in all its glory, November's a great time to go.
-1	Si	si	ADP	IN	_	3	mark	_	wordform=si
+1	Si	si	SCONJ	IN	_	3	mark	_	wordform=si
 2	vous	il	PRON	PRP	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 3	voulez	vouloir	VERB	VBC	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	_
 4	voir	voir	VERB	VB	VerbForm=Inf	3	xcomp	_	_
@@ -13260,7 +13260,7 @@
 # parallel_id = pud/w01028050
 # text = Si le Kansas allait rejoindre l'Union en tant qu'état esclavagiste ou en tant qu'état libre était au cœur du conflit.
 # text_en = At the heart of the conflict was the question of whether Kansas would enter the Union as a free state or slave state.
-1	Si	si	ADP	IN	_	4	mark	_	wordform=si
+1	Si	si	SCONJ	IN	_	4	mark	_	wordform=si
 2	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Kansas	Kansas	PROPN	NNP	Gender=Masc|Number=Sing	4	nsubj	_	_
 4	allait	aller	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	csubj	_	_
@@ -14238,7 +14238,7 @@
 4	ville	ville	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	_
 5	de	de	ADP	IN	_	6	case	_	_
 6	Brisbane	Brisbane	PROPN	NNP	Number=Sing	4	nmod	_	_
-7	se	soi	PRON	PRP	Person=3|PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+7	se	soi	PRON	PRP	Person=3|PronType=Prs|Reflex=Yes	8	expl:pass	_	_
 8	développait	développer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
@@ -15619,7 +15619,7 @@
 7	un	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	vendredi	vendredi	NOUN	NNP	Gender=Masc|Number=Sing	6	obj	_	_
 9	que	que	ADV	RB	_	16	advmod	_	_
-10	si	si	ADP	IN	_	16	mark	_	_
+10	si	si	SCONJ	IN	_	16	mark	_	_
 11	un	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	mois	mois	NOUN	NN	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
 13	supplémentaire	supplémentaire	ADJ	JJ	Gender=Masc|Number=Sing	12	amod	_	_
@@ -15676,7 +15676,7 @@
 26	impossible	impossible	ADJ	JJ	Gender=Masc|Number=Sing	3	conj	_	_
 27	de	de	ADP	IN	_	28	mark	_	_
 28	savoir	savoir	VERB	VB	VerbForm=Inf	26	csubj	_	_
-29	si	si	ADP	IN	_	32	mark	_	_
+29	si	si	SCONJ	IN	_	32	mark	_	_
 30	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj:pass	_	_
 31	était	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux:pass	_	_
 32	voilée	voiler	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	advcl	_	_
@@ -17452,12 +17452,12 @@
 24	rejoindre	rejoindre	VERB	VB	VerbForm=Inf	22	xcomp	_	_
 25	une	un	DET	DT	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	rébellion	rébellion	NOUN	NN	Gender=Fem|Number=Sing	24	obj	_	_
-27	s'	si	ADP	IN	_	30	mark	_	SpaceAfter=No
+27	s'	si	SCONJ	IN	_	30	mark	_	SpaceAfter=No
 28	ils	il	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
 29	sont	être	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
 30	scolarisés	scolarisé	ADJ	JJ	Gender=Masc|Number=Plur	22	advcl	_	_
 31	ou	ou	CCONJ	CC	_	34	cc	_	_
-32	s'	si	ADP	IN	_	34	mark	_	SpaceAfter=No
+32	s'	si	SCONJ	IN	_	34	mark	_	SpaceAfter=No
 33	ils	il	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	34	nsubj	_	_
 34	ont	avoir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	_
 35	un	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
@@ -19438,7 +19438,7 @@
 8	guerre	guerre	NOUN	NN	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	18	punct	_	_
 10	même	même	ADV	RB	_	18	advmod	_	_
-11	si	si	ADP	IN	_	18	mark	_	_
+11	si	si	SCONJ	IN	_	18	mark	_	_
 12	un	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	certain	certain	ADJ	JJ	Gender=Masc|Number=Sing	14	amod	_	_
 14	nombre	nombre	NOUN	NN	Gender=Masc|Number=Sing	18	nsubj	_	_
@@ -23515,7 +23515,7 @@
 12	que	que	ADV	RB	_	13	advmod	_	_
 13	rarement	rarement	ADV	RB	_	10	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	16	punct	_	_
-15	si	si	ADP	IN	_	16	case	_	_
+15	si	si	SCONJ	IN	_	16	case	_	_
 16	jamais	jamais	ADV	RB	_	10	obl	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	16	punct	_	_
 18	après	après	ADP	IN	_	20	case	_	_
@@ -24184,7 +24184,7 @@
 12	les	le	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
 13	caractérise	caractériser	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	9	punct	_	_
-15	si	si	ADP	IN	_	17	mark	_	_
+15	si	si	SCONJ	IN	_	17	mark	_	_
 16	je	il	PRON	PRP	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 17	connaissais	connaître	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
 18	l’	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No|wordform=l'
@@ -24193,7 +24193,7 @@
 21	de	de	PROPN	NNP	_	20	flat:name	_	_
 22	Bruyn	Bruyn	PROPN	NNP	Gender=Masc|Number=Sing	20	flat:name	_	_
 23	et	et	CCONJ	CC	_	28	cc	_	_
-24	si	si	ADP	IN	_	28	mark	_	_
+24	si	si	SCONJ	IN	_	28	mark	_	_
 25	nous	il	PRON	PRP	Number=Plur|Person=1|PronType=Prs	28	nsubj	_	_
 26	étions	être	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	28	cop	_	_
 27	des	un	DET	DT	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
@@ -24612,7 +24612,7 @@
 23	ils	il	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	nsubj:pass	_	_
 24	seront	être	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	25	aux:pass	_	_
 25	activés	activer	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	parataxis	_	_
-26	si	si	ADP	IN	_	41	mark	_	SpaceAfter=No
+26	si	si	SCONJ	IN	_	41	mark	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	28	punct	_	_
 28	par	par	ADP	IN	ExtPos=ADV	41	advmod	_	_
 29	exemple	exemple	NOUN	NN	Gender=Masc|Number=Sing	28	fixed	_	SpaceAfter=No
@@ -25567,7 +25567,7 @@
 # text_en = We will evaluate whether and how to continue onto the next section.
 1	Nous	il	PRON	PRP	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	wordform=nous
 2	évaluerons	évaluer	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
-3	si	si	ADP	IN	_	5	mark	_	_
+3	si	si	SCONJ	IN	_	5	mark	_	_
 4	il	il	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 5	faut	falloir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	_	_
@@ -26794,7 +26794,7 @@
 19	difficile	difficile	ADJ	JJ	Gender=Masc|Number=Sing	4	conj	_	_
 20	de	de	ADP	IN	_	21	mark	_	_
 21	savoir	savoir	VERB	VB	VerbForm=Inf	19	csubj	_	_
-22	si	si	ADP	IN	_	25	mark	_	_
+22	si	si	SCONJ	IN	_	25	mark	_	_
 23	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
 24	augmentation	augmentation	NOUN	NN	Gender=Fem|Number=Sing	25	nsubj	_	_
 25	aura	avoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	ccomp	_	_
@@ -30350,7 +30350,7 @@
 # text_en = Nonetheless, if the English law had been accepted, the daughters of Luis X, Felipe V and Carlos IV would have had more of a claim to the throne, above their aunt Isabella of France.
 1	Néanmoins	néanmoins	ADV	RB	_	23	advmod	_	SpaceAfter=No|wordform=néanmoins
 2	,	,	PUNCT	,	_	1	punct	_	_
-3	si	si	ADP	IN	_	9	mark	_	_
+3	si	si	SCONJ	IN	_	9	mark	_	_
 4	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	loi	loi	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 6	anglaise	anglais	ADJ	JJ	Gender=Fem|Number=Sing	5	amod	_	_
