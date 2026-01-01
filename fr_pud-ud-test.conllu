@@ -324,7 +324,7 @@
 17	H	H	X	FW	Foreign=Yes	8	obl	_	Proper=True
 18	Street	Street	X	FW	Foreign=Yes	17	flat:foreign	_	Proper=True|SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	_	_
-20	quelques	quelque	ADJ	JJ	Gender=Fem|Number=Plur	21	amod	_	_
+20	quelques	quelques	DET	JJ	Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
 21	rues	rue	NOUN	NN	Gender=Fem|Number=Plur	17	appos	_	_
 22	plus	plus	ADV	RBR	_	23	advmod	_	_
 23	loin	loin	ADV	RB	_	21	advmod	_	SpaceAfter=No
@@ -10158,7 +10158,7 @@
 2	lui	lui	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
 3	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	conféré	conférer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	quelques	quelque	ADJ	JJ	Gender=Masc|Number=Plur	6	amod	_	_
+5	quelques	quelques	DET	JJ	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
 6	droits	droit	NOUN	NN	Gender=Masc|Number=Plur	4	obj	_	_
 7	car	car	CCONJ	CC	_	10	cc	_	_
 8	il	lui	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
@@ -14996,7 +14996,7 @@
 31	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	manuscript	manuscript	NOUN	NN	Gender=Masc|Number=Sing	30	obj	_	_
 33	à	à	ADP	IN	_	35	case	_	_
-34	quelques	quelque	ADJ	JJ	Gender=Fem|Number=Plur	35	amod	_	_
+34	quelques	quelques	DET	JJ	Gender=Fem|Number=Plur|PronType=Ind	35	det	_	_
 35	personnes	personne	NOUN	NN	Gender=Fem|Number=Plur	30	obl	_	_
 36	choisies	choisir	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	35	acl	_	_
 37	pour	pour	ADP	IN	_	39	case	_	_
@@ -16642,7 +16642,7 @@
 11	à	à	ADP	INDT	ExtPos=ADV	15	advmod	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
 13	moins	moins	NOUN	NN	Gender=Masc|Number=Sing	11	fixed	_	_
-14	quelques	quelque	ADJ	JJ	Gender=Fem|Number=Plur	15	amod	_	_
+14	quelques	quelques	DET	JJ	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
 15	terres	terre	NOUN	NN	Gender=Fem|Number=Plur	10	obj	_	_
 16	en	en	ADP	IN	_	18	case	_	_
 17	basse	bas	ADJ	JJ	Gender=Fem|Number=Sing	18	amod	_	_
@@ -22879,7 +22879,7 @@
 5	Kesha	Kesha	PROPN	NNP	Gender=Fem|Number=Sing	7	nsubj	_	_
 6	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	publié	publier	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-8	quelques	quelque	ADJ	JJ	Gender=Fem|Number=Plur	9	amod	_	_
+8	quelques	quelques	DET	JJ	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
 9	informations	information	NOUN	NN	Gender=Fem|Number=Plur	7	obj	_	_
 10	sur	sur	ADP	IN	_	13	case	_	_
 11	son	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	_
@@ -23589,7 +23589,7 @@
 1	La	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	loi	loi	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	délimite	délimiter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	quelques	quelque	ADJ	JJ	Gender=Fem|Number=Plur	5	amod	_	_
+4	quelques	quelques	DET	JJ	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
 5	conditions	condition	NOUN	NN	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	_	_
 7	dont	dont	PRON	INP	PronType=Rel	9	nmod	_	_
@@ -27829,7 +27829,7 @@
 5	de	de	ADP	IN	_	6	case	_	_
 6	1917	1917	NUM	CD	_	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	_	_
-8	quelques	quelque	ADJ	JJ	Gender=Masc|Number=Plur	9	amod	_	_
+8	quelques	quelques	DET	JJ	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
 9	pays	pays	NOUN	NN	Gender=Masc|Number=Plur	11	nsubj	_	_
 10	ont	avoir	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 11	retrouvé	retrouver	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
