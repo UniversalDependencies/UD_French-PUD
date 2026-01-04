@@ -29737,7 +29737,7 @@
 15	à	à	ADP	IN	_	16	mark	_	Proper=True
 16	dîner	dîner	VERB	VB	VerbForm=Inf	14	xcomp	_	Proper=True
 17	;	;	PUNCT	:	_	21	punct	_	_
-18	certaines	certain	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	21	nsubj	_	_
+18	certaines	certains	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	21	nsubj	_	_
 19	ont	avoir	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
 20	été	être	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	aux:pass	_	_
 21	écrites	écrire	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	parataxis	_	_
