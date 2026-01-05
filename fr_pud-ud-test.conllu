@@ -30,7 +30,7 @@
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	pouvoir	pouvoir	NOUN	NN	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	26	punct	_	_
-26	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	SpaceAfter=No
+26	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	26	punct	_	_
 28	ne	ne	ADV	RB	Polarity=Neg	29	advmod	_	_
 29	l'	le	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	parataxis	_	SpaceAfter=No
@@ -215,12 +215,12 @@
 # text_en = What she’s saying and what she’s doing, it — actually, it’s unbelievable.
 1	Ce	ce	PRON	PDEM	PronType=Dem	15	nsubj	_	wordform=ce
 2	qu'	que	PRON	WP	PronType=Rel	4	obj	_	SpaceAfter=No
-3	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	dit	dire	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 5	et	et	CCONJ	CC	_	6	cc	_	_
 6	ce	ce	PRON	PDEM	PronType=Dem	1	conj	_	_
 7	qu'	que	PRON	WP	PronType=Rel	9	obj	_	SpaceAfter=No
-8	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	fait	faire	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
 11	réellement	réellement	ADV	RB	_	15	advmod	_	SpaceAfter=No
@@ -594,7 +594,7 @@
 41	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
 42	probable	probable	ADJ	JJ	Gender=Masc|Number=Sing	4	conj	_	_
 43	qu'	que	SCONJ	IN	_	45	mark	_	SpaceAfter=No
-44	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	_
+44	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	_
 45	progresse	progresser	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	ccomp	_	_
 46	de	de	ADP	IN	_	47	case	_	_
 47	nouveau	nouveau	ADJ	JJ	Gender=Masc|Number=Sing	45	obl	_	_
@@ -692,7 +692,7 @@
 # parallel_id = pud/n01011004
 # text = Elle a aussi été accusée de tentative de meurtre de sa fille de deux ans.
 # text_en = She has also been charged with trying to kill her two-year-old daughter.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	wordform=elle
 2	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 3	aussi	aussi	ADV	RB	_	5	advmod	_	_
 4	été	être	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
@@ -718,7 +718,7 @@
 3	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	indiqué	indiquer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	qu'	que	SCONJ	IN	_	8	mark	_	SpaceAfter=No
-6	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 7	avait	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	_
 8	tué	tuer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
 9	Andre	Andre	PROPN	NNP	Gender=Masc|Number=Sing	8	obj	_	_
@@ -1878,7 +1878,7 @@
 # parallel_id = pud/n01025025
 # text = Elle explique qu'il existe toujours un effet « beurk » à l'idée d'acheter et de porter des morceaux du corps d'une autre personne.
 # text_en = "There is still a 'yuk' factor to the whole idea of buying and wearing other people's body parts," she says.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
 2	explique	expliquer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	qu'	que	SCONJ	IN	_	5	mark	_	SpaceAfter=No
 4	il	lui	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
@@ -2065,7 +2065,7 @@
 7	coup	coup	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	_	_
 9	si	si	SCONJ	IN	_	11	mark	_	_
-10	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	comprenait	comprendre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
 12	pourquoi	pourquoi	ADV	WRB	_	15	advmod	_	_
 13	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
@@ -2151,7 +2151,7 @@
 17	Crimée	Crimée	PROPN	NNP	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	22	punct	_	_
 19	qu'	que	PRON	WP	PronType=Rel	22	obj	_	SpaceAfter=No
-20	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+20	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 21	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
 22	annexé	annexer	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
 23	en	en	ADP	IN	_	24	case	_	_
@@ -2582,7 +2582,7 @@
 16	grossit	grossir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	21	punct	_	_
 18	et	et	CCONJ	CC	_	21	cc	_	_
-19	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+19	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 20	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
 21	dû	devoir	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
 22	quitter	quitter	VERB	VB	VerbForm=Inf	21	xcomp	_	_
@@ -3157,7 +3157,7 @@
 18	passé	passer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	23	punct	_	_
 20	mais	mais	CCONJ	CC	_	23	cc	_	_
-21	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+21	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 22	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:tense	_	_
 23	dit	dire	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
 24	que	que	SCONJ	IN	_	28	mark	_	_
@@ -3377,7 +3377,7 @@
 8	de	de	ADP	IN	_	9	case	_	_
 9	dollars	dollar	NOUN	NN	Gender=Masc|Number=Plur	7	nmod	_	_
 10	et	et	CCONJ	CC	_	12	cc	_	_
-11	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	emploie	employer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 13	plus	plus	ADV	RBR	ExtPos=PRON	12	obj	_	_
 14	de	de	ADP	IN	_	16	case	_	_
@@ -3805,7 +3805,7 @@
 5	douleurs	douleur	NOUN	NN	Gender=Fem|Number=Plur	3	obj	_	_
 6	dorsales	dorsal	ADJ	JJ	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
-8	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	combat	combattre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	les	le	DET	DT	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	nausées	nausée	NOUN	NN	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
@@ -4095,7 +4095,7 @@
 # parallel_id = pud/n01052004
 # text = Elle avait 84 ans.
 # text_en = She was 84 years old.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
 2	avait	avoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	84	84	NUM	CD	_	4	nummod	_	_
 4	ans	an	NOUN	NN	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
@@ -4162,7 +4162,7 @@
 20	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	13	conj	_	_
 21	d'	de	ADP	IN	_	23	case	_	SpaceAfter=No
 22	entre	entre	ADP	IN	_	23	case	_	_
-23	eux	soi	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nmod	_	_
+23	eux	lui	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nmod	_	_
 24	»	»	PUNCT	''	_	13	punct	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -4175,7 +4175,7 @@
 3	20	20	NUM	CD	_	4	nummod	_	_
 4	ans	an	NOUN	NN	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
-6	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+6	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 7	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	une	un	DET	DT	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	voix	voix	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
@@ -4670,7 +4670,7 @@
 # text_en = And, she granted, “you have to look at where she has acknowledged that we need to do something different—we can do better—and where she has expressed regret.”
 1	Et	et	CCONJ	CC	_	4	discourse	_	SpaceAfter=No|wordform=et
 2	,	,	PUNCT	,	_	1	punct	_	_
-3	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	admit	admettre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	8	punct	_	_
 6	«	«	PUNCT	``	_	8	punct	_	_
@@ -4678,7 +4678,7 @@
 8	faut	falloir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 9	regarder	regarder	VERB	VB	VerbForm=Inf	8	xcomp	_	_
 10	quand	quand	SCONJ	WRB	_	13	mark	_	_
-11	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 12	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 13	reconnu	reconnaître	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
 14	que	que	SCONJ	IN	_	16	mark	_	_
@@ -4694,7 +4694,7 @@
 24	-	-	PUNCT	_	_	21	punct	_	_
 25	et	et	CCONJ	CC	_	29	cc	_	_
 26	quand	quand	ADV	WRB	_	29	mark	_	_
-27	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+27	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 28	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:tense	_	_
 29	fait	faire	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
 30	part	part	NOUN	NN	Gender=Fem|Number=Sing	29	obj	_	_
@@ -4889,7 +4889,7 @@
 26	portable	portable	ADJ	JJ	Gender=Masc|Number=Sing	25	amod	_	_
 27	de	de	ADP	IN	_	29	case	_	_
 28	chez	chez	ADP	IN	_	29	case	_	_
-29	eux	soi	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	nmod	_	SpaceAfter=No
+29	eux	lui	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = n01063048
@@ -5064,7 +5064,7 @@
 10	visiblement	visiblement	ADV	RB	_	11	advmod	_	_
 11	artistique	artistique	ADJ	JJ	Gender=Masc|Number=Sing	6	nmod	_	_
 12	chez	chez	ADP	IN	_	13	case	_	_
-13	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+13	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
 14	ou	ou	CCONJ	CC	_	17	cc	_	_
 15	dans	dans	ADP	IN	_	17	case	_	_
 16	sa	son	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	_
@@ -5536,7 +5536,7 @@
 25	plus	plus	ADV	RBR	_	26	advmod	_	_
 26	Africain	africain	ADJ	JJ	Gender=Masc|Number=Sing	24	obj	_	wordform=africain
 27	que	que	ADP	IN	_	28	case	_	_
-28	toi	soi	PRON	PRP	Gender=Masc|Number=Sing|Person=2|PronType=Prs	26	obl	_	SpaceAfter=No
+28	toi	toi	PRON	PRP	Gender=Masc|Number=Sing|Person=2|PronType=Prs	26	obl	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	24	punct	_	_
 30	»	»	PUNCT	''	_	24	punct	_	_
 
@@ -5903,7 +5903,7 @@
 14	un	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	foulard	foulard	NOUN	NN	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	_	_
-17	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	a	avoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 19	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	air	air	NOUN	NN	Gender=Masc|Number=Sing	18	obj	_	_
@@ -6009,7 +6009,7 @@
 3	le	lui	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	regarder	regarder	VERB	VB	VerbForm=Inf	2	xcomp	_	_
 5	avec	avec	ADP	IN	_	6	case	_	_
-6	eux	soi	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+6	eux	lui	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
 7	mais	mais	CCONJ	CC	_	14	cc	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	_	_
 9	pour	pour	ADP	IN	_	10	mark	_	_
@@ -6021,7 +6021,7 @@
 15	le	lui	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
 16	regarder	regarder	VERB	VB	VerbForm=Inf	14	xcomp	_	_
 17	sans	sans	ADP	IN	_	18	case	_	_
-18	moi	soi	PRON	PRP	Number=Sing|Person=1|PronType=Prs	16	obl	_	SpaceAfter=No
+18	moi	moi	PRON	PRP	Number=Sing|Person=1|PronType=Prs	16	obl	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01081
@@ -6106,7 +6106,7 @@
 # text = Selon elle, une protection insuffisante est offerte aux ouvriers américains, dont le travail et le niveau de vie pourraient être altérés.
 # text_en = Her reason is that it provides insufficient protection to American workers whose jobs and living standards it might harm.
 1	Selon	selon	ADP	IN	_	2	case	_	wordform=selon
-2	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+2	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	une	un	DET	DT	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	protection	protection	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
@@ -6583,13 +6583,13 @@
 # text = Mais elle rigole quand je suggère qu’elle devrait demander à Frank qu’il travaille pour elle en tant que mannequin.
 # text_en = But, when I suggest that she get Frank to model for her, she laughs.
 1	Mais	mais	CCONJ	CC	_	3	discourse	_	wordform=mais
-2	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	rigole	rigoler	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	quand	quand	SCONJ	WRB	_	6	mark	_	_
 5	je	moi	PRON	PRP	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	suggère	suggérer	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 7	qu’	que	SCONJ	IN	_	9	mark	_	SpaceAfter=No|wordform=qu'
-8	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	devrait	devoir	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
 10	demander	demander	VERB	VB	VerbForm=Inf	9	xcomp	_	_
 11	à	à	ADP	IN	_	12	case	_	_
@@ -6598,7 +6598,7 @@
 14	il	lui	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 15	travaille	travailler	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 16	pour	pour	ADP	IN	_	17	case	_	_
-17	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+17	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
 18	en	en	ADP	IN	ExtPos=ADP	21	case	_	_
 19	tant	tant	ADV	RB	_	18	fixed	_	_
 20	que	que	SCONJ	IN	_	18	fixed	_	_
@@ -6642,10 +6642,10 @@
 5	,	,	PUNCT	,	_	9	punct	_	_
 6	et	et	CCONJ	CC	_	9	cc	_	_
 7	on	on	PRON	PRP	Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
-8	la	le	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+8	la	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 9	filme	filmer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	lorsqu’	lorsque	SCONJ	IN	_	12	mark	_	SpaceAfter=No|wordform=lorsqu'
-11	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	met	mettre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
 13	ses	son	DET	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	14	det	_	_
 14	lunettes	lunette	NOUN	NN	Gender=Fem|Number=Plur	12	obj	_	_
@@ -8680,7 +8680,7 @@
 # parallel_id = pud/n01116009
 # text = Elle débute sa carrière à la RSC au milieu des années soixante, jouant le rôle d’une patiente dans un asile d’aliénés dans la pièce de Marat/Sade.
 # text_en = She started out at the RSC in the mid-Sixties playing an asylum-inmate in Marat/Sade.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
 2	débute	débuter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sa	son	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	4	det	_	_
 4	carrière	carrière	NOUN	NN	Gender=Fem|Number=Sing	2	obj	_	_
@@ -8757,7 +8757,7 @@
 # parallel_id = pud/n01116021
 # text = Elle pousse la nuque vers l’avant dans une confrontation de veines accentuées, ses mains tremblent.
 # text_en = Her neck pushes forward in vein-accentuating confrontation, her hands shake.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
 2	pousse	pousser	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	nuque	nuque	NOUN	NN	Gender=Fem|Number=Sing	2	obj	_	_
@@ -9065,7 +9065,7 @@
 6	armés	armé	ADJ	JJ	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
 8	sauf	sauf	ADP	IN	_	9	case	_	_
-9	moi	soi	PRON	PRP	Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+9	moi	moi	PRON	PRP	Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	6	punct	_	_
 
 # newdoc id = n01121
@@ -9105,7 +9105,7 @@
 1	Ça	ça	PRON	PDEM	PronType=Dem	2	nsubj	_	wordform=ça
 2	marche	marcher	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pour	pour	ADP	IN	_	4	case	_	_
-4	toi	soi	PRON	PRP	Number=Sing|Person=2|PronType=Prs	2	obl	_	_
+4	toi	toi	PRON	PRP	Number=Sing|Person=2|PronType=Prs	2	obl	_	_
 5	jusqu’	jusqu’	ADP	IN	_	7	case	_	SpaceAfter=No|wordform=jusqu'
 6	à	à	ADP	IN	_	7	case	_	_
 7	présent	présent	NOUN	NN	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
@@ -11050,7 +11050,7 @@
 # parallel_id = pud/n01149010
 # text = Elle a parlé de son expérience à CCN Style.
 # text_en = She spoke to CNN Style about the experience.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	wordform=elle
 2	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	parlé	parler	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	de	de	ADP	IN	_	6	case	_	_
@@ -11188,7 +11188,7 @@
 15	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	souvenirs	souvenir	NOUN	NN	Gender=Masc|Number=Plur	14	obj	_	_
 17	d’	de	ADP	IN	_	18	case	_	SpaceAfter=No|wordform=d'
-18	eux	soi	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
+18	eux	lui	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
 19	chez	chez	ADP	IN	_	21	case	_	_
 20	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	vivants	vivant	NOUN	NN	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
@@ -11956,7 +11956,7 @@
 1	En	en	ADP	IN	_	2	case	_	wordform=en
 2	833	833	NUM	CD	_	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
-4	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	devint	devenir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	état	état	NOUN	NN	Gender=Masc|Number=Sing	5	xcomp	_	_
@@ -12620,7 +12620,7 @@
 3	nombreuses	nombreux	ADJ	JJ	Gender=Fem|Number=Plur	4	amod	_	_
 4	communautés	communauté	NOUN	NN	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
-6	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	servait	servir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	de	de	ADP	IN	_	9	case	_	_
 9	passage	passage	NOUN	NN	Gender=Masc|Number=Sing	7	obl	_	_
@@ -13711,7 +13711,7 @@
 # parallel_id = pud/w01033022
 # text = Elle contient un très petit lagon, aujourd'hui desséché.
 # text_en = It contains a tiny lagoon, which has all but dried up.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
 2	contient	contenir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	un	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 4	très	très	ADV	RB	_	5	advmod	_	_
@@ -13726,7 +13726,7 @@
 # parallel_id = pud/w01033025
 # text = Elle a été déclarée réserve naturelle en 1975.
 # text_en = It was declared a wildlife sanctuary in 1975.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	wordform=elle
 2	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 3	été	être	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
 4	déclarée	déclarer	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -14933,7 +14933,7 @@
 # parallel_id = pud/w01047071
 # text = Elle profita également des ses relations avec des scientifiques du gouvernement, qui lui fournissaient des informations confidentielles.
 # text_en = She also took advantage of her personal connections with many government scientists, who supplied her with confidential information.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
 2	profita	profiter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	également	également	ADV	RB	_	2	advmod	_	_
 4-5	des	_	_	_	_	_	_	_	_
@@ -15677,7 +15677,7 @@
 27	de	de	ADP	IN	_	28	mark	_	_
 28	savoir	savoir	VERB	VB	VerbForm=Inf	26	csubj	_	_
 29	si	si	SCONJ	IN	_	32	mark	_	_
-30	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj:pass	_	_
+30	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj:pass	_	_
 31	était	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux:pass	_	_
 32	voilée	voiler	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	advcl	_	_
 33	par	par	ADP	IN	_	35	case	_	_
@@ -17805,7 +17805,7 @@
 20	parties	partie	NOUN	NN	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	25	punct	_	_
 22	mais	mais	CCONJ	CC	_	25	cc	_	_
-23	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+23	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 24	ne	ne	ADV	RB	Polarity=Neg	25	advmod	_	_
 25	voulut	vouloir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
 26	pas	pas	ADV	RB	Polarity=Neg	25	advmod	_	_
@@ -18068,7 +18068,7 @@
 # parallel_id = pud/w01085006
 # text = Elle comptait sur les volontaires et les unités de milice, qui faisaient face à des problèmes de logistique, de formation et d'alimentation dans les aires de rassemblement en Floride.
 # text_en = It relied on volunteers and state militia units, which faced logistical, training and food problems in the staging areas in Florida.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
 2	comptait	compter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	sur	sur	ADP	IN	_	5	case	_	_
 4	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -19081,7 +19081,7 @@
 7	en	en	ADP	IN	_	8	case	_	_
 8	1842	1842	NUM	CD	_	11	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
-10	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	accepta	accepter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 12	les	le	DET	DT	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	dispositions	disposition	NOUN	NN	Gender=Fem|Number=Plur	11	obj	_	_
@@ -20445,7 +20445,7 @@
 3	et	et	CCONJ	CC	_	4	cc	_	_
 4	1997	1997	NUM	CD	_	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	2	punct	_	_
-6	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 7	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	dirigé	diriger	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	une	un	DET	DT	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -20485,7 +20485,7 @@
 # parallel_id = pud/w01117034
 # text = Elle a trouvé la transition vers la fiction facile, expliquant que « Chaque livre est une courbe d'apprentissage, et vous devez garder un esprit ouvert. »
 # text_en = She found the transition to fiction easy, explaining, "Every book is a learning curve, and you have to keep an open mind."
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	wordform=elle
 2	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	trouvé	trouver	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -21786,7 +21786,7 @@
 2	même	même	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	_
 3	année	année	NOUN	NN	Gender=Fem|Number=Sing	8	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
-5	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	_
+5	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	_
 6	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 7	brièvement	brièvement	ADV	RB	_	8	advmod	_	_
 8	apparue	apparaître	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -21819,7 +21819,7 @@
 # parallel_id = pud/w01135037
 # text = Elle a joué dans le film 5 ans de Réflexion, avec sa co-vedette Jason Segel, réalisé par Nicholas Stoller en 2012.
 # text_en = She starred in the 2012 film The Five-Year Engagement, directed by Nicholas Stoller and co-starring Jason Segel.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	wordform=elle
 2	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	joué	jouer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	dans	dans	ADP	IN	_	6	case	_	_
@@ -22170,7 +22170,7 @@
 16	devrait	devoir	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
 17	collaborer	collaborer	VERB	VB	VerbForm=Inf	16	xcomp	_	_
 18	avec	avec	ADP	IN	_	19	case	_	_
-19	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
+19	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
 20	pour	pour	ADP	IN	_	21	mark	_	_
 21	apprendre	apprendre	VERB	VB	VerbForm=Inf	17	advcl	_	_
 22	comment	comment	ADV	WRB	_	25	advmod	_	_
@@ -22265,7 +22265,7 @@
 5	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	domaine	domaine	NOUN	NN	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	1	punct	_	_
-8	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 9	avait	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:tense	_	_
 10	démontré	démontrer	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	ses	son	DET	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|Poss=Yes|PronType=Prs	12	det	_	_
@@ -22335,7 +22335,7 @@
 5	saison	saison	NOUN	NN	Gender=Fem|Number=Sing	10	obl	_	_
 6	morte	mort	ADJ	JJ	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	5	punct	_	_
-8	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	_
+8	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	_
 9	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 10	apparue	apparaître	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	sur	sur	ADP	IN	_	13	case	_	_
@@ -22346,7 +22346,7 @@
 16	CTV	CTV	PROPN	NNP	Number=Sing	15	appos	_	_
 17	Montréal	Montréal	PROPN	NNP	Number=Sing	16	flat:name	_	_
 18	et	et	CCONJ	CC	_	22	cc	_	_
-19	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj:pass	_	_
+19	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj:pass	_	_
 20	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
 21	été	être	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux:pass	_	_
 22	invitée	inviter	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
@@ -22360,7 +22360,7 @@
 # parallel_id = pud/w01141077
 # text = Elle a ensuite affronté la championne en titre et la tête de série Sara Errani, mais a été battue.
 # text_en = She next faced defending champion and top seed Sara Errani, but was defeated.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	wordform=elle
 2	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 3	ensuite	ensuite	ADV	RB	_	4	advmod	_	_
 4	affronté	affronter	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -22818,7 +22818,7 @@
 5	Pebe	Pebe	PROPN	NNP	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	_	_
 7	quand	quand	SCONJ	WRB	_	10	mark	_	_
-8	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 9	n'	ne	ADV	RB	Polarity=Neg	10	advmod	_	SpaceAfter=No
 10	avait	avoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
 11	que	que	ADV	RB	_	10	advmod	_	_
@@ -22833,7 +22833,7 @@
 20	;	;	PUNCT	:	_	25	punct	_	_
 21	ensuite	ensuite	ADV	RB	_	25	advmod	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	21	punct	_	_
-23	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+23	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 24	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
 25	contacté	contacter	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
 26	David	David	PROPN	NNP	Gender=Masc|Number=Sing	25	obj	_	_
@@ -22842,7 +22842,7 @@
 29	un	un	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	producteur	producteur	NOUN	NN	Gender=Masc|Number=Sing	26	appos	_	_
 31	qu'	que	PRON	WP	PronType=Rel	33	obj	_	SpaceAfter=No
-32	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+32	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 33	admirait	admirer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	_
 34	et	et	CCONJ	CC	_	36	cc	_	_
 35	qui	qui	PRON	WP	PronType=Rel	36	nsubj	_	_
@@ -22911,7 +22911,7 @@
 13	de	de	ADP	IN	_	14	mark	_	_
 14	croire	croire	VERB	VB	VerbForm=Inf	12	xcomp	_	_
 15	qu'	que	SCONJ	IN	_	18	mark	_	SpaceAfter=No
-16	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 17	ne	ne	ADV	RB	Polarity=Neg	18	advmod	_	_
 18	voulait	vouloir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	ccomp	_	_
 19	plus	plus	ADV	RB	Polarity=Neg	18	advmod	_	_
@@ -24181,7 +24181,7 @@
 9	stupidité	stupidité	NOUN	NN	Gender=Fem|Number=Sing	5	obl	_	_
 10	incomparable	incomparable	ADJ	JJ	Gender=Fem|Number=Sing	9	amod	_	_
 11	qui	qui	PRON	WP	PronType=Rel	13	nsubj	_	_
-12	les	le	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+12	les	lui	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
 13	caractérise	caractériser	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	9	punct	_	_
 15	si	si	SCONJ	IN	_	17	mark	_	_
@@ -24827,7 +24827,7 @@
 # parallel_id = pud/n03001030
 # text = Elle y prendra la parole à 23 h 45 selon son programme.
 # text_en = According to the programme, she will speak at 23.45.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	wordform=elle
 2	y	y	PRON	PRP	Person=3|PronType=Prs	3	obl	_	_
 3	prendra	prendre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -25452,7 +25452,7 @@
 10	Castelfranco	Castelfranco	PROPN	NNP	Number=Sing	4	obl	_	_
 11	Veneto	Veneto	PROPN	NNP	Number=Sing	10	flat:name	_	_
 12	;	;	PUNCT	:	_	15	punct	_	_
-13	elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 14	a	avoir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
 15	grandi	grandir	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
 16	dans	dans	ADP	IN	_	18	case	_	_
@@ -26411,7 +26411,7 @@
 # text = Malgré eux, tout le monde dans le parti n'a pas compris les messages que le président a essayé de leur envoyer hier.
 # text_en = In spite of them, not everyone in the party understood the messages that the president tried to send to them yesterday.
 1	Malgré	malgré	ADP	IN	_	2	case	_	wordform=malgré
-2	eux	soi	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+2	eux	lui	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	tout	tout	ADJ	PDT	Gender=Masc|Number=Sing	6	amod	_	_
 5	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -27108,7 +27108,7 @@
 # text = Parmi eux se trouve l'ancien cloître de l'église abbatiale de Saint Pierre et Paul.
 # text_en = Among them is the former cloister from the abbey church of St. Peter and Paul.
 1	Parmi	parmi	ADP	IN	_	2	case	_	wordform=parmi
-2	eux	soi	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+2	eux	lui	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
 3	se	soi	PRON	PRP	Person=3|PronType=Prs|Reflex=Yes	4	expl:pv	_	_
 4	trouve	trouver	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -29397,7 +29397,7 @@
 3	poignée	poignée	NOUN	NN	Gender=Fem|Number=Sing	12	nsubj	_	_
 4	d'	de	ADP	IN	_	6	case	_	SpaceAfter=No
 5	entre	entre	ADP	IN	_	6	case	_	_
-6	eux	soi	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nmod	_	_
+6	eux	lui	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nmod	_	_
 7	(	(	PUNCT	(	_	9	punct	_	SpaceAfter=No
 8	de	de	ADP	IN	_	9	case	_	_
 9	comtés	comté	NOUN	NN	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
@@ -29698,7 +29698,7 @@
 # text = Entre eux s’est développée une longue relation professionnelle et amicale qui a duré pendant des années.
 # text_en = Between them bloomed a long professional and amicable relationship that lasted for years.
 1	Entre	entre	ADP	IN	_	2	case	_	wordform=entre
-2	eux	soi	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obl	_	_
+2	eux	lui	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obl	_	_
 3	s’	se	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No|wordform=s'
 4	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	développée	développer	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -29858,7 +29858,7 @@
 # parallel_id = pud/w05001036
 # text = Elle comporte trois chapelles parallèles à l'abside et de nombreuses chapelles latérales entre les contreforts.
 # text_en = It has three parallel chapels at the apse and many lateral chapels between the buttresses.
-1	Elle	il	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
+1	Elle	lui	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=elle
 2	comporte	comporter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	trois	trois	NUM	CD	_	4	nummod	_	_
 4	chapelles	chapelle	NOUN	NN	Gender=Fem|Number=Plur	2	obj	_	_
@@ -30035,7 +30035,7 @@
 27	à	à	ADP	IN	_	28	mark	_	_
 28	rentrer	rentrer	VERB	VB	VerbForm=Inf	26	xcomp	_	_
 29	chez	chez	ADP	IN	_	30	case	_	_
-30	eux	soi	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	obl	_	_
+30	eux	lui	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	obl	_	_
 31	et	et	CCONJ	CC	_	38	cc	_	_
 32	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
 33	prisonniers	prisonnier	NOUN	NN	Gender=Masc|Number=Plur	38	nsubj:pass	_	_
@@ -30210,7 +30210,7 @@
 19	que	que	SCONJ	IN	_	18	fixed	_	_
 20	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	colons	colon	NOUN	NN	Gender=Masc|Number=Plur	23	nsubj	_	_
-22	les	le	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	obj	_	_
+22	les	lui	PRON	PRP	Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	obj	_	_
 23	expropriaient	exproprier	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
 24	de	de	ADP	IN	ExtPos=ADV	23	advmod	_	_
 25	plus	plus	ADV	RBR	_	24	fixed	_	_
