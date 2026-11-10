@@ -1050,7 +1050,7 @@
 9	une	un	DET	DT	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	interface	interface	NOUN	NN	Gender=Fem|Number=Sing	6	obl	_	_
 11	intelligente	intelligent	ADJ	JJ	Gender=Fem|Number=Sing	10	amod	_	_
-12	telles	tel	ADJ	JJ	Gender=Fem|Number=Plur	10	amod	_	_
+12	telles	tel	ADJ	JJ	Gender=Fem|Number=Plur|Typo=Yes	10	amod	_	CorrectForm=telle
 13	que	que	ADP	IN	_	15	case	_	_
 14	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Google	Google	PROPN	NNP	_	12	obl	_	_
@@ -1171,7 +1171,7 @@
 2	plupart	plupart	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
-4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	gens	gens	NOUN	NN	Gender=Masc|Number=Plur	2	nmod	_	_
 6	trouveraient	trouver	VERB	VBC	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -1505,7 +1505,7 @@
 26	avoir	avoir	VERB	VB	VerbForm=Inf	24	xcomp	_	_
 27	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
 28	niveaux	niveau	NOUN	NN	Gender=Masc|Number=Plur	26	obj	_	_
-29	requis	requis	ADJ	JJ	Gender=Masc|Number=Sing	28	amod	_	_
+29	requis	requis	ADJ	JJ	Gender=Masc|Number=Plur	28	amod	_	_
 30	pour	pour	ADP	IN	_	31	mark	_	_
 31	contenir	contenir	VERB	VB	VerbForm=Inf	28	xcomp	_	_
 32	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
@@ -2502,7 +2502,7 @@
 17	de	de	ADP	IN	_	18	case	_	_
 18	mutations	mutation	NOUN	NN	Gender=Fem|Number=Plur	16	nmod	_	_
 19	de	de	ADP	IN	_	21	case	_	_
-20	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+20	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	ADN	ADN	NOUN	NN	Gender=Masc|Number=Sing	18	nmod	_	_
 22	dans	dans	ADP	IN	_	24	case	_	_
 23	les	le	DET	DT	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
@@ -2973,9 +2973,9 @@
 1	On	on	PRON	PRP	Number=Sing|Person=3|PronType=Ind	2	nsubj	_	wordform=on
 2	peut	pouvoir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	parataxis	_	_
 3	voir	voir	VERB	VB	VerbForm=Inf	2	xcomp	_	_
-4	énormément	énormément	ADV	RB	ExtPos=PRON	6	det	_	_
-5	de	un	DET	DT	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	4	fixed	_	_
-6	pays	pays	NOUN	NN	Gender=Masc|Number=Sing	3	obj	_	_
+4	énormément	énormément	ADV	RB	_	3	obj	_	_
+5	de	de	ADP	DT	_	6	case	_	_
+6	pays	pays	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	_
 7	et	et	CCONJ	CC	_	11	cc	_	_
 8	notamment	notamment	ADV	RB	_	11	advmod	_	_
 9	de	un	DET	DT	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
@@ -3445,7 +3445,7 @@
 8	et	et	CCONJ	CC	_	11	cc	_	_
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	INDT	_	11	case	_	_
-10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	bonus	bonus	NOUN	NN	Gender=Masc|Number=Plur	5	conj	_	_
 12	cette	ce	DET	DT	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	année	année	NOUN	NN	Gender=Fem|Number=Sing	15	obl:mod	_	_
@@ -4487,7 +4487,7 @@
 33	expliquer	expliquer	VERB	VB	VerbForm=Inf	27	advcl	_	_
 34-35	aux	_	_	_	_	_	_	_	_
 34	à	à	ADP	INDT	_	36	case	_	_
-35	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+35	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
 36	gens	gens	NOUN	NN	Gender=Masc|Number=Plur	33	obl	_	_
 37	comment	comment	ADV	WRB	_	38	advmod	_	_
 38	gérer	gérer	VERB	VB	VerbForm=Inf	33	xcomp	_	_
@@ -6205,7 +6205,7 @@
 15	intérêt	intérêt	NOUN	NN	Gender=Masc|Number=Sing	13	nmod	_	_
 16	sur	sur	ADP	IN	_	18	case	_	_
 17	les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	soldes	soldes	NOUN	NN	Gender=Fem|Number=Plur	13	nmod	_	_
+18	soldes	soldes	NOUN	NN	Gender=Masc|Number=Plur	13	nmod	_	_
 19	de	de	ADP	IN	_	20	case	_	_
 20	£	£	SYM	SYM	_	18	nmod	_	SpaceAfter=No
 21	3000	3000	NUM	CD	_	20	nummod	_	_
@@ -7359,7 +7359,7 @@
 # parallel_id = pud/n01097098
 # text = Mon étape suivante était à Bellingham, tout près de la frontière canadienne.
 # text_en = My next stop was Bellingham, right up near the Canadian border.
-1	Mon	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	wordform=mon
+1	Mon	son	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	wordform=mon
 2	étape	étape	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	suivante	suivant	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	était	être	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -9122,7 +9122,7 @@
 # text_en = “Superheroes are outside of human experience and so is this, so I treated it like a drama,” Zimmer says.
 1	«	«	PUNCT	``	_	4	punct	_	_
 2	Les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	wordform=les
-3	super-héros	super-héros	NOUN	NN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	super-héros	super-héros	NOUN	NN	Gender=Masc|Number=Plur	4	nsubj	_	_
 4	restent	rester	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	parataxis	_	_
 5	au-delà	au-delà	ADV	INDT	_	4	advmod	_	_
 6	de	de	ADP	IN	_	8	case	_	_
@@ -12753,7 +12753,7 @@
 18	Nostrum	Nostrum	X	FW	Foreign=Yes	17	flat:foreign	_	Proper=True|wordform=nostrum
 19	(	(	PUNCT	(	_	22	punct	_	SpaceAfter=No
 20	«	«	PUNCT	``	_	22	punct	_	_
-21	Notre	son	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Person[psor]=1|Poss=Yes|PronType=Prs	22	det	_	Proper=True|wordform=notre
+21	Notre	son	DET	DTP$	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Person[psor]=1|Poss=Yes|PronType=Prs	22	det	_	Proper=True|wordform=notre
 22	Mer	mer	NOUN	NN	Gender=Fem|Number=Sing	17	appos	_	Proper=True|wordform=mer
 23	»	»	PUNCT	''	_	22	punct	_	SpaceAfter=No
 24	)	)	PUNCT	)	_	22	punct	_	SpaceAfter=No
@@ -14834,7 +14834,7 @@
 22	eaux	eau	NOUN	NN	Gender=Fem|Number=Plur	20	obj	_	_
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	INDT	_	25	case	_	_
-24	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	Caraïbes	Caraïbes	PROPN	NNP	Gender=Fem|Number=Plur	22	nmod	_	_
 26	dans	dans	ADP	IN	_	28	case	_	_
 27	le	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -16956,7 +16956,7 @@
 5	de	de	ADP	INDT	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	mois	mois	NOUN	NN	Gender=Masc|Number=Plur	4	nmod	_	_
-8	lunaires	lunaire	ADJ	JJ	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+8	lunaires	lunaire	ADJ	JJ	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = w01071
@@ -16980,7 +16980,7 @@
 1	Durant	durant	ADP	IN	_	3	case	_	wordform=durant
 2	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	période	période	NOUN	NN	Gender=Fem|Number=Sing	13	obl	_	_
-4	post-classique	post-classique	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	_
+4	post-classique	post-classique	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	_
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	INDT	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -21509,8 +21509,8 @@
 # parallel_id = pud/w01132081
 # text = Les voiles ne sont pas représentées dans l'iconographie ou les textes préhistoriques de la Mésoamérique, au lieu de cela, il est théorisé que les anciens Mayas utilisaient les pirogues comme le principal mode de transport pour se déplacer sur l'eau.
 # text_en = Sails are not represented in prehistoric Mesoamerican iconography or texts, instead, it is theorized that canoes were used as a primary mode of water transportation for the ancient Maya.
-1	Les	le	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	wordform=les
-2	voiles	voile	NOUN	NN	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+1	Les	le	DET	DT	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	wordform=les
+2	voiles	voile	NOUN	NN	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
 3	ne	ne	ADV	RB	Polarity=Neg	6	advmod	_	_
 4	sont	être	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
 5	pas	pas	ADV	RB	Polarity=Neg	6	advmod	_	_
@@ -25023,7 +25023,7 @@
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 6	ancienne	ancien	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
-7	ministre	ministre	NOUN	NN	Gender=Masc|Number=Sing	11	nsubj	_	_
+7	ministre	ministre	NOUN	NN	Gender=Fem|Number=Sing	11	nsubj	_	_
 8	de	de	ADP	IN	_	10	case	_	_
 9	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	justice	justice	NOUN	NN	Gender=Fem|Number=Sing	7	nmod	_	_
@@ -25491,7 +25491,7 @@
 12	s'	soi	PRON	PRP	Person=3|PronType=Prs|Reflex=Yes	15	expl:pv	_	SpaceAfter=No
 13	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
 14	notamment	notamment	ADV	RB	_	15	advmod	_	_
-15	occupé	occuper	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	occupé	occuper	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	0	root	_	CorrectForm=occupée
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	INDT	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
@@ -28527,7 +28527,7 @@
 22	le	lui	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
 23	modifiant	modifier	VERB	VBG	Tense=Pres|VerbForm=Part	16	advcl	_	_
 24	ce	ce	PRON	PDEM	PronType=Dem	23	parataxis	_	_
-25	qui	qui	PRON	WP	PronType=Rel	24	nsubj	_	_
+25	qui	qui	PRON	WP	PronType=Rel	26	nsubj	_	_
 26	deviendra	devenir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	acl:relcl	_	_
 27	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 28	alphabet	alphabet	NOUN	NN	Gender=Masc|Number=Sing	26	xcomp	_	_
@@ -29028,7 +29028,7 @@
 10	l'	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	île	île	NOUN	NN	Gender=Fem|Number=Sing	5	nmod	_	_
 12	est	être	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-13	possible	possible	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
+13	possible	possible	ADJ	JJ	Gender=Fem|Number=Sing	0	root	_	_
 14	pendant	pendant	ADP	IN	_	16	case	_	_
 15	l'	le	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	été	été	NOUN	NN	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
@@ -29916,7 +29916,7 @@
 3	formation	formation	NOUN	NN	Gender=Fem|Number=Sing	21	obl	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
-5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	Andes	Andes	PROPN	NNP	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	_	_
 8	la	le	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -29949,7 +29949,7 @@
 4	appartiennent	appartenir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5-6	aux	_	_	_	_	_	_	_	_
 5	à	à	ADP	INDT	_	7	case	_	_
-6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	Andes	Andes	PROPN	NNP	Gender=Fem|Number=Plur	4	obl	_	_
 8	de	de	ADP	IN	_	9	case	_	_
 9	type	type	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	_
